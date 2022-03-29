@@ -28,22 +28,32 @@ func main() {
 		},
 		Action: func(c *cli.Context) error {
 			authKey := c.String("api-key")
-			teamNum := c.Int("team")
+			// teamNum := c.Int("team")
 			ctx := context.Background()
 			bac := bamm.NewBAClient(&http.Client{}, authKey)
-			team, err := bac.TeamSimple(ctx, fmt.Sprintf("frc%d", teamNum))
+			// team, err := bac.TeamSimple(ctx, fmt.Sprintf("frc%d", teamNum))
+			// if err != nil {
+			// 	log.Fatal(err)
+			// }
+			// fmt.Printf("%s\n", team)
+			// socials, err := bac.TeamSocialMedia(ctx, fmt.Sprintf("frc%d", teamNum))
+			// if err != nil {
+			// 	log.Fatal(err)
+			// }
+			// for _, social := range socials {
+			// 	if social.Type == "github-profile" && social.ForeignKey != "" {
+			// 		fmt.Printf("Github: https://github.com/%s\n", social.ForeignKey)
+			// 	}
+			// }
+
+			// 2022macma - shrewsburrp
+			// 2022nhsea - pease
+			teams, err := bac.EventTeams(ctx, "2022macma")
 			if err != nil {
 				log.Fatal(err)
 			}
-			fmt.Printf("%s\n", team)
-			socials, err := bac.TeamSocialMedia(ctx, fmt.Sprintf("frc%d", teamNum))
-			if err != nil {
-				log.Fatal(err)
-			}
-			for _, social := range socials {
-				if social.Type == "github-profile" && social.ForeignKey != "" {
-					fmt.Printf("Github: https://github.com/%s\n", social.ForeignKey)
-				}
+			for _, team := range teams {
+				fmt.Printf("%d\t%s\n", team.TeamNumber, team.Nickname)
 			}
 			return nil
 		},

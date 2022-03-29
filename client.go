@@ -70,3 +70,20 @@ func (c *BAClient) TeamSocialMedia(ctx context.Context, teamKey string) ([]*Medi
 	}
 	return r, nil
 }
+
+func (c *BAClient) EventTeams(ctx context.Context, eventKey string) ([]*Team, error) {
+	resp, err := c.Get(c.URL+"/event/"+eventKey+"/teams", nil)
+	if err != nil {
+		return nil, err
+	}
+
+	r := []*Team{}
+	data, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("unable to read response body: %w", err)
+	}
+	if err := json.Unmarshal(data, &r); err != nil {
+		return nil, fmt.Errorf("unable to parse team response: %w", err)
+	}
+	return r, nil
+}

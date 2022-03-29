@@ -21,7 +21,7 @@ type TeamSimple struct {
 }
 
 func (t TeamSimple) String() string {
-	return fmt.Sprintf("TeamNumber: %d\nNickname: %s\n", t.TeamNumber, t.Nickname)
+	return fmt.Sprintf("TeamNumber: %d\nNickname: %s", t.TeamNumber, t.Nickname)
 }
 
 // Media - contains a reference for most any media associated with a team or event on TBA.
@@ -41,4 +41,43 @@ type Media struct {
 
 func (t Media) String() string {
 	return fmt.Sprintf("Type: %s\nViewURL: %s\nDirectURL: %s\nDetails: %v", t.Type, t.ViewURL, t.DirectURL, t.Details)
+}
+
+type Team struct {
+	// TBA team key with the format frcXXXX with XXXX representing the team number.
+	Key string `json:"key"`
+	// Official team number issued by FIRST.
+	TeamNumber int `json:"team_number"`
+	// Team nickname provided by FIRST.
+	Nickname string `json:"nickname"`
+	// Official long name registered with FIRST.
+	Name string `json:"name"`
+	// Name of team school or affilited group registered with FIRST.
+	SchoolName string `json:"school_name"`
+	// City of team derived from parsing the address registered with FIRST.
+	City string `json:"city"`
+	// State of team derived from parsing the address registered with FIRST.
+	StateProv string `json:"state_prov"`
+	// Country of team derived from parsing the address registered with FIRST.
+	Country string `json:"country"`
+	// Will be NULL, for future development.
+	Address string `json:"address"`
+	// Postal code from the team address.
+	PostalCode string `json:"postal_code"`
+	// Will be NULL, for future development.
+	GmapsPlaceID string `json:"gmaps_place_id"`
+	// Will be NULL, for future development.
+	GmapsURL string `json:"gmaps_url"`
+	// Will be NULL, for future development.
+	Lat float64 `json:"lat"`
+	// Will be NULL, for future development.
+	Lng float64 `json:"lng"`
+	// Will be NULL, for future development.
+	LocationName string `json:"location_name"`
+	// Official website associated with the team.
+	Website string `json:"website"`
+	// First year the team officially competed.
+	RookieYear int `json:"rookie_year"`
+	// Location of the team's home championship each year as a key-value pair. The year (as a string) is the key, and the city is the value.
+	HomeChampionship map[string]string `json:"home_championship"`
 }
