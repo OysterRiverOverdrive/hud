@@ -15,22 +15,35 @@ func main() {
 	app := &cli.App{
 		Name:  "bamm",
 		Usage: "A cli tool for the blue alliance api.",
+		Flags: []cli.Flag{
+			&cli.StringFlag{
+				Name:     "api-key",
+				EnvVars:  []string{"BLUE_ALLIANCE_AUTH_KEY"},
+				Required: true,
+			},
+			&cli.IntFlag{
+				Name:     "team",
+				Required: true,
+			},
+		},
 		Action: func(c *cli.Context) error {
-			authKey := os.Getenv("BLUE_ALLIANCE_AUTH_KEY")
-			teamNum := os.Args[1]
+			authKey := c.String("api-key")
+			teamNum := c.Int("team")
 			ctx := context.Background()
 			bac := bamm.NewBAClient(&http.Client{}, authKey)
-			team, err := bac.TeamSimple(ctx, "frc"+teamNum)
+			team, err := bac.TeamSimple(ctx, fmt.Sprintf("frc%d", teamNum))
 			if err != nil {
 				log.Fatal(err)
 			}
-			fmt.Printf("%s\n\n", team)
-			socials, err := bac.TeamSocialMedia(ctx, "frc"+teamNum)
+			fmt.Printf("%s\n", team)
+			socials, err := bac.TeamSocialMedia(ctx, fmt.Sprintf("frc%d", teamNum))
 			if err != nil {
 				log.Fatal(err)
 			}
 			for _, social := range socials {
-				fmt.Println(social)
+				if social.Type == "github-profile" && social.ForeignKey != "" {
+					fmt.Printf("Github: https://github.com/%s\n", social.ForeignKey)
+				}
 			}
 			return nil
 		},
