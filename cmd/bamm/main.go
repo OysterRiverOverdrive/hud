@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strings"
 
 	"github.com/mathyourlife/bamm"
 	"github.com/urfave/cli/v2"
@@ -30,13 +31,13 @@ func main() {
 			authKey := c.String("api-key")
 			// teamNum := c.Int("team")
 			ctx := context.Background()
-			bac := bamm.NewBAClient(&http.Client{}, authKey)
-			// team, err := bac.TeamSimple(ctx, fmt.Sprintf("frc%d", teamNum))
+			bc := bamm.NewBAClient(&http.Client{}, authKey)
+			// team, err := bc.TeamSimple(ctx, fmt.Sprintf("frc%d", teamNum))
 			// if err != nil {
 			// 	log.Fatal(err)
 			// }
 			// fmt.Printf("%s\n", team)
-			// socials, err := bac.TeamSocialMedia(ctx, fmt.Sprintf("frc%d", teamNum))
+			// socials, err := bc.TeamSocialMedia(ctx, fmt.Sprintf("frc%d", teamNum))
 			// if err != nil {
 			// 	log.Fatal(err)
 			// }
@@ -46,15 +47,26 @@ func main() {
 			// 	}
 			// }
 
+			// event keys
 			// 2022macma - shrewsburrp
 			// 2022nhsea - pease
-			teams, err := bac.EventTeams(ctx, "2022macma")
+			// teams, err := bc.EventTeams(ctx, "2022macma")
+			// if err != nil {
+			// 	log.Fatal(err)
+			// }
+			// for _, team := range teams {
+			// 	fmt.Printf("%d\t%s\n", team.TeamNumber, team.Nickname)
+			// }
+			matches, err := bc.EventMatchesSimple(ctx, "2022macma")
 			if err != nil {
 				log.Fatal(err)
 			}
-			for _, team := range teams {
-				fmt.Printf("%d\t%s\n", team.TeamNumber, team.Nickname)
+			next, err := bamm.NextMatch(matches, 8410)
+			if err != nil {
+				log.Fatal(err)
 			}
+			summary := bamm.PrintNextMatchSummary(next, 8410)
+			fmt.Printf(strings.Join(summary, "\n"))
 			return nil
 		},
 	}
