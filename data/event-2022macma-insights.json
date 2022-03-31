@@ -1,0 +1,146 @@
+{
+  "playoff": {
+    "average_cargo_count": 20.6, 
+    "average_cargo_count_auto": 3.8666666666666667, 
+    "average_cargo_count_teleop": 16.733333333333334, 
+    "average_cargo_points": 46.86666666666667, 
+    "average_cargo_points_auto": 14.666666666666666, 
+    "average_cargo_points_teleop": 32.2, 
+    "average_endgame_points": 26.266666666666666, 
+    "average_foul_score": 2.8, 
+    "average_lower_cargo_count": 1.6666666666666667, 
+    "average_lower_cargo_count_auto": 0.4, 
+    "average_lower_cargo_count_teleop": 1.2666666666666666, 
+    "average_points_auto": 20.133333333333333, 
+    "average_points_teleop": 58.46666666666667, 
+    "average_score": 81.4, 
+    "average_taxi_points": 5.466666666666667, 
+    "average_upper_cargo_count": 18.933333333333334, 
+    "average_upper_cargo_count_auto": 3.466666666666667, 
+    "average_upper_cargo_count_teleop": 15.466666666666667, 
+    "average_win_margin": 35.46666666666667, 
+    "average_win_score": 99.13333333333334, 
+    "cargo_bonus_rp": [
+      0, 
+      30, 
+      0.0
+    ], 
+    "hangar_bonus_rp": [
+      0, 
+      30, 
+      0.0
+    ], 
+    "high_climb_count": [
+      10, 
+      90, 
+      11.11111111111111
+    ], 
+    "high_score": [
+      123, 
+      "2022macma_qf1m2", 
+      "QF1-2"
+    ], 
+    "low_climb_count": [
+      1, 
+      90, 
+      1.1111111111111112
+    ], 
+    "mid_climb_count": [
+      19, 
+      90, 
+      21.11111111111111
+    ], 
+    "quintet_count": [
+      0, 
+      90, 
+      0.0
+    ], 
+    "taxi_count": [
+      82, 
+      90, 
+      91.11111111111111
+    ], 
+    "traversal_climb_count": [
+      38, 
+      90, 
+      42.22222222222222
+    ], 
+    "unicorn_matches": [
+      0, 
+      30, 
+      0.0
+    ]
+  }, 
+  "qual": {
+    "average_cargo_count": 15.608108108108109, 
+    "average_cargo_count_auto": 2.8716216216216215, 
+    "average_cargo_count_teleop": 12.736486486486486, 
+    "average_cargo_points": 31.527027027027028, 
+    "average_cargo_points_auto": 10.013513513513514, 
+    "average_cargo_points_teleop": 21.513513513513512, 
+    "average_endgame_points": 18.93918918918919, 
+    "average_foul_score": 2.27027027027027, 
+    "average_lower_cargo_count": 4.695945945945946, 
+    "average_lower_cargo_count_auto": 0.7364864864864865, 
+    "average_lower_cargo_count_teleop": 3.9594594594594597, 
+    "average_points_auto": 15.45945945945946, 
+    "average_points_teleop": 40.4527027027027, 
+    "average_score": 58.182432432432435, 
+    "average_taxi_points": 5.445945945945946, 
+    "average_upper_cargo_count": 10.912162162162161, 
+    "average_upper_cargo_count_auto": 2.135135135135135, 
+    "average_upper_cargo_count_teleop": 8.777027027027026, 
+    "average_win_margin": 24.716216216216218, 
+    "average_win_score": 70.54054054054055, 
+    "cargo_bonus_rp": [
+      46, 
+      148, 
+      31.08108108108108
+    ], 
+    "hangar_bonus_rp": [
+      95, 
+      148, 
+      64.1891891891892
+    ], 
+    "high_climb_count": [
+      53, 
+      444, 
+      11.936936936936936
+    ], 
+    "high_score": [
+      122, 
+      "2022macma_qm38", 
+      "Q38"
+    ], 
+    "low_climb_count": [
+      11, 
+      444, 
+      2.4774774774774775
+    ], 
+    "mid_climb_count": [
+      99, 
+      444, 
+      22.2972972972973
+    ], 
+    "quintet_count": [
+      22, 
+      444, 
+      4.954954954954955
+    ], 
+    "taxi_count": [
+      403, 
+      444, 
+      90.76576576576576
+    ], 
+    "traversal_climb_count": [
+      109, 
+      444, 
+      24.54954954954955
+    ], 
+    "unicorn_matches": [
+      32, 
+      148, 
+      21.62162162162162
+    ]
+  }
+}

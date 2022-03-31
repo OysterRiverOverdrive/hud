@@ -1,0 +1,2345 @@
+{
+  "frc1058": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 5", 
+      "number": 5, 
+      "pick": 1
+    }, 
+    "alliance_status_str": "<b>1st Pick</b> of <b>Alliance 5</b>", 
+    "last_match_key": "2022macma_qf2m3", 
+    "next_match_key": null, 
+    "overall_status_str": "Team 1058 was <b>Rank 29/37</b> with a record of <b>3-9-0</b> in quals, competed in the playoffs as the <b>1st Pick</b> of <b>Alliance 5</b>, and was <b>eliminated in the Quarterfinals</b> with a playoff record of <b>1-2-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 1
+      }, 
+      "level": "qf", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 1
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Quarterfinals</b> with a playoff record of <b>1-2-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 29, 
+        "record": {
+          "losses": 9, 
+          "ties": 0, 
+          "wins": 3
+        }, 
+        "sort_orders": [
+          1.41, 
+          54.91, 
+          19.58, 
+          15.83, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc1058"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc1100": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022macma_qm71", 
+    "next_match_key": null, 
+    "overall_status_str": "Team 1100 was <b>Rank 23/37</b> with a record of <b>5-6-1</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 23, 
+        "record": {
+          "losses": 6, 
+          "ties": 1, 
+          "wins": 5
+        }, 
+        "sort_orders": [
+          1.75, 
+          57.41, 
+          15.5, 
+          17.5, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc1100"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc1153": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 2", 
+      "number": 2, 
+      "pick": 1
+    }, 
+    "alliance_status_str": "<b>1st Pick</b> of <b>Alliance 2</b>", 
+    "last_match_key": "2022macma_f1m2", 
+    "next_match_key": "2022macma_f1m3", 
+    "overall_status_str": "Team 1153 was <b>Rank 5/37</b> with a record of <b>9-3-0</b> in quals, competed in the playoffs as the <b>1st Pick</b> of <b>Alliance 2</b>, and was <b>eliminated in the Finals</b> with a playoff record of <b>4-2-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "level": "f", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 4
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Finals</b> with a playoff record of <b>4-2-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 5, 
+        "record": {
+          "losses": 3, 
+          "ties": 0, 
+          "wins": 9
+        }, 
+        "sort_orders": [
+          2.66, 
+          71.16, 
+          24.25, 
+          15.16, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc1153"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc121": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022macma_qm68", 
+    "next_match_key": null, 
+    "overall_status_str": "Team 121 was <b>Rank 22/37</b> with a record of <b>6-6-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 22, 
+        "record": {
+          "losses": 6, 
+          "ties": 0, 
+          "wins": 6
+        }, 
+        "sort_orders": [
+          1.83, 
+          48.58, 
+          20.08, 
+          12.5, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc121"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc138": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 3", 
+      "number": 3, 
+      "pick": 2
+    }, 
+    "alliance_status_str": "<b>2nd Pick</b> of <b>Alliance 3</b>", 
+    "last_match_key": "2022macma_sf2m2", 
+    "next_match_key": "2022macma_sf2m3", 
+    "overall_status_str": "Team 138 was <b>Rank 14/37</b> with a record of <b>6-5-1</b> in quals, competed in the playoffs as the <b>2nd Pick</b> of <b>Alliance 3</b>, and was <b>eliminated in the Semifinals</b> with a playoff record of <b>2-2-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "level": "sf", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 2
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Semifinals</b> with a playoff record of <b>2-2-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 14, 
+        "record": {
+          "losses": 5, 
+          "ties": 1, 
+          "wins": 6
+        }, 
+        "sort_orders": [
+          2.08, 
+          54.5, 
+          24.66, 
+          13.5, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc138"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc157": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 8", 
+      "number": 8, 
+      "pick": 1
+    }, 
+    "alliance_status_str": "<b>1st Pick</b> of <b>Alliance 8</b>", 
+    "last_match_key": "2022macma_qf1m2", 
+    "next_match_key": "2022macma_qf1m3", 
+    "overall_status_str": "Team 157 was <b>Rank 13/37</b> with a record of <b>7-5-0</b> in quals, competed in the playoffs as the <b>1st Pick</b> of <b>Alliance 8</b>, and was <b>eliminated in the Quarterfinals</b> with a playoff record of <b>0-2-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "level": "qf", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Quarterfinals</b> with a playoff record of <b>0-2-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 13, 
+        "record": {
+          "losses": 5, 
+          "ties": 0, 
+          "wins": 7
+        }, 
+        "sort_orders": [
+          2.16, 
+          57.25, 
+          21.0, 
+          15.0, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc157"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc173": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022macma_qm69", 
+    "next_match_key": null, 
+    "overall_status_str": "Team 173 was <b>Rank 19/37</b> with a record of <b>6-6-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 19, 
+        "record": {
+          "losses": 6, 
+          "ties": 0, 
+          "wins": 6
+        }, 
+        "sort_orders": [
+          1.91, 
+          52.83, 
+          15.75, 
+          14.0, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc173"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc1735": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022macma_qm73", 
+    "next_match_key": null, 
+    "overall_status_str": "Team 1735 was <b>Rank 25/37</b> with a record of <b>6-6-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 25, 
+        "record": {
+          "losses": 6, 
+          "ties": 0, 
+          "wins": 6
+        }, 
+        "sort_orders": [
+          1.66, 
+          49.66, 
+          17.25, 
+          15.83, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc1735"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc1768": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 4", 
+      "number": 4, 
+      "pick": 0
+    }, 
+    "alliance_status_str": "<b>Captain</b> of <b>Alliance 4</b>", 
+    "last_match_key": "2022macma_sf1m2", 
+    "next_match_key": "2022macma_sf1m3", 
+    "overall_status_str": "Team 1768 was <b>Rank 6/37</b> with a record of <b>8-4-0</b> in quals, competed in the playoffs as the <b>Captain</b> of <b>Alliance 4</b>, and was <b>eliminated in the Semifinals</b> with a playoff record of <b>2-3-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "level": "sf", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 3, 
+        "ties": 0, 
+        "wins": 2
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Semifinals</b> with a playoff record of <b>2-3-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 6, 
+        "record": {
+          "losses": 4, 
+          "ties": 0, 
+          "wins": 8
+        }, 
+        "sort_orders": [
+          2.58, 
+          66.75, 
+          19.91, 
+          16.33, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc1768"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc190": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022macma_qm73", 
+    "next_match_key": null, 
+    "overall_status_str": "Team 190 was <b>Rank 27/37</b> with a record of <b>5-7-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 27, 
+        "record": {
+          "losses": 7, 
+          "ties": 0, 
+          "wins": 5
+        }, 
+        "sort_orders": [
+          1.5, 
+          49.41, 
+          14.5, 
+          14.83, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc190"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc2067": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 4", 
+      "number": 4, 
+      "pick": 1
+    }, 
+    "alliance_status_str": "<b>1st Pick</b> of <b>Alliance 4</b>", 
+    "last_match_key": "2022macma_sf1m2", 
+    "next_match_key": "2022macma_sf1m3", 
+    "overall_status_str": "Team 2067 was <b>Rank 10/37</b> with a record of <b>7-5-0</b> in quals, competed in the playoffs as the <b>1st Pick</b> of <b>Alliance 4</b>, and was <b>eliminated in the Semifinals</b> with a playoff record of <b>2-3-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "level": "sf", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 3, 
+        "ties": 0, 
+        "wins": 2
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Semifinals</b> with a playoff record of <b>2-3-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 10, 
+        "record": {
+          "losses": 5, 
+          "ties": 0, 
+          "wins": 7
+        }, 
+        "sort_orders": [
+          2.25, 
+          62.58, 
+          18.66, 
+          19.0, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc2067"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc2079": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022macma_qm70", 
+    "next_match_key": null, 
+    "overall_status_str": "Team 2079 was <b>Rank 34/37</b> with a record of <b>4-7-1</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 34, 
+        "record": {
+          "losses": 7, 
+          "ties": 1, 
+          "wins": 4
+        }, 
+        "sort_orders": [
+          1.16, 
+          42.08, 
+          14.16, 
+          14.0, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc2079"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc2168": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 1", 
+      "number": 1, 
+      "pick": 1
+    }, 
+    "alliance_status_str": "<b>1st Pick</b> of <b>Alliance 1</b>", 
+    "last_match_key": "2022macma_f1m2", 
+    "next_match_key": "2022macma_f1m3", 
+    "overall_status_str": "Team 2168 was <b>Rank 4/37</b> with a record of <b>8-4-0</b> in quals, competed in the playoffs as the <b>1st Pick</b> of <b>Alliance 1</b>, and <b>won the event</b> with a playoff record of <b>6-0-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 0, 
+        "ties": 0, 
+        "wins": 2
+      }, 
+      "level": "f", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 0, 
+        "ties": 0, 
+        "wins": 6
+      }, 
+      "status": "won"
+    }, 
+    "playoff_status_str": "<b>Won the event</b> with a playoff record of <b>6-0-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 4, 
+        "record": {
+          "losses": 4, 
+          "ties": 0, 
+          "wins": 8
+        }, 
+        "sort_orders": [
+          2.75, 
+          79.25, 
+          21.5, 
+          20.16, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc2168"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc2262": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 7", 
+      "number": 7, 
+      "pick": 0
+    }, 
+    "alliance_status_str": "<b>Captain</b> of <b>Alliance 7</b>", 
+    "last_match_key": "2022macma_qf3m2", 
+    "next_match_key": "2022macma_qf3m3", 
+    "overall_status_str": "Team 2262 was <b>Rank 11/37</b> with a record of <b>8-4-0</b> in quals, competed in the playoffs as the <b>Captain</b> of <b>Alliance 7</b>, and was <b>eliminated in the Quarterfinals</b> with a playoff record of <b>0-2-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "level": "qf", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Quarterfinals</b> with a playoff record of <b>0-2-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 11, 
+        "record": {
+          "losses": 4, 
+          "ties": 0, 
+          "wins": 8
+        }, 
+        "sort_orders": [
+          2.25, 
+          55.58, 
+          22.83, 
+          14.16, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc2262"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc230": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 1", 
+      "number": 1, 
+      "pick": 0
+    }, 
+    "alliance_status_str": "<b>Captain</b> of <b>Alliance 1</b>", 
+    "last_match_key": "2022macma_f1m2", 
+    "next_match_key": "2022macma_f1m3", 
+    "overall_status_str": "Team 230 was <b>Rank 1/37</b> with a record of <b>12-0-0</b> in quals, competed in the playoffs as the <b>Captain</b> of <b>Alliance 1</b>, and <b>won the event</b> with a playoff record of <b>6-0-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 0, 
+        "ties": 0, 
+        "wins": 2
+      }, 
+      "level": "f", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 0, 
+        "ties": 0, 
+        "wins": 6
+      }, 
+      "status": "won"
+    }, 
+    "playoff_status_str": "<b>Won the event</b> with a playoff record of <b>6-0-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 1, 
+        "record": {
+          "losses": 0, 
+          "ties": 0, 
+          "wins": 12
+        }, 
+        "sort_orders": [
+          3.83, 
+          85.33, 
+          23.16, 
+          27.33, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc230"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc2712": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022macma_qm72", 
+    "next_match_key": null, 
+    "overall_status_str": "Team 2712 was <b>Rank 16/37</b> with a record of <b>5-6-1</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 16, 
+        "record": {
+          "losses": 6, 
+          "ties": 1, 
+          "wins": 5
+        }, 
+        "sort_orders": [
+          2.0, 
+          56.33, 
+          18.58, 
+          15.83, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc2712"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc2876": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022macma_qm70", 
+    "next_match_key": null, 
+    "overall_status_str": "Team 2876 was <b>Rank 33/37</b> with a record of <b>4-8-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 33, 
+        "record": {
+          "losses": 8, 
+          "ties": 0, 
+          "wins": 4
+        }, 
+        "sort_orders": [
+          1.16, 
+          46.91, 
+          13.41, 
+          16.0, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc2876"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc3205": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 2", 
+      "number": 2, 
+      "pick": 2
+    }, 
+    "alliance_status_str": "<b>2nd Pick</b> of <b>Alliance 2</b>", 
+    "last_match_key": "2022macma_f1m2", 
+    "next_match_key": "2022macma_f1m3", 
+    "overall_status_str": "Team 3205 was <b>Rank 32/37</b> with a record of <b>3-8-1</b> in quals, competed in the playoffs as the <b>2nd Pick</b> of <b>Alliance 2</b>, and was <b>eliminated in the Finals</b> with a playoff record of <b>4-2-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "level": "f", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 4
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Finals</b> with a playoff record of <b>4-2-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 32, 
+        "record": {
+          "losses": 8, 
+          "ties": 1, 
+          "wins": 3
+        }, 
+        "sort_orders": [
+          1.16, 
+          51.25, 
+          17.5, 
+          13.0, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc3205"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc3461": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 6", 
+      "number": 6, 
+      "pick": 1
+    }, 
+    "alliance_status_str": "<b>1st Pick</b> of <b>Alliance 6</b>", 
+    "last_match_key": "2022macma_qf4m2", 
+    "next_match_key": "2022macma_qf4m3", 
+    "overall_status_str": "Team 3461 was <b>Rank 17/37</b> with a record of <b>5-7-0</b> in quals, competed in the playoffs as the <b>1st Pick</b> of <b>Alliance 6</b>, and was <b>eliminated in the Quarterfinals</b> with a playoff record of <b>0-2-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "level": "qf", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Quarterfinals</b> with a playoff record of <b>0-2-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 17, 
+        "record": {
+          "losses": 7, 
+          "ties": 0, 
+          "wins": 5
+        }, 
+        "sort_orders": [
+          1.91, 
+          61.08, 
+          19.83, 
+          15.33, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc3461"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc3467": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 2", 
+      "number": 2, 
+      "pick": 0
+    }, 
+    "alliance_status_str": "<b>Captain</b> of <b>Alliance 2</b>", 
+    "last_match_key": "2022macma_f1m2", 
+    "next_match_key": "2022macma_f1m3", 
+    "overall_status_str": "Team 3467 was <b>Rank 2/37</b> with a record of <b>10-1-1</b> in quals, competed in the playoffs as the <b>Captain</b> of <b>Alliance 2</b>, and was <b>eliminated in the Finals</b> with a playoff record of <b>4-2-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "level": "f", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 4
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Finals</b> with a playoff record of <b>4-2-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 2, 
+        "record": {
+          "losses": 1, 
+          "ties": 1, 
+          "wins": 10
+        }, 
+        "sort_orders": [
+          3.25, 
+          70.25, 
+          25.33, 
+          16.16, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc3467"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc4034": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022macma_qm74", 
+    "next_match_key": null, 
+    "overall_status_str": "Team 4034 was <b>Rank 36/37</b> with a record of <b>3-9-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 36, 
+        "record": {
+          "losses": 9, 
+          "ties": 0, 
+          "wins": 3
+        }, 
+        "sort_orders": [
+          1.0, 
+          44.41, 
+          13.16, 
+          14.0, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc4034"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc4048": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 8", 
+      "number": 8, 
+      "pick": 2
+    }, 
+    "alliance_status_str": "<b>2nd Pick</b> of <b>Alliance 8</b>", 
+    "last_match_key": "2022macma_qf1m2", 
+    "next_match_key": "2022macma_qf1m3", 
+    "overall_status_str": "Team 4048 was <b>Rank 15/37</b> with a record of <b>6-5-1</b> in quals, competed in the playoffs as the <b>2nd Pick</b> of <b>Alliance 8</b>, and was <b>eliminated in the Quarterfinals</b> with a playoff record of <b>0-2-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "level": "qf", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Quarterfinals</b> with a playoff record of <b>0-2-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 15, 
+        "record": {
+          "losses": 5, 
+          "ties": 1, 
+          "wins": 6
+        }, 
+        "sort_orders": [
+          2.0, 
+          57.41, 
+          17.5, 
+          18.16, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc4048"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc4097": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 8", 
+      "number": 8, 
+      "pick": 0
+    }, 
+    "alliance_status_str": "<b>Captain</b> of <b>Alliance 8</b>", 
+    "last_match_key": "2022macma_qf1m2", 
+    "next_match_key": "2022macma_qf1m3", 
+    "overall_status_str": "Team 4097 was <b>Rank 12/37</b> with a record of <b>6-6-0</b> in quals, competed in the playoffs as the <b>Captain</b> of <b>Alliance 8</b>, and was <b>eliminated in the Quarterfinals</b> with a playoff record of <b>0-2-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "level": "qf", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Quarterfinals</b> with a playoff record of <b>0-2-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 12, 
+        "record": {
+          "losses": 6, 
+          "ties": 0, 
+          "wins": 6
+        }, 
+        "sort_orders": [
+          2.16, 
+          57.33, 
+          25.08, 
+          13.66, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc4097"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc4169": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 5", 
+      "number": 5, 
+      "pick": 2
+    }, 
+    "alliance_status_str": "<b>2nd Pick</b> of <b>Alliance 5</b>", 
+    "last_match_key": "2022macma_qf2m3", 
+    "next_match_key": null, 
+    "overall_status_str": "Team 4169 was <b>Rank 28/37</b> with a record of <b>3-8-1</b> in quals, competed in the playoffs as the <b>2nd Pick</b> of <b>Alliance 5</b>, and was <b>eliminated in the Quarterfinals</b> with a playoff record of <b>1-2-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 1
+      }, 
+      "level": "qf", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 1
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Quarterfinals</b> with a playoff record of <b>1-2-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 28, 
+        "record": {
+          "losses": 8, 
+          "ties": 1, 
+          "wins": 3
+        }, 
+        "sort_orders": [
+          1.5, 
+          47.83, 
+          23.5, 
+          11.5, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc4169"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc5112": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 1", 
+      "number": 1, 
+      "pick": 2
+    }, 
+    "alliance_status_str": "<b>2nd Pick</b> of <b>Alliance 1</b>", 
+    "last_match_key": "2022macma_f1m2", 
+    "next_match_key": "2022macma_f1m3", 
+    "overall_status_str": "Team 5112 was <b>Rank 24/37</b> with a record of <b>7-5-0</b> in quals, competed in the playoffs as the <b>2nd Pick</b> of <b>Alliance 1</b>, and <b>won the event</b> with a playoff record of <b>6-0-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 0, 
+        "ties": 0, 
+        "wins": 2
+      }, 
+      "level": "f", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 0, 
+        "ties": 0, 
+        "wins": 6
+      }, 
+      "status": "won"
+    }, 
+    "playoff_status_str": "<b>Won the event</b> with a playoff record of <b>6-0-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 24, 
+        "record": {
+          "losses": 5, 
+          "ties": 0, 
+          "wins": 7
+        }, 
+        "sort_orders": [
+          1.75, 
+          48.41, 
+          15.75, 
+          13.16, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc5112"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc5422": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 7", 
+      "number": 7, 
+      "pick": 2
+    }, 
+    "alliance_status_str": "<b>2nd Pick</b> of <b>Alliance 7</b>", 
+    "last_match_key": "2022macma_qf3m2", 
+    "next_match_key": "2022macma_qf3m3", 
+    "overall_status_str": "Team 5422 was <b>Rank 26/37</b> with a record of <b>4-7-0</b> in quals, competed in the playoffs as the <b>2nd Pick</b> of <b>Alliance 7</b>, and was <b>eliminated in the Quarterfinals</b> with a playoff record of <b>0-2-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "level": "qf", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Quarterfinals</b> with a playoff record of <b>0-2-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 1, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 26, 
+        "record": {
+          "losses": 7, 
+          "ties": 0, 
+          "wins": 4
+        }, 
+        "sort_orders": [
+          1.66, 
+          49.58, 
+          19.58, 
+          13.83, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc5422"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc6333": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 4", 
+      "number": 4, 
+      "pick": 2
+    }, 
+    "alliance_status_str": "<b>2nd Pick</b> of <b>Alliance 4</b>", 
+    "last_match_key": "2022macma_sf1m2", 
+    "next_match_key": "2022macma_sf1m3", 
+    "overall_status_str": "Team 6333 was <b>Rank 20/37</b> with a record of <b>5-7-0</b> in quals, competed in the playoffs as the <b>2nd Pick</b> of <b>Alliance 4</b>, and was <b>eliminated in the Semifinals</b> with a playoff record of <b>2-3-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "level": "sf", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 3, 
+        "ties": 0, 
+        "wins": 2
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Semifinals</b> with a playoff record of <b>2-3-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 20, 
+        "record": {
+          "losses": 7, 
+          "ties": 0, 
+          "wins": 5
+        }, 
+        "sort_orders": [
+          1.83, 
+          55.83, 
+          17.41, 
+          14.83, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc6333"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc6620": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022macma_qm72", 
+    "next_match_key": null, 
+    "overall_status_str": "Team 6620 was <b>Rank 30/37</b> with a record of <b>3-7-2</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 30, 
+        "record": {
+          "losses": 7, 
+          "ties": 2, 
+          "wins": 3
+        }, 
+        "sort_orders": [
+          1.41, 
+          47.41, 
+          17.5, 
+          13.5, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc6620"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc6731": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022macma_qm71", 
+    "next_match_key": null, 
+    "overall_status_str": "Team 6731 was <b>Rank 31/37</b> with a record of <b>5-7-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 31, 
+        "record": {
+          "losses": 7, 
+          "ties": 0, 
+          "wins": 5
+        }, 
+        "sort_orders": [
+          1.41, 
+          44.58, 
+          16.91, 
+          12.83, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc6731"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc716": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 6", 
+      "number": 6, 
+      "pick": 0
+    }, 
+    "alliance_status_str": "<b>Captain</b> of <b>Alliance 6</b>", 
+    "last_match_key": "2022macma_qf4m2", 
+    "next_match_key": "2022macma_qf4m3", 
+    "overall_status_str": "Team 716 was <b>Rank 9/37</b> with a record of <b>6-5-1</b> in quals, competed in the playoffs as the <b>Captain</b> of <b>Alliance 6</b>, and was <b>eliminated in the Quarterfinals</b> with a playoff record of <b>0-2-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "level": "qf", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Quarterfinals</b> with a playoff record of <b>0-2-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 9, 
+        "record": {
+          "losses": 5, 
+          "ties": 1, 
+          "wins": 6
+        }, 
+        "sort_orders": [
+          2.41, 
+          56.83, 
+          17.91, 
+          14.66, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc716"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc7760": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022macma_qm70", 
+    "next_match_key": null, 
+    "overall_status_str": "Team 7760 was <b>Rank 37/37</b> with a record of <b>2-10-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 37, 
+        "record": {
+          "losses": 10, 
+          "ties": 0, 
+          "wins": 2
+        }, 
+        "sort_orders": [
+          0.83, 
+          36.5, 
+          14.25, 
+          11.33, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc7760"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc78": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 3", 
+      "number": 3, 
+      "pick": 1
+    }, 
+    "alliance_status_str": "<b>1st Pick</b> of <b>Alliance 3</b>", 
+    "last_match_key": "2022macma_sf2m2", 
+    "next_match_key": "2022macma_sf2m3", 
+    "overall_status_str": "Team 78 was <b>Rank 7/37</b> with a record of <b>9-3-0</b> in quals, competed in the playoffs as the <b>1st Pick</b> of <b>Alliance 3</b>, and was <b>eliminated in the Semifinals</b> with a playoff record of <b>2-2-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "level": "sf", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 2
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Semifinals</b> with a playoff record of <b>2-2-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 7, 
+        "record": {
+          "losses": 3, 
+          "ties": 0, 
+          "wins": 9
+        }, 
+        "sort_orders": [
+          2.58, 
+          62.0, 
+          21.0, 
+          16.5, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc78"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc811": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 6", 
+      "number": 6, 
+      "pick": 2
+    }, 
+    "alliance_status_str": "<b>2nd Pick</b> of <b>Alliance 6</b>", 
+    "last_match_key": "2022macma_qf4m2", 
+    "next_match_key": "2022macma_qf4m3", 
+    "overall_status_str": "Team 811 was <b>Rank 21/37</b> with a record of <b>5-7-0</b> in quals, competed in the playoffs as the <b>2nd Pick</b> of <b>Alliance 6</b>, and was <b>eliminated in the Quarterfinals</b> with a playoff record of <b>0-2-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "level": "qf", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Quarterfinals</b> with a playoff record of <b>0-2-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 21, 
+        "record": {
+          "losses": 7, 
+          "ties": 0, 
+          "wins": 5
+        }, 
+        "sort_orders": [
+          1.83, 
+          54.41, 
+          20.0, 
+          14.5, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc811"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc8410": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022macma_qm74", 
+    "next_match_key": null, 
+    "overall_status_str": "Team 8410 was <b>Rank 35/37</b> with a record of <b>2-10-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 35, 
+        "record": {
+          "losses": 10, 
+          "ties": 0, 
+          "wins": 2
+        }, 
+        "sort_orders": [
+          1.08, 
+          44.75, 
+          16.83, 
+          12.16, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc8410"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc8544": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 7", 
+      "number": 7, 
+      "pick": 1
+    }, 
+    "alliance_status_str": "<b>1st Pick</b> of <b>Alliance 7</b>", 
+    "last_match_key": "2022macma_qf3m2", 
+    "next_match_key": "2022macma_qf3m3", 
+    "overall_status_str": "Team 8544 was <b>Rank 18/37</b> with a record of <b>6-6-0</b> in quals, competed in the playoffs as the <b>1st Pick</b> of <b>Alliance 7</b>, and was <b>eliminated in the Quarterfinals</b> with a playoff record of <b>0-2-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "level": "qf", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Quarterfinals</b> with a playoff record of <b>0-2-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 18, 
+        "record": {
+          "losses": 6, 
+          "ties": 0, 
+          "wins": 6
+        }, 
+        "sort_orders": [
+          1.91, 
+          58.5, 
+          18.58, 
+          14.33, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc8544"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc8709": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 5", 
+      "number": 5, 
+      "pick": 0
+    }, 
+    "alliance_status_str": "<b>Captain</b> of <b>Alliance 5</b>", 
+    "last_match_key": "2022macma_qf2m3", 
+    "next_match_key": null, 
+    "overall_status_str": "Team 8709 was <b>Rank 8/37</b> with a record of <b>8-4-0</b> in quals, competed in the playoffs as the <b>Captain</b> of <b>Alliance 5</b>, and was <b>eliminated in the Quarterfinals</b> with a playoff record of <b>1-2-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 1
+      }, 
+      "level": "qf", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 1
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Quarterfinals</b> with a playoff record of <b>1-2-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 8, 
+        "record": {
+          "losses": 4, 
+          "ties": 0, 
+          "wins": 8
+        }, 
+        "sort_orders": [
+          2.5, 
+          59.25, 
+          19.75, 
+          17.5, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc8709"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }, 
+  "frc8724": {
+    "alliance": {
+      "backup": null, 
+      "name": "Alliance 3", 
+      "number": 3, 
+      "pick": 0
+    }, 
+    "alliance_status_str": "<b>Captain</b> of <b>Alliance 3</b>", 
+    "last_match_key": "2022macma_sf2m2", 
+    "next_match_key": "2022macma_sf2m3", 
+    "overall_status_str": "Team 8724 was <b>Rank 3/37</b> with a record of <b>9-3-0</b> in quals, competed in the playoffs as the <b>Captain</b> of <b>Alliance 3</b>, and was <b>eliminated in the Semifinals</b> with a playoff record of <b>2-2-0</b>.", 
+    "playoff": {
+      "current_level_record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 0
+      }, 
+      "level": "sf", 
+      "playoff_average": null, 
+      "record": {
+        "losses": 2, 
+        "ties": 0, 
+        "wins": 2
+      }, 
+      "status": "eliminated"
+    }, 
+    "playoff_status_str": "<b>Eliminated in the Semifinals</b> with a playoff record of <b>2-2-0</b>", 
+    "qual": {
+      "num_teams": 37, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 12, 
+        "qual_average": null, 
+        "rank": 3, 
+        "record": {
+          "losses": 3, 
+          "ties": 0, 
+          "wins": 9
+        }, 
+        "sort_orders": [
+          2.83, 
+          66.5, 
+          17.66, 
+          22.66, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc8724"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "completed"
+    }
+  }
+}

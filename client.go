@@ -6,7 +6,10 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
+	"log"
 	"net/http"
+	"os"
+	"strings"
 )
 
 type BAClient struct {
@@ -35,6 +38,59 @@ func (ba *BAClient) Get(url string, body io.Reader) (*http.Response, error) {
 	}
 	ba.setHeaders(req)
 	return ba.Client.Do(req)
+}
+
+func (c *BAClient) Dump(ctx context.Context, teamNum int, eventKey string) {
+	teamKey := fmt.Sprintf("frc%d", teamNum)
+
+	endpoints := []string{
+		"/team/{team_key}/event/{event_key}/matches",
+		"/team/{team_key}/event/{event_key}/matches/simple",
+		"/team/{team_key}/event/{event_key}/matches/keys",
+		"/team/{team_key}/event/{event_key}/awards",
+		"/team/{team_key}/event/{event_key}/status",
+		"/event/{event_key}",
+		"/event/{event_key}/simple",
+		"/event/{event_key}/alliances",
+		"/event/{event_key}/insights",
+		"/event/{event_key}/oprs",
+		"/event/{event_key}/predictions",
+		"/event/{event_key}/rankings",
+		"/event/{event_key}/district_points",
+		"/event/{event_key}/teams",
+		"/event/{event_key}/teams/simple",
+		"/event/{event_key}/teams/keys",
+		"/event/{event_key}/teams/statuses",
+		"/event/{event_key}/teams",
+		"/event/{event_key}/teams/simple",
+		"/event/{event_key}/teams/keys",
+		"/event/{event_key}/teams/statuses",
+		"/event/{event_key}/matches",
+		"/event/{event_key}/matches/simple",
+		"/event/{event_key}/matches/keys",
+		"/event/{event_key}/matches/timeseries", // not implemented
+		"/event/{event_key}/awards",
+	}
+	for _, endpoint := range endpoints {
+		endpointURL := strings.Replace(endpoint, "{team_key}", teamKey, -1)
+		endpointURL = strings.Replace(endpointURL, "{event_key}", eventKey, -1)
+		resp, err := c.Get(c.URL+endpointURL, nil)
+		if err != nil {
+			log.Fatal(err)
+		}
+		data, err := ioutil.ReadAll(resp.Body)
+		if err != nil {
+			log.Fatal(err)
+		}
+		fname := strings.Replace(endpoint, "{team_key}", teamKey, -1)
+		fname = strings.Replace(fname, "{event_key}", eventKey, -1)
+		fname = strings.Replace(fname, "/", "-", -1)
+		err = os.WriteFile(fname[1:]+".json", data, 0666)
+		if err != nil {
+			log.Fatal(err)
+		}
+	}
+
 }
 
 func (c *BAClient) TeamSimple(ctx context.Context, teamKey string) (*TeamSimple, error) {

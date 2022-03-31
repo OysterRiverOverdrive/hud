@@ -22,14 +22,19 @@ func main() {
 				EnvVars:  []string{"BLUE_ALLIANCE_AUTH_KEY"},
 				Required: true,
 			},
+			// 2022macma - shrewsburrp
+			// 2022nhsea - pease
+			&cli.StringFlag{
+				Name: "event-key",
+			},
 			&cli.IntFlag{
-				Name:     "team",
-				Required: true,
+				Name: "team",
 			},
 		},
 		Action: func(c *cli.Context) error {
 			authKey := c.String("api-key")
-			// teamNum := c.Int("team")
+			teamNum := c.Int("team")
+			eventKey := c.String("event-key")
 			ctx := context.Background()
 			bc := bamm.NewBAClient(&http.Client{}, authKey)
 			// team, err := bc.TeamSimple(ctx, fmt.Sprintf("frc%d", teamNum))
@@ -47,17 +52,16 @@ func main() {
 			// 	}
 			// }
 
-			// event keys
-			// 2022macma - shrewsburrp
-			// 2022nhsea - pease
-			// teams, err := bc.EventTeams(ctx, "2022macma")
+			// teams, err := bc.EventTeams(ctx, eventKey)
 			// if err != nil {
 			// 	log.Fatal(err)
 			// }
 			// for _, team := range teams {
 			// 	fmt.Printf("%d\t%s\n", team.TeamNumber, team.Nickname)
 			// }
-			matches, err := bc.EventMatchesSimple(ctx, "2022macma")
+			bc.Dump(ctx, teamNum, eventKey)
+
+			matches, err := bc.EventMatchesSimple(ctx, eventKey)
 			if err != nil {
 				log.Fatal(err)
 			}

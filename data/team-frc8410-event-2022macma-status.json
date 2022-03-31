@@ -1,0 +1,51 @@
+{
+  "alliance": null, 
+  "alliance_status_str": "--", 
+  "last_match_key": "2022macma_qm74", 
+  "next_match_key": null, 
+  "overall_status_str": "Team 8410 was <b>Rank 35/37</b> with a record of <b>2-10-0</b> in quals.", 
+  "playoff": null, 
+  "playoff_status_str": "--", 
+  "qual": {
+    "num_teams": 37, 
+    "ranking": {
+      "dq": 0, 
+      "matches_played": 12, 
+      "qual_average": null, 
+      "rank": 35, 
+      "record": {
+        "losses": 10, 
+        "ties": 0, 
+        "wins": 2
+      }, 
+      "sort_orders": [
+        1.08, 
+        44.75, 
+        16.83, 
+        12.16, 
+        0.0, 
+        0.0
+      ], 
+      "team_key": "frc8410"
+    }, 
+    "sort_order_info": [
+      {
+        "name": "Ranking Score", 
+        "precision": 2
+      }, 
+      {
+        "name": "Avg Match", 
+        "precision": 2
+      }, 
+      {
+        "name": "Avg Hangar", 
+        "precision": 2
+      }, 
+      {
+        "name": "Avg Taxi + Auto Cargo", 
+        "precision": 2
+      }
+    ], 
+    "status": "completed"
+  }
+}

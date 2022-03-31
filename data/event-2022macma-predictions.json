@@ -1,0 +1,3623 @@
+{
+  "match_prediction_stats": {
+    "playoff": {
+      "brier_scores": {
+        "win_loss": 0.08362751831694117
+      }, 
+      "err_mean": 14.385829254619805, 
+      "err_var": 85.50512770365388, 
+      "wl_accuracy": 93.33333333333333, 
+      "wl_accuracy_75": 90.0
+    }, 
+    "qual": {
+      "brier_scores": {
+        "win_loss": 0.1413092238047171
+      }, 
+      "err_mean": 11.719698536135864, 
+      "err_var": 69.69302226334675, 
+      "wl_accuracy": 83.78378378378379, 
+      "wl_accuracy_75": 100.0
+    }
+  }, 
+  "match_predictions": {
+    "playoff": {
+      "2022macma_f1m1": {
+        "blue": {
+          "cargo_scored": 26.329601289886465, 
+          "cargo_scored_var": 40.62489479467047, 
+          "endgame_points": 31.176446518017745, 
+          "endgame_points_var": 53.28237362915884, 
+          "prob_cargo_bonus": 0.8396622832053791, 
+          "prob_face_boss": 3.928598888602863e-05, 
+          "prob_hangar_bonus": 0.9811965656524608, 
+          "prob_shield_operational": 1.7959798641609126e-06, 
+          "score": 93.51312525020927, 
+          "score_var": 336.5687479368556
+        }, 
+        "prob": 0.6592794923382999, 
+        "red": {
+          "cargo_scored": 32.266009764564245, 
+          "cargo_scored_var": 52.190507182446716, 
+          "endgame_points": 23.49989740024069, 
+          "endgame_points_var": 77.84673950234595, 
+          "prob_cargo_bonus": 0.9552349983497668, 
+          "prob_face_boss": 1.7602312624154237e-05, 
+          "prob_hangar_bonus": 0.8023462614958503, 
+          "prob_shield_operational": 1.278165705387302e-06, 
+          "score": 104.35327458413848, 
+          "score_var": 360.7790510520725
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_f1m2": {
+        "blue": {
+          "cargo_scored": 26.290695272268874, 
+          "cargo_scored_var": 36.682088063306296, 
+          "endgame_points": 31.148831390486606, 
+          "endgame_points_var": 51.79263654788616, 
+          "prob_cargo_bonus": 0.8505175626559454, 
+          "prob_face_boss": 3.0496142422453687e-05, 
+          "prob_hangar_bonus": 0.9823528738328844, 
+          "prob_shield_operational": 1.2774400977022538e-06, 
+          "score": 94.04949913338152, 
+          "score_var": 323.9000507323153
+        }, 
+        "prob": 0.6703368024929058, 
+        "red": {
+          "cargo_scored": 32.652220517589626, 
+          "cargo_scored_var": 49.596093739447795, 
+          "endgame_points": 24.17161109292167, 
+          "endgame_points_var": 77.37592310698375, 
+          "prob_cargo_bonus": 0.963797674431941, 
+          "prob_face_boss": 2.319641457382282e-05, 
+          "prob_hangar_bonus": 0.82354938944763, 
+          "prob_shield_operational": 1.7293586379585335e-06, 
+          "score": 105.54808426223431, 
+          "score_var": 356.430834016732
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_f1m3": {
+        "blue": {
+          "cargo_scored": 25.5362362984335, 
+          "cargo_scored_var": 39.67820899225873, 
+          "endgame_points": 29.666998862682078, 
+          "endgame_points_var": 62.95935387306983, 
+          "prob_cargo_bonus": 0.8102717698387343, 
+          "prob_face_boss": 6.596374641243408e-05, 
+          "prob_hangar_bonus": 0.9575046924963071, 
+          "prob_shield_operational": 4.2344027459950695e-06, 
+          "score": 91.48680627920571, 
+          "score_var": 350.29832115378
+        }, 
+        "prob": 0.69382066590745, 
+        "red": {
+          "cargo_scored": 32.2269492012167, 
+          "cargo_scored_var": 48.73277775634858, 
+          "endgame_points": 24.269216357401582, 
+          "endgame_points_var": 75.81395434023943, 
+          "prob_cargo_bonus": 0.9600691810822786, 
+          "prob_face_boss": 2.0336077866667246e-05, 
+          "prob_hangar_bonus": 0.8288695025481259, 
+          "prob_shield_operational": 1.4493478230903634e-06, 
+          "score": 104.87621702789944, 
+          "score_var": 347.9418748685528
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qf1m1": {
+        "blue": {
+          "cargo_scored": 13.812248107266981, 
+          "cargo_scored_var": 37.49680073370022, 
+          "endgame_points": 21.29451104344265, 
+          "endgame_points_var": 41.91343845053778, 
+          "prob_cargo_bonus": 0.1561281969786381, 
+          "prob_face_boss": 1.1256580112473102e-09, 
+          "prob_hangar_bonus": 0.7932654339377778, 
+          "prob_shield_operational": 7.348344155388986e-12, 
+          "score": 51.068304266914936, 
+          "score_var": 165.749776248172
+        }, 
+        "prob": 0.9852374547494225, 
+        "red": {
+          "cargo_scored": 31.854782668874424, 
+          "cargo_scored_var": 52.98497063697831, 
+          "endgame_points": 24.743436496461825, 
+          "endgame_points_var": 84.17823993806523, 
+          "prob_cargo_bonus": 0.9483022567670522, 
+          "prob_face_boss": 6.0836238696015954e-05, 
+          "prob_hangar_bonus": 0.8296990381078333, 
+          "prob_shield_operational": 5.727821164924762e-06, 
+          "score": 104.29297657131367, 
+          "score_var": 432.3134482648719
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qf1m2": {
+        "blue": {
+          "cargo_scored": 11.922669268473227, 
+          "cargo_scored_var": 43.20416952467865, 
+          "endgame_points": 20.12413603309362, 
+          "endgame_points_var": 40.24767918399531, 
+          "prob_cargo_bonus": 0.10956075675314902, 
+          "prob_face_boss": 1.6340229169742315e-10, 
+          "prob_hangar_bonus": 0.7421776745013384, 
+          "prob_shield_operational": 7.547296121401814e-13, 
+          "score": 46.74518815359251, 
+          "score_var": 192.9946649759877
+        }, 
+        "prob": 0.9919847855865183, 
+        "red": {
+          "cargo_scored": 33.25738633010596, 
+          "cargo_scored_var": 52.05840325630075, 
+          "endgame_points": 22.605252062433465, 
+          "endgame_points_var": 81.49473023417535, 
+          "prob_cargo_bonus": 0.9669273058906885, 
+          "prob_face_boss": 1.7188934946954504e-05, 
+          "prob_hangar_bonus": 0.76781982004344, 
+          "prob_shield_operational": 1.3251803907543547e-06, 
+          "score": 104.08170170456143, 
+          "score_var": 373.8571156785498
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qf1m3": {
+        "blue": {
+          "cargo_scored": 10.76187427539794, 
+          "cargo_scored_var": 44.8727673558629, 
+          "endgame_points": 20.899106792478047, 
+          "endgame_points_var": 42.55232099209176, 
+          "prob_cargo_bonus": 0.08393358549249574, 
+          "prob_face_boss": 1.0229843638853708e-09, 
+          "prob_hangar_bonus": 0.7736816557504461, 
+          "prob_shield_operational": 6.870726210195244e-12, 
+          "score": 45.95141211553863, 
+          "score_var": 163.74294109193303
+        }, 
+        "prob": 0.9956795545679117, 
+        "red": {
+          "cargo_scored": 34.079276722290956, 
+          "cargo_scored_var": 48.94857098103877, 
+          "endgame_points": 22.149261944058132, 
+          "endgame_points_var": 79.14515743675167, 
+          "prob_cargo_bonus": 0.9779101363261724, 
+          "prob_face_boss": 1.0469574385107983e-05, 
+          "prob_hangar_bonus": 0.7552836133110289, 
+          "prob_shield_operational": 7.298998407900825e-07, 
+          "score": 106.78063170833116, 
+          "score_var": 372.8604440245738
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qf2m1": {
+        "blue": {
+          "cargo_scored": 9.225247246717116, 
+          "cargo_scored_var": 17.98490320061068, 
+          "endgame_points": 25.591297029089652, 
+          "endgame_points_var": 109.59061018898433, 
+          "prob_cargo_bonus": 0.0055315517177076945, 
+          "prob_face_boss": 0.000506550169797948, 
+          "prob_hangar_bonus": 0.8202192078435449, 
+          "prob_shield_operational": 8.344663806525432e-05, 
+          "score": 52.440593139187364, 
+          "score_var": 289.8133492678483
+        }, 
+        "prob": 0.7557613055080712, 
+        "red": {
+          "cargo_scored": 21.08626948182521, 
+          "cargo_scored_var": 33.11618387856692, 
+          "endgame_points": 17.76636382824437, 
+          "endgame_points_var": 68.34550868749852, 
+          "prob_cargo_bonus": 0.5748608101190612, 
+          "prob_face_boss": 1.6226129906371511e-07, 
+          "prob_hangar_bonus": 0.5845942706031861, 
+          "prob_shield_operational": 5.5362945339254566e-09, 
+          "score": 72.80076769436556, 
+          "score_var": 574.0235808591392
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qf2m2": {
+        "blue": {
+          "cargo_scored": 9.459843184854174, 
+          "cargo_scored_var": 17.32380273741864, 
+          "endgame_points": 26.028673348577833, 
+          "endgame_points_var": 90.42366680312739, 
+          "prob_cargo_bonus": 0.0056648789922838505, 
+          "prob_face_boss": 0.0001767991152286097, 
+          "prob_hangar_bonus": 0.8542039930645459, 
+          "prob_shield_operational": 2.080945347393559e-05, 
+          "score": 53.919344106499274, 
+          "score_var": 256.8146384627071
+        }, 
+        "prob": 0.7601138383033976, 
+        "red": {
+          "cargo_scored": 20.403325341572867, 
+          "cargo_scored_var": 28.5717666138203, 
+          "endgame_points": 20.732126990410187, 
+          "endgame_points_var": 115.00143534774351, 
+          "prob_cargo_bonus": 0.5300735766187366, 
+          "prob_face_boss": 0.0001252612581166268, 
+          "prob_hangar_bonus": 0.6704913605580483, 
+          "prob_shield_operational": 1.8298619878898137e-05, 
+          "score": 72.90303571295537, 
+          "score_var": 464.84016499346114
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qf2m3": {
+        "blue": {
+          "cargo_scored": 9.817036547421823, 
+          "cargo_scored_var": 17.032580060616223, 
+          "endgame_points": 28.068102034035796, 
+          "endgame_points_var": 107.4164657569296, 
+          "prob_cargo_bonus": 0.006805515665999851, 
+          "prob_face_boss": 0.001031592106889745, 
+          "prob_hangar_bonus": 0.8778697577213049, 
+          "prob_shield_operational": 0.00018303181291889903, 
+          "score": 56.61501528407043, 
+          "score_var": 274.742739436486
+        }, 
+        "prob": 0.7208633864620119, 
+        "red": {
+          "cargo_scored": 19.975401990879718, 
+          "cargo_scored_var": 25.377879938790525, 
+          "endgame_points": 20.7252503470409, 
+          "endgame_points_var": 97.54574202179361, 
+          "prob_cargo_bonus": 0.49805203733409964, 
+          "prob_face_boss": 3.495735758618501e-05, 
+          "prob_hangar_bonus": 0.6838287930972946, 
+          "prob_shield_operational": 3.6830363523421283e-06, 
+          "score": 71.77013139049333, 
+          "score_var": 395.45170604069114
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qf3m1": {
+        "blue": {
+          "cargo_scored": 12.85595681180606, 
+          "cargo_scored_var": 18.494726134218585, 
+          "endgame_points": 24.949051488085267, 
+          "endgame_points_var": 102.6328947806725, 
+          "prob_cargo_bonus": 0.04833733529850237, 
+          "prob_face_boss": 0.00027024446160561766, 
+          "prob_hangar_bonus": 0.8114768983320895, 
+          "prob_shield_operational": 3.8526056798993125e-05, 
+          "score": 61.25887126476377, 
+          "score_var": 195.1492409394122
+        }, 
+        "prob": 0.8371184074641729, 
+        "red": {
+          "cargo_scored": 22.66481493676181, 
+          "cargo_scored_var": 32.010573425891266, 
+          "endgame_points": 29.81834856524237, 
+          "endgame_points_var": 73.35945034721854, 
+          "prob_cargo_bonus": 0.6811794078958621, 
+          "prob_face_boss": 0.0002126784236059498, 
+          "prob_hangar_bonus": 0.9466655599769235, 
+          "prob_shield_operational": 1.9989550728682914e-05, 
+          "score": 82.76107749807315, 
+          "score_var": 283.6336582822304
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qf3m2": {
+        "blue": {
+          "cargo_scored": 12.515634108180826, 
+          "cargo_scored_var": 15.962078174259451, 
+          "endgame_points": 24.767813699326744, 
+          "endgame_points_var": 100.25244377625391, 
+          "prob_cargo_bonus": 0.030512603582376396, 
+          "prob_face_boss": 0.00021676806251880176, 
+          "prob_hangar_bonus": 0.8093971115247327, 
+          "prob_shield_operational": 2.9328422058272352e-05, 
+          "score": 59.76429040343886, 
+          "score_var": 188.24291481532146
+        }, 
+        "prob": 0.8872070799703339, 
+        "red": {
+          "cargo_scored": 24.77975010505493, 
+          "cargo_scored_var": 44.14487414694467, 
+          "endgame_points": 29.516032491802278, 
+          "endgame_points_var": 59.910199066776485, 
+          "prob_cargo_bonus": 0.7640500050431431, 
+          "prob_face_boss": 4.1011390716994e-05, 
+          "prob_hangar_bonus": 0.9596135954118081, 
+          "prob_shield_operational": 2.276541496870621e-06, 
+          "score": 87.4024355280605, 
+          "score_var": 331.9327977056569
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qf3m3": {
+        "blue": {
+          "cargo_scored": 12.593236503905983, 
+          "cargo_scored_var": 14.24291858445155, 
+          "endgame_points": 26.18944952526858, 
+          "endgame_points_var": 103.25030528699762, 
+          "prob_cargo_bonus": 0.024847074473785202, 
+          "prob_face_boss": 0.00043828345878338393, 
+          "prob_hangar_bonus": 0.8420161478675628, 
+          "prob_shield_operational": 6.686691271007295e-05, 
+          "score": 61.86795207133502, 
+          "score_var": 193.29020044376824
+        }, 
+        "prob": 0.889005008894438, 
+        "red": {
+          "cargo_scored": 25.856515358930213, 
+          "cargo_scored_var": 45.896268338499276, 
+          "endgame_points": 30.38999025106569, 
+          "endgame_points_var": 56.67491433381847, 
+          "prob_cargo_bonus": 0.8063354905415903, 
+          "prob_face_boss": 4.191582577806052e-05, 
+          "prob_hangar_bonus": 0.9720272111886499, 
+          "prob_shield_operational": 2.1396317830824074e-06, 
+          "score": 91.18908175882437, 
+          "score_var": 383.1438419795583
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qf4m1": {
+        "blue": {
+          "cargo_scored": 18.0208150234252, 
+          "cargo_scored_var": 14.47911204981053, 
+          "endgame_points": 17.454424215504574, 
+          "endgame_points_var": 89.36468790970405, 
+          "prob_cargo_bonus": 0.3014850170473248, 
+          "prob_face_boss": 3.3879276291060023e-06, 
+          "prob_hangar_bonus": 0.561137479486869, 
+          "prob_shield_operational": 2.458456951348609e-07, 
+          "score": 53.08909388025357, 
+          "score_var": 145.7687009823186
+        }, 
+        "prob": 0.8685317627199982, 
+        "red": {
+          "cargo_scored": 23.74994791522523, 
+          "cargo_scored_var": 44.218608653992725, 
+          "endgame_points": 25.819842404258633, 
+          "endgame_points_var": 62.793739336304796, 
+          "prob_cargo_bonus": 0.7135980092565689, 
+          "prob_face_boss": 8.039533227144346e-06, 
+          "prob_hangar_bonus": 0.8923668892521361, 
+          "prob_shield_operational": 3.8201848995278453e-07, 
+          "score": 76.18744700015542, 
+          "score_var": 279.95837920625746
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qf4m2": {
+        "blue": {
+          "cargo_scored": 18.41566756818739, 
+          "cargo_scored_var": 14.462838235730068, 
+          "endgame_points": 20.361389228126292, 
+          "endgame_points_var": 114.0641565029951, 
+          "prob_cargo_bonus": 0.33848540555788365, 
+          "prob_face_boss": 0.00010303694280144882, 
+          "prob_hangar_bonus": 0.6584977370095271, 
+          "prob_shield_operational": 1.4600278387733034e-05, 
+          "score": 57.44123652677922, 
+          "score_var": 276.5887775059624
+        }, 
+        "prob": 0.8235002230780257, 
+        "red": {
+          "cargo_scored": 24.381218209781657, 
+          "cargo_scored_var": 39.8912958190133, 
+          "endgame_points": 25.25345109080493, 
+          "endgame_points_var": 56.90747358165439, 
+          "prob_cargo_bonus": 0.7560568606154352, 
+          "prob_face_boss": 2.052118703743666e-06, 
+          "prob_hangar_bonus": 0.8900220759481541, 
+          "prob_shield_operational": 6.864535739836697e-08, 
+          "score": 79.86392555342044, 
+          "score_var": 306.24304960803227
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qf4m3": {
+        "blue": {
+          "cargo_scored": 18.390843848699536, 
+          "cargo_scored_var": 13.060088801266641, 
+          "endgame_points": 19.643245403830164, 
+          "endgame_points_var": 102.4374435007752, 
+          "prob_cargo_bonus": 0.3280616968768981, 
+          "prob_face_boss": 3.340446741240122e-05, 
+          "prob_hangar_bonus": 0.6405629695127303, 
+          "prob_shield_operational": 3.707946740982848e-06, 
+          "score": 56.584262547629365, 
+          "score_var": 245.41880058768453
+        }, 
+        "prob": 0.8572483061711582, 
+        "red": {
+          "cargo_scored": 24.180275469343428, 
+          "cargo_scored_var": 34.547097768939665, 
+          "endgame_points": 26.0370661175577, 
+          "endgame_points_var": 58.32567457860489, 
+          "prob_cargo_bonus": 0.7615235842300524, 
+          "prob_face_boss": 4.352194150181177e-06, 
+          "prob_hangar_bonus": 0.9056184035820068, 
+          "prob_shield_operational": 1.6823646431518569e-07, 
+          "score": 81.4279212758374, 
+          "score_var": 295.6565256846334
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_sf1m1": {
+        "blue": {
+          "cargo_scored": 19.58526054464768, 
+          "cargo_scored_var": 23.286624932416487, 
+          "endgame_points": 22.7816686025525, 
+          "endgame_points_var": 114.9892579801334, 
+          "prob_cargo_bonus": 0.46575495442563664, 
+          "prob_face_boss": 0.00025946540630705783, 
+          "prob_hangar_bonus": 0.7364448748700386, 
+          "prob_shield_operational": 4.124237815061882e-05, 
+          "score": 72.91155269655795, 
+          "score_var": 352.8726398871984
+        }, 
+        "prob": 0.8955098241045576, 
+        "red": {
+          "cargo_scored": 34.1092114536795, 
+          "cargo_scored_var": 48.95520686346038, 
+          "endgame_points": 22.04810553946536, 
+          "endgame_points_var": 77.98583399284351, 
+          "prob_cargo_bonus": 0.9781273706491174, 
+          "prob_face_boss": 8.633019682791065e-06, 
+          "prob_hangar_bonus": 0.7532886916263426, 
+          "prob_shield_operational": 5.758069481220929e-07, 
+          "score": 106.75892605421386, 
+          "score_var": 372.9190048007349
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_sf1m2": {
+        "blue": {
+          "cargo_scored": 18.648987395882585, 
+          "cargo_scored_var": 28.575022192111184, 
+          "endgame_points": 21.76941111083153, 
+          "endgame_points_var": 108.86689034532665, 
+          "prob_cargo_bonus": 0.40023633717179063, 
+          "prob_face_boss": 0.00012412224212554612, 
+          "prob_hangar_bonus": 0.7098501798126233, 
+          "prob_shield_operational": 1.711941696191932e-05, 
+          "score": 70.1822927720304, 
+          "score_var": 378.89022017987435
+        }, 
+        "prob": 0.8958161048016573, 
+        "red": {
+          "cargo_scored": 32.727132683742546, 
+          "cargo_scored_var": 57.65948353723083, 
+          "endgame_points": 23.30057465624056, 
+          "endgame_points_var": 79.58973296641591, 
+          "prob_cargo_bonus": 0.9531389097017668, 
+          "prob_face_boss": 1.946986936895989e-05, 
+          "prob_hangar_bonus": 0.7934156367022125, 
+          "prob_shield_operational": 1.4759527888763557e-06, 
+          "score": 104.64366948264129, 
+          "score_var": 371.4499697398076
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_sf1m3": {
+        "blue": {
+          "cargo_scored": 19.645290433096648, 
+          "cargo_scored_var": 35.06412986345264, 
+          "endgame_points": 21.680445358275016, 
+          "endgame_points_var": 98.18480438492983, 
+          "prob_cargo_bonus": 0.47611684095756257, 
+          "prob_face_boss": 5.5042691852191794e-05, 
+          "prob_hangar_bonus": 0.7167695136931252, 
+          "prob_shield_operational": 6.160876466099197e-06, 
+          "score": 72.34793348889413, 
+          "score_var": 387.8912748446194
+        }, 
+        "prob": 0.8789405830698594, 
+        "red": {
+          "cargo_scored": 32.266009764564245, 
+          "cargo_scored_var": 52.190507182446716, 
+          "endgame_points": 23.49989740024069, 
+          "endgame_points_var": 77.84673950234595, 
+          "prob_cargo_bonus": 0.9552349983497668, 
+          "prob_face_boss": 1.7602312624154237e-05, 
+          "prob_hangar_bonus": 0.8023462614958503, 
+          "prob_shield_operational": 1.278165705387302e-06, 
+          "score": 104.35327458413848, 
+          "score_var": 360.7790510520725
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_sf2m1": {
+        "blue": {
+          "cargo_scored": 24.202041351420377, 
+          "cargo_scored_var": 34.39079698253479, 
+          "endgame_points": 25.998935438009337, 
+          "endgame_points_var": 58.135660201789136, 
+          "prob_cargo_bonus": 0.7631703808985237, 
+          "prob_face_boss": 4.11049797277574e-06, 
+          "prob_hangar_bonus": 0.9051372841037411, 
+          "prob_shield_operational": 1.5677732934094024e-07, 
+          "score": 81.44844515333972, 
+          "score_var": 296.8719629430535
+        }, 
+        "prob": 0.6481175315006797, 
+        "red": {
+          "cargo_scored": 25.929316031390123, 
+          "cargo_scored_var": 45.442069294915385, 
+          "endgame_points": 30.405557549248144, 
+          "endgame_points_var": 56.88716185220017, 
+          "prob_cargo_bonus": 0.810456672849443, 
+          "prob_face_boss": 4.3587822152524325e-05, 
+          "prob_hangar_bonus": 0.9719304405018816, 
+          "prob_shield_operational": 2.2516641129399773e-06, 
+          "score": 91.35690326864675, 
+          "score_var": 382.15868256205624
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_sf2m2": {
+        "blue": {
+          "cargo_scored": 23.65173500660219, 
+          "cargo_scored_var": 32.543229718995335, 
+          "endgame_points": 24.19311317184968, 
+          "endgame_points_var": 64.50620839845264, 
+          "prob_cargo_bonus": 0.7389563148992033, 
+          "prob_face_boss": 4.1313002812071176e-06, 
+          "prob_hangar_bonus": 0.8461625161323427, 
+          "prob_shield_operational": 1.8791731570821923e-07, 
+          "score": 78.90198751370033, 
+          "score_var": 300.8897069328543
+        }, 
+        "prob": 0.7158574355088274, 
+        "red": {
+          "cargo_scored": 26.695506252529984, 
+          "cargo_scored_var": 44.33937636312068, 
+          "endgame_points": 31.203390258278947, 
+          "endgame_points_var": 54.88954577661039, 
+          "prob_cargo_bonus": 0.8426755772084191, 
+          "prob_face_boss": 5.077904925476773e-05, 
+          "prob_hangar_bonus": 0.9799193628973235, 
+          "prob_shield_operational": 2.536852746981566e-06, 
+          "score": 93.76285188269787, 
+          "score_var": 377.46483267462423
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_sf2m3": {
+        "blue": {
+          "cargo_scored": 22.590263632650945, 
+          "cargo_scored_var": 39.46412968728905, 
+          "endgame_points": 24.284458046656233, 
+          "endgame_points_var": 62.14458121091735, 
+          "prob_cargo_bonus": 0.6599504425834996, 
+          "prob_face_boss": 2.9408361343907785e-06, 
+          "prob_hangar_bonus": 0.8533483389383264, 
+          "prob_shield_operational": 1.2030922147410195e-07, 
+          "score": 77.58391424362414, 
+          "score_var": 296.49112863879435
+        }, 
+        "prob": 0.7366656181508385, 
+        "red": {
+          "cargo_scored": 26.329601289886465, 
+          "cargo_scored_var": 40.62489479467047, 
+          "endgame_points": 31.176446518017745, 
+          "endgame_points_var": 53.28237362915884, 
+          "prob_cargo_bonus": 0.8396622832053791, 
+          "prob_face_boss": 3.928598888602863e-05, 
+          "prob_hangar_bonus": 0.9811965656524608, 
+          "prob_shield_operational": 1.7959798641609126e-06, 
+          "score": 93.51312525020927, 
+          "score_var": 336.5687479368556
+        }, 
+        "winning_alliance": "red"
+      }
+    }, 
+    "qual": {
+      "2022macma_qm1": {
+        "blue": {
+          "cargo_scored": 8.319393898596989, 
+          "cargo_scored_var": 37.33418527214953, 
+          "endgame_points": 5.502961420701748, 
+          "endgame_points_var": 30.578129394217882, 
+          "prob_cargo_bonus": 0.027959517352992624, 
+          "prob_face_boss": 0.0, 
+          "prob_hangar_bonus": 0.028829297358411443, 
+          "prob_shield_operational": 0.0, 
+          "score": 28.42336777583997, 
+          "score_var": 267.60443159055706
+        }, 
+        "prob": 0.6979563731354403, 
+        "red": {
+          "cargo_scored": 15.909015242759267, 
+          "cargo_scored_var": 145.2334135530903, 
+          "endgame_points": 8.81871272624309, 
+          "endgame_points_var": 143.58897995952776, 
+          "prob_cargo_bonus": 0.36712985178923274, 
+          "prob_face_boss": 9.720879188268583e-06, 
+          "prob_hangar_bonus": 0.2744875890246289, 
+          "prob_shield_operational": 1.37627706364718e-06, 
+          "score": 43.31041648223552, 
+          "score_var": 556.6596344722004
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm10": {
+        "blue": {
+          "cargo_scored": 15.8988629737056, 
+          "cargo_scored_var": 52.77204408514643, 
+          "endgame_points": 16.91903174385308, 
+          "endgame_points_var": 52.259495432475916, 
+          "prob_cargo_bonus": 0.2861899808894194, 
+          "prob_face_boss": 1.2657953574191083e-09, 
+          "prob_hangar_bonus": 0.5505812299324355, 
+          "prob_shield_operational": 1.4549916826922527e-11, 
+          "score": 61.544740876123484, 
+          "score_var": 479.3488862851098
+        }, 
+        "prob": 0.6578713064957628, 
+        "red": {
+          "cargo_scored": 15.80209443709988, 
+          "cargo_scored_var": 112.3410899057761, 
+          "endgame_points": 11.677520421409508, 
+          "endgame_points_var": 99.38777199896982, 
+          "prob_cargo_bonus": 0.3460295875191026, 
+          "prob_face_boss": 6.263698775210713e-07, 
+          "prob_hangar_bonus": 0.33229773408689356, 
+          "prob_shield_operational": 4.430732558624584e-08, 
+          "score": 48.72938525849719, 
+          "score_var": 513.7612966983888
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm11": {
+        "blue": {
+          "cargo_scored": 5.802410975928712, 
+          "cargo_scored_var": 10.96592348979394, 
+          "endgame_points": 7.419504397188227, 
+          "endgame_points_var": 69.27389617972322, 
+          "prob_cargo_bonus": 9.039636450047794e-06, 
+          "prob_face_boss": 1.3298162571118155e-10, 
+          "prob_hangar_bonus": 0.1512877207455362, 
+          "prob_shield_operational": 2.2877255645425976e-12, 
+          "score": 22.21824962672393, 
+          "score_var": 152.1973465416773
+        }, 
+        "prob": 0.73016787088019, 
+        "red": {
+          "cargo_scored": 13.091542389745094, 
+          "cargo_scored_var": 162.58849384063382, 
+          "endgame_points": 12.618776643086036, 
+          "endgame_points_var": 158.592780587479, 
+          "prob_cargo_bonus": 0.29397935224489025, 
+          "prob_face_boss": 8.414647712573498e-05, 
+          "prob_hangar_bonus": 0.3941601248084917, 
+          "prob_shield_operational": 1.595206495597079e-05, 
+          "score": 39.067746431163314, 
+          "score_var": 602.5446518138747
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm12": {
+        "blue": {
+          "cargo_scored": 17.554779586882496, 
+          "cargo_scored_var": 177.47819207134992, 
+          "endgame_points": 16.37252672136533, 
+          "endgame_points_var": 174.34638218778306, 
+          "prob_cargo_bonus": 0.4271847166345265, 
+          "prob_face_boss": 0.0004764039138116516, 
+          "prob_hangar_bonus": 0.5112539093911189, 
+          "prob_shield_operational": 0.0001153542049043832, 
+          "score": 58.65267081756966, 
+          "score_var": 804.5253946964567
+        }, 
+        "prob": 0.6650123610274303, 
+        "red": {
+          "cargo_scored": 13.060274961637658, 
+          "cargo_scored_var": 105.71038821376573, 
+          "endgame_points": 13.531768926686134, 
+          "endgame_points_var": 106.70162176619516, 
+          "prob_cargo_bonus": 0.24984792647666265, 
+          "prob_face_boss": 3.4212455888305016e-06, 
+          "prob_hangar_bonus": 0.40557361250631874, 
+          "prob_shield_operational": 3.137203914427289e-07, 
+          "score": 44.05004969736639, 
+          "score_var": 369.48395337089715
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm13": {
+        "blue": {
+          "cargo_scored": 20.0038749023822, 
+          "cargo_scored_var": 109.13934868525125, 
+          "endgame_points": 22.13716153460137, 
+          "endgame_points_var": 96.95511867061603, 
+          "prob_cargo_bonus": 0.500147972204194, 
+          "prob_face_boss": 6.0207802564660184e-05, 
+          "prob_hangar_bonus": 0.7334492555899019, 
+          "prob_shield_operational": 6.712242148987357e-06, 
+          "score": 66.56507180414478, 
+          "score_var": 519.0298874804306
+        }, 
+        "prob": 0.7918363022961294, 
+        "red": {
+          "cargo_scored": 11.761998602889355, 
+          "cargo_scored_var": 128.03284070551672, 
+          "endgame_points": 11.815464261264593, 
+          "endgame_points_var": 163.69546673205295, 
+          "prob_cargo_bonus": 0.2332915080474045, 
+          "prob_face_boss": 8.291588072562028e-05, 
+          "prob_hangar_bonus": 0.3718108187875857, 
+          "prob_shield_operational": 1.6131465142898982e-05, 
+          "score": 40.10614801394791, 
+          "score_var": 540.6312550302952
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm14": {
+        "blue": {
+          "cargo_scored": 15.904869597561992, 
+          "cargo_scored_var": 74.1528872251946, 
+          "endgame_points": 9.035146890005535, 
+          "endgame_points_var": 110.41453437504123, 
+          "prob_cargo_bonus": 0.3171945693006162, 
+          "prob_face_boss": 6.167544495117028e-07, 
+          "prob_hangar_bonus": 0.2537213404947096, 
+          "prob_shield_operational": 5.019589532917479e-08, 
+          "score": 44.14389576228422, 
+          "score_var": 360.979484315221
+        }, 
+        "prob": 0.7545761398239225, 
+        "red": {
+          "cargo_scored": 15.83245767183632, 
+          "cargo_scored_var": 81.88674138160341, 
+          "endgame_points": 21.11451109971858, 
+          "endgame_points_var": 59.04497388767045, 
+          "prob_cargo_bonus": 0.32256210074899305, 
+          "prob_face_boss": 2.0904515285469216e-07, 
+          "prob_hangar_bonus": 0.7471662757663542, 
+          "prob_shield_operational": 5.608203457185823e-09, 
+          "score": 65.41465446265902, 
+          "score_var": 592.2039900256773
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm15": {
+        "blue": {
+          "cargo_scored": 17.09241621508494, 
+          "cargo_scored_var": 149.69796727923494, 
+          "endgame_points": 21.430755269418967, 
+          "endgame_points_var": 115.87870475128474, 
+          "prob_cargo_bonus": 0.4060791552404589, 
+          "prob_face_boss": 0.0001698754988024298, 
+          "prob_hangar_bonus": 0.6930438449693719, 
+          "prob_shield_operational": 2.5892695931784004e-05, 
+          "score": 61.62280598235893, 
+          "score_var": 540.7356165354603
+        }, 
+        "prob": 0.5168857901753192, 
+        "red": {
+          "cargo_scored": 17.018802951367, 
+          "cargo_scored_var": 59.35083723524252, 
+          "endgame_points": 19.90271132463345, 
+          "endgame_points_var": 62.73149043651145, 
+          "prob_cargo_bonus": 0.3493892219103176, 
+          "prob_face_boss": 2.0680634427172606e-07, 
+          "prob_hangar_bonus": 0.6889041724956676, 
+          "prob_shield_operational": 6.2095438790876756e-09, 
+          "score": 63.08755559552398, 
+          "score_var": 656.1280003667616
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm16": {
+        "blue": {
+          "cargo_scored": 9.71437870344258, 
+          "cargo_scored_var": 96.57526522618035, 
+          "endgame_points": 15.27560179881654, 
+          "endgame_points_var": 192.1836267862517, 
+          "prob_cargo_bonus": 0.14763268573339705, 
+          "prob_face_boss": 0.0006273093030274568, 
+          "prob_hangar_bonus": 0.47916317068957914, 
+          "prob_shield_operational": 0.0001673582803793927, 
+          "score": 40.732204569762075, 
+          "score_var": 645.0741067000858
+        }, 
+        "prob": 0.5572335557712494, 
+        "red": {
+          "cargo_scored": 7.468175484362479, 
+          "cargo_scored_var": 7.2912565709925, 
+          "endgame_points": 11.189029666951646, 
+          "endgame_points_var": 61.15092625465525, 
+          "prob_cargo_bonus": 1.7334970129345706e-06, 
+          "prob_face_boss": 2.1616131107293768e-10, 
+          "prob_hangar_bonus": 0.2692043869579901, 
+          "prob_shield_operational": 2.965849787983643e-12, 
+          "score": 36.69060004624919, 
+          "score_var": 143.11479454760814
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm17": {
+        "blue": {
+          "cargo_scored": 13.505896292464634, 
+          "cargo_scored_var": 118.93734489844135, 
+          "endgame_points": 12.95012330772698, 
+          "endgame_points_var": 175.98093909278347, 
+          "prob_cargo_bonus": 0.27576457540027244, 
+          "prob_face_boss": 0.00019503689169508842, 
+          "prob_hangar_bonus": 0.4090825796973617, 
+          "prob_shield_operational": 4.361422479326471e-05, 
+          "score": 41.12417403649431, 
+          "score_var": 509.5236771936905
+        }, 
+        "prob": 0.6917158853567418, 
+        "red": {
+          "cargo_scored": 17.280537666631428, 
+          "cargo_scored_var": 151.9681713222693, 
+          "endgame_points": 16.44944444658602, 
+          "endgame_points_var": 166.3474873620506, 
+          "prob_cargo_bonus": 0.41270170904585346, 
+          "prob_face_boss": 0.000366876635169211, 
+          "prob_hangar_bonus": 0.5138992086003555, 
+          "prob_shield_operational": 8.350277137281203e-05, 
+          "score": 58.08261079529477, 
+          "score_var": 637.5249793382201
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm18": {
+        "blue": {
+          "cargo_scored": 15.379201701307185, 
+          "cargo_scored_var": 68.60567031080782, 
+          "endgame_points": 14.994965528583464, 
+          "endgame_points_var": 60.901555264525804, 
+          "prob_cargo_bonus": 0.28846482556874675, 
+          "prob_face_boss": 4.035720202466564e-09, 
+          "prob_hangar_bonus": 0.44876371339784826, 
+          "prob_shield_operational": 7.388445411038447e-11, 
+          "score": 46.96582818987022, 
+          "score_var": 494.5116484131528
+        }, 
+        "prob": 0.5903825924670059, 
+        "red": {
+          "cargo_scored": 9.466914484917224, 
+          "cargo_scored_var": 87.81143813164599, 
+          "endgame_points": 12.916192178797901, 
+          "endgame_points_var": 157.6594836164852, 
+          "prob_cargo_bonus": 0.13049896241748793, 
+          "prob_face_boss": 8.847740018391725e-05, 
+          "prob_hangar_bonus": 0.40299618689884786, 
+          "prob_shield_operational": 1.676687124863019e-05, 
+          "score": 39.543467719495176, 
+          "score_var": 560.3620749905106
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm19": {
+        "blue": {
+          "cargo_scored": 21.05148607625469, 
+          "cargo_scored_var": 24.484353379621, 
+          "endgame_points": 18.61963179004932, 
+          "endgame_points_var": 34.69656080549581, 
+          "prob_cargo_bonus": 0.584141563069335, 
+          "prob_face_boss": 1.0698109065288008e-12, 
+          "prob_hangar_bonus": 0.6717427829376152, 
+          "prob_shield_operational": 1.7763568394002505e-15, 
+          "score": 69.03007840588545, 
+          "score_var": 135.23822531753012
+        }, 
+        "prob": 0.7544951418319263, 
+        "red": {
+          "cargo_scored": 18.579519799817824, 
+          "cargo_scored_var": 122.98964843633794, 
+          "endgame_points": 13.656726810212458, 
+          "endgame_points_var": 173.93039462147513, 
+          "prob_cargo_bonus": 0.44904054613047373, 
+          "prob_face_boss": 0.0002207251899069007, 
+          "prob_hangar_bonus": 0.42948768680576044, 
+          "prob_shield_operational": 4.948520530523304e-05, 
+          "score": 50.25271830901754, 
+          "score_var": 608.130311063733
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm2": {
+        "blue": {
+          "cargo_scored": 21.36159763009669, 
+          "cargo_scored_var": 136.39733399664814, 
+          "endgame_points": 25.776337633606946, 
+          "endgame_points_var": 134.10864625926362, 
+          "prob_cargo_bonus": 0.5464058746167572, 
+          "prob_face_boss": 0.0015619456519241348, 
+          "prob_hangar_bonus": 0.8007225056963239, 
+          "prob_shield_operational": 0.00035326118470946355, 
+          "score": 77.114309162916, 
+          "score_var": 753.4183166823776
+        }, 
+        "prob": 0.6834829936129667, 
+        "red": {
+          "cargo_scored": 24.2338751362819, 
+          "cargo_scored_var": 88.18802643375462, 
+          "endgame_points": 15.758804970670305, 
+          "endgame_points_var": 28.930033995648504, 
+          "prob_cargo_bonus": 0.6739516029893475, 
+          "prob_face_boss": 1.1102230246251565e-16, 
+          "prob_hangar_bonus": 0.48211625726031626, 
+          "prob_shield_operational": 0.0, 
+          "score": 62.56598532087263, 
+          "score_var": 175.01440275035065
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm20": {
+        "blue": {
+          "cargo_scored": 8.644144244972463, 
+          "cargo_scored_var": 29.189768518865513, 
+          "endgame_points": 14.110897630207543, 
+          "endgame_points_var": 182.13087636966446, 
+          "prob_cargo_bonus": 0.01778261026406769, 
+          "prob_face_boss": 0.0003365545985412055, 
+          "prob_hangar_bonus": 0.44433818719384865, 
+          "prob_shield_operational": 8.136393155833144e-05, 
+          "score": 40.552414874043876, 
+          "score_var": 370.3825127061166
+        }, 
+        "prob": 0.5620875980136727, 
+        "red": {
+          "cargo_scored": 11.10862440390017, 
+          "cargo_scored_var": 163.18362084757297, 
+          "endgame_points": 6.581628484150659, 
+          "endgame_points_var": 163.02357336703082, 
+          "prob_cargo_bonus": 0.24320365872693683, 
+          "prob_face_boss": 1.4337145169629473e-05, 
+          "prob_hangar_bonus": 0.23036344396464603, 
+          "prob_shield_operational": 2.377132034103724e-06, 
+          "score": 35.12097840247131, 
+          "score_var": 837.7390470557144
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm21": {
+        "blue": {
+          "cargo_scored": 17.144459355850394, 
+          "cargo_scored_var": 56.88120454913226, 
+          "endgame_points": 19.67668206261569, 
+          "endgame_points_var": 116.04439572994866, 
+          "prob_cargo_bonus": 0.35248490376340813, 
+          "prob_face_boss": 9.08421877847676e-05, 
+          "prob_hangar_bonus": 0.6335634042533571, 
+          "prob_shield_operational": 1.2918603944034324e-05, 
+          "score": 58.38746060003347, 
+          "score_var": 478.84157016264487
+        }, 
+        "prob": 0.5552097442966871, 
+        "red": {
+          "cargo_scored": 15.990317915693447, 
+          "cargo_scored_var": 62.156279248437436, 
+          "endgame_points": 16.669551229621614, 
+          "endgame_points_var": 102.13744324774241, 
+          "prob_cargo_bonus": 0.3055199764167472, 
+          "prob_face_boss": 9.036142666563052e-06, 
+          "prob_hangar_bonus": 0.5264109352651818, 
+          "prob_shield_operational": 8.669066178246254e-07, 
+          "score": 54.1814889779595, 
+          "score_var": 438.9299017500236
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm22": {
+        "blue": {
+          "cargo_scored": 17.357740029394066, 
+          "cargo_scored_var": 160.24598572873796, 
+          "endgame_points": 21.870102889811, 
+          "endgame_points_var": 154.82186638407205, 
+          "prob_cargo_bonus": 0.417330055073326, 
+          "prob_face_boss": 0.001090431709616313, 
+          "prob_hangar_bonus": 0.6814542235574769, 
+          "prob_shield_operational": 0.0002638674228019333, 
+          "score": 69.24284052175614, 
+          "score_var": 888.0174646361716
+        }, 
+        "prob": 0.7153455654921322, 
+        "red": {
+          "cargo_scored": 10.061489943923956, 
+          "cargo_scored_var": 87.64450810811391, 
+          "endgame_points": 18.54222679579039, 
+          "endgame_points_var": 71.228801064933, 
+          "prob_cargo_bonus": 0.14420975724439167, 
+          "prob_face_boss": 4.5024567407736527e-07, 
+          "prob_hangar_bonus": 0.6183773362700449, 
+          "prob_shield_operational": 1.849397346376236e-08, 
+          "score": 48.408872807441796, 
+          "score_var": 452.31678176879313
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm23": {
+        "blue": {
+          "cargo_scored": 10.797451358491475, 
+          "cargo_scored_var": 120.2101864657838, 
+          "endgame_points": 23.241202616048753, 
+          "endgame_points_var": 230.47440690462105, 
+          "prob_cargo_bonus": 0.2006395069032867, 
+          "prob_face_boss": 0.0077323953709802495, 
+          "prob_hangar_bonus": 0.6833114965997997, 
+          "prob_shield_operational": 0.0029737831482521404, 
+          "score": 50.3589386470992, 
+          "score_var": 549.3522980046228
+        }, 
+        "prob": 0.5544588799927067, 
+        "red": {
+          "cargo_scored": 16.58099784892432, 
+          "cargo_scored_var": 18.141768819088448, 
+          "endgame_points": 13.52018593609265, 
+          "endgame_points_var": 97.69499001132974, 
+          "prob_cargo_bonus": 0.21107071221331375, 
+          "prob_face_boss": 1.285014857521638e-06, 
+          "prob_hangar_bonus": 0.4009496627076169, 
+          "prob_shield_operational": 9.525956534695013e-08, 
+          "score": 54.84516413327374, 
+          "score_var": 523.9790130965047
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm24": {
+        "blue": {
+          "cargo_scored": 14.733828192821406, 
+          "cargo_scored_var": 70.21791162781469, 
+          "endgame_points": 9.260568860111459, 
+          "endgame_points_var": 177.80693176871017, 
+          "prob_cargo_bonus": 0.26485443517181473, 
+          "prob_face_boss": 7.086047352278246e-05, 
+          "prob_hangar_bonus": 0.3066333784354087, 
+          "prob_shield_operational": 1.4568111314838816e-05, 
+          "score": 37.27817936437937, 
+          "score_var": 312.40074928732923
+        }, 
+        "prob": 0.7181164446697991, 
+        "red": {
+          "cargo_scored": 13.68912798673527, 
+          "cargo_scored_var": 97.7695014347617, 
+          "endgame_points": 21.070999148254796, 
+          "endgame_points_var": 148.56278395231732, 
+          "prob_cargo_bonus": 0.2616569840847771, 
+          "prob_face_boss": 0.0007018785699213215, 
+          "prob_hangar_bonus": 0.6613108372745491, 
+          "prob_shield_operational": 0.00015662083297984797, 
+          "score": 54.281933179692295, 
+          "score_var": 555.2680765834455
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm25": {
+        "blue": {
+          "cargo_scored": 15.720415870669317, 
+          "cargo_scored_var": 101.62630878487272, 
+          "endgame_points": 16.926917362549528, 
+          "endgame_points_var": 111.24328088102124, 
+          "prob_cargo_bonus": 0.3355931912499145, 
+          "prob_face_boss": 2.2148462518023493e-05, 
+          "prob_hangar_bonus": 0.5350151054319368, 
+          "prob_shield_operational": 2.58334454428244e-06, 
+          "score": 57.514193866434226, 
+          "score_var": 523.9473752716856
+        }, 
+        "prob": 0.666981890806768, 
+        "red": {
+          "cargo_scored": 12.816944376839327, 
+          "cargo_scored_var": 156.31247601924036, 
+          "endgame_points": 13.6240534441941, 
+          "endgame_points_var": 124.85105541901814, 
+          "prob_cargo_bonus": 0.2828047382666492, 
+          "prob_face_boss": 1.6590079277678527e-05, 
+          "prob_hangar_bonus": 0.415804725904092, 
+          "prob_shield_operational": 2.1333977744397714e-06, 
+          "score": 41.34071243149967, 
+          "score_var": 880.3380765071531
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm26": {
+        "blue": {
+          "cargo_scored": 13.590340963943008, 
+          "cargo_scored_var": 51.011964794227744, 
+          "endgame_points": 11.741451555613859, 
+          "endgame_points_var": 78.60464047222513, 
+          "prob_cargo_bonus": 0.18474568175586203, 
+          "prob_face_boss": 2.617352468092804e-08, 
+          "prob_hangar_bonus": 0.315497250131449, 
+          "prob_shield_operational": 9.443252846352834e-10, 
+          "score": 46.39205569959457, 
+          "score_var": 235.85529208583557
+        }, 
+        "prob": 0.9248404706509725, 
+        "red": {
+          "cargo_scored": 22.77893073931682, 
+          "cargo_scored_var": 45.25478137622009, 
+          "endgame_points": 25.663032694064583, 
+          "endgame_points_var": 39.34697974378153, 
+          "prob_cargo_bonus": 0.660229942765596, 
+          "prob_face_boss": 2.1997197174883354e-08, 
+          "prob_hangar_bonus": 0.9382790302786808, 
+          "prob_shield_operational": 1.7922907602496707e-10, 
+          "score": 85.65187501340847, 
+          "score_var": 509.1064634683853
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm27": {
+        "blue": {
+          "cargo_scored": 12.169912685386556, 
+          "cargo_scored_var": 21.633546343059088, 
+          "endgame_points": 29.553220726253887, 
+          "endgame_points_var": 109.49264569574166, 
+          "prob_cargo_bonus": 0.04614305923714923, 
+          "prob_face_boss": 0.0018088531974553845, 
+          "prob_hangar_bonus": 0.9023811661406826, 
+          "prob_shield_operational": 0.00035261342865133827, 
+          "score": 64.3332437280345, 
+          "score_var": 265.1094841594911
+        }, 
+        "prob": 0.7614350789636879, 
+        "red": {
+          "cargo_scored": 13.203950043505614, 
+          "cargo_scored_var": 83.84792309278347, 
+          "endgame_points": 17.7248462078935, 
+          "endgame_points_var": 163.75104538359724, 
+          "prob_cargo_bonus": 0.2289885413409104, 
+          "prob_face_boss": 0.0004771858201615409, 
+          "prob_hangar_bonus": 0.5536111252475354, 
+          "prob_shield_operational": 0.00011021439471470273, 
+          "score": 47.316265737039075, 
+          "score_var": 307.83901199990095
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm28": {
+        "blue": {
+          "cargo_scored": 20.0302322661893, 
+          "cargo_scored_var": 106.48249486431502, 
+          "endgame_points": 12.18446443620556, 
+          "endgame_points_var": 79.72206160741594, 
+          "prob_cargo_bonus": 0.5011688022482734, 
+          "prob_face_boss": 4.271906028918693e-08, 
+          "prob_hangar_bonus": 0.33456846680489716, 
+          "prob_shield_operational": 1.65695213105721e-09, 
+          "score": 56.00174757336414, 
+          "score_var": 729.3026818301619
+        }, 
+        "prob": 0.698594811134079, 
+        "red": {
+          "cargo_scored": 8.352471264810628, 
+          "cargo_scored_var": 83.49557405868987, 
+          "endgame_points": 22.18195084976397, 
+          "endgame_points_var": 171.66624722867238, 
+          "prob_cargo_bonus": 0.10121080111216418, 
+          "prob_face_boss": 0.0019483766375800737, 
+          "prob_hangar_bonus": 0.6814749784008132, 
+          "prob_shield_operational": 0.0005415176776949471, 
+          "score": 38.71361277268822, 
+          "score_var": 374.4783997815563
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm29": {
+        "blue": {
+          "cargo_scored": 18.23774795478308, 
+          "cargo_scored_var": 71.73013033365335, 
+          "endgame_points": 17.76889731244544, 
+          "endgame_points_var": 94.15380426312393, 
+          "prob_cargo_bonus": 0.4175857066770031, 
+          "prob_face_boss": 6.737481606844398e-06, 
+          "prob_hangar_bonus": 0.5723258594063029, 
+          "prob_shield_operational": 5.649920102879236e-07, 
+          "score": 61.238577633470385, 
+          "score_var": 483.05107137597656
+        }, 
+        "prob": 0.5178827115701412, 
+        "red": {
+          "cargo_scored": 16.30639137723198, 
+          "cargo_scored_var": 22.507122936996762, 
+          "endgame_points": 21.584322060412322, 
+          "endgame_points_var": 25.437744535191083, 
+          "prob_cargo_bonus": 0.2181201104047903, 
+          "prob_face_boss": 1.2989609388114332e-14, 
+          "prob_hangar_bonus": 0.8658990648722191, 
+          "prob_shield_operational": 0.0, 
+          "score": 60.08880227013186, 
+          "score_var": 174.4377176122939
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm3": {
+        "blue": {
+          "cargo_scored": 9.769026494367052, 
+          "cargo_scored_var": 141.6006991775079, 
+          "endgame_points": 15.221131777865283, 
+          "endgame_points_var": 146.40380647603095, 
+          "prob_cargo_bonus": 0.19495684244310318, 
+          "prob_face_boss": 0.00010745567314063287, 
+          "prob_hangar_bonus": 0.474337555262091, 
+          "prob_shield_operational": 1.9439442324742373e-05, 
+          "score": 38.827102309822976, 
+          "score_var": 550.4966100925616
+        }, 
+        "prob": 0.5085666012235291, 
+        "red": {
+          "cargo_scored": 12.892635319073388, 
+          "cargo_scored_var": 130.82092260882675, 
+          "endgame_points": 7.964444768288519, 
+          "endgame_points_var": 180.36311009023171, 
+          "prob_cargo_bonus": 0.26716882566362654, 
+          "prob_face_boss": 5.340104455808792e-05, 
+          "prob_hangar_bonus": 0.27480930516412005, 
+          "prob_shield_operational": 1.0837535622920669e-05, 
+          "score": 39.53890190882307, 
+          "score_var": 548.1341343318585
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm30": {
+        "blue": {
+          "cargo_scored": 10.255021970803186, 
+          "cargo_scored_var": 146.37773128433463, 
+          "endgame_points": 13.19665493866259, 
+          "endgame_points_var": 111.73881433756709, 
+          "prob_cargo_bonus": 0.21027747127183372, 
+          "prob_face_boss": 4.762910182476432e-06, 
+          "prob_hangar_bonus": 0.3954274601673984, 
+          "prob_shield_operational": 4.775431956538512e-07, 
+          "score": 41.5504772010211, 
+          "score_var": 724.6518312392038
+        }, 
+        "prob": 0.5520327536658216, 
+        "red": {
+          "cargo_scored": 8.132057214058214, 
+          "cargo_scored_var": 65.2564028211523, 
+          "endgame_points": 13.046027609909673, 
+          "endgame_points_var": 165.5885628068734, 
+          "prob_cargo_bonus": 0.07089709113469345, 
+          "prob_face_boss": 0.00013170342059831697, 
+          "prob_hangar_bonus": 0.40921786330821086, 
+          "prob_shield_operational": 2.7021495617285396e-05, 
+          "score": 37.30942819865005, 
+          "score_var": 326.67859320555965
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm31": {
+        "blue": {
+          "cargo_scored": 16.148934406682383, 
+          "cargo_scored_var": 151.61970591681376, 
+          "endgame_points": 9.084314386121612, 
+          "endgame_points_var": 142.8436392557009, 
+          "prob_cargo_bonus": 0.3772337233499673, 
+          "prob_face_boss": 1.0216168038090778e-05, 
+          "prob_hangar_bonus": 0.28141770133606414, 
+          "prob_shield_operational": 1.4451664011039256e-06, 
+          "score": 48.05197757407785, 
+          "score_var": 911.573484575651
+        }, 
+        "prob": 0.5026050752593976, 
+        "red": {
+          "cargo_scored": 15.94784638510432, 
+          "cargo_scored_var": 74.1672680027687, 
+          "endgame_points": 14.539073585831224, 
+          "endgame_points_var": 121.1595800372983, 
+          "prob_cargo_bonus": 0.3189911275242928, 
+          "prob_face_boss": 1.813114766924251e-05, 
+          "prob_hangar_bonus": 0.4472058307812732, 
+          "prob_shield_operational": 2.277168528630469e-06, 
+          "score": 48.299340275049005, 
+          "score_var": 523.3932676550751
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm32": {
+        "blue": {
+          "cargo_scored": 13.56244203375563, 
+          "cargo_scored_var": 30.349535464228236, 
+          "endgame_points": 17.676628386917578, 
+          "endgame_points_var": 36.14079395782779, 
+          "prob_cargo_bonus": 0.12129366904865369, 
+          "prob_face_boss": 9.602318939982979e-13, 
+          "prob_hangar_bonus": 0.6098366174820476, 
+          "prob_shield_operational": 1.7763568394002505e-15, 
+          "score": 54.51962394010171, 
+          "score_var": 261.38872490167785
+        }, 
+        "prob": 0.5484366072877285, 
+        "red": {
+          "cargo_scored": 15.682447845088479, 
+          "cargo_scored_var": 32.411561075547745, 
+          "endgame_points": 16.712847372141187, 
+          "endgame_points_var": 82.3282780442477, 
+          "prob_cargo_bonus": 0.2241113735249638, 
+          "prob_face_boss": 9.178140312204874e-07, 
+          "prob_hangar_bonus": 0.5313101770672632, 
+          "prob_shield_operational": 5.137783110065186e-08, 
+          "score": 57.74396287407728, 
+          "score_var": 440.40851997502375
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm33": {
+        "blue": {
+          "cargo_scored": 26.662575914840566, 
+          "cargo_scored_var": 69.88368710128557, 
+          "endgame_points": 22.81280235548818, 
+          "endgame_points_var": 119.60952086071796, 
+          "prob_cargo_bonus": 0.7872723227981742, 
+          "prob_face_boss": 0.00033662396964129204, 
+          "prob_hangar_bonus": 0.7333364672834299, 
+          "prob_shield_operational": 5.729326325443207e-05, 
+          "score": 88.31005375540958, 
+          "score_var": 688.7570544651796
+        }, 
+        "prob": 0.8570608715862575, 
+        "red": {
+          "cargo_scored": 16.69401248911476, 
+          "cargo_scored_var": 68.62727742131776, 
+          "endgame_points": 21.711213644113695, 
+          "endgame_points_var": 59.10280869546141, 
+          "prob_cargo_bonus": 0.3449195463030651, 
+          "prob_face_boss": 3.1720257642753324e-07, 
+          "prob_hangar_bonus": 0.7712257738494944, 
+          "prob_shield_operational": 8.967940279269726e-09, 
+          "score": 56.08609261983976, 
+          "score_var": 222.96048886509803
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm34": {
+        "blue": {
+          "cargo_scored": 17.198048943166192, 
+          "cargo_scored_var": 83.92611445332346, 
+          "endgame_points": 15.898780044138205, 
+          "endgame_points_var": 59.782862310963736, 
+          "prob_cargo_bonus": 0.37985848961075597, 
+          "prob_face_boss": 5.859197571567165e-09, 
+          "prob_hangar_bonus": 0.49477753602919494, 
+          "prob_shield_operational": 1.0734879651863594e-10, 
+          "score": 59.739586069917884, 
+          "score_var": 139.28695153772395
+        }, 
+        "prob": 0.5676740252064607, 
+        "red": {
+          "cargo_scored": 13.486627634435713, 
+          "cargo_scored_var": 54.93722962739738, 
+          "endgame_points": 19.034805566595974, 
+          "endgame_points_var": 94.66324525494142, 
+          "prob_cargo_bonus": 0.18976447508601868, 
+          "prob_face_boss": 1.2745417039994322e-05, 
+          "prob_hangar_bonus": 0.6224485078069211, 
+          "prob_shield_operational": 1.154488654120378e-06, 
+          "score": 55.250761981001986, 
+          "score_var": 554.2079531731622
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm35": {
+        "blue": {
+          "cargo_scored": 10.458242455325706, 
+          "cargo_scored_var": 129.02920744741243, 
+          "endgame_points": 16.941008763000756, 
+          "endgame_points_var": 170.1576039530024, 
+          "prob_cargo_bonus": 0.2004514408364746, 
+          "prob_face_boss": 0.0004818003877724575, 
+          "prob_hangar_bonus": 0.5287542143932535, 
+          "prob_shield_operational": 0.00011468898150646112, 
+          "score": 38.84601888706443, 
+          "score_var": 622.9273307114677
+        }, 
+        "prob": 0.769538968430193, 
+        "red": {
+          "cargo_scored": 20.057971886853423, 
+          "cargo_scored_var": 21.74540021044031, 
+          "endgame_points": 18.311333085556093, 
+          "endgame_points_var": 62.89413142267486, 
+          "prob_cargo_bonus": 0.5049594396825927, 
+          "prob_face_boss": 7.333282237009797e-08, 
+          "prob_hangar_bonus": 0.6146447207464398, 
+          "prob_shield_operational": 1.9643493498477937e-09, 
+          "score": 60.299948063037554, 
+          "score_var": 223.69670466263292
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm36": {
+        "blue": {
+          "cargo_scored": 12.113643006231273, 
+          "cargo_scored_var": 38.00449337264768, 
+          "endgame_points": 13.322707372864523, 
+          "endgame_points_var": 86.79299138664229, 
+          "prob_cargo_bonus": 0.10040268501899918, 
+          "prob_face_boss": 2.717327863832608e-07, 
+          "prob_hangar_bonus": 0.38691145338896427, 
+          "prob_shield_operational": 1.4531423842001345e-08, 
+          "score": 46.01324642500214, 
+          "score_var": 399.1583349008764
+        }, 
+        "prob": 0.5424095321589217, 
+        "red": {
+          "cargo_scored": 14.859502840584295, 
+          "cargo_scored_var": 28.973556271475964, 
+          "endgame_points": 19.51524530469724, 
+          "endgame_points_var": 127.70197144414051, 
+          "prob_cargo_bonus": 0.1697883760929555, 
+          "prob_face_boss": 0.00017012580879760542, 
+          "prob_hangar_bonus": 0.6221259443689586, 
+          "prob_shield_operational": 2.848634374519321e-05, 
+          "score": 48.78031261459718, 
+          "score_var": 275.82237779779945
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm37": {
+        "blue": {
+          "cargo_scored": 9.598090806509168, 
+          "cargo_scored_var": 138.73337432460562, 
+          "endgame_points": 17.723001861651078, 
+          "endgame_points_var": 82.9360153384615, 
+          "prob_cargo_bonus": 0.1885841470105749, 
+          "prob_face_boss": 1.7228177671135825e-06, 
+          "prob_hangar_bonus": 0.5750307765786389, 
+          "prob_shield_operational": 1.0440077780060619e-07, 
+          "score": 41.30585034644628, 
+          "score_var": 362.9090183828046
+        }, 
+        "prob": 0.749188445942669, 
+        "red": {
+          "cargo_scored": 14.626182171852431, 
+          "cargo_scored_var": 57.80170031787301, 
+          "endgame_points": 19.951227195559362, 
+          "endgame_points_var": 108.75230464894355, 
+          "prob_cargo_bonus": 0.23983724856486166, 
+          "prob_face_boss": 6.143134507163861e-05, 
+          "prob_hangar_bonus": 0.6476151031972619, 
+          "prob_shield_operational": 7.808501960582248e-06, 
+          "score": 59.9333657272136, 
+          "score_var": 405.6041897235077
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm38": {
+        "blue": {
+          "cargo_scored": 13.793303140563495, 
+          "cargo_scored_var": 59.609793777087205, 
+          "endgame_points": 5.7878282531331955, 
+          "endgame_points_var": 111.61408742047811, 
+          "prob_cargo_bonus": 0.2107275274198246, 
+          "prob_face_boss": 1.437845991159037e-07, 
+          "prob_hangar_bonus": 0.16686544304764184, 
+          "prob_shield_operational": 1.0431488561835067e-08, 
+          "score": 40.73533620417542, 
+          "score_var": 421.78698266896333
+        }, 
+        "prob": 0.9647903621638552, 
+        "red": {
+          "cargo_scored": 24.12924398170842, 
+          "cargo_scored_var": 39.2906067514151, 
+          "endgame_points": 34.74142300546053, 
+          "endgame_points_var": 62.64634857533705, 
+          "prob_cargo_bonus": 0.7449745428519983, 
+          "prob_face_boss": 0.0007082901583812529, 
+          "prob_hangar_bonus": 0.9910541711564183, 
+          "prob_shield_operational": 6.592755213885582e-05, 
+          "score": 94.37911778289462, 
+          "score_var": 457.36420366544303
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm39": {
+        "blue": {
+          "cargo_scored": 12.624991530859562, 
+          "cargo_scored_var": 69.326581701278, 
+          "endgame_points": 10.610044831458463, 
+          "endgame_points_var": 54.16558728090183, 
+          "prob_cargo_bonus": 0.18787532187265854, 
+          "prob_face_boss": 9.675371615003314e-12, 
+          "prob_hangar_bonus": 0.2319750461169897, 
+          "prob_shield_operational": 7.327471962526033e-14, 
+          "score": 35.966622663279196, 
+          "score_var": 254.00974855794547
+        }, 
+        "prob": 0.7461002679515183, 
+        "red": {
+          "cargo_scored": 15.768094780271188, 
+          "cargo_scored_var": 134.86794438707128, 
+          "endgame_points": 21.130160587920805, 
+          "endgame_points_var": 143.6684721236223, 
+          "prob_cargo_bonus": 0.3577786669405123, 
+          "prob_face_boss": 0.0005916226427200577, 
+          "prob_hangar_bonus": 0.6656767553038039, 
+          "prob_shield_operational": 0.0001260901115739399, 
+          "score": 56.12810842460655, 
+          "score_var": 672.7720375108732
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm4": {
+        "blue": {
+          "cargo_scored": 10.311788689298016, 
+          "cargo_scored_var": 155.7666844003108, 
+          "endgame_points": 11.943065369981278, 
+          "endgame_points_var": 138.1939558154857, 
+          "prob_cargo_bonus": 0.2187982140541127, 
+          "prob_face_boss": 2.1754830634046485e-05, 
+          "prob_hangar_bonus": 0.3650070500601117, 
+          "prob_shield_operational": 3.19079557153934e-06, 
+          "score": 40.37673356806809, 
+          "score_var": 694.9759040702085
+        }, 
+        "prob": 0.5646521131277639, 
+        "red": {
+          "cargo_scored": 11.15698281848072, 
+          "cargo_scored_var": 112.7722765482377, 
+          "endgame_points": 17.3591508863029, 
+          "endgame_points_var": 118.53521794208437, 
+          "prob_cargo_bonus": 0.202501169145061, 
+          "prob_face_boss": 4.491516954918673e-05, 
+          "prob_hangar_bonus": 0.5496737763571647, 
+          "prob_shield_operational": 6.04986283914144e-06, 
+          "score": 46.20190445286556, 
+          "score_var": 585.7115596866522
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm40": {
+        "blue": {
+          "cargo_scored": 19.3411502207338, 
+          "cargo_scored_var": 21.980467343789822, 
+          "endgame_points": 14.607501467803568, 
+          "endgame_points_var": 79.65431219516941, 
+          "prob_cargo_bonus": 0.44412076647499843, 
+          "prob_face_boss": 1.828122010438804e-07, 
+          "prob_hangar_bonus": 0.4380072369587824, 
+          "prob_shield_operational": 8.198558942851264e-09, 
+          "score": 59.96718823044411, 
+          "score_var": 263.1554491308411
+        }, 
+        "prob": 0.6780707272628779, 
+        "red": {
+          "cargo_scored": 18.5579445841558, 
+          "cargo_scored_var": 32.32235532140582, 
+          "endgame_points": 13.097797119960898, 
+          "endgame_points_var": 54.91163894677116, 
+          "prob_cargo_bonus": 0.39988397909313467, 
+          "prob_face_boss": 1.230756607739636e-10, 
+          "prob_hangar_bonus": 0.3476592740705722, 
+          "prob_shield_operational": 1.2427836537654002e-12, 
+          "score": 49.56514468252527, 
+          "score_var": 243.09974485864902
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm41": {
+        "blue": {
+          "cargo_scored": 7.1698604814074915, 
+          "cargo_scored_var": 35.77516031336597, 
+          "endgame_points": 23.61634781647815, 
+          "endgame_points_var": 68.70251097152573, 
+          "prob_cargo_bonus": 0.01597379990085801, 
+          "prob_face_boss": 5.67927676020652e-06, 
+          "prob_hangar_bonus": 0.82092175026017, 
+          "prob_shield_operational": 2.9758027064730186e-07, 
+          "score": 51.159557604241456, 
+          "score_var": 189.89429102386885
+        }, 
+        "prob": 0.630263014957736, 
+        "red": {
+          "cargo_scored": 13.907661661684603, 
+          "cargo_scored_var": 70.3509243560525, 
+          "endgame_points": 10.251137290771355, 
+          "endgame_points_var": 68.75595268873326, 
+          "prob_cargo_bonus": 0.23381049320362335, 
+          "prob_face_boss": 9.885408047694e-10, 
+          "prob_hangar_bonus": 0.24405785450764228, 
+          "prob_shield_operational": 2.0190071836623247e-11, 
+          "score": 42.582079089354224, 
+          "score_var": 475.3869845188055
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm42": {
+        "blue": {
+          "cargo_scored": 8.721243394745905, 
+          "cargo_scored_var": 37.60725886899202, 
+          "endgame_points": 16.260798114156906, 
+          "endgame_points_var": 173.9321247548227, 
+          "prob_cargo_bonus": 0.03294399983998353, 
+          "prob_face_boss": 0.00045575108754758453, 
+          "prob_hangar_bonus": 0.5078885340984678, 
+          "prob_shield_operational": 0.00010967100221803694, 
+          "score": 36.60921520777449, 
+          "score_var": 301.4973822081163
+        }, 
+        "prob": 0.9003618803872387, 
+        "red": {
+          "cargo_scored": 21.311735984496796, 
+          "cargo_scored_var": 77.35411333558727, 
+          "endgame_points": 22.54448570904763, 
+          "endgame_points_var": 127.73523426289036, 
+          "prob_cargo_bonus": 0.5592798527813465, 
+          "prob_face_boss": 0.00045975832459599353, 
+          "prob_hangar_bonus": 0.7187241276792072, 
+          "prob_shield_operational": 8.616695117003026e-05, 
+          "score": 76.37286332472586, 
+          "score_var": 658.1285791777191
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm43": {
+        "blue": {
+          "cargo_scored": 18.94382501938494, 
+          "cargo_scored_var": 22.985542202963963, 
+          "endgame_points": 27.40016002975115, 
+          "endgame_points_var": 116.95450092691291, 
+          "prob_cargo_bonus": 0.41281994479179174, 
+          "prob_face_boss": 0.0012872602126494659, 
+          "prob_hangar_bonus": 0.8540929121729097, 
+          "prob_shield_operational": 0.00025373462568734073, 
+          "score": 74.50502820361952, 
+          "score_var": 223.9062981462357
+        }, 
+        "prob": 0.9728669765304594, 
+        "red": {
+          "cargo_scored": 9.560706687390473, 
+          "cargo_scored_var": 66.93812233673486, 
+          "endgame_points": 9.106426102168056, 
+          "endgame_points_var": 114.41342502437152, 
+          "prob_cargo_bonus": 0.10098624364904829, 
+          "prob_face_boss": 9.776015194029597e-07, 
+          "prob_hangar_bonus": 0.25963379594980973, 
+          "prob_shield_operational": 8.686778374400461e-08, 
+          "score": 35.632872517206806, 
+          "score_var": 183.98841937482644
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm44": {
+        "blue": {
+          "cargo_scored": 25.74112584701078, 
+          "cargo_scored_var": 47.34140234803909, 
+          "endgame_points": 16.841360909740118, 
+          "endgame_points_var": 57.842099633157375, 
+          "prob_cargo_bonus": 0.7979733884886635, 
+          "prob_face_boss": 6.945105823774611e-09, 
+          "prob_hangar_bonus": 0.5440438482337235, 
+          "prob_shield_operational": 1.2087286727080482e-10, 
+          "score": 72.92927359074474, 
+          "score_var": 422.773752653122
+        }, 
+        "prob": 0.9411968779389004, 
+        "red": {
+          "cargo_scored": 7.906910679211956, 
+          "cargo_scored_var": 99.16361092914427, 
+          "endgame_points": 13.437432670072287, 
+          "endgame_points_var": 149.41251586351387, 
+          "prob_cargo_bonus": 0.11229786219927584, 
+          "prob_face_boss": 6.968471186574732e-05, 
+          "prob_hangar_bonus": 0.4169728887081975, 
+          "prob_shield_operational": 1.2305660718303635e-05, 
+          "score": 30.286174994310976, 
+          "score_var": 319.7734336011369
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm45": {
+        "blue": {
+          "cargo_scored": 15.476861173549729, 
+          "cargo_scored_var": 84.61445395313089, 
+          "endgame_points": 30.667134168526168, 
+          "endgame_points_var": 50.46455464394594, 
+          "prob_cargo_bonus": 0.31145874226697867, 
+          "prob_face_boss": 1.820487876869059e-05, 
+          "prob_hangar_bonus": 0.9805231964308745, 
+          "prob_shield_operational": 6.724524785894914e-07, 
+          "score": 74.46893691129367, 
+          "score_var": 525.1348286477349
+        }, 
+        "prob": 0.8202957958979856, 
+        "red": {
+          "cargo_scored": 11.409559401991297, 
+          "cargo_scored_var": 28.1485326795556, 
+          "endgame_points": 14.856921334189167, 
+          "endgame_points_var": 55.13247780495343, 
+          "prob_cargo_bonus": 0.052707306259433206, 
+          "prob_face_boss": 6.017611964281855e-10, 
+          "prob_hangar_bonus": 0.43882560417326855, 
+          "prob_shield_operational": 7.23288096082797e-12, 
+          "score": 47.57761644656859, 
+          "score_var": 335.7915364995173
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm46": {
+        "blue": {
+          "cargo_scored": 13.925114091934814, 
+          "cargo_scored_var": 51.46086330588394, 
+          "endgame_points": 9.459401870164482, 
+          "endgame_points_var": 109.32987698979042, 
+          "prob_cargo_bonus": 0.19854311745541142, 
+          "prob_face_boss": 6.704203885377069e-07, 
+          "prob_hangar_bonus": 0.26581168305128955, 
+          "prob_shield_operational": 5.427600424656731e-08, 
+          "score": 43.93279999802101, 
+          "score_var": 498.15676772918204
+        }, 
+        "prob": 0.5577169266390558, 
+        "red": {
+          "cargo_scored": 14.318240417801844, 
+          "cargo_scored_var": 52.0042436145386, 
+          "endgame_points": 15.774218773810006, 
+          "endgame_points_var": 139.48173172709363, 
+          "prob_cargo_bonus": 0.2153816543317939, 
+          "prob_face_boss": 9.030529476672378e-05, 
+          "prob_hangar_bonus": 0.49237371950815567, 
+          "prob_shield_operational": 1.5360160588007155e-05, 
+          "score": 48.23907774448912, 
+          "score_var": 381.6164078468089
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm47": {
+        "blue": {
+          "cargo_scored": 15.155553026635314, 
+          "cargo_scored_var": 38.48306257975109, 
+          "endgame_points": 13.05943648737339, 
+          "endgame_points_var": 89.72637481582747, 
+          "prob_cargo_bonus": 0.21742326833918513, 
+          "prob_face_boss": 3.607065719446467e-07, 
+          "prob_hangar_bonus": 0.3781151388441675, 
+          "prob_shield_operational": 2.086637129750102e-08, 
+          "score": 51.15659820654292, 
+          "score_var": 344.4823270158079
+        }, 
+        "prob": 0.7403291959366888, 
+        "red": {
+          "cargo_scored": 14.727513843283973, 
+          "cargo_scored_var": 44.33920276865176, 
+          "endgame_points": 26.90594687148361, 
+          "endgame_points_var": 142.9686484624748, 
+          "prob_cargo_bonus": 0.21423545577203273, 
+          "prob_face_boss": 0.0028220880897432687, 
+          "prob_hangar_bonus": 0.8191422461097848, 
+          "prob_shield_operational": 0.0007214374984574334, 
+          "score": 70.2967579781548, 
+          "score_var": 537.8518922807068
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm48": {
+        "blue": {
+          "cargo_scored": 17.391182729345076, 
+          "cargo_scored_var": 58.20640282285527, 
+          "endgame_points": 17.254249713230386, 
+          "endgame_points_var": 97.34662594355035, 
+          "prob_cargo_bonus": 0.36619554243302055, 
+          "prob_face_boss": 7.373314370395789e-06, 
+          "prob_hangar_bonus": 0.5505784095535413, 
+          "prob_shield_operational": 6.517885002832458e-07, 
+          "score": 52.106437174196856, 
+          "score_var": 152.9716820180596
+        }, 
+        "prob": 0.7493876150144602, 
+        "red": {
+          "cargo_scored": 12.0837684097929, 
+          "cargo_scored_var": 99.84471937490818, 
+          "endgame_points": 8.491269666696443, 
+          "endgame_points_var": 100.98376132628172, 
+          "prob_cargo_bonus": 0.2141108134937597, 
+          "prob_face_boss": 1.4819960547640676e-07, 
+          "prob_hangar_bonus": 0.2274694112868354, 
+          "prob_shield_operational": 9.368218201188938e-09, 
+          "score": 37.191804416214964, 
+          "score_var": 338.79376813060486
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm49": {
+        "blue": {
+          "cargo_scored": 14.935405062200381, 
+          "cargo_scored_var": 33.18512877121458, 
+          "endgame_points": 30.30158951748507, 
+          "endgame_points_var": 121.44732786278308, 
+          "prob_cargo_bonus": 0.18965449758297315, 
+          "prob_face_boss": 0.0035207128555523326, 
+          "prob_hangar_bonus": 0.9028130070040572, 
+          "prob_shield_operational": 0.0008203114214764273, 
+          "score": 64.63285642003287, 
+          "score_var": 205.53317442932823
+        }, 
+        "prob": 0.6489808521392235, 
+        "red": {
+          "cargo_scored": 23.715321888396602, 
+          "cargo_scored_var": 65.09357930851354, 
+          "endgame_points": 21.56599300638011, 
+          "endgame_points_var": 63.28144230568172, 
+          "prob_cargo_bonus": 0.6774204526072497, 
+          "prob_face_boss": 6.777116465794819e-07, 
+          "prob_hangar_bonus": 0.75793893715841, 
+          "prob_shield_operational": 2.380829755566083e-08, 
+          "score": 73.60628566345993, 
+          "score_var": 344.633244255655
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm5": {
+        "blue": {
+          "cargo_scored": 15.709550675236603, 
+          "cargo_scored_var": 122.6573407953248, 
+          "endgame_points": 12.082866415580071, 
+          "endgame_points_var": 137.1205074459641, 
+          "prob_cargo_bonus": 0.34923124437389275, 
+          "prob_face_boss": 2.137995695949968e-05, 
+          "prob_hangar_bonus": 0.36899502790799477, 
+          "prob_shield_operational": 3.1061978058577466e-06, 
+          "score": 50.87183348268134, 
+          "score_var": 583.0894513721105
+        }, 
+        "prob": 0.558041586683844, 
+        "red": {
+          "cargo_scored": 15.463332170537496, 
+          "cargo_scored_var": 212.03031577231496, 
+          "endgame_points": 13.271298395502589, 
+          "endgame_points_var": 230.1101536661586, 
+          "prob_cargo_bonus": 0.37768847567972264, 
+          "prob_face_boss": 0.0010333994442257577, 
+          "prob_hangar_bonus": 0.4286225305552699, 
+          "prob_shield_operational": 0.00032472737045452504, 
+          "score": 45.23768618270745, 
+          "score_var": 905.984631280599
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm50": {
+        "blue": {
+          "cargo_scored": 11.879896472437624, 
+          "cargo_scored_var": 33.48544819068778, 
+          "endgame_points": 17.35614539515553, 
+          "endgame_points_var": 116.77452027630679, 
+          "prob_cargo_bonus": 0.080271894116832, 
+          "prob_face_boss": 3.9695655946525576e-05, 
+          "prob_hangar_bonus": 0.5499348200603136, 
+          "prob_shield_operational": 5.194217017168157e-06, 
+          "score": 46.24174357087138, 
+          "score_var": 217.38769530981236
+        }, 
+        "prob": 0.6116160379017908, 
+        "red": {
+          "cargo_scored": 8.679431369685684, 
+          "cargo_scored_var": 98.54205149155732, 
+          "endgame_points": 14.356284129273156, 
+          "endgame_points_var": 64.82701166763913, 
+          "prob_cargo_bonus": 0.1270597187140836, 
+          "prob_face_boss": 7.183564187940306e-09, 
+          "prob_hangar_bonus": 0.4191182583154571, 
+          "prob_shield_operational": 1.5877865688906923e-10, 
+          "score": 38.53073080715423, 
+          "score_var": 522.2416961265635
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm51": {
+        "blue": {
+          "cargo_scored": 10.311750493790498, 
+          "cargo_scored_var": 18.28877860848345, 
+          "endgame_points": 23.36054901724001, 
+          "endgame_points_var": 47.58536638040867, 
+          "prob_cargo_bonus": 0.011742782206222602, 
+          "prob_face_boss": 5.4381303904449396e-08, 
+          "prob_hangar_bonus": 0.8570191194199241, 
+          "prob_shield_operational": 7.886116204502969e-10, 
+          "score": 53.16993759760468, 
+          "score_var": 190.35232903999173
+        }, 
+        "prob": 0.7051396762604927, 
+        "red": {
+          "cargo_scored": 16.99515123673072, 
+          "cargo_scored_var": 42.13860184585919, 
+          "endgame_points": 21.803788997118943, 
+          "endgame_points_var": 35.35850531379697, 
+          "prob_cargo_bonus": 0.32171978987731487, 
+          "prob_face_boss": 6.657763229611646e-11, 
+          "prob_hangar_bonus": 0.8354760357807142, 
+          "prob_shield_operational": 1.8740564655672642e-13, 
+          "score": 65.2569271608136, 
+          "score_var": 312.0719944162913
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm52": {
+        "blue": {
+          "cargo_scored": 22.218277511892488, 
+          "cargo_scored_var": 74.93296383298691, 
+          "endgame_points": 15.18205744720548, 
+          "endgame_points_var": 91.31870761321255, 
+          "prob_cargo_bonus": 0.6011246401594719, 
+          "prob_face_boss": 1.366083309362054e-06, 
+          "prob_hangar_bonus": 0.46589461531575216, 
+          "prob_shield_operational": 9.279614920920665e-08, 
+          "score": 61.783876925213576, 
+          "score_var": 392.70158299328745
+        }, 
+        "prob": 0.7205618759876193, 
+        "red": {
+          "cargo_scored": 8.040043906970325, 
+          "cargo_scored_var": 65.93807449943913, 
+          "endgame_points": 23.300098011389807, 
+          "endgame_points_var": 127.44102277640827, 
+          "prob_cargo_bonus": 0.07039440075156, 
+          "prob_face_boss": 0.0005751005672207654, 
+          "prob_hangar_bonus": 0.7410730610672723, 
+          "prob_shield_operational": 0.00011043779779584817, 
+          "score": 45.616844035589054, 
+          "score_var": 372.3215404437027
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm53": {
+        "blue": {
+          "cargo_scored": 24.80954484145791, 
+          "cargo_scored_var": 44.55871969785757, 
+          "endgame_points": 13.032340502708328, 
+          "endgame_points_var": 59.01709023594594, 
+          "prob_cargo_bonus": 0.7643932591197916, 
+          "prob_face_boss": 4.864828540007693e-10, 
+          "prob_hangar_bonus": 0.3496370972211409, 
+          "prob_shield_operational": 6.682432385218817e-12, 
+          "score": 74.17236848724383, 
+          "score_var": 507.0157373025968
+        }, 
+        "prob": 0.9124541886841555, 
+        "red": {
+          "cargo_scored": 10.66734447245532, 
+          "cargo_scored_var": 73.92500392454747, 
+          "endgame_points": 7.792969954764143, 
+          "endgame_points_var": 134.72532324284842, 
+          "prob_cargo_bonus": 0.13886134531396355, 
+          "prob_face_boss": 3.4323047599649215e-06, 
+          "prob_hangar_bonus": 0.23976199736897508, 
+          "prob_shield_operational": 4.1407556405914647e-07, 
+          "score": 36.01613847128852, 
+          "score_var": 284.7493479110195
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm54": {
+        "blue": {
+          "cargo_scored": 10.590733398550807, 
+          "cargo_scored_var": 47.87430857421561, 
+          "endgame_points": 9.69777727484588, 
+          "endgame_points_var": 101.62480425695338, 
+          "prob_cargo_bonus": 0.08693200306384463, 
+          "prob_face_boss": 3.021341377085207e-07, 
+          "prob_hangar_bonus": 0.2659317487959807, 
+          "prob_shield_operational": 2.0576066184219144e-08, 
+          "score": 40.11469810521966, 
+          "score_var": 345.4479865576656
+        }, 
+        "prob": 0.8682866775676084, 
+        "red": {
+          "cargo_scored": 20.544184191187227, 
+          "cargo_scored_var": 61.53050700283509, 
+          "endgame_points": 18.96662985068856, 
+          "endgame_points_var": 88.11792254468406, 
+          "prob_cargo_bonus": 0.5276542883571161, 
+          "prob_face_boss": 6.1770280541662e-06, 
+          "prob_hangar_bonus": 0.6240109394168216, 
+          "prob_shield_operational": 4.6978757983762165e-07, 
+          "score": 74.31348501387626, 
+          "score_var": 589.7046049024655
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm55": {
+        "blue": {
+          "cargo_scored": 10.183627123656043, 
+          "cargo_scored_var": 62.92460073925318, 
+          "endgame_points": 14.39473295158773, 
+          "endgame_points_var": 103.68478041859741, 
+          "prob_cargo_bonus": 0.10795308045915863, 
+          "prob_face_boss": 3.753947593332363e-06, 
+          "prob_hangar_bonus": 0.4373669002643634, 
+          "prob_shield_operational": 3.3512377117794756e-07, 
+          "score": 38.32222130376874, 
+          "score_var": 169.16127217077025
+        }, 
+        "prob": 0.9669488477644668, 
+        "red": {
+          "cargo_scored": 20.53020849958834, 
+          "cargo_scored_var": 22.04290807407444, 
+          "endgame_points": 23.543099034131643, 
+          "endgame_points_var": 42.03717900511292, 
+          "prob_cargo_bonus": 0.5449572742727335, 
+          "prob_face_boss": 9.387070898370098e-09, 
+          "prob_hangar_bonus": 0.8776685306553471, 
+          "prob_shield_operational": 8.074296786730883e-11, 
+          "score": 64.9815263330797, 
+          "score_var": 41.281769090460834
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm56": {
+        "blue": {
+          "cargo_scored": 13.871436645084458, 
+          "cargo_scored_var": 47.93575510117074, 
+          "endgame_points": 24.487322553446187, 
+          "endgame_points_var": 165.53750109805827, 
+          "prob_cargo_bonus": 0.188031262066779, 
+          "prob_face_boss": 0.0028885989221711927, 
+          "prob_hangar_bonus": 0.7452651296369196, 
+          "prob_shield_operational": 0.000819759110271101, 
+          "score": 52.04851863953303, 
+          "score_var": 293.62625828310405
+        }, 
+        "prob": 0.8431403537386166, 
+        "red": {
+          "cargo_scored": 22.150425265142598, 
+          "cargo_scored_var": 73.08017986636199, 
+          "endgame_points": 25.33184791077283, 
+          "endgame_points_var": 87.69417652408869, 
+          "prob_cargo_bonus": 0.5993055960599789, 
+          "prob_face_boss": 0.00010692131924794346, 
+          "prob_hangar_bonus": 0.8404991365806149, 
+          "prob_shield_operational": 1.1376522152994895e-05, 
+          "score": 79.27893430904808, 
+          "score_var": 436.9454149673178
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm57": {
+        "blue": {
+          "cargo_scored": 10.15949209107302, 
+          "cargo_scored_var": 48.136936092123605, 
+          "endgame_points": 19.27537868597308, 
+          "endgame_points_var": 90.67812440880687, 
+          "prob_cargo_bonus": 0.07804674270850676, 
+          "prob_face_boss": 9.485463871250488e-06, 
+          "prob_hangar_bonus": 0.6345625051030295, 
+          "prob_shield_operational": 7.864549691483091e-07, 
+          "score": 52.5903707907063, 
+          "score_var": 281.85356474991573
+        }, 
+        "prob": 0.5314506078308681, 
+        "red": {
+          "cargo_scored": 15.196916913201008, 
+          "cargo_scored_var": 46.16196679272667, 
+          "endgame_points": 21.067888670868037, 
+          "endgame_points_var": 118.919358213069, 
+          "prob_cargo_bonus": 0.23980421338586932, 
+          "prob_face_boss": 0.00017841522478811989, 
+          "prob_hangar_bonus": 0.6789376193151466, 
+          "prob_shield_operational": 2.805317181520106e-05, 
+          "score": 50.86762715890341, 
+          "score_var": 194.68949616302322
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm58": {
+        "blue": {
+          "cargo_scored": 7.193774551590238, 
+          "cargo_scored_var": 68.74490412311053, 
+          "endgame_points": 11.772775064732635, 
+          "endgame_points_var": 99.33552480830681, 
+          "prob_cargo_bonus": 0.0612280406944401, 
+          "prob_face_boss": 6.530426618356344e-07, 
+          "prob_hangar_bonus": 0.33573405461276884, 
+          "prob_shield_operational": 4.634651618040664e-08, 
+          "score": 34.709809426597985, 
+          "score_var": 336.94812507561716
+        }, 
+        "prob": 0.8081003563933844, 
+        "red": {
+          "cargo_scored": 14.32399251392409, 
+          "cargo_scored_var": 50.83447712839459, 
+          "endgame_points": 20.987539618312027, 
+          "endgame_points_var": 70.3822767095953, 
+          "prob_cargo_bonus": 0.2129890051387222, 
+          "prob_face_boss": 1.6580618744654885e-06, 
+          "prob_hangar_bonus": 0.7239124303896591, 
+          "prob_shield_operational": 7.763850629061153e-08, 
+          "score": 57.05676802093775, 
+          "score_var": 321.44148985541403
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm59": {
+        "blue": {
+          "cargo_scored": 15.066921560912654, 
+          "cargo_scored_var": 53.013464646883214, 
+          "endgame_points": 12.945483501721764, 
+          "endgame_points_var": 46.0774083428088, 
+          "prob_cargo_bonus": 0.24903665366595162, 
+          "prob_face_boss": 2.0750068330244176e-12, 
+          "prob_hangar_bonus": 0.32636047272994106, 
+          "prob_shield_operational": 8.659739592076221e-15, 
+          "score": 45.8528323597579, 
+          "score_var": 216.3544041412233
+        }, 
+        "prob": 0.5104695765381972, 
+        "red": {
+          "cargo_scored": 13.817582293822568, 
+          "cargo_scored_var": 43.01274863678352, 
+          "endgame_points": 14.555731098939827, 
+          "endgame_points_var": 80.41111630033934, 
+          "prob_cargo_bonus": 0.17292482805424259, 
+          "prob_face_boss": 2.0120013011215576e-07, 
+          "prob_hangar_bonus": 0.43602273338192665, 
+          "prob_shield_operational": 9.253667720976466e-09, 
+          "score": 45.378083895935134, 
+          "score_var": 110.82753034166926
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm6": {
+        "blue": {
+          "cargo_scored": 15.647794617305449, 
+          "cargo_scored_var": 152.61208074128447, 
+          "endgame_points": 17.656352639656482, 
+          "endgame_points_var": 177.5136166452199, 
+          "prob_cargo_bonus": 0.3623059500809387, 
+          "prob_face_boss": 0.0007411269596596659, 
+          "prob_hangar_bonus": 0.5494685867078244, 
+          "prob_shield_operational": 0.00019013235337039802, 
+          "score": 55.24433437366617, 
+          "score_var": 804.5559725465009
+        }, 
+        "prob": 0.5379181948133893, 
+        "red": {
+          "cargo_scored": 15.227620865969994, 
+          "cargo_scored_var": 215.45436806763092, 
+          "endgame_points": 13.654363710299116, 
+          "endgame_points_var": 208.18417794968036, 
+          "prob_cargo_bonus": 0.3725412736057583, 
+          "prob_face_boss": 0.0006589115123691869, 
+          "prob_hangar_bonus": 0.43542903423794155, 
+          "prob_shield_operational": 0.0001864154784216865, 
+          "score": 51.343278218478794, 
+          "score_var": 874.9373303479333
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm60": {
+        "blue": {
+          "cargo_scored": 27.410946029375204, 
+          "cargo_scored_var": 32.73339917652011, 
+          "endgame_points": 30.138452463486786, 
+          "endgame_points_var": 100.1338994167433, 
+          "prob_cargo_bonus": 0.90239559629871, 
+          "prob_face_boss": 0.0014218016135734146, 
+          "prob_hangar_bonus": 0.9211573811316087, 
+          "prob_shield_operational": 0.0002471530201417771, 
+          "score": 98.0603644883648, 
+          "score_var": 372.05277116034716
+        }, 
+        "prob": 0.9148140779491882, 
+        "red": {
+          "cargo_scored": 18.061780725208628, 
+          "cargo_scored_var": 31.296383978353177, 
+          "endgame_points": 14.849374872508474, 
+          "endgame_points_var": 99.88247589842, 
+          "prob_cargo_bonus": 0.36449770299893836, 
+          "prob_face_boss": 3.125482944899005e-06, 
+          "prob_hangar_bonus": 0.4541709672070231, 
+          "prob_shield_operational": 2.6104449335484503e-07, 
+          "score": 59.5910804767461, 
+          "score_var": 415.2594130948777
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm61": {
+        "blue": {
+          "cargo_scored": 25.17818012309104, 
+          "cargo_scored_var": 59.822278158086384, 
+          "endgame_points": 19.960819285401374, 
+          "endgame_points_var": 70.44704379346008, 
+          "prob_cargo_bonus": 0.7484093002168192, 
+          "prob_face_boss": 9.193523942130355e-07, 
+          "prob_hangar_bonus": 0.6815023368815921, 
+          "prob_shield_operational": 4.0227754016797235e-08, 
+          "score": 81.0045131454315, 
+          "score_var": 504.57201989299415
+        }, 
+        "prob": 0.7548321484244511, 
+        "red": {
+          "cargo_scored": 17.35669859762602, 
+          "cargo_scored_var": 27.99549126408411, 
+          "endgame_points": 19.57741754489775, 
+          "endgame_points_var": 77.41559275223169, 
+          "prob_cargo_bonus": 0.30868639537695897, 
+          "prob_face_boss": 2.172069957118161e-06, 
+          "prob_hangar_bonus": 0.6578449875687021, 
+          "prob_shield_operational": 1.2185576192536018e-07, 
+          "score": 62.08376394960148, 
+          "score_var": 247.8504894116715
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm62": {
+        "blue": {
+          "cargo_scored": 6.142995025313988, 
+          "cargo_scored_var": 37.13693048363443, 
+          "endgame_points": 16.43228265215319, 
+          "endgame_points_var": 71.55533110593086, 
+          "prob_cargo_bonus": 0.011486785671371624, 
+          "prob_face_boss": 1.2994233289376211e-07, 
+          "prob_hangar_bonus": 0.5203782966463191, 
+          "prob_shield_operational": 4.6915924478696525e-09, 
+          "score": 36.35818961979034, 
+          "score_var": 210.01371635192427
+        }, 
+        "prob": 0.6527063742276739, 
+        "red": {
+          "cargo_scored": 11.114611437454025, 
+          "cargo_scored_var": 57.29775247406422, 
+          "endgame_points": 17.602719467567685, 
+          "endgame_points_var": 74.88488247602793, 
+          "prob_cargo_bonus": 0.1202302489187057, 
+          "prob_face_boss": 4.807032656373167e-07, 
+          "prob_hangar_bonus": 0.573467168773719, 
+          "prob_shield_operational": 2.160890266722504e-08, 
+          "score": 46.92818070423208, 
+          "score_var": 514.6987462318642
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm63": {
+        "blue": {
+          "cargo_scored": 9.171893085092945, 
+          "cargo_scored_var": 64.73494116320795, 
+          "endgame_points": 12.254179351079472, 
+          "endgame_points_var": 115.13439017135069, 
+          "prob_cargo_bonus": 0.08918219694927787, 
+          "prob_face_boss": 4.299085695436133e-06, 
+          "prob_hangar_bonus": 0.3635087481770679, 
+          "prob_shield_operational": 4.4232506057895193e-07, 
+          "score": 38.68530705095276, 
+          "score_var": 381.18603751008067
+        }, 
+        "prob": 0.7702339061583539, 
+        "red": {
+          "cargo_scored": 16.304471064516214, 
+          "cargo_scored_var": 64.46555735656764, 
+          "endgame_points": 20.786205768535773, 
+          "endgame_points_var": 139.66286970811973, 
+          "prob_cargo_bonus": 0.3226611902972759, 
+          "prob_face_boss": 0.00045304966444192907, 
+          "prob_hangar_bonus": 0.6572598262601733, 
+          "prob_shield_operational": 9.155182677766938e-05, 
+          "score": 59.92844128617998, 
+          "score_var": 443.7550997177906
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm64": {
+        "blue": {
+          "cargo_scored": 13.067427916329931, 
+          "cargo_scored_var": 17.71897192683913, 
+          "endgame_points": 21.721919606402544, 
+          "endgame_points_var": 124.392325522151, 
+          "prob_cargo_bonus": 0.04978621995627941, 
+          "prob_face_boss": 0.00029952073087868847, 
+          "prob_hangar_bonus": 0.6960357396726397, 
+          "prob_shield_operational": 5.215256165458371e-05, 
+          "score": 56.18658735478509, 
+          "score_var": 118.5097753939702
+        }, 
+        "prob": 0.9468221968171484, 
+        "red": {
+          "cargo_scored": 7.587920299680326, 
+          "cargo_scored_var": 56.261022834033426, 
+          "endgame_points": 6.987966912399666, 
+          "endgame_points_var": 121.30381967840209, 
+          "prob_cargo_bonus": 0.04898438037698827, 
+          "prob_face_boss": 7.425259913595994e-07, 
+          "prob_hangar_bonus": 0.2066074802726502, 
+          "prob_shield_operational": 6.925538420521349e-08, 
+          "score": 26.313787574371116, 
+          "score_var": 223.72042425104303
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm65": {
+        "blue": {
+          "cargo_scored": 24.121282382913368, 
+          "cargo_scored_var": 19.08542751875919, 
+          "endgame_points": 21.892228540086357, 
+          "endgame_points_var": 74.02263739976524, 
+          "prob_cargo_bonus": 0.8272538061687291, 
+          "prob_face_boss": 4.7278262533811954e-06, 
+          "prob_hangar_bonus": 0.7532816284124744, 
+          "prob_shield_operational": 2.7157050475068445e-07, 
+          "score": 79.33355431967038, 
+          "score_var": 423.8470002820053
+        }, 
+        "prob": 0.5442579050456013, 
+        "red": {
+          "cargo_scored": 22.281549379124858, 
+          "cargo_scored_var": 77.41379875206482, 
+          "endgame_points": 25.069460808580214, 
+          "endgame_points_var": 76.20249084398357, 
+          "prob_cargo_bonus": 0.6023022943880953, 
+          "prob_face_boss": 3.147369060740868e-05, 
+          "prob_hangar_bonus": 0.8505872493072856, 
+          "prob_shield_operational": 2.3895610451463156e-06, 
+          "score": 76.26084434676531, 
+          "score_var": 340.1541844814459
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm66": {
+        "blue": {
+          "cargo_scored": 20.312186111532426, 
+          "cargo_scored_var": 27.87831332908471, 
+          "endgame_points": 21.376512039735363, 
+          "endgame_points_var": 78.60064616837455, 
+          "prob_cargo_bonus": 0.5235742243916128, 
+          "prob_face_boss": 6.607718423978781e-06, 
+          "prob_hangar_bonus": 0.7278885659604692, 
+          "prob_shield_operational": 4.316646593505169e-07, 
+          "score": 76.86005029155172, 
+          "score_var": 387.91725199965583
+        }, 
+        "prob": 0.5549116506812958, 
+        "red": {
+          "cargo_scored": 20.692561222592413, 
+          "cargo_scored_var": 68.96677992495306, 
+          "endgame_points": 22.589067586914588, 
+          "endgame_points_var": 35.6750083874581, 
+          "prob_cargo_bonus": 0.5332311292907929, 
+          "prob_face_boss": 1.882258793273195e-10, 
+          "prob_hangar_bonus": 0.8650230384682577, 
+          "prob_shield_operational": 6.210587599753126e-13, 
+          "score": 72.65406598390582, 
+          "score_var": 539.9157419274484
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm67": {
+        "blue": {
+          "cargo_scored": 17.327178524700134, 
+          "cargo_scored_var": 40.11190591482251, 
+          "endgame_points": 17.20267067523225, 
+          "endgame_points_var": 41.655819860273525, 
+          "prob_cargo_bonus": 0.3365051139187032, 
+          "prob_face_boss": 1.6671330982376276e-11, 
+          "prob_hangar_bonus": 0.5739113982489703, 
+          "prob_shield_operational": 6.52811138479592e-14, 
+          "score": 54.59669115295175, 
+          "score_var": 203.43667071247808
+        }, 
+        "prob": 0.7261708654390765, 
+        "red": {
+          "cargo_scored": 8.431227294662259, 
+          "cargo_scored_var": 23.420725080099107, 
+          "endgame_points": 20.36630564271966, 
+          "endgame_points_var": 103.2675570237813, 
+          "prob_cargo_bonus": 0.008412929832022353, 
+          "prob_face_boss": 4.806424729486558e-05, 
+          "prob_hangar_bonus": 0.6662811196259362, 
+          "prob_shield_operational": 5.610789729271204e-06, 
+          "score": 41.370514335991174, 
+          "score_var": 280.4297224774567
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm68": {
+        "blue": {
+          "cargo_scored": 10.29834103433061, 
+          "cargo_scored_var": 31.535455272763706, 
+          "endgame_points": 13.838709523852641, 
+          "endgame_points_var": 75.65525439507849, 
+          "prob_cargo_bonus": 0.04202881949114623, 
+          "prob_face_boss": 5.568735050864859e-08, 
+          "prob_hangar_bonus": 0.4018810447397899, 
+          "prob_shield_operational": 2.0272022949185953e-09, 
+          "score": 40.724047650096566, 
+          "score_var": 247.7935703482463
+        }, 
+        "prob": 0.9276568080200198, 
+        "red": {
+          "cargo_scored": 22.096726587722113, 
+          "cargo_scored_var": 36.51215613321749, 
+          "endgame_points": 22.678935492274086, 
+          "endgame_points_var": 95.03036817172608, 
+          "prob_cargo_bonus": 0.6357024160792697, 
+          "prob_face_boss": 6.447678648791033e-05, 
+          "prob_hangar_bonus": 0.7533705767605852, 
+          "prob_shield_operational": 7.080311029916686e-06, 
+          "score": 70.62118288513965, 
+          "score_var": 172.36269461261767
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm69": {
+        "blue": {
+          "cargo_scored": 16.041233033670892, 
+          "cargo_scored_var": 42.821965492613344, 
+          "endgame_points": 25.872043926010633, 
+          "endgame_points_var": 73.3599534322753, 
+          "prob_cargo_bonus": 0.27260279709094903, 
+          "prob_face_boss": 3.380213472725657e-05, 
+          "prob_hangar_bonus": 0.875462120974809, 
+          "prob_shield_operational": 2.4581068525098004e-06, 
+          "score": 57.20204607291569, 
+          "score_var": 298.2502828971508
+        }, 
+        "prob": 0.633489051640519, 
+        "red": {
+          "cargo_scored": 14.77658847653099, 
+          "cargo_scored_var": 13.348681082828765, 
+          "endgame_points": 10.976531115411689, 
+          "endgame_points_var": 110.03489038295355, 
+          "prob_cargo_bonus": 0.07640622692960575, 
+          "prob_face_boss": 1.4808136747923584e-06, 
+          "prob_hangar_bonus": 0.3160073676747883, 
+          "prob_shield_operational": 1.301606562531532e-07, 
+          "score": 49.194683630868504, 
+          "score_var": 252.80335086446593
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm7": {
+        "blue": {
+          "cargo_scored": 7.619654142888453, 
+          "cargo_scored_var": 101.1892308519297, 
+          "endgame_points": 12.044352735985237, 
+          "endgame_points_var": 146.5376153843433, 
+          "prob_cargo_bonus": 0.10921042484499521, 
+          "prob_face_boss": 3.7232313127022465e-05, 
+          "prob_hangar_bonus": 0.3719206925595576, 
+          "prob_shield_operational": 6.0829436314691065e-06, 
+          "score": 37.54463998150771, 
+          "score_var": 392.9531606388091
+        }, 
+        "prob": 0.8650273704147845, 
+        "red": {
+          "cargo_scored": 22.275533724769566, 
+          "cargo_scored_var": 102.73375751862919, 
+          "endgame_points": 21.66252276965044, 
+          "endgame_points_var": 80.61974785298194, 
+          "prob_cargo_bonus": 0.5888179468020533, 
+          "prob_face_boss": 9.784451680094897e-06, 
+          "prob_hangar_bonus": 0.7358657013258534, 
+          "prob_shield_operational": 6.943563829464594e-07, 
+          "score": 69.13004243514091, 
+          "score_var": 426.7814608636593
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm70": {
+        "blue": {
+          "cargo_scored": 19.37788144046178, 
+          "cargo_scored_var": 71.5718271360021, 
+          "endgame_points": 19.635719552853267, 
+          "endgame_points_var": 92.67015964852183, 
+          "prob_cargo_bonus": 0.47068965720699607, 
+          "prob_face_boss": 1.3763067514993566e-05, 
+          "prob_hangar_bonus": 0.6471646841288481, 
+          "prob_shield_operational": 1.2239557186655148e-06, 
+          "score": 66.62012787604536, 
+          "score_var": 465.3485464619771
+        }, 
+        "prob": 0.8610982827975058, 
+        "red": {
+          "cargo_scored": 6.6922076920802125, 
+          "cargo_scored_var": 31.645635088047328, 
+          "endgame_points": 12.399855831634198, 
+          "endgame_points_var": 44.41900592436559, 
+          "prob_cargo_bonus": 0.008999408589831281, 
+          "prob_face_boss": 4.596323321948148e-13, 
+          "prob_hangar_bonus": 0.2945377494770476, 
+          "prob_shield_operational": 1.5543122344752192e-15, 
+          "score": 36.22452333242148, 
+          "score_var": 319.07100026342493
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm71": {
+        "blue": {
+          "cargo_scored": 23.242574749978417, 
+          "cargo_scored_var": 54.79512291066612, 
+          "endgame_points": 21.95569964241265, 
+          "endgame_points_var": 58.91518047554402, 
+          "prob_cargo_bonus": 0.6693232841370482, 
+          "prob_face_boss": 3.588531896081548e-07, 
+          "prob_hangar_bonus": 0.7811030673626667, 
+          "prob_shield_operational": 1.0238450309785208e-08, 
+          "score": 77.93965754335184, 
+          "score_var": 473.9151880349267
+        }, 
+        "prob": 0.8592015416151182, 
+        "red": {
+          "cargo_scored": 5.191512151569363, 
+          "cargo_scored_var": 29.013136551205804, 
+          "endgame_points": 26.535557515865236, 
+          "endgame_points_var": 88.84284545884518, 
+          "prob_cargo_bonus": 0.0029866401362884654, 
+          "prob_face_boss": 0.0001923525102562884, 
+          "prob_hangar_bonus": 0.868163996521072, 
+          "prob_shield_operational": 2.2437848140377525e-05, 
+          "score": 47.85034443467259, 
+          "score_var": 306.9997297511096
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm72": {
+        "blue": {
+          "cargo_scored": 10.779127608083805, 
+          "cargo_scored_var": 37.54331297890971, 
+          "endgame_points": 13.687668551005272, 
+          "endgame_points_var": 59.89939539230335, 
+          "prob_cargo_bonus": 0.0661757527982958, 
+          "prob_face_boss": 1.0891842983085098e-09, 
+          "prob_hangar_bonus": 0.38255727798069017, 
+          "prob_shield_operational": 1.6789569734498855e-11, 
+          "score": 45.76934047127243, 
+          "score_var": 189.600213976126
+        }, 
+        "prob": 0.7735110125258208, 
+        "red": {
+          "cargo_scored": 19.58209689603948, 
+          "cargo_scored_var": 40.87535010703813, 
+          "endgame_points": 22.762165236179953, 
+          "endgame_points_var": 110.43630693947898, 
+          "prob_cargo_bonus": 0.47394171985766387, 
+          "prob_face_boss": 0.000197450812690958, 
+          "prob_hangar_bonus": 0.7400411512542635, 
+          "prob_shield_operational": 2.9191057789201835e-05, 
+          "score": 64.89233861683512, 
+          "score_var": 459.7176997832877
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm73": {
+        "blue": {
+          "cargo_scored": 12.859214497689056, 
+          "cargo_scored_var": 66.31009729346749, 
+          "endgame_points": 11.202761665972954, 
+          "endgame_points_var": 117.1306914926103, 
+          "prob_cargo_bonus": 0.1902671410017861, 
+          "prob_face_boss": 3.2599390031862185e-06, 
+          "prob_hangar_bonus": 0.32878980204345454, 
+          "prob_shield_operational": 3.3341871819025926e-07, 
+          "score": 45.047489395219834, 
+          "score_var": 386.52622665708753
+        }, 
+        "prob": 0.8122803923577459, 
+        "red": {
+          "cargo_scored": 20.987880248492047, 
+          "cargo_scored_var": 13.946569611220962, 
+          "endgame_points": 22.91698991215908, 
+          "endgame_points_var": 43.44952775186218, 
+          "prob_cargo_bonus": 0.6043132086319812, 
+          "prob_face_boss": 9.233784292739244e-09, 
+          "prob_hangar_bonus": 0.8529938288178877, 
+          "prob_shield_operational": 8.608358470496569e-11, 
+          "score": 64.6560430231553, 
+          "score_var": 102.91358214551533
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm74": {
+        "blue": {
+          "cargo_scored": 16.412167100293424, 
+          "cargo_scored_var": 43.36684742880348, 
+          "endgame_points": 18.485344627295774, 
+          "endgame_points_var": 65.58360491694046, 
+          "prob_cargo_bonus": 0.292938557393313, 
+          "prob_face_boss": 1.4774788725802068e-07, 
+          "prob_hangar_bonus": 0.6205381273841272, 
+          "prob_shield_operational": 4.631340977390153e-09, 
+          "score": 57.38824710281672, 
+          "score_var": 184.92834861158815
+        }, 
+        "prob": 0.7093298465199462, 
+        "red": {
+          "cargo_scored": 20.98947827105418, 
+          "cargo_scored_var": 48.00305469529576, 
+          "endgame_points": 15.040615630973612, 
+          "endgame_points_var": 111.76098701102251, 
+          "prob_cargo_bonus": 0.556781595158943, 
+          "prob_face_boss": 1.0555575290394081e-05, 
+          "prob_hangar_bonus": 0.46384554620837526, 
+          "prob_shield_operational": 1.146262927909092e-06, 
+          "score": 70.23872778916409, 
+          "score_var": 358.1482739773154
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022macma_qm8": {
+        "blue": {
+          "cargo_scored": 14.209351525679056, 
+          "cargo_scored_var": 97.55364513730046, 
+          "endgame_points": 15.805923356606069, 
+          "endgame_points_var": 180.6286026243366, 
+          "prob_cargo_bonus": 0.27884351592020873, 
+          "prob_face_boss": 0.0005039803824032907, 
+          "prob_hangar_bonus": 0.4942393036525866, 
+          "prob_shield_operational": 0.00012594816898869876, 
+          "score": 54.92609549233229, 
+          "score_var": 560.559084649595
+        }, 
+        "prob": 0.5864509854018939, 
+        "red": {
+          "cargo_scored": 14.493672846870147, 
+          "cargo_scored_var": 37.28370927159102, 
+          "endgame_points": 18.01054853152603, 
+          "endgame_points_var": 45.38565402590211, 
+          "prob_cargo_bonus": 0.18358584951070944, 
+          "prob_face_boss": 2.2913360098186786e-10, 
+          "prob_hangar_bonus": 0.6173158541830075, 
+          "prob_shield_operational": 1.5298873279334657e-12, 
+          "score": 49.271618807765925, 
+          "score_var": 109.60377234756244
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022macma_qm9": {
+        "blue": {
+          "cargo_scored": 8.33655964701078, 
+          "cargo_scored_var": 33.23734798783725, 
+          "endgame_points": 7.643598843659717, 
+          "endgame_points_var": 78.39772826323994, 
+          "prob_cargo_bonus": 0.021532345898163108, 
+          "prob_face_boss": 1.6782490952493845e-09, 
+          "prob_hangar_bonus": 0.17264283442599093, 
+          "prob_shield_operational": 4.652278562389256e-11, 
+          "score": 33.33750378731333, 
+          "score_var": 264.7171293338763
+        }, 
+        "prob": 0.7984124815981859, 
+        "red": {
+          "cargo_scored": 13.915237385180362, 
+          "cargo_scored_var": 83.12688330650721, 
+          "endgame_points": 18.916836496892657, 
+          "endgame_points_var": 89.40675238416384, 
+          "prob_cargo_bonus": 0.25226486441951956, 
+          "prob_face_boss": 6.967295119064687e-06, 
+          "prob_hangar_bonus": 0.6211414183774758, 
+          "prob_shield_operational": 5.476882904975611e-07, 
+          "score": 54.652611820325276, 
+          "score_var": 385.4121203886291
+        }, 
+        "winning_alliance": "red"
+      }
+    }
+  }, 
+  "ranking_prediction_stats": {
+    "last_played_match": "2022macma_qm74"
+  }, 
+  "ranking_predictions": [
+    [
+      "frc230", 
+      [
+        1.0, 
+        1, 
+        1, 
+        1, 
+        46.0, 
+        46, 
+        46
+      ]
+    ], 
+    [
+      "frc3467", 
+      [
+        2.0, 
+        2, 
+        2, 
+        2, 
+        39.0, 
+        39, 
+        39
+      ]
+    ], 
+    [
+      "frc8724", 
+      [
+        3.0, 
+        3, 
+        3, 
+        3, 
+        34.0, 
+        34, 
+        34
+      ]
+    ], 
+    [
+      "frc2168", 
+      [
+        4.0, 
+        4, 
+        4, 
+        4, 
+        33.0, 
+        33, 
+        33
+      ]
+    ], 
+    [
+      "frc1153", 
+      [
+        5.0, 
+        5, 
+        5, 
+        5, 
+        32.0, 
+        32, 
+        32
+      ]
+    ], 
+    [
+      "frc1768", 
+      [
+        6.0, 
+        6, 
+        6, 
+        6, 
+        31.0, 
+        31, 
+        31
+      ]
+    ], 
+    [
+      "frc78", 
+      [
+        7.0, 
+        7, 
+        7, 
+        7, 
+        31.0, 
+        31, 
+        31
+      ]
+    ], 
+    [
+      "frc8709", 
+      [
+        8.0, 
+        8, 
+        8, 
+        8, 
+        30.0, 
+        30, 
+        30
+      ]
+    ], 
+    [
+      "frc716", 
+      [
+        9.0, 
+        9, 
+        9, 
+        9, 
+        29.0, 
+        29, 
+        29
+      ]
+    ], 
+    [
+      "frc2067", 
+      [
+        10.0, 
+        10, 
+        10, 
+        10, 
+        27.0, 
+        27, 
+        27
+      ]
+    ], 
+    [
+      "frc2262", 
+      [
+        11.0, 
+        11, 
+        11, 
+        11, 
+        27.0, 
+        27, 
+        27
+      ]
+    ], 
+    [
+      "frc4097", 
+      [
+        12.0, 
+        12, 
+        12, 
+        12, 
+        26.0, 
+        26, 
+        26
+      ]
+    ], 
+    [
+      "frc157", 
+      [
+        13.0, 
+        13, 
+        13, 
+        13, 
+        26.0, 
+        26, 
+        26
+      ]
+    ], 
+    [
+      "frc138", 
+      [
+        14.0, 
+        14, 
+        14, 
+        14, 
+        25.0, 
+        25, 
+        25
+      ]
+    ], 
+    [
+      "frc4048", 
+      [
+        15.0, 
+        15, 
+        15, 
+        15, 
+        24.0, 
+        24, 
+        24
+      ]
+    ], 
+    [
+      "frc2712", 
+      [
+        16.0, 
+        16, 
+        16, 
+        16, 
+        24.0, 
+        24, 
+        24
+      ]
+    ], 
+    [
+      "frc3461", 
+      [
+        17.0, 
+        17, 
+        17, 
+        17, 
+        23.0, 
+        23, 
+        23
+      ]
+    ], 
+    [
+      "frc8544", 
+      [
+        18.0, 
+        18, 
+        18, 
+        18, 
+        23.0, 
+        23, 
+        23
+      ]
+    ], 
+    [
+      "frc173", 
+      [
+        19.0, 
+        19, 
+        19, 
+        19, 
+        23.0, 
+        23, 
+        23
+      ]
+    ], 
+    [
+      "frc6333", 
+      [
+        20.0, 
+        20, 
+        20, 
+        20, 
+        22.0, 
+        22, 
+        22
+      ]
+    ], 
+    [
+      "frc5422", 
+      [
+        21.0, 
+        21, 
+        21, 
+        21, 
+        22.0, 
+        22, 
+        22
+      ]
+    ], 
+    [
+      "frc811", 
+      [
+        22.0, 
+        22, 
+        22, 
+        22, 
+        22.0, 
+        22, 
+        22
+      ]
+    ], 
+    [
+      "frc121", 
+      [
+        23.0, 
+        23, 
+        23, 
+        23, 
+        22.0, 
+        22, 
+        22
+      ]
+    ], 
+    [
+      "frc1100", 
+      [
+        24.0, 
+        24, 
+        24, 
+        24, 
+        21.0, 
+        21, 
+        21
+      ]
+    ], 
+    [
+      "frc5112", 
+      [
+        25.0, 
+        25, 
+        25, 
+        25, 
+        21.0, 
+        21, 
+        21
+      ]
+    ], 
+    [
+      "frc1735", 
+      [
+        26.0, 
+        26, 
+        26, 
+        26, 
+        20.0, 
+        20, 
+        20
+      ]
+    ], 
+    [
+      "frc190", 
+      [
+        27.0, 
+        27, 
+        27, 
+        27, 
+        18.0, 
+        18, 
+        18
+      ]
+    ], 
+    [
+      "frc4169", 
+      [
+        28.0, 
+        28, 
+        28, 
+        28, 
+        18.0, 
+        18, 
+        18
+      ]
+    ], 
+    [
+      "frc1058", 
+      [
+        29.0, 
+        29, 
+        29, 
+        29, 
+        17.0, 
+        17, 
+        17
+      ]
+    ], 
+    [
+      "frc6620", 
+      [
+        30.0, 
+        30, 
+        30, 
+        30, 
+        17.0, 
+        17, 
+        17
+      ]
+    ], 
+    [
+      "frc6731", 
+      [
+        31.0, 
+        31, 
+        31, 
+        31, 
+        17.0, 
+        17, 
+        17
+      ]
+    ], 
+    [
+      "frc3205", 
+      [
+        32.0, 
+        32, 
+        32, 
+        32, 
+        14.0, 
+        14, 
+        14
+      ]
+    ], 
+    [
+      "frc2876", 
+      [
+        33.0, 
+        33, 
+        33, 
+        33, 
+        14.0, 
+        14, 
+        14
+      ]
+    ], 
+    [
+      "frc2079", 
+      [
+        34.0, 
+        34, 
+        34, 
+        34, 
+        14.0, 
+        14, 
+        14
+      ]
+    ], 
+    [
+      "frc8410", 
+      [
+        35.0, 
+        35, 
+        35, 
+        35, 
+        13.0, 
+        13, 
+        13
+      ]
+    ], 
+    [
+      "frc4034", 
+      [
+        36.0, 
+        36, 
+        36, 
+        36, 
+        12.0, 
+        12, 
+        12
+      ]
+    ], 
+    [
+      "frc7760", 
+      [
+        37.0, 
+        37, 
+        37, 
+        37, 
+        10.0, 
+        10, 
+        10
+      ]
+    ]
+  ], 
+  "stat_mean_vars": {
+    "playoff": {
+      "cargo_scored": {
+        "mean": {
+          "frc1058": 4.910829489738517, 
+          "frc1100": 7.235563671323791, 
+          "frc1153": 10.10674138755578, 
+          "frc121": 4.373198467830943, 
+          "frc138": 5.69333875279586, 
+          "frc157": 6.529441898303138, 
+          "frc173": 5.352763002261646, 
+          "frc1735": 2.7642551815007668, 
+          "frc1768": 7.293787586458294, 
+          "frc190": 4.152758727520884, 
+          "frc2067": 7.357162688115646, 
+          "frc2079": 1.6837171111357738, 
+          "frc2168": 13.37857683076778, 
+          "frc2262": 3.4253991302915283, 
+          "frc230": 13.786135368927377, 
+          "frc2712": 5.763621208225765, 
+          "frc2876": 2.0787828417702925, 
+          "frc3205": 4.953612888866051, 
+          "frc3461": 6.358880043705267, 
+          "frc3467": 10.47588202201167, 
+          "frc4034": 2.4667517525562275, 
+          "frc4048": 3.8802157650754636, 
+          "frc4097": 0.6855495546655408, 
+          "frc4169": 0.7186475032203999, 
+          "frc5112": 5.062237001521537, 
+          "frc5422": 4.1091919956787, 
+          "frc6333": 5.022031229200235, 
+          "frc6620": 2.250197567644027, 
+          "frc6731": 1.4043488090020668, 
+          "frc716": 9.788319362258548, 
+          "frc7760": -0.18822231221541375, 
+          "frc78": 6.311736086342331, 
+          "frc811": 2.4848988892011152, 
+          "frc8410": 2.259291467039733, 
+          "frc8544": 5.154109972510694, 
+          "frc8709": 4.329190246383137, 
+          "frc8724": 10.622114497148127
+        }, 
+        "var": {
+          "frc1058": 6.616251498404025, 
+          "frc1100": 17.225834861433228, 
+          "frc1153": 22.10586539215831, 
+          "frc121": 19.8428053158997, 
+          "frc138": 12.783622560615157, 
+          "frc157": 7.315828258724799, 
+          "frc173": 6.873581088393825, 
+          "frc1735": 40.0534898622132, 
+          "frc1768": 15.827174538010313, 
+          "frc190": 12.187192354164841, 
+          "frc2067": 9.283158748410111, 
+          "frc2079": 20.791773977150637, 
+          "frc2168": 25.64082125589927, 
+          "frc2262": 1.333361851875262, 
+          "frc230": 21.626722278960912, 
+          "frc2712": 11.478321723116059, 
+          "frc2876": 2.942833848226099, 
+          "frc3205": 16.458112076085527, 
+          "frc3461": 5.505085167240745, 
+          "frc3467": 1.114231524014891, 
+          "frc4034": 17.04583995422555, 
+          "frc4048": 26.733829429062215, 
+          "frc4097": 10.879674422955025, 
+          "frc4169": 2.7695105126109825, 
+          "frc5112": 1.465234221488401, 
+          "frc5422": 2.688197397923281, 
+          "frc6333": 10.337539370475152, 
+          "frc6620": 5.7142024981704775, 
+          "frc6731": 23.163240041130486, 
+          "frc716": 6.915519622405628, 
+          "frc7760": 20.369705791121156, 
+          "frc78": 21.21253171799296, 
+          "frc811": 0.039473749235794185, 
+          "frc8410": 25.616974470572618, 
+          "frc8544": 9.391577832313368, 
+          "frc8709": 7.190994273329318, 
+          "frc8724": 5.6326761929565485
+        }
+      }, 
+      "endgame_points": {
+        "mean": {
+          "frc1058": 7.123058899646193, 
+          "frc1100": 1.665521490784404, 
+          "frc1153": 11.852700695907156, 
+          "frc121": 5.9648670390840905, 
+          "frc138": 12.596634989831674, 
+          "frc157": 7.327338933916417, 
+          "frc173": 2.718220625943088, 
+          "frc1735": 4.049534935258366, 
+          "frc1768": 8.951509607854595, 
+          "frc190": 0.8864255042151504, 
+          "frc2067": 7.233837234977709, 
+          "frc2079": 2.798878453856995, 
+          "frc2168": 10.873692088864043, 
+          "frc2262": 12.446607238673765, 
+          "frc230": 10.865308144582546, 
+          "frc2712": 5.182117667437642, 
+          "frc2876": 1.0106615326478556, 
+          "frc3205": 4.726562521430224, 
+          "frc3461": 7.94015758282271, 
+          "frc3467": 13.087735645344695, 
+          "frc4034": -0.5127436006396022, 
+          "frc4048": 3.965961231497476, 
+          "frc4097": 9.5778078058628, 
+          "frc4169": 11.618289201140174, 
+          "frc5112": 2.530216123954993, 
+          "frc5422": 8.842335679702042, 
+          "frc6333": 5.501128830794051, 
+          "frc6620": 3.8121478579915364, 
+          "frc6731": 4.32190593930948, 
+          "frc716": 3.9457772570378182, 
+          "frc7760": 2.7502384269978895, 
+          "frc78": 8.255235693780534, 
+          "frc811": 7.828344825790356, 
+          "frc8410": 4.257067114455927, 
+          "frc8544": 4.993988965321625, 
+          "frc8709": 7.583703945801978, 
+          "frc8724": 3.486792936011945
+        }, 
+        "var": {
+          "frc1058": 44.610504896627454, 
+          "frc1100": 28.903690479911944, 
+          "frc1153": 10.863533578212197, 
+          "frc121": 34.6629138912769, 
+          "frc138": 34.056395727120886, 
+          "frc157": 4.223612015644826, 
+          "frc173": 40.246825838938406, 
+          "frc1735": 31.40804127007788, 
+          "frc1768": 13.573957093549986, 
+          "frc190": 16.156973052406638, 
+          "frc2067": 59.85683476141285, 
+          "frc2079": 27.993859780843096, 
+          "frc2168": 13.8272785967707, 
+          "frc2262": 18.34041109813853, 
+          "frc230": 32.26841043167016, 
+          "frc2712": 15.331615672315882, 
+          "frc2876": 10.273780242477152, 
+          "frc3205": 49.629986751217, 
+          "frc3461": 64.74250454102625, 
+          "frc3467": 2.46583354364064, 
+          "frc4034": 39.21630456614833, 
+          "frc4048": 2.5072671109703646, 
+          "frc4097": 35.30296048344899, 
+          "frc4169": 59.1072341187929, 
+          "frc5112": 29.71826531179857, 
+          "frc5422": 24.177133861224526, 
+          "frc6333": 24.612796341081285, 
+          "frc6620": 13.097693636399104, 
+          "frc6731": 15.452595130198912, 
+          "frc716": 1.243602740720593, 
+          "frc7760": 24.34177564300319, 
+          "frc78": 22.535427947399217, 
+          "frc811": 36.14824051848109, 
+          "frc8410": 30.278498993716845, 
+          "frc8544": 61.24038739377231, 
+          "frc8709": 11.821376065675375, 
+          "frc8724": 4.8836899398954685
+        }
+      }, 
+      "score": {
+        "mean": {
+          "frc1058": 18.753336390446943, 
+          "frc1100": 16.91392207306792, 
+          "frc1153": 37.19907881853071, 
+          "frc121": 15.78608799251524, 
+          "frc138": 23.97751594420123, 
+          "frc157": 16.663604317964555, 
+          "frc173": 16.592030326266052, 
+          "frc1735": 11.396100956391285, 
+          "frc1768": 27.605622136292155, 
+          "frc190": 11.957605992519328, 
+          "frc2067": 26.106652483332905, 
+          "frc2079": 8.444160624204875, 
+          "frc2168": 43.76754616358597, 
+          "frc2262": 25.278894104871945, 
+          "frc230": 47.76252034184302, 
+          "frc2712": 17.080916000336195, 
+          "frc2876": 9.26702682064366, 
+          "frc3205": 15.841530309583712, 
+          "frc3461": 23.62044762447598, 
+          "frc3467": 38.446197151091276, 
+          "frc4034": 5.070575905486974, 
+          "frc4048": 17.240092809765983, 
+          "frc4097": 12.518931139536802, 
+          "frc4169": 15.10168155146029, 
+          "frc5112": 13.346150522470458, 
+          "frc5422": 18.80935597116744, 
+          "frc6333": 18.671947438506482, 
+          "frc6620": 12.748659016637463, 
+          "frc6731": 8.627989018140106, 
+          "frc716": 18.778248604787017, 
+          "frc7760": 3.910480265317846, 
+          "frc78": 26.243050278627294, 
+          "frc811": 14.5831928361774, 
+          "frc8410": 10.370763359559055, 
+          "frc8544": 17.964472011384018, 
+          "frc8709": 20.96035553467436, 
+          "frc8724": 27.4458132457646
+        }, 
+        "var": {
+          "frc1058": 80.34392446341461, 
+          "frc1100": 44.137276477011206, 
+          "frc1153": 198.05543457370445, 
+          "frc121": 101.52518612211678, 
+          "frc138": 52.65238248004099, 
+          "frc157": 22.945520744272255, 
+          "frc173": 101.15765581444643, 
+          "frc1735": 226.98975348555496, 
+          "frc1768": 144.59312584894676, 
+          "frc190": 82.4654284514118, 
+          "frc2067": 206.82227338534378, 
+          "frc2079": 140.58522760444325, 
+          "frc2168": 81.48223757746382, 
+          "frc2262": 31.897012850954813, 
+          "frc230": 228.66832744568077, 
+          "frc2712": 92.43910107162891, 
+          "frc2876": 102.97427880490528, 
+          "frc3205": 145.86341349041473, 
+          "frc3461": 122.61685817710675, 
+          "frc3467": 6.37947308966084, 
+          "frc4034": 73.53931866543206, 
+          "frc4048": 115.94082704418254, 
+          "frc4097": 37.31315749953407, 
+          "frc4169": 79.17286934601584, 
+          "frc5112": 37.79130984540818, 
+          "frc5422": 95.0655266323757, 
+          "frc6333": 38.28681770303281, 
+          "frc6620": 5.850828494924006, 
+          "frc6731": 161.35667913901958, 
+          "frc716": 33.7294936096878, 
+          "frc7760": 59.865831149864896, 
+          "frc78": 217.81060659164, 
+          "frc811": 93.74954688547857, 
+          "frc8410": 43.47046110817621, 
+          "frc8544": 70.10572867088828, 
+          "frc8709": 111.42023040160055, 
+          "frc8724": 22.79576337297959
+        }
+      }
+    }, 
+    "qual": {
+      "cargo_scored": {
+        "mean": {
+          "frc1058": 4.692697191871697, 
+          "frc1100": 7.144378459572874, 
+          "frc1153": 9.013781306729108, 
+          "frc121": 4.47936218828535, 
+          "frc138": 6.0513674225895535, 
+          "frc157": 7.538348416862892, 
+          "frc173": 5.286205978403519, 
+          "frc1735": 2.7976499127598253, 
+          "frc1768": 7.924337663728974, 
+          "frc190": 4.157786493199066, 
+          "frc2067": 7.894119015467197, 
+          "frc2079": 1.6039715217112818, 
+          "frc2168": 13.308042643383077, 
+          "frc2262": 3.477761313472709, 
+          "frc230": 13.267442179917854, 
+          "frc2712": 5.940782956183679, 
+          "frc2876": 2.19704350769602, 
+          "frc3205": 4.0567361479775235, 
+          "frc3461": 5.725821713418126, 
+          "frc3467": 9.558197902105631, 
+          "frc4034": 1.9962143777181993, 
+          "frc4048": 4.877271172408822, 
+          "frc4097": 1.5810429388376794, 
+          "frc4169": 0.40748208654650414, 
+          "frc5112": 4.845242828543233, 
+          "frc5422": 3.7543120210908363, 
+          "frc6333": 5.572556977872873, 
+          "frc6620": 2.41372419707228, 
+          "frc6731": 1.4714451052907682, 
+          "frc716": 9.723643576159091, 
+          "frc7760": -0.2577442327173625, 
+          "frc78": 6.838888672482492, 
+          "frc811": 2.298113267092961, 
+          "frc8410": 1.798733765075385, 
+          "frc8544": 5.333665585596136, 
+          "frc8709": 4.21800534201165, 
+          "frc8724": 10.859121314127204
+        }, 
+        "var": {
+          "frc1058": 8.551365146004017, 
+          "frc1100": 17.281841152383024, 
+          "frc1153": 17.09951760396036, 
+          "frc121": 19.518332604499776, 
+          "frc138": 15.236719901712489, 
+          "frc157": 4.190164117091616, 
+          "frc173": 6.294646863759116, 
+          "frc1735": 40.11073024483345, 
+          "frc1768": 15.453573192280604, 
+          "frc190": 12.33544531297957, 
+          "frc2067": 7.640715375145204, 
+          "frc2079": 20.861533718395272, 
+          "frc2168": 28.149084639210983, 
+          "frc2262": 2.1396655940631892, 
+          "frc230": 23.98169234807383, 
+          "frc2712": 11.174831527948502, 
+          "frc2876": 2.7064158603621076, 
+          "frc3205": 9.565670206376906, 
+          "frc3461": 6.308255018418993, 
+          "frc3467": 5.176790646947436, 
+          "frc4034": 17.713107328802938, 
+          "frc4048": 23.996858826458443, 
+          "frc4097": 8.777093722465068, 
+          "frc4169": 0.3475981485021111, 
+          "frc5112": 0.700254707697644, 
+          "frc5422": 6.698387188712096, 
+          "frc6333": 9.658781964462147, 
+          "frc6620": 6.1644856818735425, 
+          "frc6731": 22.97192285561862, 
+          "frc716": 8.20913346715721, 
+          "frc7760": 18.96238469462446, 
+          "frc78": 23.75982440334859, 
+          "frc811": 0.4754064369026823, 
+          "frc8410": 27.614613315144986, 
+          "frc8544": 11.252339066061083, 
+          "frc8709": 8.384960141625076, 
+          "frc8724": 9.053846924946399
+        }
+      }, 
+      "endgame_points": {
+        "mean": {
+          "frc1058": 6.887280586969296, 
+          "frc1100": 1.9105967915343718, 
+          "frc1153": 11.97198663637845, 
+          "frc121": 6.090037468110843, 
+          "frc138": 12.976543478483647, 
+          "frc157": 7.474784331774043, 
+          "frc173": 2.870643631247661, 
+          "frc1735": 4.554590191409948, 
+          "frc1768": 7.651326418796395, 
+          "frc190": 0.990125810868864, 
+          "frc2067": 5.936387634369413, 
+          "frc2079": 2.784629795366608, 
+          "frc2168": 10.975958418142925, 
+          "frc2262": 12.043801346393895, 
+          "frc230": 10.024020322204636, 
+          "frc2712": 5.357634850337541, 
+          "frc2876": 1.0263071152367182, 
+          "frc3205": 4.8833458815094914, 
+          "frc3461": 6.138987418609483, 
+          "frc3467": 13.250012091363896, 
+          "frc4034": -1.1223921098405079, 
+          "frc4048": 4.066531306384556, 
+          "frc4097": 9.89073565167015, 
+          "frc4169": 11.340553963024792, 
+          "frc5112": 2.7750182342247682, 
+          "frc5422": 8.936612298348924, 
+          "frc6333": 4.130835465786669, 
+          "frc6620": 4.136271425103539, 
+          "frc6731": 4.429595385227899, 
+          "frc716": 3.3700814094836398, 
+          "frc7760": 2.8658642598473647, 
+          "frc78": 8.64556967577717, 
+          "frc811": 7.100449251083769, 
+          "frc8410": 4.987007040136976, 
+          "frc8544": 4.621674220418929, 
+          "frc8709": 7.343057591479443, 
+          "frc8724": 4.561725288809874
+        }, 
+        "var": {
+          "frc1058": 43.10157478385475, 
+          "frc1100": 30.634387889492587, 
+          "frc1153": 14.581846450085573, 
+          "frc121": 35.38671249857479, 
+          "frc138": 33.89149684902639, 
+          "frc157": 4.0539717730408436, 
+          "frc173": 41.9036303708499, 
+          "frc1735": 34.89998518295382, 
+          "frc1768": 4.631434143224948, 
+          "frc190": 16.06081451306896, 
+          "frc2067": 50.73895042665589, 
+          "frc2079": 27.539987937208124, 
+          "frc2168": 7.363170758675868, 
+          "frc2262": 16.057245964135436, 
+          "frc230": 31.130465219569544, 
+          "frc2712": 16.06420440677197, 
+          "frc2876": 10.210318987301015, 
+          "frc3205": 54.537448637364704, 
+          "frc3461": 46.61826869411585, 
+          "frc3467": 7.718968063368444, 
+          "frc4034": 34.01225309733712, 
+          "frc4048": 2.3809949901485545, 
+          "frc4097": 37.09819577299004, 
+          "frc4169": 57.85102448265682, 
+          "frc5112": 37.59003794436926, 
+          "frc5422": 27.724813760098137, 
+          "frc6333": 15.693747772430761, 
+          "frc6620": 13.759904437767554, 
+          "frc6731": 15.493109213134835, 
+          "frc716": 11.126342112151603, 
+          "frc7760": 25.588868107738186, 
+          "frc78": 22.037120580146826, 
+          "frc811": 25.228823625874302, 
+          "frc8410": 34.16071340063921, 
+          "frc8544": 61.73223529028303, 
+          "frc8709": 10.1588396970737, 
+          "frc8724": 3.698077756203109
+        }
+      }, 
+      "score": {
+        "mean": {
+          "frc1058": 17.915806194652678, 
+          "frc1100": 17.29907311723982, 
+          "frc1153": 34.136157823914886, 
+          "frc121": 16.47117280230158, 
+          "frc138": 23.26278858021649, 
+          "frc157": 18.298287926117826, 
+          "frc173": 16.694756152057902, 
+          "frc1735": 12.162876631376358, 
+          "frc1768": 28.051736287243738, 
+          "frc190": 12.287993996982198, 
+          "frc2067": 26.174311025120993, 
+          "frc2079": 8.608839370190864, 
+          "frc2168": 43.72084890888089, 
+          "frc2262": 24.89480034085224, 
+          "frc230": 45.74784623273125, 
+          "frc2712": 17.981085710371293, 
+          "frc2876": 9.918398194953227, 
+          "frc3205": 13.126444427676988, 
+          "frc3461": 20.510131770181705, 
+          "frc3467": 35.7284723087118, 
+          "frc4034": 3.9807497862511396, 
+          "frc4048": 18.888729000252077, 
+          "frc4097": 14.238750098852599, 
+          "frc4169": 14.241305858083507, 
+          "frc5112": 13.04393911240367, 
+          "frc5422": 18.570841526688785, 
+          "frc6333": 18.912018539494618, 
+          "frc6620": 13.447560482824484, 
+          "frc6731": 9.022163858170991, 
+          "frc716": 17.95452280336203, 
+          "frc7760": 3.9821132730740905, 
+          "frc78": 25.972485389364863, 
+          "frc811": 13.203806806776825, 
+          "frc8410": 10.970468050798736, 
+          "frc8544": 18.195407152190263, 
+          "frc8709": 20.369878413601157, 
+          "frc8724": 27.8469375253292
+        }, 
+        "var": {
+          "frc1058": 87.15129203712206, 
+          "frc1100": 45.11028449042453, 
+          "frc1153": 143.8997608255831, 
+          "frc121": 114.18293066152769, 
+          "frc138": 38.12920850341484, 
+          "frc157": 21.028983685940485, 
+          "frc173": 99.09593098971952, 
+          "frc1735": 228.73031974302677, 
+          "frc1768": 212.00101360408246, 
+          "frc190": 86.44808052930645, 
+          "frc2067": 259.4057878237731, 
+          "frc2079": 140.02759842085828, 
+          "frc2168": 139.44083592881813, 
+          "frc2262": 39.21764989529428, 
+          "frc230": 252.31314334797156, 
+          "frc2712": 99.03687525338421, 
+          "frc2876": 114.88930199267386, 
+          "frc3205": 94.02128778920459, 
+          "frc3461": 60.797216237780944, 
+          "frc3467": 39.6580518740304, 
+          "frc4034": 45.037914391562886, 
+          "frc4048": 116.11040492253488, 
+          "frc4097": 34.75612520693241, 
+          "frc4169": 90.74300725342688, 
+          "frc5112": 14.220005942935416, 
+          "frc5422": 91.8576234198714, 
+          "frc6333": 104.5779727294974, 
+          "frc6620": 10.674019450644662, 
+          "frc6731": 157.7842591579247, 
+          "frc716": 1.7236880526632232, 
+          "frc7760": 52.2903941527829, 
+          "frc78": 212.739043928389, 
+          "frc811": 52.64745247748957, 
+          "frc8410": 45.68862589218213, 
+          "frc8544": 65.52867593646549, 
+          "frc8709": 116.14837866608634, 
+          "frc8724": 47.38209929953461
+        }
+      }
+    }
+  }
+}

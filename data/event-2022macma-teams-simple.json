@@ -1,0 +1,335 @@
+[
+  {
+    "city": "Londonderry", 
+    "country": "USA", 
+    "key": "frc1058", 
+    "name": "Fleet Ready Corp./Londonderry STEM/BAE Systems/Raytheon&Londonderry High School", 
+    "nickname": "PVC Pirates", 
+    "state_prov": "New Hampshire", 
+    "team_number": 1058
+  }, 
+  {
+    "city": "Northborough/Southborough", 
+    "country": "USA", 
+    "key": "frc1100", 
+    "name": "DUPONT/Boston Scientific/Argosy Foundation/UTC/Intel/Google/NDEP & Algonquin Regional High School", 
+    "nickname": "Inverse Polarity", 
+    "state_prov": "Massachusetts", 
+    "team_number": 1100
+  }, 
+  {
+    "city": "Walpole", 
+    "country": "USA", 
+    "key": "frc1153", 
+    "name": "The Gallivan Family/Legacy Engineering/Analog Devices/Waters Corporation/Koopman Lumber&Walpole High School", 
+    "nickname": "Timberwolves", 
+    "state_prov": "Massachusetts", 
+    "team_number": 1153
+  }, 
+  {
+    "city": "Middletown", 
+    "country": "USA", 
+    "key": "frc121", 
+    "name": "NDEP / Raytheon / Town of Middletown / Blowfish / Ferreira-Fenton Fund & Middletown High School", 
+    "nickname": "Rhode Warriors", 
+    "state_prov": "Rhode Island", 
+    "team_number": 121
+  }, 
+  {
+    "city": "Amherst", 
+    "country": "USA", 
+    "key": "frc138", 
+    "name": "Monarch Instrument/BAE Systems/John Alberts Welding/County Stores/PJ Currier Lumber/Rapid Sheet Metal/Omron&Souhegan High School", 
+    "nickname": "Entropy", 
+    "state_prov": "New Hampshire", 
+    "team_number": 138
+  }, 
+  {
+    "city": "Marlborough", 
+    "country": "USA", 
+    "key": "frc157", 
+    "name": "Boston Scientific/Entwistle/Raytheon/Avidia Bank/Comcast/Hologic /Tierpoint&Assabet Valley Reg Tech HS", 
+    "nickname": "AZTECHS", 
+    "state_prov": "Massachusetts", 
+    "team_number": 157
+  }, 
+  {
+    "city": "Tolland", 
+    "country": "USA", 
+    "key": "frc173", 
+    "name": "Triumph /Pratt & Whitney, A Raytheon Technologies Company/Intuitive Foundation/CNC Software&Connecticut Ib Academy&Ellington High School&East Hartford High School&Tolland High School", 
+    "nickname": "RAGE Robotics \u2699\ufe0f", 
+    "state_prov": "Connecticut", 
+    "team_number": 173
+  }, 
+  {
+    "city": "Worcester", 
+    "country": "USA", 
+    "key": "frc1735", 
+    "name": "WPI / Boston Scientific & Burncoat High School", 
+    "nickname": "Green Reapers", 
+    "state_prov": "Massachusetts", 
+    "team_number": 1735
+  }, 
+  {
+    "city": "Bolton", 
+    "country": "USA", 
+    "key": "frc1768", 
+    "name": "SynQor/Bose/Cain Electric&Nashoba Regional High School", 
+    "nickname": "Nashoba Robotics", 
+    "state_prov": "Massachusetts", 
+    "team_number": 1768
+  }, 
+  {
+    "city": "Worcester", 
+    "country": "USA", 
+    "key": "frc190", 
+    "name": "WPI&Mass Academy-Math & Science", 
+    "nickname": "Gompei and the H.E.R.D.", 
+    "state_prov": "Massachusetts", 
+    "team_number": 190
+  }, 
+  {
+    "city": "Guilford", 
+    "country": "USA", 
+    "key": "frc2067", 
+    "name": "Bishop's Orchards/Pratt  & Whitney/Rockwell Automation/Lockheed/Pfizer/Medtronic/Moroso Performance Products&4-H&4H", 
+    "nickname": "Apple Pi", 
+    "state_prov": "Connecticut", 
+    "team_number": 2067
+  }, 
+  {
+    "city": "Franklin", 
+    "country": "USA", 
+    "key": "frc2079", 
+    "name": "United Technologies, Pratt & Whitney/Acorn Animal Hospital/Electric Time/4-H of Massachusetts&4-H ALARM Robotics 2079", 
+    "nickname": "4H ALARM Robotics", 
+    "state_prov": "Massachusetts", 
+    "team_number": 2079
+  }, 
+  {
+    "city": "Groton", 
+    "country": "USA", 
+    "key": "frc2168", 
+    "name": "UBS Group/Pfizer/DoDSTEM/Charter Oak Credit Union/Groton Utilities/R-D Manufacturing/The Hillery Company/J Steele Services/Applied Physical Sciences/Groton Board of Education&Robert E Fitch High School", 
+    "nickname": "Aluminum Falcons", 
+    "state_prov": "Connecticut", 
+    "team_number": 2168
+  }, 
+  {
+    "city": "Holliston", 
+    "country": "USA", 
+    "key": "frc2262", 
+    "name": "Raytheon/Holliston Public Schools/Mathworks/Trilio/Argosy Foundation/United Technologies/MedAcuity/Bose/ReMax Executive Reality, M. Kaspern/Harbor Freight/Celebrate Holliston&Holliston High School", 
+    "nickname": "Robo-Panthers", 
+    "state_prov": "Massachusetts", 
+    "team_number": 2262
+  }, 
+  {
+    "city": "Shelton", 
+    "country": "USA", 
+    "key": "frc230", 
+    "name": "Raytheon Technologies Corporation/Sikorsky, Lockheed Martin/OEM Controls/Shelton Public School System/Hubbell/Intuitive Surgical/Logicbroker/Valley Community Foundation&Shelton High School", 
+    "nickname": "Gaelhawks", 
+    "state_prov": "Connecticut", 
+    "team_number": 230
+  }, 
+  {
+    "city": "Waterbury", 
+    "country": "USA", 
+    "key": "frc2712", 
+    "name": "ACES at Chase/Raytheon Technologies Corporation/NASA/Thomaston Savings Bank Foundation/Braxton Manufacturing Co. Inc./Click Bond Inc./ebm-papst Inc./Watertown Foundation/Lockheed Martin Corporation & 4-H", 
+    "nickname": "Power Surge 4-H Robotics", 
+    "state_prov": "Connecticut", 
+    "team_number": 2712
+  }, 
+  {
+    "city": "Burlington", 
+    "country": "USA", 
+    "key": "frc2876", 
+    "name": "Lockheed Martin Co&Burlington High School", 
+    "nickname": "Devilbotz", 
+    "state_prov": "Massachusetts", 
+    "team_number": 2876
+  }, 
+  {
+    "city": "Concord", 
+    "country": "USA", 
+    "key": "frc3205", 
+    "name": "Concord Carlisle & Concord Carlisle Regional HS", 
+    "nickname": "Patriots", 
+    "state_prov": "Massachusetts", 
+    "team_number": 3205
+  }, 
+  {
+    "city": "Bristol", 
+    "country": "USA", 
+    "key": "frc3461", 
+    "name": "The Arthur G. Russell Co./Lockheed Martin&Litchfield County 4-H", 
+    "nickname": "Operation PEACCE Robotics", 
+    "state_prov": "Connecticut", 
+    "team_number": 3461
+  }, 
+  {
+    "city": "Windham", 
+    "country": "USA", 
+    "key": "frc3467", 
+    "name": "Veloxion, Inc./Windham High School/Analog Devices/BAE Systems&Windup Robotics 4-H Club", 
+    "nickname": "Windham Windup", 
+    "state_prov": "New Hampshire", 
+    "team_number": 3467
+  }, 
+  {
+    "city": "Pelham", 
+    "country": "USA", 
+    "key": "frc4034", 
+    "name": "Schneider Electric / Greater Salem Rotary Club / Technology Seed / Enterprise Bank & Pelham High School", 
+    "nickname": "Pelham \u03c0thons Team 4034", 
+    "state_prov": "New Hampshire", 
+    "team_number": 4034
+  }, 
+  {
+    "city": "Westborough", 
+    "country": "USA", 
+    "key": "frc4048", 
+    "name": "Solidworks/Intel/RTX / Raytheon/Bainwood, Huang & Associates, LLC/The MathWorks Inc./Westborough Shopping Center/Lowes/Wegmans/Piedmont Plastics/Elevation3D&Westborough High School", 
+    "nickname": "Redshift", 
+    "state_prov": "Massachusetts", 
+    "team_number": 4048
+  }, 
+  {
+    "city": "Northampton", 
+    "country": "USA", 
+    "key": "frc4097", 
+    "name": "UTC / Malvern Instruments / L-3 KEO & Northampton High School & Smith Voc & Agricultural HS", 
+    "nickname": "Devilbots", 
+    "state_prov": "Massachusetts", 
+    "team_number": 4097
+  }, 
+  {
+    "city": "Sudbury", 
+    "country": "USA", 
+    "key": "frc4169", 
+    "name": "Dephy/NinjaWorks&Lincoln Sudbury Reg High Sch", 
+    "nickname": "Warrior Robotics", 
+    "state_prov": "Massachusetts", 
+    "team_number": 4169
+  }, 
+  {
+    "city": "Foster and Glocester ", 
+    "country": "USA", 
+    "key": "frc5112", 
+    "name": "Ponaganset STEM Academy/Leach Family Foundation/La Gondola &Ponaganset High School", 
+    "nickname": "The Gongoliers", 
+    "state_prov": "Rhode Island", 
+    "team_number": 5112
+  }, 
+  {
+    "city": "Westford", 
+    "country": "USA", 
+    "key": "frc5422", 
+    "name": "SMC LTC/Creation Station, LLC/Analog Devices/SolidWorks/RedHat/E.T. Duval & Sons/NetScout/Raytheon/Ekaru/Hunter Automation/Add-A-Sign, LLC/Rockwell Automation/Mathworks/Nichols Family/Bose/3DWox Sindoh/McCarty Companies/Northeast Promotion and Apparel/Panera Bread/Torriander/Johnson Controls/PMD&Middlesex County Robotics Club Inc", 
+    "nickname": "Stormgears FRC", 
+    "state_prov": "Massachusetts", 
+    "team_number": 5422
+  }, 
+  {
+    "city": "Putnam", 
+    "country": "USA", 
+    "key": "frc6333", 
+    "name": "Raytheon Technologies/Linemaster Switch Corporation/Dominion Power&Putnam High School&Woodstock Academy", 
+    "nickname": "Scavenger Robotics", 
+    "state_prov": "Connecticut", 
+    "team_number": 6333
+  }, 
+  {
+    "city": "North Smithfield", 
+    "country": "USA", 
+    "key": "frc6620", 
+    "name": "NASA / National Marker Corporation / Control Automation Group & North Smithfield High School", 
+    "nickname": "The Northmengineers", 
+    "state_prov": "Rhode Island", 
+    "team_number": 6620
+  }, 
+  {
+    "city": "Belmont", 
+    "country": "USA", 
+    "key": "frc6731", 
+    "name": "NASA/The Gregor Family Charitable Trust/Abbott/Sir Fraser Stoddart&Family/Community", 
+    "nickname": "Record Robotics", 
+    "state_prov": "Massachusetts", 
+    "team_number": 6731
+  }, 
+  {
+    "city": "Falls Village", 
+    "country": "USA", 
+    "key": "frc716", 
+    "name": "21st Century Fund/C. A. Lindell  & Son Inc./Freund's Farm Market and Bakery&Housatonic Valley Reg High Sch", 
+    "nickname": "Who'sCTEKS", 
+    "state_prov": "Connecticut", 
+    "team_number": 716
+  }, 
+  {
+    "city": "Pomfret", 
+    "country": "USA", 
+    "key": "frc7760", 
+    "name": "Pomfret School", 
+    "nickname": "PomTech", 
+    "state_prov": "Connecticut", 
+    "team_number": 7760
+  }, 
+  {
+    "city": "Newport", 
+    "country": "USA", 
+    "key": "frc78", 
+    "name": "Naval Undersea Warfare Center/DoDSTEM/Casapinka/Nordson EFD/ACS Industries/BankNewport/Chad Kritzas Team/Kate Bosch Professional Organizing/KVH Industries/Mount Hope Animal Hospital/Raytheon/Rite-Solutions/Waters Corporation&Aquidneck Island Robotics", 
+    "nickname": "AIR STRIKE", 
+    "state_prov": "Rhode Island", 
+    "team_number": 78
+  }, 
+  {
+    "city": "Nashua", 
+    "country": "USA", 
+    "key": "frc811", 
+    "name": "NE FIRST/BAE Systems/Darren & Tuyet Martin&Bishop Guertin High School", 
+    "nickname": "Wild Cards", 
+    "state_prov": "New Hampshire", 
+    "team_number": 811
+  }, 
+  {
+    "city": "Durham", 
+    "country": "USA", 
+    "key": "frc8410", 
+    "name": "Family/Community", 
+    "nickname": "Oyster River Robotics", 
+    "state_prov": "New Hampshire", 
+    "team_number": 8410
+  }, 
+  {
+    "city": "Sutton", 
+    "country": "USA", 
+    "key": "frc8544", 
+    "name": "National Grid/NASA/Dupont/FIRST Rookie Grant/Mathworks&Auburn Senior High School&Sutton Middle School&Sutton Memorial High School", 
+    "nickname": "Reinforcement", 
+    "state_prov": "Massachusetts", 
+    "team_number": 8544
+  }, 
+  {
+    "city": "Palmer", 
+    "country": "USA", 
+    "key": "frc8709", 
+    "name": "NASA&Pathfinder Regional Voc HS", 
+    "nickname": "Pathfinder Tech", 
+    "state_prov": "Massachusetts", 
+    "team_number": 8709
+  }, 
+  {
+    "city": "Bedford", 
+    "country": "USA", 
+    "key": "frc8724", 
+    "name": "Family/Community", 
+    "nickname": "Mayhem", 
+    "state_prov": "New Hampshire", 
+    "team_number": 8724
+  }
+]
