@@ -1,0 +1,33 @@
+{
+  "actual_time": 1648394373, 
+  "alliances": {
+    "blue": {
+      "dq_team_keys": [], 
+      "score": 51, 
+      "surrogate_team_keys": [], 
+      "team_keys": [
+        "frc8724", 
+        "frc8410", 
+        "frc5422"
+      ]
+    }, 
+    "red": {
+      "dq_team_keys": [], 
+      "score": 98, 
+      "surrogate_team_keys": [], 
+      "team_keys": [
+        "frc230", 
+        "frc3461", 
+        "frc4034"
+      ]
+    }
+  }, 
+  "comp_level": "qm", 
+  "event_key": "2022macma", 
+  "key": "2022macma_qm74", 
+  "match_number": 74, 
+  "predicted_time": 1648394408, 
+  "set_number": 1, 
+  "time": 1648394520, 
+  "winning_alliance": "red"
+}

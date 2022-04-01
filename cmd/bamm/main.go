@@ -25,16 +25,33 @@ func main() {
 			// 2022macma - shrewsburrp
 			// 2022nhsea - pease
 			&cli.StringFlag{
-				Name: "event-key",
+				Name:  "event-key",
+				Value: "2022macma",
+			},
+			&cli.StringFlag{
+				Name:  "district-key",
+				Value: "2022ne",
+			},
+			&cli.StringFlag{
+				Name:  "match-key",
+				Value: "2022macma_qm74",
 			},
 			&cli.IntFlag{
-				Name: "team",
+				Name:  "team",
+				Value: 8410,
+			},
+			&cli.IntFlag{
+				Name:  "year",
+				Value: 2022,
 			},
 		},
 		Action: func(c *cli.Context) error {
 			authKey := c.String("api-key")
 			teamNum := c.Int("team")
+			year := c.Int("year")
 			eventKey := c.String("event-key")
+			districtKey := c.String("district-key")
+			matchKey := c.String("match-key")
 			ctx := context.Background()
 			bc := bamm.NewBAClient(&http.Client{}, authKey)
 			// team, err := bc.TeamSimple(ctx, fmt.Sprintf("frc%d", teamNum))
@@ -59,8 +76,8 @@ func main() {
 			// for _, team := range teams {
 			// 	fmt.Printf("%d\t%s\n", team.TeamNumber, team.Nickname)
 			// }
-			bc.Dump(ctx, teamNum, eventKey)
-
+			bc.Dump(ctx, year, teamNum, eventKey, districtKey, matchKey)
+			return nil
 			matches, err := bc.EventMatchesSimple(ctx, eventKey)
 			if err != nil {
 				log.Fatal(err)
@@ -70,7 +87,7 @@ func main() {
 				log.Fatal(err)
 			}
 			summary := bamm.PrintNextMatchSummary(next, 8410)
-			fmt.Printf(strings.Join(summary, "\n"))
+			fmt.Println(strings.Join(summary, "\n"))
 			return nil
 		},
 	}

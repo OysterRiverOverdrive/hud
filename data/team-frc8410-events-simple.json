@@ -1,0 +1,131 @@
+[
+  {
+    "city": "Springfield", 
+    "country": "USA", 
+    "district": {
+      "abbreviation": "ne", 
+      "display_name": "New England", 
+      "key": "2020ne", 
+      "year": 2020
+    }, 
+    "end_date": "2020-03-22", 
+    "event_code": "mawne", 
+    "event_type": 1, 
+    "key": "2020mawne", 
+    "name": "* NE District Western NE Event (Cancelled)", 
+    "start_date": "2020-03-20", 
+    "state_prov": "MA", 
+    "year": 2020
+  }, 
+  {
+    "city": "Bedford", 
+    "country": "USA", 
+    "district": {
+      "abbreviation": "ne", 
+      "display_name": "New England", 
+      "key": "2020ne", 
+      "year": 2020
+    }, 
+    "end_date": "2020-03-29", 
+    "event_code": "nhsnh", 
+    "event_type": 1, 
+    "key": "2020nhsnh", 
+    "name": "* NE District Southern NH Event (Cancelled)", 
+    "start_date": "2020-03-27", 
+    "state_prov": "NH", 
+    "year": 2020
+  }, 
+  {
+    "city": "Massachusetts", 
+    "country": "USA", 
+    "district": {
+      "abbreviation": "ne", 
+      "display_name": "New England", 
+      "key": "2021ne", 
+      "year": 2021
+    }, 
+    "end_date": "2021-03-01", 
+    "event_code": "21ned", 
+    "event_type": 1, 
+    "key": "202121ned", 
+    "name": "2021 Season Participation for NE District Teams", 
+    "start_date": "2021-03-01", 
+    "state_prov": "MA", 
+    "year": 2021
+  }, 
+  {
+    "city": "Manchester", 
+    "country": "USA", 
+    "district": null, 
+    "end_date": "2021-04-23", 
+    "event_code": "irhce", 
+    "event_type": 7, 
+    "key": "2021irhce", 
+    "name": "INFINITE RECHARGE At Home Challenge Event", 
+    "start_date": "2021-04-19", 
+    "state_prov": "NH", 
+    "year": 2021
+  }, 
+  {
+    "city": "Manchester", 
+    "country": "USA", 
+    "district": null, 
+    "end_date": "2021-04-23", 
+    "event_code": "irhsn", 
+    "event_type": 7, 
+    "key": "2021irhsn", 
+    "name": "Tin Group - INFINITE RECHARGE At Home Challenge", 
+    "start_date": "2021-04-19", 
+    "state_prov": "NH", 
+    "year": 2021
+  }, 
+  {
+    "city": "Alton", 
+    "country": "USA", 
+    "district": null, 
+    "end_date": "2021-11-06", 
+    "event_code": "nhbb", 
+    "event_type": 99, 
+    "key": "2021nhbb", 
+    "name": "Battle of the Bay", 
+    "start_date": "2021-11-06", 
+    "state_prov": "NH", 
+    "year": 2021
+  }, 
+  {
+    "city": "Shrewsbury", 
+    "country": "USA", 
+    "district": {
+      "abbreviation": "ne", 
+      "display_name": "New England", 
+      "key": "2022ne", 
+      "year": 2022
+    }, 
+    "end_date": "2022-03-27", 
+    "event_code": "macma", 
+    "event_type": 1, 
+    "key": "2022macma", 
+    "name": "NE District Central Mass Event", 
+    "start_date": "2022-03-25", 
+    "state_prov": "MA", 
+    "year": 2022
+  }, 
+  {
+    "city": "Portsmouth", 
+    "country": "USA", 
+    "district": {
+      "abbreviation": "ne", 
+      "display_name": "New England", 
+      "key": "2022ne", 
+      "year": 2022
+    }, 
+    "end_date": "2022-04-02", 
+    "event_code": "nhsea", 
+    "event_type": 1, 
+    "key": "2022nhsea", 
+    "name": "NE District Pease ANG Event", 
+    "start_date": "2022-03-31", 
+    "state_prov": "NH", 
+    "year": 2022
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "city": "Shrewsbury", 
+    "country": "USA", 
+    "district": {
+      "abbreviation": "ne", 
+      "display_name": "New England", 
+      "key": "2022ne", 
+      "year": 2022
+    }, 
+    "end_date": "2022-03-27", 
+    "event_code": "macma", 
+    "event_type": 1, 
+    "key": "2022macma", 
+    "name": "NE District Central Mass Event", 
+    "start_date": "2022-03-25", 
+    "state_prov": "MA", 
+    "year": 2022
+  }, 
+  {
+    "city": "Portsmouth", 
+    "country": "USA", 
+    "district": {
+      "abbreviation": "ne", 
+      "display_name": "New England", 
+      "key": "2022ne", 
+      "year": 2022
+    }, 
+    "end_date": "2022-04-02", 
+    "event_code": "nhsea", 
+    "event_type": 1, 
+    "key": "2022nhsea", 
+    "name": "NE District Pease ANG Event", 
+    "start_date": "2022-03-31", 
+    "state_prov": "NH", 
+    "year": 2022
+  }
+]

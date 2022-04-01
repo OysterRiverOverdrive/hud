@@ -1,0 +1,398 @@
+[
+  {
+    "actual_time": 1648316022, 
+    "alliances": {
+      "blue": {
+        "dq_team_keys": [], 
+        "score": 49, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc5112", 
+          "frc4097", 
+          "frc4169"
+        ]
+      }, 
+      "red": {
+        "dq_team_keys": [], 
+        "score": 31, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc8410", 
+          "frc7760", 
+          "frc1058"
+        ]
+      }
+    }, 
+    "comp_level": "qm", 
+    "event_key": "2022macma", 
+    "key": "2022macma_qm11", 
+    "match_number": 11, 
+    "predicted_time": 1648316018, 
+    "set_number": 1, 
+    "time": 1648314600, 
+    "winning_alliance": "blue"
+  }, 
+  {
+    "actual_time": 1648319134, 
+    "alliances": {
+      "blue": {
+        "dq_team_keys": [], 
+        "score": 68, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc157", 
+          "frc5422", 
+          "frc8709"
+        ]
+      }, 
+      "red": {
+        "dq_team_keys": [], 
+        "score": 55, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc8410", 
+          "frc4097", 
+          "frc2067"
+        ]
+      }
+    }, 
+    "comp_level": "qm", 
+    "event_key": "2022macma", 
+    "key": "2022macma_qm18", 
+    "match_number": 18, 
+    "predicted_time": 1648319064, 
+    "set_number": 1, 
+    "time": 1648317540, 
+    "winning_alliance": "blue"
+  }, 
+  {
+    "actual_time": 1648320785, 
+    "alliances": {
+      "blue": {
+        "dq_team_keys": [], 
+        "score": 74, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc4048", 
+          "frc8410", 
+          "frc230"
+        ]
+      }, 
+      "red": {
+        "dq_team_keys": [], 
+        "score": 42, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc6620", 
+          "frc2262", 
+          "frc2079"
+        ]
+      }
+    }, 
+    "comp_level": "qm", 
+    "event_key": "2022macma", 
+    "key": "2022macma_qm22", 
+    "match_number": 22, 
+    "predicted_time": 1648320816, 
+    "set_number": 1, 
+    "time": 1648319220, 
+    "winning_alliance": "blue"
+  }, 
+  {
+    "actual_time": 1648322744, 
+    "alliances": {
+      "blue": {
+        "dq_team_keys": [], 
+        "score": 80, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc1153", 
+          "frc173", 
+          "frc4097"
+        ]
+      }, 
+      "red": {
+        "dq_team_keys": [], 
+        "score": 51, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc8410", 
+          "frc138", 
+          "frc190"
+        ]
+      }
+    }, 
+    "comp_level": "qm", 
+    "event_key": "2022macma", 
+    "key": "2022macma_qm27", 
+    "match_number": 27, 
+    "predicted_time": 1648322764, 
+    "set_number": 1, 
+    "time": 1648321320, 
+    "winning_alliance": "blue"
+  }, 
+  {
+    "actual_time": 1648325863, 
+    "alliances": {
+      "blue": {
+        "dq_team_keys": [], 
+        "score": 89, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc4048", 
+          "frc2876", 
+          "frc2168"
+        ]
+      }, 
+      "red": {
+        "dq_team_keys": [], 
+        "score": 57, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc8410", 
+          "frc8709", 
+          "frc78"
+        ]
+      }
+    }, 
+    "comp_level": "qm", 
+    "event_key": "2022macma", 
+    "key": "2022macma_qm34", 
+    "match_number": 34, 
+    "predicted_time": 1648325890, 
+    "set_number": 1, 
+    "time": 1648324260, 
+    "winning_alliance": "blue"
+  }, 
+  {
+    "actual_time": 1648328536, 
+    "alliances": {
+      "blue": {
+        "dq_team_keys": [], 
+        "score": 63, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc2262", 
+          "frc6333", 
+          "frc8410"
+        ]
+      }, 
+      "red": {
+        "dq_team_keys": [], 
+        "score": 59, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc8544", 
+          "frc2067", 
+          "frc6731"
+        ]
+      }
+    }, 
+    "comp_level": "qm", 
+    "event_key": "2022macma", 
+    "key": "2022macma_qm41", 
+    "match_number": 41, 
+    "predicted_time": 1648328644, 
+    "set_number": 1, 
+    "time": 1648327200, 
+    "winning_alliance": "blue"
+  }, 
+  {
+    "actual_time": 1648331625, 
+    "alliances": {
+      "blue": {
+        "dq_team_keys": [], 
+        "score": 49, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc716", 
+          "frc8410", 
+          "frc3461"
+        ]
+      }, 
+      "red": {
+        "dq_team_keys": [], 
+        "score": 58, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc6731", 
+          "frc4048", 
+          "frc1100"
+        ]
+      }
+    }, 
+    "comp_level": "qm", 
+    "event_key": "2022macma", 
+    "key": "2022macma_qm48", 
+    "match_number": 48, 
+    "predicted_time": 1648331698, 
+    "set_number": 1, 
+    "time": 1648330140, 
+    "winning_alliance": "red"
+  }, 
+  {
+    "actual_time": 1648334534, 
+    "alliances": {
+      "blue": {
+        "dq_team_keys": [], 
+        "score": 53, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc6620", 
+          "frc121", 
+          "frc8410"
+        ]
+      }, 
+      "red": {
+        "dq_team_keys": [], 
+        "score": 75, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc3467", 
+          "frc1058", 
+          "frc157"
+        ]
+      }
+    }, 
+    "comp_level": "qm", 
+    "event_key": "2022macma", 
+    "key": "2022macma_qm55", 
+    "match_number": 55, 
+    "predicted_time": 1648334746, 
+    "set_number": 1, 
+    "time": 1648333080, 
+    "winning_alliance": "red"
+  }, 
+  {
+    "actual_time": 1648388085, 
+    "alliances": {
+      "blue": {
+        "dq_team_keys": [], 
+        "score": 63, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc121", 
+          "frc2712", 
+          "frc1058"
+        ]
+      }, 
+      "red": {
+        "dq_team_keys": [], 
+        "score": 28, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc2876", 
+          "frc157", 
+          "frc8410"
+        ]
+      }
+    }, 
+    "comp_level": "qm", 
+    "event_key": "2022macma", 
+    "key": "2022macma_qm59", 
+    "match_number": 59, 
+    "predicted_time": 1648388228, 
+    "set_number": 1, 
+    "time": 1648388220, 
+    "winning_alliance": "blue"
+  }, 
+  {
+    "actual_time": 1648311368, 
+    "alliances": {
+      "blue": {
+        "dq_team_keys": [], 
+        "score": 90, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc2712", 
+          "frc230", 
+          "frc1735"
+        ]
+      }, 
+      "red": {
+        "dq_team_keys": [], 
+        "score": 34, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc1768", 
+          "frc3205", 
+          "frc8410"
+        ]
+      }
+    }, 
+    "comp_level": "qm", 
+    "event_key": "2022macma", 
+    "key": "2022macma_qm6", 
+    "match_number": 6, 
+    "predicted_time": 1648311406, 
+    "set_number": 1, 
+    "time": 1648308900, 
+    "winning_alliance": "blue"
+  }, 
+  {
+    "actual_time": 1648389940, 
+    "alliances": {
+      "blue": {
+        "dq_team_keys": [], 
+        "score": 27, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc173", 
+          "frc8410", 
+          "frc6731"
+        ]
+      }, 
+      "red": {
+        "dq_team_keys": [], 
+        "score": 38, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc121", 
+          "frc78", 
+          "frc3205"
+        ]
+      }
+    }, 
+    "comp_level": "qm", 
+    "event_key": "2022macma", 
+    "key": "2022macma_qm63", 
+    "match_number": 63, 
+    "predicted_time": 1648389842, 
+    "set_number": 1, 
+    "time": 1648389900, 
+    "winning_alliance": "red"
+  }, 
+  {
+    "actual_time": 1648394373, 
+    "alliances": {
+      "blue": {
+        "dq_team_keys": [], 
+        "score": 51, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc8724", 
+          "frc8410", 
+          "frc5422"
+        ]
+      }, 
+      "red": {
+        "dq_team_keys": [], 
+        "score": 98, 
+        "surrogate_team_keys": [], 
+        "team_keys": [
+          "frc230", 
+          "frc3461", 
+          "frc4034"
+        ]
+      }
+    }, 
+    "comp_level": "qm", 
+    "event_key": "2022macma", 
+    "key": "2022macma_qm74", 
+    "match_number": 74, 
+    "predicted_time": 1648394408, 
+    "set_number": 1, 
+    "time": 1648394520, 
+    "winning_alliance": "red"
+  }
+]
