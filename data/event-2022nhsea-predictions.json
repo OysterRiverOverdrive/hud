@@ -1,0 +1,3013 @@
+{
+  "match_prediction_stats": {
+    "playoff": {
+      "brier_scores": {}, 
+      "err_mean": null, 
+      "err_var": null, 
+      "wl_accuracy": null, 
+      "wl_accuracy_75": null
+    }, 
+    "qual": {
+      "brier_scores": {
+        "win_loss": 0.17261675078883423
+      }, 
+      "err_mean": 10.421902976744732, 
+      "err_var": 68.0792599934901, 
+      "wl_accuracy": 75.43859649122807, 
+      "wl_accuracy_75": 83.87096774193549
+    }
+  }, 
+  "match_predictions": {
+    "playoff": {}, 
+    "qual": {
+      "2022nhsea_qm1": {
+        "blue": {
+          "cargo_scored": 19.0151210082718, 
+          "cargo_scored_var": 88.07385588435184, 
+          "endgame_points": 2.1982121668984704, 
+          "endgame_points_var": 85.39708174224788, 
+          "prob_cargo_bonus": 0.45820995412084486, 
+          "prob_face_boss": 1.9889667690620172e-10, 
+          "prob_hangar_bonus": 0.06764930700711091, 
+          "prob_shield_operational": 5.3799187327285836e-12, 
+          "score": 34.25942862751869, 
+          "score_var": 338.38788086444987
+        }, 
+        "prob": 0.7437304875008893, 
+        "red": {
+          "cargo_scored": 20.448358776836038, 
+          "cargo_scored_var": 91.50878044154922, 
+          "endgame_points": 16.13684194835008, 
+          "endgame_points_var": 113.22482593692504, 
+          "prob_cargo_bonus": 0.5186915523795151, 
+          "prob_face_boss": 1.8763552828371388e-05, 
+          "prob_hangar_bonus": 0.5051303443156792, 
+          "prob_shield_operational": 2.1941106880252192e-06, 
+          "score": 53.34992271370811, 
+          "score_var": 511.37652913632877
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm10": {
+        "blue": {
+          "cargo_scored": 10.841806677607972, 
+          "cargo_scored_var": 44.65652360248381, 
+          "endgame_points": 5.077762012821904, 
+          "endgame_points_var": 75.36419747469482, 
+          "prob_cargo_bonus": 0.08527119093667557, 
+          "prob_face_boss": 1.2536638394067268e-10, 
+          "prob_hangar_bonus": 0.10417049887302021, 
+          "prob_shield_operational": 2.5550672688723353e-12, 
+          "score": 30.26072652674266, 
+          "score_var": 199.2256048453508
+        }, 
+        "prob": 0.9611332415292733, 
+        "red": {
+          "cargo_scored": 22.48095052840803, 
+          "cargo_scored_var": 76.7039442847202, 
+          "endgame_points": 21.695381443315817, 
+          "endgame_points_var": 98.63071456022675, 
+          "prob_cargo_bonus": 0.6115172319601827, 
+          "prob_face_boss": 5.740314271140967e-05, 
+          "prob_hangar_bonus": 0.7168394385660493, 
+          "prob_shield_operational": 6.490709959949825e-06, 
+          "score": 73.15468273711849, 
+          "score_var": 392.0630468867206
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm11": {
+        "blue": {
+          "cargo_scored": 4.964211429338007, 
+          "cargo_scored_var": 10.733311490459357, 
+          "endgame_points": 10.146884626559235, 
+          "endgame_points_var": 68.62452301563005, 
+          "prob_cargo_bonus": 2.2222233065916086e-06, 
+          "prob_face_boss": 8.828919817460701e-10, 
+          "prob_hangar_bonus": 0.23992080223205325, 
+          "prob_shield_operational": 1.7769008486823168e-11, 
+          "score": 28.35137628832533, 
+          "score_var": 56.17525573056384
+        }, 
+        "prob": 0.991812849997612, 
+        "red": {
+          "cargo_scored": 17.316050302756118, 
+          "cargo_scored_var": 40.540289983517994, 
+          "endgame_points": 17.232558933386954, 
+          "endgame_points_var": 22.6028733315768, 
+          "prob_cargo_bonus": 0.33668318380533047, 
+          "prob_face_boss": 0.0, 
+          "prob_hangar_bonus": 0.6022804581803417, 
+          "prob_shield_operational": 0.0, 
+          "score": 66.93277789291574, 
+          "score_var": 202.14924394339425
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm12": {
+        "blue": {
+          "cargo_scored": 22.02360905821703, 
+          "cargo_scored_var": 115.06312901492953, 
+          "endgame_points": 9.957581964679353, 
+          "endgame_points_var": 40.01574954004375, 
+          "prob_cargo_bonus": 0.5748167209867492, 
+          "prob_face_boss": 1.3322676295501878e-15, 
+          "prob_hangar_bonus": 0.16973774017056553, 
+          "prob_shield_operational": 0.0, 
+          "score": 45.127337865160094, 
+          "score_var": 347.0026918760958
+        }, 
+        "prob": 0.852056934201385, 
+        "red": {
+          "cargo_scored": 1.5825247139265342, 
+          "cargo_scored_var": 31.746977419567408, 
+          "endgame_points": 12.586894498378228, 
+          "endgame_points_var": 52.5445913042295, 
+          "prob_cargo_bonus": 0.0005401587585333045, 
+          "prob_face_boss": 3.058442388237381e-11, 
+          "prob_hangar_bonus": 0.3188727166188029, 
+          "prob_shield_operational": 2.403632848313464e-13, 
+          "score": 21.348578381674074, 
+          "score_var": 170.48462932562876
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm13": {
+        "blue": {
+          "cargo_scored": 21.46126947149525, 
+          "cargo_scored_var": 93.61736276372578, 
+          "endgame_points": 13.294813537799815, 
+          "endgame_points_var": 87.44917499734873, 
+          "prob_cargo_bonus": 0.5600224504152891, 
+          "prob_face_boss": 2.9502571907702446e-07, 
+          "prob_hangar_bonus": 0.3861833189154882, 
+          "prob_shield_operational": 1.609178312822479e-08, 
+          "score": 57.75124536990719, 
+          "score_var": 512.7306247701489
+        }, 
+        "prob": 0.5947314689842618, 
+        "red": {
+          "cargo_scored": 17.980511595124646, 
+          "cargo_scored_var": 74.29044824178082, 
+          "endgame_points": 14.414639586370502, 
+          "endgame_points_var": 109.8748805378346, 
+          "prob_cargo_bonus": 0.40737550145078183, 
+          "prob_face_boss": 6.8421149164166195e-06, 
+          "prob_hangar_bonus": 0.43989153238906054, 
+          "prob_shield_operational": 6.969662202926941e-07, 
+          "score": 51.05838663665124, 
+          "score_var": 266.6808506800809
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm14": {
+        "blue": {
+          "cargo_scored": 14.733838117878353, 
+          "cargo_scored_var": 33.29993299668807, 
+          "endgame_points": 10.427535832422084, 
+          "endgame_points_var": 52.95709148530439, 
+          "prob_cargo_bonus": 0.18073086576142317, 
+          "prob_face_boss": 4.810596365700803e-12, 
+          "prob_hangar_bonus": 0.2219134706783461, 
+          "prob_shield_operational": 3.219646771412954e-14, 
+          "score": 42.163508224916825, 
+          "score_var": 119.37021148251102
+        }, 
+        "prob": 0.8180919180556332, 
+        "red": {
+          "cargo_scored": 12.007691877379989, 
+          "cargo_scored_var": 40.16430395323754, 
+          "endgame_points": 27.841890705309925, 
+          "endgame_points_var": 153.33494136432873, 
+          "prob_cargo_bonus": 0.10363506590022009, 
+          "prob_face_boss": 0.004702260617779119, 
+          "prob_hangar_bonus": 0.8305431733194748, 
+          "prob_shield_operational": 0.0013464792814162907, 
+          "score": 63.38144463775587, 
+          "score_var": 426.5412727878355
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm15": {
+        "blue": {
+          "cargo_scored": 34.42884008940739, 
+          "cargo_scored_var": 76.95745491323648, 
+          "endgame_points": 25.46673402341412, 
+          "endgame_points_var": 64.38582525386938, 
+          "prob_cargo_bonus": 0.9499917245043988, 
+          "prob_face_boss": 8.398254539576655e-06, 
+          "prob_hangar_bonus": 0.8809583051769783, 
+          "prob_shield_operational": 4.178724279935153e-07, 
+          "score": 97.52521404019782, 
+          "score_var": 343.5515764997867
+        }, 
+        "prob": 0.8174372413780367, 
+        "red": {
+          "cargo_scored": 23.44527543871128, 
+          "cargo_scored_var": 62.54636652785729, 
+          "endgame_points": 21.48398958370948, 
+          "endgame_points_var": 78.77263134039839, 
+          "prob_cargo_bonus": 0.6684492648143547, 
+          "prob_face_boss": 7.135843532735109e-06, 
+          "prob_hangar_bonus": 0.7316750324050606, 
+          "prob_shield_operational": 4.719334261160668e-07, 
+          "score": 69.42431529744059, 
+          "score_var": 619.2295654536115
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm16": {
+        "blue": {
+          "cargo_scored": 4.351359527273011, 
+          "cargo_scored_var": 19.774279652128993, 
+          "endgame_points": 11.37708339120691, 
+          "endgame_points_var": 66.42314100098947, 
+          "prob_cargo_bonus": 0.00021654198641285483, 
+          "prob_face_boss": 1.2159006024248242e-09, 
+          "prob_hangar_bonus": 0.28528022267897035, 
+          "prob_shield_operational": 2.360689421720963e-11, 
+          "score": 24.237340700624923, 
+          "score_var": 142.85862681263333
+        }, 
+        "prob": 0.9654577843366181, 
+        "red": {
+          "cargo_scored": 20.160968692042996, 
+          "cargo_scored_var": 23.40000194878946, 
+          "endgame_points": 12.981074740450602, 
+          "endgame_points_var": 85.18910424880302, 
+          "prob_cargo_bonus": 0.5132728256864463, 
+          "prob_face_boss": 1.7505772298420652e-07, 
+          "prob_hangar_bonus": 0.3718018816854254, 
+          "prob_shield_operational": 8.70334071478851e-09, 
+          "score": 54.286465061904465, 
+          "score_var": 130.3782614948727
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm17": {
+        "blue": {
+          "cargo_scored": 6.44354000556484, 
+          "cargo_scored_var": 97.23781152416753, 
+          "endgame_points": 15.320393346327862, 
+          "endgame_points_var": 102.00708963512935, 
+          "prob_cargo_bonus": 0.08460203737818461, 
+          "prob_face_boss": 4.849292581821096e-06, 
+          "prob_hangar_bonus": 0.47317591743817666, 
+          "prob_shield_operational": 4.352860643042078e-07, 
+          "score": 33.12734468460387, 
+          "score_var": 356.9986424172125
+        }, 
+        "prob": 0.6949341065242367, 
+        "red": {
+          "cargo_scored": 20.892456802949305, 
+          "cargo_scored_var": 91.27619692926743, 
+          "endgame_points": 13.265806679911332, 
+          "endgame_points_var": 73.754042135431, 
+          "prob_cargo_bonus": 0.5372123637776944, 
+          "prob_face_boss": 2.637380858150351e-08, 
+          "prob_hangar_bonus": 0.3751009874844493, 
+          "prob_shield_operational": 8.508060922451932e-10, 
+          "score": 46.627364377548055, 
+          "score_var": 344.01059063395184
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm18": {
+        "blue": {
+          "cargo_scored": 27.496126639337845, 
+          "cargo_scored_var": 103.92790459637679, 
+          "endgame_points": 18.857472216146544, 
+          "endgame_points_var": 82.01283912125346, 
+          "prob_cargo_bonus": 0.7689248243645616, 
+          "prob_face_boss": 2.7719563302497363e-06, 
+          "prob_hangar_bonus": 0.6238204817314231, 
+          "prob_shield_operational": 1.7419501985305175e-07, 
+          "score": 74.26803358387454, 
+          "score_var": 273.8501329456857
+        }, 
+        "prob": 0.979670349294391, 
+        "red": {
+          "cargo_scored": 5.903975101314259, 
+          "cargo_scored_var": 48.29330791444619, 
+          "endgame_points": 8.090672233659232, 
+          "endgame_points_var": 19.117522649637714, 
+          "prob_cargo_bonus": 0.021259820239709182, 
+          "prob_face_boss": 0.0, 
+          "prob_hangar_bonus": 0.03523029063050109, 
+          "prob_shield_operational": 0.0, 
+          "score": 27.48422904611602, 
+          "score_var": 248.4987212955528
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm19": {
+        "blue": {
+          "cargo_scored": 15.711192997059602, 
+          "cargo_scored_var": 74.35747423568756, 
+          "endgame_points": 17.895719076659596, 
+          "endgame_points_var": 79.16739577504183, 
+          "prob_cargo_bonus": 0.3094662576674665, 
+          "prob_face_boss": 1.1110944619918683e-06, 
+          "prob_hangar_bonus": 0.5843597035507874, 
+          "prob_shield_operational": 5.982170014906529e-08, 
+          "score": 52.44167737255242, 
+          "score_var": 469.1928460752224
+        }, 
+        "prob": 0.6139809447299475, 
+        "red": {
+          "cargo_scored": 15.937310977477235, 
+          "cargo_scored_var": 75.43623870002523, 
+          "endgame_points": 15.261737675161164, 
+          "endgame_points_var": 82.07676787603292, 
+          "prob_cargo_bonus": 0.3199779267202403, 
+          "prob_face_boss": 3.9422757858176283e-07, 
+          "prob_hangar_bonus": 0.46752641728176736, 
+          "prob_shield_operational": 2.008498078964749e-08, 
+          "score": 43.32047943881401, 
+          "score_var": 522.0425647879454
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm2": {
+        "blue": {
+          "cargo_scored": 6.369624553206403, 
+          "cargo_scored_var": 51.5293474329314, 
+          "endgame_points": 11.429202963286603, 
+          "endgame_points_var": 58.86041159868248, 
+          "prob_cargo_bonus": 0.028795022217147137, 
+          "prob_face_boss": 1.2188916542754669e-10, 
+          "prob_hangar_bonus": 0.27566368342061054, 
+          "prob_shield_operational": 1.4489520694382918e-12, 
+          "score": 31.149889841318686, 
+          "score_var": 271.1259918061562
+        }, 
+        "prob": 0.5284785842290562, 
+        "red": {
+          "cargo_scored": 8.382826573006625, 
+          "cargo_scored_var": 83.27145272790071, 
+          "endgame_points": 7.732085119830138, 
+          "endgame_points_var": 85.99327553925337, 
+          "prob_cargo_bonus": 0.10149654028732447, 
+          "prob_face_boss": 8.681355190276463e-09, 
+          "prob_hangar_bonus": 0.186307157457281, 
+          "prob_shield_operational": 3.295643757894595e-10, 
+          "score": 29.232546292788356, 
+          "score_var": 449.0597350033882
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm20": {
+        "blue": {
+          "cargo_scored": 11.479125229776205, 
+          "cargo_scored_var": 19.6803421805246, 
+          "endgame_points": 5.102901977344847, 
+          "endgame_points_var": 80.42993738030628, 
+          "prob_cargo_bonus": 0.02738244808246293, 
+          "prob_face_boss": 4.6420378652101135e-10, 
+          "prob_hangar_bonus": 0.11216932700749793, 
+          "prob_shield_operational": 1.2047252084812499e-11, 
+          "score": 34.60052273229219, 
+          "score_var": 15.987051538345384
+        }, 
+        "prob": 0.6691752938032871, 
+        "red": {
+          "cargo_scored": 8.5262433538133, 
+          "cargo_scored_var": 24.87322248465229, 
+          "endgame_points": 4.350147344576935, 
+          "endgame_points_var": 18.69223573044358, 
+          "prob_cargo_bonus": 0.010707351542275312, 
+          "prob_face_boss": 0.0, 
+          "prob_hangar_bonus": 0.0035239538824944905, 
+          "prob_shield_operational": 0.0, 
+          "score": 28.256745517839594, 
+          "score_var": 194.13309306305385
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm21": {
+        "blue": {
+          "cargo_scored": 13.340975674959274, 
+          "cargo_scored_var": 52.27431540118085, 
+          "endgame_points": 10.874056413243656, 
+          "endgame_points_var": 58.41411437643025, 
+          "prob_cargo_bonus": 0.17852145226693095, 
+          "prob_face_boss": 6.47971676315251e-11, 
+          "prob_hangar_bonus": 0.2512124156367975, 
+          "prob_shield_operational": 7.112088695748753e-13, 
+          "score": 43.31890324630035, 
+          "score_var": 248.2171105446747
+        }, 
+        "prob": 0.8856526780062992, 
+        "red": {
+          "cargo_scored": 27.568244617832026, 
+          "cargo_scored_var": 71.72513570577017, 
+          "endgame_points": 15.01014256817234, 
+          "endgame_points_var": 42.46955405799487, 
+          "prob_cargo_bonus": 0.8142410085988251, 
+          "prob_face_boss": 2.5350832544290824e-12, 
+          "prob_hangar_bonus": 0.439636211199536, 
+          "prob_shield_operational": 8.548717289613705e-15, 
+          "score": 79.17592186848947, 
+          "score_var": 639.1257805273981
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm22": {
+        "blue": {
+          "cargo_scored": 12.042017861740803, 
+          "cargo_scored_var": 57.49853955478645, 
+          "endgame_points": 11.05147309713303, 
+          "endgame_points_var": 64.0137751692117, 
+          "prob_cargo_bonus": 0.14697841291671887, 
+          "prob_face_boss": 4.740603465336335e-10, 
+          "prob_hangar_bonus": 0.2681231280731837, 
+          "prob_shield_operational": 7.76601005725297e-12, 
+          "score": 37.42239321949154, 
+          "score_var": 69.39071477499067
+        }, 
+        "prob": 0.8796896935586288, 
+        "red": {
+          "cargo_scored": 20.219813741842202, 
+          "cargo_scored_var": 67.67083558030238, 
+          "endgame_points": 19.10444355122941, 
+          "endgame_points_var": 80.56494068187692, 
+          "prob_cargo_bonus": 0.5106589016688823, 
+          "prob_face_boss": 2.6043286533994348e-06, 
+          "prob_hangar_bonus": 0.6352791422189052, 
+          "prob_shield_operational": 1.5832578337260372e-07, 
+          "score": 63.9204606846974, 
+          "score_var": 440.5372833469041
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm23": {
+        "blue": {
+          "cargo_scored": 26.87580516850221, 
+          "cargo_scored_var": 78.97671112708137, 
+          "endgame_points": 16.229183808300334, 
+          "endgame_points_var": 75.25752088761351, 
+          "prob_cargo_bonus": 0.7804466503536494, 
+          "prob_face_boss": 2.2609313710120205e-07, 
+          "prob_hangar_bonus": 0.5105382507342666, 
+          "prob_shield_operational": 9.442046922103486e-09, 
+          "score": 60.479033550843326, 
+          "score_var": 368.64889426288346
+        }, 
+        "prob": 0.7624935317070957, 
+        "red": {
+          "cargo_scored": 26.105366120411922, 
+          "cargo_scored_var": 49.483872764718825, 
+          "endgame_points": 30.535479837325, 
+          "endgame_points_var": 98.16626625028925, 
+          "prob_cargo_bonus": 0.8072810313073475, 
+          "prob_face_boss": 0.0014704709922643833, 
+          "prob_hangar_bonus": 0.9288202985621302, 
+          "prob_shield_operational": 0.0002521210587953515, 
+          "score": 81.1187766556088, 
+          "score_var": 466.16701223848145
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm24": {
+        "blue": {
+          "cargo_scored": 10.65170225692562, 
+          "cargo_scored_var": 31.576424653574737, 
+          "endgame_points": 5.530061428461617, 
+          "endgame_points_var": 143.8060383417052, 
+          "prob_cargo_bonus": 0.048095373447764156, 
+          "prob_face_boss": 2.783223245206301e-06, 
+          "prob_hangar_bonus": 0.19130889744654556, 
+          "prob_shield_operational": 3.539763810955776e-07, 
+          "score": 33.913804370583996, 
+          "score_var": 271.3652701436812
+        }, 
+        "prob": 0.5268490663971404, 
+        "red": {
+          "cargo_scored": 7.1246756639722015, 
+          "cargo_scored_var": 25.800672816124397, 
+          "endgame_points": 12.838936394558072, 
+          "endgame_points_var": 64.23645977503703, 
+          "prob_cargo_bonus": 0.0056256742198372844, 
+          "prob_face_boss": 1.999040710742861e-09, 
+          "prob_hangar_bonus": 0.3466410185209461, 
+          "prob_shield_operational": 3.8048231232323815e-11, 
+          "score": 32.526922472443765, 
+          "score_var": 152.6526639796713
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm25": {
+        "blue": {
+          "cargo_scored": 3.5940855148996187, 
+          "cargo_scored_var": 29.647552229714872, 
+          "endgame_points": 12.016592455525881, 
+          "endgame_points_var": 50.80395969460672, 
+          "prob_cargo_bonus": 0.0012931908640672063, 
+          "prob_face_boss": 8.36886115962443e-12, 
+          "prob_hangar_bonus": 0.288127346743975, 
+          "prob_shield_operational": 5.284661597215745e-14, 
+          "score": 26.071010115605304, 
+          "score_var": 277.51780198307335
+        }, 
+        "prob": 0.7155293047890573, 
+        "red": {
+          "cargo_scored": 9.836842886866163, 
+          "cargo_scored_var": 50.84427178806424, 
+          "endgame_points": 17.516946020779134, 
+          "endgame_points_var": 85.15637091434759, 
+          "prob_cargo_bonus": 0.07703461544774748, 
+          "prob_face_boss": 2.075236154475135e-06, 
+          "prob_hangar_bonus": 0.5652858703316151, 
+          "prob_shield_operational": 1.333836461281379e-07, 
+          "score": 39.93532735270837, 
+          "score_var": 314.91602004192833
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm26": {
+        "blue": {
+          "cargo_scored": 12.207253852288453, 
+          "cargo_scored_var": 36.59834658376272, 
+          "endgame_points": 15.74648679499104, 
+          "endgame_points_var": 100.02306240066548, 
+          "prob_cargo_bonus": 0.09885030456697019, 
+          "prob_face_boss": 4.82566452930655e-06, 
+          "prob_hangar_bonus": 0.48988853526956566, 
+          "prob_shield_operational": 4.2226910212939117e-07, 
+          "score": 48.0947519777272, 
+          "score_var": 224.97676037365196
+        }, 
+        "prob": 0.5442714877578438, 
+        "red": {
+          "cargo_scored": 17.348308525480284, 
+          "cargo_scored_var": 15.040935658801724, 
+          "endgame_points": 12.019125504731736, 
+          "endgame_points_var": 69.5595664150016, 
+          "prob_cargo_bonus": 0.24707237575119678, 
+          "prob_face_boss": 4.385271701323745e-09, 
+          "prob_hangar_bonus": 0.3165708835857107, 
+          "prob_shield_operational": 1.0596190591627419e-10, 
+          "score": 49.86131045552371, 
+          "score_var": 27.39415296253769
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm27": {
+        "blue": {
+          "cargo_scored": 9.337491745902469, 
+          "cargo_scored_var": 46.309203579128805, 
+          "endgame_points": 10.779178533231615, 
+          "endgame_points_var": 81.49095710421392, 
+          "prob_cargo_bonus": 0.05857559451184857, 
+          "prob_face_boss": 2.483596261981802e-08, 
+          "prob_hangar_bonus": 0.28151689138525127, 
+          "prob_shield_operational": 9.486712526651786e-10, 
+          "score": 31.829432207216662, 
+          "score_var": 171.16426028472964
+        }, 
+        "prob": 0.9790051971264996, 
+        "red": {
+          "cargo_scored": 32.23033828934166, 
+          "cargo_scored_var": 54.631000622425525, 
+          "endgame_points": 22.301011506005473, 
+          "endgame_points_var": 86.81118789622842, 
+          "prob_cargo_bonus": 0.9510071715741983, 
+          "prob_face_boss": 2.603357377028992e-05, 
+          "prob_hangar_bonus": 0.7505665191294577, 
+          "prob_shield_operational": 2.2940891601930247e-06, 
+          "score": 86.14199371173012, 
+          "score_var": 542.1150327760301
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm28": {
+        "blue": {
+          "cargo_scored": 11.43161523633098, 
+          "cargo_scored_var": 52.611198852468476, 
+          "endgame_points": 4.015668971040959, 
+          "endgame_points_var": 84.08419856006904, 
+          "prob_cargo_bonus": 0.11874196879087995, 
+          "prob_face_boss": 5.129354718746981e-10, 
+          "prob_hangar_bonus": 0.0956160584079484, 
+          "prob_shield_operational": 1.459465881481492e-11, 
+          "score": 23.57296621936846, 
+          "score_var": 213.58564781043876
+        }, 
+        "prob": 0.9719794530316017, 
+        "red": {
+          "cargo_scored": 24.852290875322442, 
+          "cargo_scored_var": 40.891334904240026, 
+          "endgame_points": 20.864831827933344, 
+          "endgame_points_var": 98.70355191791555, 
+          "prob_cargo_bonus": 0.7760159150654671, 
+          "prob_face_boss": 4.088803348845094e-05, 
+          "prob_hangar_bonus": 0.6878154625937338, 
+          "prob_shield_operational": 4.44789371401022e-06, 
+          "score": 67.44686304499274, 
+          "score_var": 313.6686897983064
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm29": {
+        "blue": {
+          "cargo_scored": 6.373054903803449, 
+          "cargo_scored_var": 19.848964744271143, 
+          "endgame_points": 14.138065427567062, 
+          "endgame_points_var": 86.46371338769261, 
+          "prob_cargo_bonus": 0.0011116891329714385, 
+          "prob_face_boss": 4.0666715128701014e-07, 
+          "prob_hangar_bonus": 0.42064704875254644, 
+          "prob_shield_operational": 2.2520004527848414e-08, 
+          "score": 34.88747332015983, 
+          "score_var": 165.9811828580271
+        }, 
+        "prob": 0.6722403870430398, 
+        "red": {
+          "cargo_scored": 14.09898106439871, 
+          "cargo_scored_var": 28.07260362450939, 
+          "endgame_points": 9.593879372019579, 
+          "endgame_points_var": 54.06503387328806, 
+          "prob_cargo_bonus": 0.13269435737069268, 
+          "prob_face_boss": 3.5587088831334768e-12, 
+          "prob_hangar_bonus": 0.19181207313087634, 
+          "prob_shield_operational": 2.4424906541753444e-14, 
+          "score": 46.09602945479695, 
+          "score_var": 465.29484374965716
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm3": {
+        "blue": {
+          "cargo_scored": 25.593175547929015, 
+          "cargo_scored_var": 89.01464580910397, 
+          "endgame_points": 17.780434937449833, 
+          "endgame_points_var": 82.25061576516396, 
+          "prob_cargo_bonus": 0.7233514135898731, 
+          "prob_face_boss": 1.6178408912548292e-06, 
+          "prob_hangar_bonus": 0.5778187277927654, 
+          "prob_shield_operational": 9.617727747546212e-08, 
+          "score": 64.79395527708444, 
+          "score_var": 224.057465303633
+        }, 
+        "prob": 0.5834711349544799, 
+        "red": {
+          "cargo_scored": 25.722808617548008, 
+          "cargo_scored_var": 84.25638505964648, 
+          "endgame_points": 20.75631790659412, 
+          "endgame_points_var": 25.630788395495237, 
+          "prob_cargo_bonus": 0.7335084903477049, 
+          "prob_face_boss": 4.551914400963142e-15, 
+          "prob_hangar_bonus": 0.8262591280650561, 
+          "prob_shield_operational": 0.0, 
+          "score": 69.69360368011968, 
+          "score_var": 316.2794180564324
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm30": {
+        "blue": {
+          "cargo_scored": 26.28384287409188, 
+          "cargo_scored_var": 89.83584348484061, 
+          "endgame_points": 25.411116071508093, 
+          "endgame_points_var": 63.41090930857398, 
+          "prob_cargo_bonus": 0.7463283500665595, 
+          "prob_face_boss": 7.006820439858785e-06, 
+          "prob_hangar_bonus": 0.8813656489531154, 
+          "prob_shield_operational": 3.3210930783234005e-07, 
+          "score": 88.59520136990122, 
+          "score_var": 694.4554961231852
+        }, 
+        "prob": 0.8594641003125691, 
+        "red": {
+          "cargo_scored": 15.370578980164233, 
+          "cargo_scored_var": 28.872510494635947, 
+          "endgame_points": 16.651427255452248, 
+          "endgame_points_var": 40.450663722109326, 
+          "prob_cargo_bonus": 0.19446545807745563, 
+          "prob_face_boss": 4.689582056016661e-12, 
+          "prob_hangar_bonus": 0.5407900606274066, 
+          "prob_shield_operational": 1.4654943925052066e-14, 
+          "score": 58.804022131250846, 
+          "score_var": 69.39181474439557
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm31": {
+        "blue": {
+          "cargo_scored": 20.58012582859002, 
+          "cargo_scored_var": 32.00908852760779, 
+          "endgame_points": 7.2985881611750045, 
+          "endgame_points_var": 74.14814547466165, 
+          "prob_cargo_bonus": 0.5408352400411317, 
+          "prob_face_boss": 4.670217546021149e-10, 
+          "prob_hangar_bonus": 0.1561260836708711, 
+          "prob_shield_operational": 1.035349583844436e-11, 
+          "score": 43.39259154748755, 
+          "score_var": 132.1449904007358
+        }, 
+        "prob": 0.8217851084447306, 
+        "red": {
+          "cargo_scored": 23.324333220469015, 
+          "cargo_scored_var": 57.35048604615292, 
+          "endgame_points": 18.34820433309905, 
+          "endgame_points_var": 68.81005856308461, 
+          "prob_cargo_bonus": 0.6696587867575063, 
+          "prob_face_boss": 2.5674449344315065e-07, 
+          "prob_hangar_bonus": 0.6114424272314221, 
+          "prob_shield_operational": 9.331319605898614e-09, 
+          "score": 61.90701104406547, 
+          "score_var": 270.9245060911933
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm32": {
+        "blue": {
+          "cargo_scored": 26.155741462746604, 
+          "cargo_scored_var": 66.7120644303458, 
+          "endgame_points": 20.955187522908126, 
+          "endgame_points_var": 86.37812557992103, 
+          "prob_cargo_bonus": 0.7744747119180722, 
+          "prob_face_boss": 1.3281949848176211e-05, 
+          "prob_hangar_bonus": 0.7030388610122018, 
+          "prob_shield_operational": 1.0735208830769949e-06, 
+          "score": 72.3239789777162, 
+          "score_var": 549.5495259906132
+        }, 
+        "prob": 0.6217003555064288, 
+        "red": {
+          "cargo_scored": 16.157924343464902, 
+          "cargo_scored_var": 80.86010660079793, 
+          "endgame_points": 20.946043093684686, 
+          "endgame_points_var": 113.98575453924713, 
+          "prob_cargo_bonus": 0.3345926455845163, 
+          "prob_face_boss": 0.00012711200858195326, 
+          "prob_hangar_bonus": 0.6784139762809627, 
+          "prob_shield_operational": 1.843320338368315e-05, 
+          "score": 62.1985231282342, 
+          "score_var": 517.6534522145976
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm33": {
+        "blue": {
+          "cargo_scored": 8.286525360692448, 
+          "cargo_scored_var": 41.103207961726525, 
+          "endgame_points": 19.081866518596403, 
+          "endgame_points_var": 110.31422661399996, 
+          "prob_cargo_bonus": 0.033846932477799685, 
+          "prob_face_boss": 4.893140826012221e-05, 
+          "prob_hangar_bonus": 0.6154015856730242, 
+          "prob_shield_operational": 6.158995740079831e-06, 
+          "score": 43.004102451887405, 
+          "score_var": 169.03963120159668
+        }, 
+        "prob": 0.8371529042632428, 
+        "red": {
+          "cargo_scored": 19.074810469030083, 
+          "cargo_scored_var": 51.95056976666858, 
+          "endgame_points": 15.674597876096476, 
+          "endgame_points_var": 54.75229673374807, 
+          "prob_cargo_bonus": 0.4489313588938453, 
+          "prob_face_boss": 1.0470103672943765e-09, 
+          "prob_hangar_bonus": 0.4824616265028604, 
+          "prob_shield_operational": 1.3137713139599327e-11, 
+          "score": 63.44037722182439, 
+          "score_var": 263.3270133805586
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm34": {
+        "blue": {
+          "cargo_scored": 21.500393211897176, 
+          "cargo_scored_var": 50.63136170142887, 
+          "endgame_points": 14.759056064377013, 
+          "endgame_points_var": 40.57904350075036, 
+          "prob_cargo_bonus": 0.5835019466229522, 
+          "prob_face_boss": 6.148415110374117e-13, 
+          "prob_hangar_bonus": 0.42277260051505905, 
+          "prob_shield_operational": 1.5543122344752192e-15, 
+          "score": 48.08746687690759, 
+          "score_var": 144.63608222338576
+        }, 
+        "prob": 0.9263966608391763, 
+        "red": {
+          "cargo_scored": 9.148861798935526, 
+          "cargo_scored_var": 14.497470907509161, 
+          "endgame_points": 6.148542020543494, 
+          "endgame_points_var": 58.23404898709565, 
+          "prob_cargo_bonus": 0.0021866691107110814, 
+          "prob_face_boss": 8.517631044924201e-13, 
+          "prob_hangar_bonus": 0.09835917118011761, 
+          "prob_shield_operational": 6.217248937900877e-15, 
+          "score": 28.55772284929771, 
+          "score_var": 36.90515751168521
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm35": {
+        "blue": {
+          "cargo_scored": 17.478334958323295, 
+          "cargo_scored_var": 62.97753629056156, 
+          "endgame_points": 16.27417159967878, 
+          "endgame_points_var": 26.547711216091834, 
+          "prob_cargo_bonus": 0.37533479124373825, 
+          "prob_face_boss": 0.0, 
+          "prob_hangar_bonus": 0.5212184705700025, 
+          "prob_shield_operational": 0.0, 
+          "score": 58.3864338577095, 
+          "score_var": 395.14092989418594
+        }, 
+        "prob": 0.5388337535215675, 
+        "red": {
+          "cargo_scored": 13.938782171766157, 
+          "cargo_scored_var": 19.256405978796884, 
+          "endgame_points": 21.131313972957788, 
+          "endgame_points_var": 53.07690843783928, 
+          "prob_cargo_bonus": 0.08360106071040718, 
+          "prob_face_boss": 4.7731459118516284e-08, 
+          "prob_hangar_bonus": 0.7593861504383899, 
+          "prob_shield_operational": 8.642528914748482e-10, 
+          "score": 56.022945395751705, 
+          "score_var": 192.5286066124111
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm36": {
+        "blue": {
+          "cargo_scored": 19.70664565579298, 
+          "cargo_scored_var": 66.449096146683, 
+          "endgame_points": 21.315984656429617, 
+          "endgame_points_var": 86.55766006443949, 
+          "prob_cargo_bonus": 0.4856462850280713, 
+          "prob_face_boss": 1.605612999266981e-05, 
+          "prob_hangar_bonus": 0.7161316021859547, 
+          "prob_shield_operational": 1.3306245291166974e-06, 
+          "score": 65.54752374798639, 
+          "score_var": 472.8106106602711
+        }, 
+        "prob": 0.8197650875346882, 
+        "red": {
+          "cargo_scored": 7.513527226811205, 
+          "cargo_scored_var": 71.1583886061714, 
+          "endgame_points": 16.860838109078344, 
+          "endgame_points_var": 52.91652990248696, 
+          "prob_cargo_bonus": 0.06940706583984313, 
+          "prob_face_boss": 1.5119887564196688e-09, 
+          "prob_hangar_bonus": 0.5471002460645007, 
+          "prob_shield_operational": 1.8249401989578473e-11, 
+          "score": 41.275535519167306, 
+          "score_var": 231.67411625881482
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm37": {
+        "blue": {
+          "cargo_scored": 12.36212889681125, 
+          "cargo_scored_var": 24.87916226857039, 
+          "endgame_points": 10.611185667516086, 
+          "endgame_points_var": 104.59086353292506, 
+          "prob_cargo_bonus": 0.06285017356315514, 
+          "prob_face_boss": 6.851633348459174e-07, 
+          "prob_hangar_bonus": 0.29912387160958454, 
+          "prob_shield_operational": 5.240628997427166e-08, 
+          "score": 44.71350742020458, 
+          "score_var": 250.13672504216868
+        }, 
+        "prob": 0.8497924789035554, 
+        "red": {
+          "cargo_scored": 32.59306226270779, 
+          "cargo_scored_var": 103.73874633185241, 
+          "endgame_points": 22.338032704102, 
+          "endgame_points_var": 139.73291613974126, 
+          "prob_cargo_bonus": 0.8918460237840907, 
+          "prob_face_boss": 0.0007211290769357781, 
+          "prob_hangar_bonus": 0.7040805782666466, 
+          "prob_shield_operational": 0.000153666989618495, 
+          "score": 70.83072232913915, 
+          "score_var": 385.95070781939745
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm38": {
+        "blue": {
+          "cargo_scored": 20.10520660423681, 
+          "cargo_scored_var": 65.11153853812014, 
+          "endgame_points": 22.0817721178193, 
+          "endgame_points_var": 96.0818679960934, 
+          "prob_cargo_bonus": 0.5052012985886423, 
+          "prob_face_boss": 5.478404909764478e-05, 
+          "prob_hangar_bonus": 0.7325204576808171, 
+          "prob_shield_operational": 5.9761331634433645e-06, 
+          "score": 71.61752208372766, 
+          "score_var": 583.8578025289802
+        }, 
+        "prob": 0.867005274018058, 
+        "red": {
+          "cargo_scored": 13.774287235826797, 
+          "cargo_scored_var": 3.5275476917204016, 
+          "endgame_points": 11.4573350031894, 
+          "endgame_points_var": 65.81877825054366, 
+          "prob_cargo_bonus": 0.00045860238378314655, 
+          "prob_face_boss": 1.0925741422695978e-09, 
+          "prob_hangar_bonus": 0.2877626842859895, 
+          "prob_shield_operational": 2.0597745731265604e-11, 
+          "score": 40.09716952524478, 
+          "score_var": 219.1179095305349
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm39": {
+        "blue": {
+          "cargo_scored": 22.226037013091524, 
+          "cargo_scored_var": 39.53383997492113, 
+          "endgame_points": 19.47952936275115, 
+          "endgame_points_var": 106.23075663530665, 
+          "prob_cargo_bonus": 0.6383441872029199, 
+          "prob_face_boss": 4.222295619626948e-05, 
+          "prob_hangar_bonus": 0.63216560795159, 
+          "prob_shield_operational": 5.0147999366423335e-06, 
+          "score": 70.63390998941317, 
+          "score_var": 186.3918472854782
+        }, 
+        "prob": 0.6822415235979643, 
+        "red": {
+          "cargo_scored": 17.614937051820217, 
+          "cargo_scored_var": 58.698296595749554, 
+          "endgame_points": 14.195548116868132, 
+          "endgame_points_var": 58.885328655024885, 
+          "prob_cargo_bonus": 0.37778411072821116, 
+          "prob_face_boss": 1.1933032340039063e-09, 
+          "prob_hangar_bonus": 0.40704683451324497, 
+          "prob_shield_operational": 1.788558190440881e-11, 
+          "score": 59.20588209247499, 
+          "score_var": 394.94747954591804
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm4": {
+        "blue": {
+          "cargo_scored": 21.65712874576456, 
+          "cargo_scored_var": 103.71487356475093, 
+          "endgame_points": 16.960613897810312, 
+          "endgame_points_var": 81.53674130455576, 
+          "prob_cargo_bonus": 0.5646297825424953, 
+          "prob_face_boss": 9.377895406892378e-07, 
+          "prob_hangar_bonus": 0.5423607555456258, 
+          "prob_shield_operational": 5.1851700710869864e-08, 
+          "score": 59.535146837003815, 
+          "score_var": 442.9460758139784
+        }, 
+        "prob": 0.7114806932001688, 
+        "red": {
+          "cargo_scored": 9.368527267258209, 
+          "cargo_scored_var": 50.21957498110271, 
+          "endgame_points": 16.96851800067751, 
+          "endgame_points_var": 104.97551550458121, 
+          "prob_cargo_bonus": 0.06677783444338348, 
+          "prob_face_boss": 1.334973691624608e-05, 
+          "prob_hangar_bonus": 0.5376554076977036, 
+          "prob_shield_operational": 1.3798492668470885e-06, 
+          "score": 44.398444254768485, 
+          "score_var": 293.6628781415268
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm40": {
+        "blue": {
+          "cargo_scored": 10.42521331408545, 
+          "cargo_scored_var": 9.542413148091674, 
+          "endgame_points": 7.579547588264989, 
+          "endgame_points_var": 37.63453870141928, 
+          "prob_cargo_bonus": 0.0009690427233662868, 
+          "prob_face_boss": 0.0, 
+          "prob_hangar_bonus": 0.08493928382272609, 
+          "prob_shield_operational": 0.0, 
+          "score": 28.945973399456943, 
+          "score_var": 121.76183218012027
+        }, 
+        "prob": 0.9348109833321745, 
+        "red": {
+          "cargo_scored": 18.001687763198845, 
+          "cargo_scored_var": 51.873496676371616, 
+          "endgame_points": 14.12796172035883, 
+          "endgame_points_var": 79.2827591911433, 
+          "prob_cargo_bonus": 0.39071586039368944, 
+          "prob_face_boss": 1.2900178170127674e-07, 
+          "prob_hangar_bonus": 0.41673829192807044, 
+          "prob_shield_operational": 5.539133818288633e-09, 
+          "score": 58.63188303206469, 
+          "score_var": 263.40170171594
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm41": {
+        "blue": {
+          "cargo_scored": 14.87543911529029, 
+          "cargo_scored_var": 24.255854700949662, 
+          "endgame_points": 15.41974879780159, 
+          "endgame_points_var": 73.62986910421067, 
+          "prob_cargo_bonus": 0.14905033785794408, 
+          "prob_face_boss": 1.0216300694310121e-07, 
+          "prob_hangar_bonus": 0.47304320758597873, 
+          "prob_shield_operational": 3.778444224167288e-09, 
+          "score": 55.59125951314336, 
+          "score_var": 183.134016174842
+        }, 
+        "prob": 0.5593188097421306, 
+        "red": {
+          "cargo_scored": 19.320559746261367, 
+          "cargo_scored_var": 44.798880710874656, 
+          "endgame_points": 15.57531555330112, 
+          "endgame_points_var": 26.720377407654986, 
+          "prob_cargo_bonus": 0.4595719875737895, 
+          "prob_face_boss": 0.0, 
+          "prob_hangar_bonus": 0.4672608965870553, 
+          "prob_shield_operational": 0.0, 
+          "score": 58.30306856424242, 
+          "score_var": 147.033150628857
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm42": {
+        "blue": {
+          "cargo_scored": 15.728721384904613, 
+          "cargo_scored_var": 18.22580120261735, 
+          "endgame_points": 17.98263608720835, 
+          "endgame_points_var": 130.7702623166374, 
+          "prob_cargo_bonus": 0.15853569510291976, 
+          "prob_face_boss": 0.00011925240538590565, 
+          "prob_hangar_bonus": 0.56882198199124, 
+          "prob_shield_operational": 1.9652035430195447e-05, 
+          "score": 54.55862056082517, 
+          "score_var": 299.69788729572633
+        }, 
+        "prob": 0.685857668962506, 
+        "red": {
+          "cargo_scored": 8.57340978126135, 
+          "cargo_scored_var": 57.832763463001825, 
+          "endgame_points": 14.783527133331338, 
+          "endgame_points_var": 118.15977204846351, 
+          "prob_cargo_bonus": 0.06647722886147123, 
+          "prob_face_boss": 1.5933394331257844e-05, 
+          "prob_hangar_bonus": 0.45544751571879416, 
+          "prob_shield_operational": 1.921711958896566e-06, 
+          "score": 44.341286515865, 
+          "score_var": 145.67991545178353
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm43": {
+        "blue": {
+          "cargo_scored": 13.052137060881439, 
+          "cargo_scored_var": 11.860176203076431, 
+          "endgame_points": 11.340145772180326, 
+          "endgame_points_var": 65.58334108669298, 
+          "prob_cargo_bonus": 0.021823586650778548, 
+          "prob_face_boss": 9.356017072192913e-10, 
+          "prob_hangar_bonus": 0.28250784681605756, 
+          "prob_shield_operational": 1.724298481775577e-11, 
+          "score": 38.9858660842671, 
+          "score_var": 222.58871795384394
+        }, 
+        "prob": 0.7529682387511529, 
+        "red": {
+          "cargo_scored": 15.038578684296752, 
+          "cargo_scored_var": 64.0710701912643, 
+          "endgame_points": 20.122311453862643, 
+          "endgame_points_var": 103.45875447518894, 
+          "prob_cargo_bonus": 0.2676836704965554, 
+          "prob_face_boss": 4.417461483097185e-05, 
+          "prob_hangar_bonus": 0.6573648348590122, 
+          "prob_shield_operational": 5.1182775965274985e-06, 
+          "score": 55.46625873120996, 
+          "score_var": 358.17650276337605
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm44": {
+        "blue": {
+          "cargo_scored": 28.51873615039188, 
+          "cargo_scored_var": 97.36010135486437, 
+          "endgame_points": 30.41912175168223, 
+          "endgame_points_var": 83.36771799461714, 
+          "prob_cargo_bonus": 0.8060262483873074, 
+          "prob_face_boss": 0.0005981631811009525, 
+          "prob_hangar_bonus": 0.942856037580363, 
+          "prob_shield_operational": 7.612694576963897e-05, 
+          "score": 73.32422942294652, 
+          "score_var": 347.5110709129735
+        }, 
+        "prob": 0.5473800745550725, 
+        "red": {
+          "cargo_scored": 22.117534053113353, 
+          "cargo_scored_var": 24.956199399735546, 
+          "endgame_points": 19.076037212226286, 
+          "endgame_points_var": 39.03714352740382, 
+          "prob_cargo_bonus": 0.6641727132143551, 
+          "prob_face_boss": 2.877620364216682e-11, 
+          "prob_hangar_bonus": 0.6887554675191573, 
+          "prob_shield_operational": 9.892087149410145e-14, 
+          "score": 76.5810854435657, 
+          "score_var": 400.9619485229646
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm45": {
+        "blue": {
+          "cargo_scored": 23.003741504773398, 
+          "cargo_scored_var": 80.62565377974484, 
+          "endgame_points": 13.294589461297793, 
+          "endgame_points_var": 13.004045598660891, 
+          "prob_cargo_bonus": 0.6310075158469378, 
+          "prob_face_boss": 0.0, 
+          "prob_hangar_bonus": 0.2265583521201755, 
+          "prob_shield_operational": 0.0, 
+          "score": 57.891908019707, 
+          "score_var": 255.57768056551612
+        }, 
+        "prob": 0.9067459212704434, 
+        "red": {
+          "cargo_scored": 9.01725667573293, 
+          "cargo_scored_var": 46.454373906267584, 
+          "endgame_points": 9.836860688462096, 
+          "endgame_points_var": 42.45620939471962, 
+          "prob_cargo_bonus": 0.05354863992152725, 
+          "prob_face_boss": 6.8833827526759706e-15, 
+          "prob_hangar_bonus": 0.17210748991396796, 
+          "prob_shield_operational": 0.0, 
+          "score": 30.95236176511562, 
+          "score_var": 160.32173874151945
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm46": {
+        "blue": {
+          "cargo_scored": 10.269313677138562, 
+          "cargo_scored_var": 4.846941708460875, 
+          "endgame_points": 14.814104261751368, 
+          "endgame_points_var": 94.43534992038622, 
+          "prob_cargo_bonus": 4.937996380016685e-06, 
+          "prob_face_boss": 1.6611709994229784e-06, 
+          "prob_hangar_bonus": 0.451436227652539, 
+          "prob_shield_operational": 1.2064778576181823e-07, 
+          "score": 43.31631327580682, 
+          "score_var": 55.20170105460346
+        }, 
+        "prob": 0.9116513940686357, 
+        "red": {
+          "cargo_scored": 19.812061116682617, 
+          "cargo_scored_var": 53.9571505898401, 
+          "endgame_points": 20.353885668253323, 
+          "endgame_points_var": 40.27024396974309, 
+          "prob_cargo_bonus": 0.48979401739011064, 
+          "prob_face_boss": 2.0849433290948127e-10, 
+          "prob_hangar_bonus": 0.7536737147687327, 
+          "prob_shield_operational": 9.93205517829665e-13, 
+          "score": 72.05917242737166, 
+          "score_var": 397.4381698568765
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm47": {
+        "blue": {
+          "cargo_scored": 14.566050638826958, 
+          "cargo_scored_var": 63.32893207037658, 
+          "endgame_points": 14.923290518750246, 
+          "endgame_points_var": 55.256458690679054, 
+          "prob_cargo_bonus": 0.24735618576105922, 
+          "prob_face_boss": 6.637999039327269e-10, 
+          "prob_hangar_bonus": 0.44241616447316845, 
+          "prob_shield_operational": 8.103739901343943e-12, 
+          "score": 48.32778226875192, 
+          "score_var": 313.22540639807823
+        }, 
+        "prob": 0.748068547923018, 
+        "red": {
+          "cargo_scored": 9.542457382636938, 
+          "cargo_scored_var": 97.40260906097632, 
+          "endgame_points": 11.33871551500603, 
+          "endgame_points_var": 116.62891270510859, 
+          "prob_cargo_bonus": 0.14466197516719603, 
+          "prob_face_boss": 3.3047871389468852e-06, 
+          "prob_hangar_bonus": 0.3330084720605915, 
+          "prob_shield_operational": 3.367147105581836e-07, 
+          "score": 33.10248550537003, 
+          "score_var": 205.60725605247268
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm48": {
+        "blue": {
+          "cargo_scored": 15.301729897346641, 
+          "cargo_scored_var": 45.01511446633211, 
+          "endgame_points": 26.931628980902097, 
+          "endgame_points_var": 80.28117173501016, 
+          "prob_cargo_bonus": 0.24188273443944064, 
+          "prob_face_boss": 0.00011182932616771168, 
+          "prob_hangar_bonus": 0.8887772538834109, 
+          "prob_shield_operational": 1.0750086071542597e-05, 
+          "score": 64.87506582271627, 
+          "score_var": 231.44485118771536
+        }, 
+        "prob": 0.5938006298753554, 
+        "red": {
+          "cargo_scored": 21.590331025644346, 
+          "cargo_scored_var": 31.14321787524834, 
+          "endgame_points": 17.975846019312108, 
+          "endgame_points_var": 72.19703341468399, 
+          "prob_cargo_bonus": 0.6121681078805308, 
+          "prob_face_boss": 3.7909791350543287e-07, 
+          "prob_hangar_bonus": 0.5919398052410134, 
+          "prob_shield_operational": 1.56252584204708e-08, 
+          "score": 59.726883533021194, 
+          "score_var": 239.09117729415797
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm49": {
+        "blue": {
+          "cargo_scored": 25.252032724038266, 
+          "cargo_scored_var": 102.38621783523868, 
+          "endgame_points": 22.700211313804747, 
+          "endgame_points_var": 41.221755598836126, 
+          "prob_cargo_bonus": 0.698136011821058, 
+          "prob_face_boss": 3.1318901916321806e-09, 
+          "prob_hangar_bonus": 0.8516598527186463, 
+          "prob_shield_operational": 2.2240875807710836e-11, 
+          "score": 67.40550913094039, 
+          "score_var": 322.0160920468269
+        }, 
+        "prob": 0.8250384158278238, 
+        "red": {
+          "cargo_scored": 19.161696673624427, 
+          "cargo_scored_var": 77.87257957279459, 
+          "endgame_points": 6.092241863064119, 
+          "endgame_points_var": 78.00567685751241, 
+          "prob_cargo_bonus": 0.4621586901776411, 
+          "prob_face_boss": 5.184322970919197e-10, 
+          "prob_hangar_bonus": 0.13097547009184995, 
+          "prob_shield_operational": 1.2812195748779232e-11, 
+          "score": 45.68878068455221, 
+          "score_var": 217.7538521121479
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm5": {
+        "blue": {
+          "cargo_scored": 18.447165667548674, 
+          "cargo_scored_var": 87.78875368275328, 
+          "endgame_points": 18.62746848454178, 
+          "endgame_points_var": 101.51529731734942, 
+          "prob_cargo_bonus": 0.4341840343588552, 
+          "prob_face_boss": 2.0105920132240662e-05, 
+          "prob_hangar_bonus": 0.6028683343130099, 
+          "prob_shield_operational": 2.087113701643162e-06, 
+          "score": 56.87926647913613, 
+          "score_var": 411.20303475922344
+        }, 
+        "prob": 0.8812587938578753, 
+        "red": {
+          "cargo_scored": 5.963909268641197, 
+          "cargo_scored_var": 28.330378336993295, 
+          "endgame_points": 7.898443076854834, 
+          "endgame_points_var": 36.173685531203034, 
+          "prob_cargo_bonus": 0.0041814042727104095, 
+          "prob_face_boss": 0.0, 
+          "prob_hangar_bonus": 0.08898786246500145, 
+          "prob_shield_operational": 0.0, 
+          "score": 26.243945245613915, 
+          "score_var": 261.34348648202
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm50": {
+        "blue": {
+          "cargo_scored": 21.989583666434747, 
+          "cargo_scored_var": 35.90667744188534, 
+          "endgame_points": 26.449948019593123, 
+          "endgame_points_var": 28.217760575835804, 
+          "prob_cargo_bonus": 0.6300659093473732, 
+          "prob_face_boss": 1.3433876233648334e-10, 
+          "prob_hangar_bonus": 0.975421054319872, 
+          "prob_shield_operational": 1.9773072068574038e-13, 
+          "score": 82.74039765478068, 
+          "score_var": 298.93841191327147
+        }, 
+        "prob": 0.8854578254471186, 
+        "red": {
+          "cargo_scored": 24.337750998706284, 
+          "cargo_scored_var": 39.475183593949595, 
+          "endgame_points": 13.503864538463244, 
+          "endgame_points_var": 36.00843718829769, 
+          "prob_cargo_bonus": 0.7550295393697524, 
+          "prob_face_boss": 4.6629367034256575e-15, 
+          "prob_hangar_bonus": 0.33871457488027645, 
+          "prob_shield_operational": 0.0, 
+          "score": 56.94934871453632, 
+          "score_var": 160.90323949408048
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm51": {
+        "blue": {
+          "cargo_scored": 6.569554620409217, 
+          "cargo_scored_var": 35.921670770371456, 
+          "endgame_points": 5.464595946434727, 
+          "endgame_points_var": 64.79489037121633, 
+          "prob_cargo_bonus": 0.012518002689216212, 
+          "prob_face_boss": 6.221023696184602e-12, 
+          "prob_hangar_bonus": 0.09529720894704741, 
+          "prob_shield_operational": 7.016609515630989e-14, 
+          "score": 21.022375818267825, 
+          "score_var": 194.60913072029678
+        }, 
+        "prob": 0.9259732407707366, 
+        "red": {
+          "cargo_scored": 15.525745447960247, 
+          "cargo_scored_var": 83.60608016400302, 
+          "endgame_points": 17.376709194739128, 
+          "endgame_points_var": 58.33530377004651, 
+          "prob_cargo_bonus": 0.3123040764716869, 
+          "prob_face_boss": 1.198420451764548e-08, 
+          "prob_hangar_bonus": 0.5715220433138499, 
+          "prob_shield_operational": 2.2553270362379862e-10, 
+          "score": 49.273901539213874, 
+          "score_var": 186.88011604155793
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm52": {
+        "blue": {
+          "cargo_scored": 10.95023838190967, 
+          "cargo_scored_var": 35.14638932980139, 
+          "endgame_points": 16.652371232643954, 
+          "endgame_points_var": 51.373875365353456, 
+          "prob_cargo_bonus": 0.063442706995952, 
+          "prob_face_boss": 7.343908814405609e-10, 
+          "prob_hangar_bonus": 0.5362605518253449, 
+          "prob_shield_operational": 7.633338405810264e-12, 
+          "score": 50.197818027902244, 
+          "score_var": 329.3137466139176
+        }, 
+        "prob": 0.6534243460374705, 
+        "red": {
+          "cargo_scored": 17.45780989183507, 
+          "cargo_scored_var": 50.281459633757684, 
+          "endgame_points": 15.489986355852643, 
+          "endgame_points_var": 66.22387288367302, 
+          "prob_cargo_bonus": 0.3599799743210921, 
+          "prob_face_boss": 2.256083642127038e-08, 
+          "prob_hangar_bonus": 0.47501379241014274, 
+          "prob_shield_operational": 5.862796914613e-10, 
+          "score": 60.18887111526563, 
+          "score_var": 311.8186459566839
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm53": {
+        "blue": {
+          "cargo_scored": 14.87509944778003, 
+          "cargo_scored_var": 17.546364909883494, 
+          "endgame_points": 19.53253771482882, 
+          "endgame_points_var": 68.71994210841238, 
+          "prob_cargo_bonus": 0.11057689099359402, 
+          "prob_face_boss": 5.260710671528557e-07, 
+          "prob_hangar_bonus": 0.6649946207986098, 
+          "prob_shield_operational": 2.0699051250794298e-08, 
+          "score": 57.979934669393685, 
+          "score_var": 127.52402529561498
+        }, 
+        "prob": 0.6120854317024224, 
+        "red": {
+          "cargo_scored": 15.20919609582705, 
+          "cargo_scored_var": 65.6046714448, 
+          "endgame_points": 17.699002451598645, 
+          "endgame_points_var": 148.68877211724083, 
+          "prob_cargo_bonus": 0.277098993437655, 
+          "prob_face_boss": 0.000261143649323059, 
+          "prob_hangar_bonus": 0.5554066108869797, 
+          "prob_shield_operational": 5.242136958627519e-05, 
+          "score": 51.5219803304834, 
+          "score_var": 386.7995354256014
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm54": {
+        "blue": {
+          "cargo_scored": 19.617479632116122, 
+          "cargo_scored_var": 72.46183131332066, 
+          "endgame_points": 14.005379723616587, 
+          "endgame_points_var": 79.08984472785794, 
+          "prob_cargo_bonus": 0.4820789341356425, 
+          "prob_face_boss": 1.1588822768082707e-07, 
+          "prob_hangar_bonus": 0.4112678461590553, 
+          "prob_shield_operational": 4.902055872335609e-09, 
+          "score": 62.04904451938746, 
+          "score_var": 395.5978312373636
+        }, 
+        "prob": 0.7785573465949074, 
+        "red": {
+          "cargo_scored": 13.610332437936929, 
+          "cargo_scored_var": 35.599914522948154, 
+          "endgame_points": 12.810997789349516, 
+          "endgame_points_var": 104.16556665983461, 
+          "prob_cargo_bonus": 0.1421044993516396, 
+          "prob_face_boss": 1.8858341721550431e-06, 
+          "prob_hangar_bonus": 0.37734594313586156, 
+          "prob_shield_operational": 1.58135258443437e-07, 
+          "score": 44.53044678087052, 
+          "score_var": 125.63800809219885
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm55": {
+        "blue": {
+          "cargo_scored": 10.950157087850403, 
+          "cargo_scored_var": 14.844132824878068, 
+          "endgame_points": 16.209785751373296, 
+          "endgame_points_var": 20.825276986023397, 
+          "prob_cargo_bonus": 0.009414604941727633, 
+          "prob_face_boss": 0.0, 
+          "prob_hangar_bonus": 0.5183331763496863, 
+          "prob_shield_operational": 0.0, 
+          "score": 44.32553497284559, 
+          "score_var": 119.47835143881477
+        }, 
+        "prob": 0.8211771413693381, 
+        "red": {
+          "cargo_scored": 18.803845985501418, 
+          "cargo_scored_var": 66.12556481094158, 
+          "endgame_points": 25.92997587323615, 
+          "endgame_points_var": 67.39417115602481, 
+          "prob_cargo_bonus": 0.44152791744385356, 
+          "prob_face_boss": 1.6614621824562192e-05, 
+          "prob_hangar_bonus": 0.8867812497555098, 
+          "prob_shield_operational": 9.718850950690694e-07, 
+          "score": 60.22344749278297, 
+          "score_var": 179.22243362192734
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm56": {
+        "blue": {
+          "cargo_scored": 18.06834507185361, 
+          "cargo_scored_var": 48.93732311989601, 
+          "endgame_points": 12.006507009628422, 
+          "endgame_points_var": 44.98866062521027, 
+          "prob_cargo_bonus": 0.3912251233113855, 
+          "prob_face_boss": 4.1722181265413383e-13, 
+          "prob_hangar_bonus": 0.27579146902396834, 
+          "prob_shield_operational": 1.3322676295501878e-15, 
+          "score": 55.03708997027218, 
+          "score_var": 218.04931501942806
+        }, 
+        "prob": 0.6521807625489601, 
+        "red": {
+          "cargo_scored": 17.073915313261352, 
+          "cargo_scored_var": 90.62823294772424, 
+          "endgame_points": 23.578979929098438, 
+          "endgame_points_var": 54.37913228984186, 
+          "prob_cargo_bonus": 0.3792825881092178, 
+          "prob_face_boss": 3.9269107177108964e-07, 
+          "prob_hangar_bonus": 0.847970251449798, 
+          "prob_shield_operational": 9.714904436464167e-09, 
+          "score": 63.22254364429849, 
+          "score_var": 219.72973417138854
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm57": {
+        "blue": {
+          "cargo_scored": 11.246678742464841, 
+          "cargo_scored_var": 34.24073891453612, 
+          "endgame_points": 10.866830073571728, 
+          "endgame_points_var": 57.47480744439602, 
+          "prob_cargo_bonus": 0.06734042299924137, 
+          "prob_face_boss": 4.558531330189908e-11, 
+          "prob_hangar_bonus": 0.24917418972537475, 
+          "prob_shield_operational": 4.651834473179406e-13, 
+          "score": 37.02863476630767, 
+          "score_var": 156.9193050617016
+        }, 
+        "prob": 0.9489313885761872, 
+        "red": {
+          "cargo_scored": 22.250445275760963, 
+          "cargo_scored_var": 38.179702148366125, 
+          "endgame_points": 15.150768893215721, 
+          "endgame_points_var": 30.82361011392562, 
+          "prob_cargo_bonus": 0.6421495009643203, 
+          "prob_face_boss": 3.3306690738754696e-16, 
+          "prob_hangar_bonus": 0.4392140393016012, 
+          "prob_shield_operational": 0.0, 
+          "score": 74.34956154802867, 
+          "score_var": 364.3867039275055
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm58": {
+        "blue": {
+          "cargo_scored": 26.202310230982093, 
+          "cargo_scored_var": 85.21232011944484, 
+          "endgame_points": 32.951482282394586, 
+          "endgame_points_var": 112.1360142976668, 
+          "prob_cargo_bonus": 0.7491751619805375, 
+          "prob_face_boss": 0.005320165903492935, 
+          "prob_hangar_bonus": 0.9452885905492345, 
+          "prob_shield_operational": 0.001237164908130861, 
+          "score": 88.39314737613621, 
+          "score_var": 285.54066792118056
+        }, 
+        "prob": 0.6797905683235204, 
+        "red": {
+          "cargo_scored": 25.81756887696801, 
+          "cargo_scored_var": 58.056741119657474, 
+          "endgame_points": 17.996421148893283, 
+          "endgame_points_var": 12.69503009988288, 
+          "prob_cargo_bonus": 0.777420599661728, 
+          "prob_face_boss": 0.0, 
+          "prob_hangar_bonus": 0.7123690408839373, 
+          "prob_shield_operational": 0.0, 
+          "score": 76.76885488352373, 
+          "score_var": 333.7416891190171
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm59": {
+        "blue": {
+          "cargo_scored": 10.957871433950434, 
+          "cargo_scored_var": 13.916062849448055, 
+          "endgame_points": 11.403397407668763, 
+          "endgame_points_var": 57.48386171687266, 
+          "prob_cargo_bonus": 0.007677677446714659, 
+          "prob_face_boss": 7.293676773656443e-11, 
+          "prob_hangar_bonus": 0.27216870628905, 
+          "prob_shield_operational": 7.797096301942474e-13, 
+          "score": 39.7681280640846, 
+          "score_var": 230.0242927930721
+        }, 
+        "prob": 0.7214450253014094, 
+        "red": {
+          "cargo_scored": 20.62569707394163, 
+          "cargo_scored_var": 83.36898955713752, 
+          "endgame_points": 13.193545023984973, 
+          "endgame_points_var": 75.4513806880014, 
+          "prob_cargo_bonus": 0.5273169446653188, 
+          "prob_face_boss": 3.551362037779171e-08, 
+          "prob_hangar_bonus": 0.3733132692026534, 
+          "prob_shield_operational": 1.2293757123416071e-09, 
+          "score": 53.027643217582956, 
+          "score_var": 279.9784753500998
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm6": {
+        "blue": {
+          "cargo_scored": 10.700325415079035, 
+          "cargo_scored_var": 46.43479006564537, 
+          "endgame_points": 17.474678511265655, 
+          "endgame_points_var": 54.776476397274955, 
+          "prob_cargo_bonus": 0.08616932397750221, 
+          "prob_face_boss": 4.574350231933977e-09, 
+          "prob_hangar_bonus": 0.5789667599702153, 
+          "prob_shield_operational": 6.752454151381926e-11, 
+          "score": 48.62712669697106, 
+          "score_var": 281.7405190313955
+        }, 
+        "prob": 0.713100317250593, 
+        "red": {
+          "cargo_scored": 6.887831636011183, 
+          "cargo_scored_var": 54.79916780191963, 
+          "endgame_points": 14.3461422391349, 
+          "endgame_points_var": 70.9903510973007, 
+          "prob_cargo_bonus": 0.03825696850599203, 
+          "prob_face_boss": 3.005320814430945e-08, 
+          "prob_hangar_bonus": 0.42219153765878303, 
+          "prob_shield_operational": 9.167197001502814e-10, 
+          "score": 35.73499465984122, 
+          "score_var": 243.6216055116369
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm60": {
+        "blue": {
+          "cargo_scored": 13.002022255923828, 
+          "cargo_scored_var": 42.94882825916576, 
+          "endgame_points": 8.121302412001734, 
+          "endgame_points_var": 121.78775244411568, 
+          "prob_cargo_bonus": 0.14280149724265367, 
+          "prob_face_boss": 1.2946580902895022e-06, 
+          "prob_hangar_bonus": 0.23763676198312988, 
+          "prob_shield_operational": 1.2746635391636119e-07, 
+          "score": 29.61609619432657, 
+          "score_var": 148.7233151957516
+        }, 
+        "prob": 0.9572806111127644, 
+        "red": {
+          "cargo_scored": 18.160115645138838, 
+          "cargo_scored_var": 52.64206723823638, 
+          "endgame_points": 22.700876272698693, 
+          "endgame_points_var": 55.260883670547344, 
+          "prob_cargo_bonus": 0.3999079807555195, 
+          "prob_face_boss": 2.6170426703497895e-07, 
+          "prob_hangar_bonus": 0.8163149903307283, 
+          "prob_shield_operational": 6.347003367324078e-09, 
+          "score": 70.79106458992527, 
+          "score_var": 424.37252698108813
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm61": {
+        "blue": {
+          "cargo_scored": 18.833430639168064, 
+          "cargo_scored_var": 34.174410589692556, 
+          "endgame_points": 22.010265676034685, 
+          "endgame_points_var": 65.74269201173931, 
+          "prob_cargo_bonus": 0.420914773134874, 
+          "prob_face_boss": 1.397374565392795e-06, 
+          "prob_hangar_bonus": 0.7707317654402127, 
+          "prob_shield_operational": 5.726545593276455e-08, 
+          "score": 73.42703640892611, 
+          "score_var": 218.98394919573354
+        }, 
+        "prob": 0.9690355971703348, 
+        "red": {
+          "cargo_scored": 9.61290448079911, 
+          "cargo_scored_var": 46.371897835658345, 
+          "endgame_points": 10.010915623009257, 
+          "endgame_points_var": 29.492037601652264, 
+          "prob_cargo_bonus": 0.06358714428966594, 
+          "prob_face_boss": 0.0, 
+          "prob_hangar_bonus": 0.1350507906825621, 
+          "prob_shield_operational": 0.0, 
+          "score": 33.95773475775174, 
+          "score_var": 228.02983219645606
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm62": {
+        "blue": {
+          "cargo_scored": 17.85333022187528, 
+          "cargo_scored_var": 89.39865299148639, 
+          "endgame_points": 27.948387612315976, 
+          "endgame_points_var": 91.82204364500382, 
+          "prob_cargo_bonus": 0.4101968525969327, 
+          "prob_face_boss": 0.00041163817426981275, 
+          "prob_hangar_bonus": 0.893785128044558, 
+          "prob_shield_operational": 5.5172775337286595e-05, 
+          "score": 70.75335865266364, 
+          "score_var": 281.3505050107636
+        }, 
+        "prob": 0.7239417523927208, 
+        "red": {
+          "cargo_scored": 18.55852846971221, 
+          "cargo_scored_var": 5.812026039890181, 
+          "endgame_points": 15.642594956017623, 
+          "endgame_points_var": 60.24382491371097, 
+          "prob_cargo_bonus": 0.27494701856775305, 
+          "prob_face_boss": 5.487906573620194e-09, 
+          "prob_hangar_bonus": 0.4816362648941809, 
+          "prob_shield_operational": 1.014658357334497e-10, 
+          "score": 59.99341774995785, 
+          "score_var": 46.12757134780069
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm63": {
+        "blue": {
+          "cargo_scored": 18.969538529487878, 
+          "cargo_scored_var": 33.229617301127675, 
+          "endgame_points": 13.131568551830451, 
+          "endgame_points_var": 28.79632272344272, 
+          "prob_cargo_bonus": 0.42906328061760857, 
+          "prob_face_boss": 0.0, 
+          "prob_hangar_bonus": 0.29648580042638994, 
+          "prob_shield_operational": 0.0, 
+          "score": 55.918363086334864, 
+          "score_var": 250.84564138334906
+        }, 
+        "prob": 0.7245661945692992, 
+        "red": {
+          "cargo_scored": 16.60362667586363, 
+          "cargo_scored_var": 42.71298389305535, 
+          "endgame_points": 12.573850374619512, 
+          "endgame_points_var": 56.697390720555745, 
+          "prob_cargo_bonus": 0.30164353882162676, 
+          "prob_face_boss": 1.5028112088089074e-10, 
+          "prob_hangar_bonus": 0.32454957226893144, 
+          "prob_shield_operational": 1.6712187189682481e-12, 
+          "score": 44.60972803730656, 
+          "score_var": 108.61963968240772
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm64": {
+        "blue": {
+          "cargo_scored": 25.6309940244074, 
+          "cargo_scored_var": 68.41342925905286, 
+          "endgame_points": 24.19241161476499, 
+          "endgame_points_var": 68.98987998738957, 
+          "prob_cargo_bonus": 0.7519984151544958, 
+          "prob_face_boss": 8.124306615009402e-06, 
+          "prob_hangar_bonus": 0.8380126311252014, 
+          "prob_shield_operational": 4.4842830593250227e-07, 
+          "score": 70.51629018981973, 
+          "score_var": 232.7118234928789
+        }, 
+        "prob": 0.9836590325049787, 
+        "red": {
+          "cargo_scored": 11.95089796806666, 
+          "cargo_scored_var": 62.875079094094716, 
+          "endgame_points": 7.773950478493487, 
+          "endgame_points_var": 49.04648936448293, 
+          "prob_cargo_bonus": 0.15502945255039502, 
+          "prob_face_boss": 4.418687638008123e-14, 
+          "prob_hangar_bonus": 0.12007882082093158, 
+          "prob_shield_operational": 2.220446049250313e-16, 
+          "score": 29.459352917481123, 
+          "score_var": 136.76157825984797
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm65": {
+        "blue": {
+          "cargo_scored": 18.857933437126686, 
+          "cargo_scored_var": 94.29404964602159, 
+          "endgame_points": 25.197129571772127, 
+          "endgame_points_var": 75.90378309867934, 
+          "prob_cargo_bonus": 0.45318780164710537, 
+          "prob_face_boss": 3.238913658010212e-05, 
+          "prob_hangar_bonus": 0.8544362823683904, 
+          "prob_shield_operational": 2.4550198708395143e-06, 
+          "score": 69.34403969516723, 
+          "score_var": 301.30647025156037
+        }, 
+        "prob": 0.5230393342752631, 
+        "red": {
+          "cargo_scored": 20.22432657356098, 
+          "cargo_scored_var": 34.11283650351002, 
+          "endgame_points": 20.655206119208096, 
+          "endgame_points_var": 56.76350978343382, 
+          "prob_cargo_bonus": 0.5153188126950841, 
+          "prob_face_boss": 8.840978749091732e-08, 
+          "prob_hangar_bonus": 0.7316728517469159, 
+          "prob_shield_operational": 1.980256625344623e-09, 
+          "score": 70.80453284880608, 
+          "score_var": 337.5393879638481
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm66": {
+        "blue": {
+          "cargo_scored": 17.264540238317192, 
+          "cargo_scored_var": 63.46867211283166, 
+          "endgame_points": 11.037041453682715, 
+          "endgame_points_var": 87.62022695333383, 
+          "prob_cargo_bonus": 0.36566354899543685, 
+          "prob_face_boss": 8.440359033912159e-08, 
+          "prob_hangar_bonus": 0.29798716980993967, 
+          "prob_shield_operational": 4.084739102516721e-09, 
+          "score": 47.16804612252436, 
+          "score_var": 421.65002813401213
+        }, 
+        "prob": 0.7601655866175103, 
+        "red": {
+          "cargo_scored": 22.319660254443864, 
+          "cargo_scored_var": 63.417093879360706, 
+          "endgame_points": 18.240199412333773, 
+          "endgame_points_var": 89.61379342825386, 
+          "prob_cargo_bonus": 0.6145841137612584, 
+          "prob_face_boss": 5.1365334340358615e-06, 
+          "prob_hangar_bonus": 0.5935343015391232, 
+          "prob_shield_operational": 3.9156479281210466e-07, 
+          "score": 68.24534371426061, 
+          "score_var": 467.53753113596264
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm67": {
+        "blue": {
+          "cargo_scored": 12.631335979788483, 
+          "cargo_scored_var": 14.78022850466303, 
+          "endgame_points": 15.089491820914926, 
+          "endgame_points_var": 51.89637611486235, 
+          "prob_cargo_bonus": 0.02763970004056482, 
+          "prob_face_boss": 2.270729160258611e-10, 
+          "prob_hangar_bonus": 0.449711306837563, 
+          "prob_shield_operational": 2.130406961953213e-12, 
+          "score": 46.74739265836768, 
+          "score_var": 46.30292016927439
+        }, 
+        "prob": 0.7605045090621174, 
+        "red": {
+          "cargo_scored": 12.569460580133232, 
+          "cargo_scored_var": 7.105189396983459, 
+          "endgame_points": 6.362580277688339, 
+          "endgame_points_var": 62.88272746491466, 
+          "prob_cargo_bonus": 0.0026548949533423682, 
+          "prob_face_boss": 6.7126304514886215e-12, 
+          "prob_hangar_bonus": 0.11211966313602706, 
+          "prob_shield_operational": 7.09432512735475e-14, 
+          "score": 37.92582886019227, 
+          "score_var": 108.97688470704017
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm68": {
+        "blue": {
+          "cargo_scored": 19.055804952757743, 
+          "cargo_scored_var": 48.895936764368216, 
+          "endgame_points": 25.285659609328654, 
+          "endgame_points_var": 74.92007472393314, 
+          "prob_cargo_bonus": 0.44629468406859707, 
+          "prob_face_boss": 3.0281767510520474e-05, 
+          "prob_hangar_bonus": 0.8583167392229211, 
+          "prob_shield_operational": 2.2347524475385683e-06, 
+          "score": 65.73174973700102, 
+          "score_var": 164.03462025910648
+        }, 
+        "prob": 0.8313769593316533, 
+        "red": {
+          "cargo_scored": 15.518075996039238, 
+          "cargo_scored_var": 80.62463505699219, 
+          "endgame_points": 20.950006980279618, 
+          "endgame_points_var": 40.671175984078346, 
+          "prob_cargo_bonus": 0.30883704729339245, 
+          "prob_face_boss": 4.586067081646661e-10, 
+          "prob_hangar_bonus": 0.7811786425244622, 
+          "prob_shield_operational": 2.471467475118061e-12, 
+          "score": 48.514712807436084, 
+          "score_var": 157.86279441888593
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm69": {
+        "blue": {
+          "cargo_scored": 18.57291193108941, 
+          "cargo_scored_var": 33.42676188396179, 
+          "endgame_points": 12.615164995235164, 
+          "endgame_points_var": 41.80205737662587, 
+          "prob_cargo_bonus": 0.4025186471768596, 
+          "prob_face_boss": 1.1601830607332886e-13, 
+          "prob_hangar_bonus": 0.30030395513133723, 
+          "prob_shield_operational": 2.220446049250313e-16, 
+          "score": 60.50018568363007, 
+          "score_var": 201.01561759895012
+        }, 
+        "prob": 0.7349927894302628, 
+        "red": {
+          "cargo_scored": 10.564853269105386, 
+          "cargo_scored_var": 39.59696439715971, 
+          "endgame_points": 18.52897366274727, 
+          "endgame_points_var": 59.2364778224443, 
+          "prob_cargo_bonus": 0.06688485485648821, 
+          "prob_face_boss": 3.556754957223518e-08, 
+          "prob_hangar_bonus": 0.6287658665084941, 
+          "prob_shield_operational": 7.805471824440247e-10, 
+          "score": 47.915562489011876, 
+          "score_var": 200.5747383757858
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm7": {
+        "blue": {
+          "cargo_scored": 8.539125939675026, 
+          "cargo_scored_var": 77.242100968051, 
+          "endgame_points": 7.38640281913491, 
+          "endgame_points_var": 90.45789406592199, 
+          "prob_cargo_bonus": 0.09611008066977078, 
+          "prob_face_boss": 1.5838520606159534e-08, 
+          "prob_hangar_bonus": 0.1825600540911143, 
+          "prob_shield_operational": 6.907676652900818e-10, 
+          "score": 25.32101870429982, 
+          "score_var": 422.14145593307734
+        }, 
+        "prob": 0.7152559977564437, 
+        "red": {
+          "cargo_scored": 12.364155025702221, 
+          "cargo_scored_var": 42.7482149537335, 
+          "endgame_points": 12.859985787962945, 
+          "endgame_points_var": 48.97116754791344, 
+          "prob_cargo_bonus": 0.12142764640784376, 
+          "prob_face_boss": 8.12527822802167e-12, 
+          "prob_hangar_bonus": 0.32682206139191283, 
+          "prob_shield_operational": 4.6407322429331543e-14, 
+          "score": 38.834045006556494, 
+          "score_var": 142.24601114125653
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm70": {
+        "blue": {
+          "cargo_scored": 20.80645161590287, 
+          "cargo_scored_var": 43.609518792992745, 
+          "endgame_points": 19.109563926176897, 
+          "endgame_points_var": 57.11207168442043, 
+          "prob_cargo_bonus": 0.5485981059104754, 
+          "prob_face_boss": 3.137997717228558e-08, 
+          "prob_hangar_bonus": 0.659635114321854, 
+          "prob_shield_operational": 6.301805743902378e-10, 
+          "score": 69.43211239918013, 
+          "score_var": 302.6348699252992
+        }, 
+        "prob": 0.6747868785731228, 
+        "red": {
+          "cargo_scored": 20.09800882816775, 
+          "cargo_scored_var": 24.606370596727878, 
+          "endgame_points": 13.79309959696048, 
+          "endgame_points_var": 43.702244984483244, 
+          "prob_cargo_bonus": 0.5078817603645874, 
+          "prob_face_boss": 1.3780088181647443e-12, 
+          "prob_hangar_bonus": 0.3692523274344839, 
+          "prob_shield_operational": 4.6629367034256575e-15, 
+          "score": 59.6381387397167, 
+          "score_var": 164.44948415775477
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm71": {
+        "blue": {
+          "cargo_scored": 25.48883634648135, 
+          "cargo_scored_var": 77.84629210758044, 
+          "endgame_points": 8.844701744713952, 
+          "endgame_points_var": 64.12819730218783, 
+          "prob_cargo_bonus": 0.7330624676174808, 
+          "prob_face_boss": 8.402500917270572e-11, 
+          "prob_hangar_bonus": 0.18578996286924943, 
+          "prob_shield_operational": 1.1713963132820027e-12, 
+          "score": 62.95748958035061, 
+          "score_var": 337.6266276225775
+        }, 
+        "prob": 0.7925245163452365, 
+        "red": {
+          "cargo_scored": 12.27377189429152, 
+          "cargo_scored_var": 35.118602039050586, 
+          "endgame_points": 12.713782733787271, 
+          "endgame_points_var": 23.500050807187495, 
+          "prob_cargo_bonus": 0.09615706555876091, 
+          "prob_face_boss": 0.0, 
+          "prob_hangar_bonus": 0.2489194114216744, 
+          "prob_shield_operational": 0.0, 
+          "score": 41.0267945203596, 
+          "score_var": 386.0818487895818
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm72": {
+        "blue": {
+          "cargo_scored": 15.620215189424464, 
+          "cargo_scored_var": 32.992478507755926, 
+          "endgame_points": 12.769435295526165, 
+          "endgame_points_var": 80.58919222854905, 
+          "prob_cargo_bonus": 0.22287796517601377, 
+          "prob_face_boss": 7.155947856496425e-08, 
+          "prob_hangar_bonus": 0.35947391186208744, 
+          "prob_shield_operational": 2.97478952582253e-09, 
+          "score": 41.24288020224088, 
+          "score_var": 166.0958632262371
+        }, 
+        "prob": 0.9674923185357329, 
+        "red": {
+          "cargo_scored": 24.74108094449077, 
+          "cargo_scored_var": 78.30799032733835, 
+          "endgame_points": 25.967921846090093, 
+          "endgame_points_var": 95.17565748909915, 
+          "prob_cargo_bonus": 0.7039395093922575, 
+          "prob_face_boss": 0.00024296575336169024, 
+          "prob_hangar_bonus": 0.8465487289849576, 
+          "prob_shield_operational": 3.154973942920414e-05, 
+          "score": 83.73915494483674, 
+          "score_var": 364.3452848120902
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm73": {
+        "blue": {
+          "cargo_scored": 14.558090132846525, 
+          "cargo_scored_var": 40.29018761460614, 
+          "endgame_points": 12.04004306844489, 
+          "endgame_points_var": 92.30535377482991, 
+          "prob_cargo_bonus": 0.195629260561336, 
+          "prob_face_boss": 2.9895062114704274e-07, 
+          "prob_hangar_bonus": 0.3401071899995658, 
+          "prob_shield_operational": 1.7707025734559068e-08, 
+          "score": 48.92530504219504, 
+          "score_var": 269.3656306521601
+        }, 
+        "prob": 0.7973714535979208, 
+        "red": {
+          "cargo_scored": 6.938264304600581, 
+          "cargo_scored_var": 18.53399788645656, 
+          "endgame_points": 11.959223406963314, 
+          "endgame_points_var": 39.45418341301376, 
+          "prob_cargo_bonus": 0.0012066508991296354, 
+          "prob_face_boss": 1.021405182655144e-14, 
+          "prob_hangar_bonus": 0.26001244162987613, 
+          "prob_shield_operational": 0.0, 
+          "score": 34.22162047212067, 
+          "score_var": 42.75671309630553
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm74": {
+        "blue": {
+          "cargo_scored": 29.41534912181475, 
+          "cargo_scored_var": 115.78746578975412, 
+          "endgame_points": 28.431023015456642, 
+          "endgame_points_var": 58.86633605078917, 
+          "prob_cargo_bonus": 0.8092117321540181, 
+          "prob_face_boss": 1.939306016529585e-05, 
+          "prob_hangar_bonus": 0.9474072379450051, 
+          "prob_shield_operational": 9.383045618260866e-07, 
+          "score": 80.88611396552957, 
+          "score_var": 350.2263600764578
+        }, 
+        "prob": 0.9240130838356785, 
+        "red": {
+          "cargo_scored": 8.329108270452537, 
+          "cargo_scored_var": 22.546429298757158, 
+          "endgame_points": 20.488256017817278, 
+          "endgame_points_var": 85.69696149225115, 
+          "prob_cargo_bonus": 0.006987500105146038, 
+          "prob_face_boss": 9.853383733382515e-06, 
+          "prob_hangar_bonus": 0.6861036780781606, 
+          "prob_shield_operational": 7.610816497027884e-07, 
+          "score": 46.19332320265684, 
+          "score_var": 236.22511071289784
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm75": {
+        "blue": {
+          "cargo_scored": 11.601303398858565, 
+          "cargo_scored_var": 20.821852515144904, 
+          "endgame_points": 7.411694534976984, 
+          "endgame_points_var": 30.22151041942948, 
+          "prob_cargo_bonus": 0.03284233885603827, 
+          "prob_face_boss": 0.0, 
+          "prob_hangar_bonus": 0.0591150329936172, 
+          "prob_shield_operational": 0.0, 
+          "score": 35.04421841630146, 
+          "score_var": 65.09118391871274
+        }, 
+        "prob": 0.8895693491379641, 
+        "red": {
+          "cargo_scored": 17.273776077110316, 
+          "cargo_scored_var": 35.39127477555773, 
+          "endgame_points": 16.868475150237355, 
+          "endgame_points_var": 26.089641815651362, 
+          "prob_cargo_bonus": 0.3233822716305951, 
+          "prob_face_boss": 0.0, 
+          "prob_hangar_bonus": 0.5675063869559451, 
+          "prob_shield_operational": 0.0, 
+          "score": 57.59706114548222, 
+          "score_var": 274.27510239561394
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm76": {
+        "blue": {
+          "cargo_scored": 27.136967666495217, 
+          "cargo_scored_var": 67.57580526951337, 
+          "endgame_points": 14.10460693554679, 
+          "endgame_points_var": 50.1532221041792, 
+          "prob_cargo_bonus": 0.8073566607927858, 
+          "prob_face_boss": 4.565914313303665e-11, 
+          "prob_hangar_bonus": 0.3944884928284581, 
+          "prob_shield_operational": 3.319566843629218e-13, 
+          "score": 71.07314278197774, 
+          "score_var": 310.9198808581242
+        }, 
+        "prob": 0.9379312400911031, 
+        "red": {
+          "cargo_scored": 14.531331341684934, 
+          "cargo_scored_var": 51.22611043343787, 
+          "endgame_points": 9.564852781090794, 
+          "endgame_points_var": 58.719622223352104, 
+          "prob_cargo_bonus": 0.22241131150018068, 
+          "prob_face_boss": 2.3246515823416303e-11, 
+          "prob_hangar_bonus": 0.20051515183004542, 
+          "prob_shield_operational": 2.34035013590983e-13, 
+          "score": 40.36584316669152, 
+          "score_var": 87.89917269285668
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm77": {
+        "blue": {
+          "cargo_scored": 9.299769344531303, 
+          "cargo_scored_var": 6.643135549715321, 
+          "endgame_points": 9.730676250379945, 
+          "endgame_points_var": 92.79026431222945, 
+          "prob_cargo_bonus": 1.651410064407166e-05, 
+          "prob_face_boss": 9.015302326886854e-08, 
+          "prob_hangar_bonus": 0.2575771833823848, 
+          "prob_shield_operational": 4.800376873781431e-09, 
+          "score": 30.934428846411695, 
+          "score_var": 123.63553984533976
+        }, 
+        "prob": 0.9150741856877218, 
+        "red": {
+          "cargo_scored": 21.41925619079874, 
+          "cargo_scored_var": 68.5869951033917, 
+          "endgame_points": 11.093496795886622, 
+          "endgame_points_var": 101.27417496977962, 
+          "prob_cargo_bonus": 0.5680343719073692, 
+          "prob_face_boss": 5.875599009552701e-07, 
+          "prob_hangar_bonus": 0.31293289005276637, 
+          "prob_shield_operational": 4.2393802690554594e-08, 
+          "score": 58.91793605900429, 
+          "score_var": 291.9545926085807
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm78": {
+        "blue": {
+          "cargo_scored": 17.358323541937278, 
+          "cargo_scored_var": 46.35493591518966, 
+          "endgame_points": 29.2822005765923, 
+          "endgame_points_var": 48.19225698755585, 
+          "prob_cargo_bonus": 0.34900804728351986, 
+          "prob_face_boss": 4.824802221525815e-06, 
+          "prob_hangar_bonus": 0.9721447003924937, 
+          "prob_shield_operational": 1.3367026563404494e-07, 
+          "score": 75.7264370995708, 
+          "score_var": 106.51231947801358
+        }, 
+        "prob": 0.6229188504843438, 
+        "red": {
+          "cargo_scored": 24.981280827903174, 
+          "cargo_scored_var": 83.65070560840294, 
+          "endgame_points": 23.67951585775129, 
+          "endgame_points_var": 52.09392385113513, 
+          "prob_cargo_bonus": 0.7069980022647347, 
+          "prob_face_boss": 2.4243857743577735e-07, 
+          "prob_hangar_bonus": 0.8563349166880931, 
+          "prob_shield_operational": 5.173143025061222e-09, 
+          "score": 68.51477686900347, 
+          "score_var": 423.82184037457574
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm79": {
+        "blue": {
+          "cargo_scored": 28.767067987572222, 
+          "cargo_scored_var": 63.54901209887327, 
+          "endgame_points": 27.172856368959224, 
+          "endgame_points_var": 74.5749340843166, 
+          "prob_cargo_bonus": 0.8642827804966553, 
+          "prob_face_boss": 7.19579802327397e-05, 
+          "prob_hangar_bonus": 0.9021330678246062, 
+          "prob_shield_operational": 5.924908960563968e-06, 
+          "score": 97.56145397687911, 
+          "score_var": 381.8935288671223
+        }, 
+        "prob": 0.9931068812075756, 
+        "red": {
+          "cargo_scored": 9.670519467371037, 
+          "cargo_scored_var": 28.900285961320584, 
+          "endgame_points": 13.844307415912525, 
+          "endgame_points_var": 56.77241050766279, 
+          "prob_cargo_bonus": 0.027337967161481624, 
+          "prob_face_boss": 4.5139358917367645e-10, 
+          "prob_hangar_bonus": 0.3874006894168974, 
+          "prob_shield_operational": 5.633715716157894e-12, 
+          "score": 38.95659283295587, 
+          "score_var": 184.36416574694124
+        }, 
+        "winning_alliance": "blue"
+      }, 
+      "2022nhsea_qm8": {
+        "blue": {
+          "cargo_scored": 16.844003698027297, 
+          "cargo_scored_var": 89.90165822411232, 
+          "endgame_points": 13.366287522293447, 
+          "endgame_points_var": 98.3384357777802, 
+          "prob_cargo_bonus": 0.3696225784632471, 
+          "prob_face_boss": 1.2843260452921612e-06, 
+          "prob_hangar_bonus": 0.3952786728542046, 
+          "prob_shield_operational": 9.605747375296403e-08, 
+          "score": 40.79606694185509, 
+          "score_var": 228.6099095830935
+        }, 
+        "prob": 0.8154237732166072, 
+        "red": {
+          "cargo_scored": 21.404832677034626, 
+          "cargo_scored_var": 68.0881405634533, 
+          "endgame_points": 15.472346143724947, 
+          "endgame_points_var": 53.44323685110398, 
+          "prob_cargo_bonus": 0.567593502997837, 
+          "prob_face_boss": 5.612916798014567e-10, 
+          "prob_hangar_bonus": 0.4712302656393227, 
+          "prob_shield_operational": 6.225686632888028e-12, 
+          "score": 63.77394684439977, 
+          "score_var": 426.0371054247358
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm80": {
+        "blue": {
+          "cargo_scored": 6.956506817635182, 
+          "cargo_scored_var": 34.459187439480885, 
+          "endgame_points": 13.480358912169551, 
+          "endgame_points_var": 43.44144616412934, 
+          "prob_cargo_bonus": 0.013142111858684524, 
+          "prob_face_boss": 8.443246102274315e-13, 
+          "prob_hangar_bonus": 0.3511252225504483, 
+          "prob_shield_operational": 2.6645352591003757e-15, 
+          "score": 36.965083699244346, 
+          "score_var": 221.96636948468824
+        }, 
+        "prob": 0.6451714489252374, 
+        "red": {
+          "cargo_scored": 13.830892602290657, 
+          "cargo_scored_var": 106.68979227091123, 
+          "endgame_points": 18.118174426795463, 
+          "endgame_points_var": 98.59517237167165, 
+          "prob_cargo_bonus": 0.27516806598936105, 
+          "prob_face_boss": 1.2328610345502256e-05, 
+          "prob_hangar_bonus": 0.5844617570016585, 
+          "prob_shield_operational": 1.17076497629931e-06, 
+          "score": 45.89263358441417, 
+          "score_var": 352.99630332763087
+        }, 
+        "winning_alliance": "red"
+      }, 
+      "2022nhsea_qm9": {
+        "blue": {
+          "cargo_scored": 13.627764428597878, 
+          "cargo_scored_var": 53.71819332415009, 
+          "endgame_points": 4.552705307992608, 
+          "endgame_points_var": 101.21898730362398, 
+          "prob_cargo_bonus": 0.19230790441947498, 
+          "prob_face_boss": 1.7815667496812182e-08, 
+          "prob_hangar_bonus": 0.12759875276906874, 
+          "prob_shield_operational": 9.37852240312509e-10, 
+          "score": 39.75600629707667, 
+          "score_var": 429.8173291242454
+        }, 
+        "prob": 0.5660031421466128, 
+        "red": {
+          "cargo_scored": 13.284063668261854, 
+          "cargo_scored_var": 64.33813359769437, 
+          "endgame_points": 13.010296198595087, 
+          "endgame_points_var": 123.0023519720286, 
+          "prob_cargo_bonus": 0.20121671963090015, 
+          "prob_face_boss": 1.1332440171596403e-05, 
+          "prob_hangar_bonus": 0.3937455659149709, 
+          "prob_shield_operational": 1.381403099021128e-06, 
+          "score": 44.487320077213774, 
+          "score_var": 380.5140479609115
+        }, 
+        "winning_alliance": "red"
+      }
+    }
+  }, 
+  "ranking_prediction_stats": {
+    "last_played_match": "2022nhsea_qm57"
+  }, 
+  "ranking_predictions": [
+    [
+      "frc238", 
+      [
+        1.656, 
+        1, 
+        1, 
+        4, 
+        40.268, 
+        34, 
+        45
+      ]
+    ], 
+    [
+      "frc4564", 
+      [
+        2.121, 
+        1, 
+        2, 
+        4, 
+        39.68, 
+        34, 
+        44
+      ]
+    ], 
+    [
+      "frc133", 
+      [
+        2.451, 
+        1, 
+        3, 
+        5, 
+        38.487, 
+        32, 
+        43
+      ]
+    ], 
+    [
+      "frc172", 
+      [
+        4.179, 
+        1, 
+        4, 
+        7, 
+        35.371, 
+        29, 
+        40
+      ]
+    ], 
+    [
+      "frc6329", 
+      [
+        4.852, 
+        3, 
+        5, 
+        8, 
+        33.62, 
+        28, 
+        37
+      ]
+    ], 
+    [
+      "frc5687", 
+      [
+        6.096, 
+        4, 
+        6, 
+        14, 
+        31.512, 
+        26, 
+        35
+      ]
+    ], 
+    [
+      "frc131", 
+      [
+        8.732, 
+        4, 
+        8, 
+        20, 
+        28.799, 
+        22, 
+        33
+      ]
+    ], 
+    [
+      "frc58", 
+      [
+        8.833, 
+        4, 
+        8, 
+        18, 
+        28.557, 
+        23, 
+        34
+      ]
+    ], 
+    [
+      "frc166", 
+      [
+        10.477, 
+        5, 
+        10, 
+        21, 
+        27.489, 
+        22, 
+        31
+      ]
+    ], 
+    [
+      "frc663", 
+      [
+        10.572, 
+        5, 
+        10, 
+        22, 
+        27.721, 
+        22, 
+        32
+      ]
+    ], 
+    [
+      "frc8046", 
+      [
+        10.903, 
+        5, 
+        10, 
+        24, 
+        27.434, 
+        22, 
+        35
+      ]
+    ], 
+    [
+      "frc4761", 
+      [
+        13.356, 
+        7, 
+        13, 
+        21, 
+        26.498, 
+        23, 
+        31
+      ]
+    ], 
+    [
+      "frc509", 
+      [
+        13.691, 
+        6, 
+        13, 
+        27, 
+        25.603, 
+        20, 
+        31
+      ]
+    ], 
+    [
+      "frc4906", 
+      [
+        13.855, 
+        8, 
+        14, 
+        25, 
+        25.642, 
+        21, 
+        30
+      ]
+    ], 
+    [
+      "frc1512", 
+      [
+        14.293, 
+        7, 
+        14, 
+        25, 
+        25.836, 
+        21, 
+        30
+      ]
+    ], 
+    [
+      "frc2648", 
+      [
+        15.751, 
+        9, 
+        16, 
+        29, 
+        24.955, 
+        18, 
+        29
+      ]
+    ], 
+    [
+      "frc3451", 
+      [
+        16.228, 
+        6, 
+        16, 
+        27, 
+        24.467, 
+        19, 
+        30
+      ]
+    ], 
+    [
+      "frc6324", 
+      [
+        17.188, 
+        6, 
+        17, 
+        28, 
+        24.443, 
+        19, 
+        32
+      ]
+    ], 
+    [
+      "frc5494", 
+      [
+        20.277, 
+        10, 
+        20, 
+        29, 
+        22.398, 
+        19, 
+        28
+      ]
+    ], 
+    [
+      "frc5459", 
+      [
+        20.776, 
+        12, 
+        20, 
+        31, 
+        22.179, 
+        17, 
+        27
+      ]
+    ], 
+    [
+      "frc7674", 
+      [
+        21.232, 
+        11, 
+        21, 
+        31, 
+        22.096, 
+        17, 
+        27
+      ]
+    ], 
+    [
+      "frc319", 
+      [
+        22.134, 
+        7, 
+        22, 
+        33, 
+        21.255, 
+        15, 
+        28
+      ]
+    ], 
+    [
+      "frc4473", 
+      [
+        23.464, 
+        10, 
+        23, 
+        33, 
+        21.306, 
+        16, 
+        28
+      ]
+    ], 
+    [
+      "frc6690", 
+      [
+        24.49, 
+        16, 
+        24, 
+        35, 
+        20.467, 
+        14, 
+        25
+      ]
+    ], 
+    [
+      "frc1831", 
+      [
+        25.662, 
+        17, 
+        26, 
+        34, 
+        20.119, 
+        15, 
+        24
+      ]
+    ], 
+    [
+      "frc6153", 
+      [
+        25.931, 
+        12, 
+        26, 
+        33, 
+        20.242, 
+        17, 
+        27
+      ]
+    ], 
+    [
+      "frc1247", 
+      [
+        25.972, 
+        13, 
+        26, 
+        36, 
+        19.774, 
+        12, 
+        26
+      ]
+    ], 
+    [
+      "frc2713", 
+      [
+        26.29, 
+        16, 
+        26, 
+        36, 
+        19.514, 
+        14, 
+        24
+      ]
+    ], 
+    [
+      "frc6161", 
+      [
+        26.303, 
+        16, 
+        27, 
+        34, 
+        19.97, 
+        14, 
+        25
+      ]
+    ], 
+    [
+      "frc8410", 
+      [
+        30.732, 
+        19, 
+        31, 
+        38, 
+        17.285, 
+        13, 
+        25
+      ]
+    ], 
+    [
+      "frc1307", 
+      [
+        30.884, 
+        21, 
+        31, 
+        37, 
+        17.548, 
+        14, 
+        22
+      ]
+    ], 
+    [
+      "frc7913", 
+      [
+        30.949, 
+        22, 
+        31, 
+        40, 
+        17.035, 
+        10, 
+        22
+      ]
+    ], 
+    [
+      "frc5902", 
+      [
+        33.493, 
+        24, 
+        34, 
+        40, 
+        15.736, 
+        10, 
+        22
+      ]
+    ], 
+    [
+      "frc4925", 
+      [
+        34.26, 
+        26, 
+        34, 
+        39, 
+        15.433, 
+        14, 
+        20
+      ]
+    ], 
+    [
+      "frc8023", 
+      [
+        34.518, 
+        28, 
+        35, 
+        40, 
+        14.436, 
+        10, 
+        20
+      ]
+    ], 
+    [
+      "frc7314", 
+      [
+        35.029, 
+        25, 
+        35, 
+        40, 
+        14.25, 
+        10, 
+        20
+      ]
+    ], 
+    [
+      "frc4546", 
+      [
+        36.913, 
+        28, 
+        37, 
+        40, 
+        12.571, 
+        8, 
+        18
+      ]
+    ], 
+    [
+      "frc246", 
+      [
+        37.778, 
+        30, 
+        38, 
+        40, 
+        11.944, 
+        9, 
+        18
+      ]
+    ], 
+    [
+      "frc5265", 
+      [
+        38.609, 
+        33, 
+        39, 
+        40, 
+        11.465, 
+        8, 
+        17
+      ]
+    ], 
+    [
+      "frc6762", 
+      [
+        39.07, 
+        31, 
+        40, 
+        40, 
+        11.066, 
+        9, 
+        17
+      ]
+    ]
+  ], 
+  "stat_mean_vars": {
+    "playoff": {}, 
+    "qual": {
+      "cargo_scored": {
+        "mean": {
+          "frc1247": 4.91102144039273, 
+          "frc1307": 2.101099813394201, 
+          "frc131": 11.13393899388148, 
+          "frc133": 15.9041374854592, 
+          "frc1512": 4.203774982816944, 
+          "frc166": 8.37364778976038, 
+          "frc172": 13.471038827307478, 
+          "frc1831": 1.102586647579356, 
+          "frc238": 11.418304115565181, 
+          "frc246": 3.348425589231736, 
+          "frc2648": 6.108594058833258, 
+          "frc2713": 9.559248315427146, 
+          "frc319": 7.3064670177787505, 
+          "frc3451": 5.0024099511160784, 
+          "frc4473": 7.80767913518056, 
+          "frc4546": 8.258565541195651, 
+          "frc4564": 14.93310727322111, 
+          "frc4761": 3.3016961552274724, 
+          "frc4906": 9.304845636074155, 
+          "frc4925": 0.056283436120040164, 
+          "frc509": 3.327904435882272, 
+          "frc5265": 1.3261333198264964, 
+          "frc5459": 6.151777996232628, 
+          "frc5494": 5.1701791529099275, 
+          "frc5687": 10.058855383705723, 
+          "frc58": 9.802098300485921, 
+          "frc5902": 1.6840789448795892, 
+          "frc6153": 5.33127912337083, 
+          "frc6161": 0.7260688814901144, 
+          "frc6324": 1.6995076793427915, 
+          "frc6329": 9.403366967792344, 
+          "frc663": 6.312539876023525, 
+          "frc6690": 3.4251510458554595, 
+          "frc6762": 0.2517754086049133, 
+          "frc7314": 0.9444505211524046, 
+          "frc7674": 2.5538152903352787, 
+          "frc7913": 3.773165867650688, 
+          "frc8023": 0.7947932436543628, 
+          "frc8046": 5.909938165375905, 
+          "frc8410": 2.6423569013339763
+        }, 
+        "var": {
+          "frc1247": 10.662271371966437, 
+          "frc1307": 3.8480093777486193, 
+          "frc131": 54.36975765715198, 
+          "frc133": 37.38142234566896, 
+          "frc1512": 0.8539272060970156, 
+          "frc166": 80.10577070807713, 
+          "frc172": 61.50510560282552, 
+          "frc1831": 9.753447758650715, 
+          "frc238": 15.362921708075348, 
+          "frc246": 8.30386990651699, 
+          "frc2648": 15.698747530115998, 
+          "frc2713": 0.8532828002613204, 
+          "frc319": 21.291672799480413, 
+          "frc3451": 10.013047402022078, 
+          "frc4473": 26.281129027300466, 
+          "frc4546": 36.931066037874416, 
+          "frc4564": 19.982947551560994, 
+          "frc4761": 16.67758697075035, 
+          "frc4906": 37.4043923563052, 
+          "frc4925": 3.1646578676037365, 
+          "frc509": 0.6229090525299661, 
+          "frc5265": 3.5338037240370603, 
+          "frc5459": 8.669973230879293, 
+          "frc5494": 4.541596636912736, 
+          "frc5687": 3.060314278478712, 
+          "frc58": 0.9591931612107061, 
+          "frc5902": 2.718102872685078, 
+          "frc6153": 0.9395789821355383, 
+          "frc6161": 13.363954645978403, 
+          "frc6324": 5.2459332754768395, 
+          "frc6329": 23.084305464089358, 
+          "frc663": 9.058041122966497, 
+          "frc6690": 3.913253896543937, 
+          "frc6762": 5.802847611749405, 
+          "frc7314": 9.366081695515952, 
+          "frc7674": 35.38269535195687, 
+          "frc7913": 23.865918690149023, 
+          "frc8023": 28.290080160277256, 
+          "frc8046": 0.36625966745422467, 
+          "frc8410": 2.1697528435427227
+        }
+      }, 
+      "endgame_points": {
+        "mean": {
+          "frc1247": 3.454772688181917, 
+          "frc1307": 0.5434170394425859, 
+          "frc131": 9.16028362980542, 
+          "frc133": 8.409525483680824, 
+          "frc1512": 4.857450216877698, 
+          "frc166": 13.722139649207897, 
+          "frc172": 12.305647781717573, 
+          "frc1831": 6.5581703786360706, 
+          "frc238": 11.32751364212946, 
+          "frc246": 1.3376760336963596, 
+          "frc2648": 2.959981878127973, 
+          "frc2713": 3.194453099508438, 
+          "frc319": 6.516417859156021, 
+          "frc3451": 6.1321229770305425, 
+          "frc4473": 1.5951628248592842, 
+          "frc4546": -0.29485234782650416, 
+          "frc4564": 11.748901488120772, 
+          "frc4761": 6.977133574194039, 
+          "frc4906": 3.8793215759474196, 
+          "frc4925": 2.7425921864493343, 
+          "frc509": 8.69564650127004, 
+          "frc5265": 0.7300286088596319, 
+          "frc5459": 5.530601461838039, 
+          "frc5494": 3.3015347502812276, 
+          "frc5687": 11.34334679360483, 
+          "frc58": 10.414766407876277, 
+          "frc5902": 2.4380985693202692, 
+          "frc6153": 1.1279099211346613, 
+          "frc6161": -1.2612399334272357, 
+          "frc6324": 4.815475942353199, 
+          "frc6329": 11.950187999406975, 
+          "frc663": 4.124581655269152, 
+          "frc6690": 4.0999186270066845, 
+          "frc6762": 3.3890018606125034, 
+          "frc7314": 2.086188819925977, 
+          "frc7674": 12.73531119168548, 
+          "frc7913": 1.957936208267296, 
+          "frc8023": 4.841111619937843, 
+          "frc8046": 5.250245431619204, 
+          "frc8410": 7.872737720385652
+        }, 
+        "var": {
+          "frc1247": 6.001801568222877, 
+          "frc1307": 17.353972080998975, 
+          "frc131": 36.75723619398944, 
+          "frc133": 3.9946920476233796, 
+          "frc1512": 16.510822904718683, 
+          "frc166": 48.7529677375138, 
+          "frc172": 27.506222878077594, 
+          "frc1831": 9.167218782206724, 
+          "frc238": 16.090105923634457, 
+          "frc246": 12.520655460138673, 
+          "frc2648": 0.9698071924358942, 
+          "frc2713": 20.96084349986794, 
+          "frc319": 8.07687806833885, 
+          "frc3451": 2.698536484036623, 
+          "frc4473": 13.471513330448776, 
+          "frc4546": 43.43425245308091, 
+          "frc4564": 9.143561120839482, 
+          "frc4761": 6.865672031138885, 
+          "frc4906": 8.537650665612544, 
+          "frc4925": 9.421371170625768, 
+          "frc509": 42.72219302919818, 
+          "frc5265": 16.69925280148353, 
+          "frc5459": 0.34688287829183473, 
+          "frc5494": 6.118150988064471, 
+          "frc5687": 24.129685028313013, 
+          "frc58": 12.465324586893807, 
+          "frc5902": 25.222631163563186, 
+          "frc6153": 15.09148360071011, 
+          "frc6161": 43.55609527592223, 
+          "frc6324": 36.109096431914075, 
+          "frc6329": 41.90759839039103, 
+          "frc663": 40.48536730589814, 
+          "frc6690": 32.687016726107046, 
+          "frc6762": 11.533015765413948, 
+          "frc7314": 3.9977343237940275, 
+          "frc7674": 33.02839591662542, 
+          "frc7913": 24.61957347059467, 
+          "frc8023": 23.05432057389548, 
+          "frc8046": 8.854109824819908, 
+          "frc8410": 60.99952791003581
+        }
+      }, 
+      "score": {
+        "mean": {
+          "frc1247": 11.419209117211707, 
+          "frc1307": 5.286535685540275, 
+          "frc131": 32.17359229092352, 
+          "frc133": 45.63716978006698, 
+          "frc1512": 13.69285513084616, 
+          "frc166": 27.619252116502615, 
+          "frc172": 29.48203706168904, 
+          "frc1831": 13.077177780913058, 
+          "frc238": 40.222354063436526, 
+          "frc246": 7.661978985980273, 
+          "frc2648": 18.276977374272622, 
+          "frc2713": 23.07999817036254, 
+          "frc319": 25.339884676468266, 
+          "frc3451": 19.712475986245035, 
+          "frc4473": 12.093911460634267, 
+          "frc4546": 11.234628576479068, 
+          "frc4564": 34.98988447475434, 
+          "frc4761": 14.561387541699707, 
+          "frc4906": 23.941029011221637, 
+          "frc4925": 4.267700726679632, 
+          "frc509": 21.038402791380108, 
+          "frc5265": 6.085691223804563, 
+          "frc5459": 22.095703744780913, 
+          "frc5494": 16.05403680929939, 
+          "frc5687": 35.747717442590414, 
+          "frc58": 34.89755051838146, 
+          "frc5902": 8.760139466025166, 
+          "frc6153": 11.753805690299906, 
+          "frc6161": 3.6643455977182313, 
+          "frc6324": 10.593532869577029, 
+          "frc6329": 37.872707523067064, 
+          "frc663": 20.127504564576533, 
+          "frc6690": 13.342061541276486, 
+          "frc6762": 5.749005019850468, 
+          "frc7314": 5.955497964833988, 
+          "frc7674": 21.116410594944306, 
+          "frc7913": 9.513242001886393, 
+          "frc8023": 9.703462470866583, 
+          "frc8046": 21.512616208527298, 
+          "frc8410": 13.094931932307228
+        }, 
+        "var": {
+          "frc1247": 94.78003331384578, 
+          "frc1307": 7.868538721654394, 
+          "frc131": 207.2805603936916, 
+          "frc133": 238.55429375467386, 
+          "frc1512": 35.235907596236785, 
+          "frc166": 195.16076618459306, 
+          "frc172": 129.3675747775065, 
+          "frc1831": 6.933826800930618, 
+          "frc238": 157.93367624131935, 
+          "frc246": 5.377182692400069, 
+          "frc2648": 95.05370894080825, 
+          "frc2713": 57.62767032398673, 
+          "frc319": 259.21835800083244, 
+          "frc3451": 0.40736205049748264, 
+          "frc4473": 61.7059365809102, 
+          "frc4546": 58.71509786034818, 
+          "frc4564": 60.01188495105653, 
+          "frc4761": 98.16426211855408, 
+          "frc4906": 164.5890020512425, 
+          "frc4925": 32.08345747490356, 
+          "frc509": 34.344276321512254, 
+          "frc5265": 40.35723600755541, 
+          "frc5459": 51.845462504658286, 
+          "frc5494": 22.250248031577883, 
+          "frc5687": 95.475709993718, 
+          "frc58": 34.329295601225226, 
+          "frc5902": 10.99197837549805, 
+          "frc6153": 1.1386252240353443, 
+          "frc6161": 27.046361890902375, 
+          "frc6324": 103.71657227283151, 
+          "frc6329": 121.82881682216181, 
+          "frc663": 54.11644615348358, 
+          "frc6690": 10.659650522540119, 
+          "frc6762": 31.357372670310003, 
+          "frc7314": 21.561392840448818, 
+          "frc7674": 71.77566182629087, 
+          "frc7913": 146.84355876753975, 
+          "frc8023": 69.67845898653769, 
+          "frc8046": 120.93053782784054, 
+          "frc8410": 82.13967861374903
+        }
+      }
+    }
+  }
+}

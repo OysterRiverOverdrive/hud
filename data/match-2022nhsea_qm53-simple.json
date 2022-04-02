@@ -1,0 +1,35 @@
+{
+  "actual_time": 1648853284, 
+  "alliances": {
+    "blue": {
+      "dq_team_keys": [], 
+      "score": 73, 
+      "surrogate_team_keys": [], 
+      "team_keys": [
+        "frc8046", 
+        "frc509", 
+        "frc3451"
+      ]
+    }, 
+    "red": {
+      "dq_team_keys": [
+        "frc246"
+      ], 
+      "score": 60, 
+      "surrogate_team_keys": [], 
+      "team_keys": [
+        "frc131", 
+        "frc246", 
+        "frc8410"
+      ]
+    }
+  }, 
+  "comp_level": "qm", 
+  "event_key": "2022nhsea", 
+  "key": "2022nhsea_qm53", 
+  "match_number": 53, 
+  "predicted_time": 1648853298, 
+  "set_number": 1, 
+  "time": 1648852080, 
+  "winning_alliance": "blue"
+}

@@ -1,0 +1,2042 @@
+{
+  "frc1247": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm49", 
+    "next_match_key": "2022nhsea_qm58", 
+    "overall_status_str": "Team 1247 is <b>Rank 31/40</b> with a record of <b>3-5-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 8, 
+        "qual_average": null, 
+        "rank": 31, 
+        "record": {
+          "losses": 5, 
+          "ties": 0, 
+          "wins": 3
+        }, 
+        "sort_orders": [
+          1.5, 
+          45.5, 
+          14.5, 
+          12.0, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc1247"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc1307": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm51", 
+    "next_match_key": "2022nhsea_qm60", 
+    "overall_status_str": "Team 1307 is <b>Rank 32/40</b> with a record of <b>4-4-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 8, 
+        "qual_average": null, 
+        "rank": 32, 
+        "record": {
+          "losses": 4, 
+          "ties": 0, 
+          "wins": 4
+        }, 
+        "sort_orders": [
+          1.5, 
+          38.25, 
+          10.75, 
+          13.0, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc1307"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc131": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm53", 
+    "next_match_key": "2022nhsea_qm59", 
+    "overall_status_str": "Team 131 is <b>Rank 12/40</b> with a record of <b>4-4-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 8, 
+        "qual_average": null, 
+        "rank": 12, 
+        "record": {
+          "losses": 4, 
+          "ties": 0, 
+          "wins": 4
+        }, 
+        "sort_orders": [
+          2.25, 
+          68.25, 
+          21.25, 
+          18.75, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc131"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc133": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm54", 
+    "next_match_key": "2022nhsea_qm58", 
+    "overall_status_str": "Team 133 is <b>Rank 3/40</b> with a record of <b>7-1-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 8, 
+        "qual_average": null, 
+        "rank": 3, 
+        "record": {
+          "losses": 1, 
+          "ties": 0, 
+          "wins": 7
+        }, 
+        "sort_orders": [
+          3.5, 
+          89.0, 
+          20.37, 
+          27.0, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc133"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc1512": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm55", 
+    "next_match_key": "2022nhsea_qm67", 
+    "overall_status_str": "Team 1512 is <b>Rank 18/40</b> with a record of <b>5-4-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 18, 
+        "record": {
+          "losses": 4, 
+          "ties": 0, 
+          "wins": 5
+        }, 
+        "sort_orders": [
+          2.0, 
+          50.33, 
+          15.77, 
+          16.0, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc1512"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc166": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm56", 
+    "next_match_key": "2022nhsea_qm62", 
+    "overall_status_str": "Team 166 is <b>Rank 15/40</b> with a record of <b>4-5-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 15, 
+        "record": {
+          "losses": 5, 
+          "ties": 0, 
+          "wins": 4
+        }, 
+        "sort_orders": [
+          2.11, 
+          59.55, 
+          26.11, 
+          10.88, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc166"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc172": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm49", 
+    "next_match_key": "2022nhsea_qm58", 
+    "overall_status_str": "Team 172 is <b>Rank 4/40</b> with a record of <b>5-3-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 8, 
+        "qual_average": null, 
+        "rank": 4, 
+        "record": {
+          "losses": 3, 
+          "ties": 0, 
+          "wins": 5
+        }, 
+        "sort_orders": [
+          3.12, 
+          71.12, 
+          24.75, 
+          19.25, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc172"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc1831": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm57", 
+    "next_match_key": "2022nhsea_qm61", 
+    "overall_status_str": "Team 1831 is <b>Rank 25/40</b> with a record of <b>4-5-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 25, 
+        "record": {
+          "losses": 5, 
+          "ties": 0, 
+          "wins": 4
+        }, 
+        "sort_orders": [
+          1.66, 
+          47.11, 
+          17.88, 
+          14.44, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc1831"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc238": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm57", 
+    "next_match_key": "2022nhsea_qm61", 
+    "overall_status_str": "Team 238 is <b>Rank 1/40</b> with a record of <b>9-0-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 1, 
+        "record": {
+          "losses": 0, 
+          "ties": 0, 
+          "wins": 9
+        }, 
+        "sort_orders": [
+          3.66, 
+          81.66, 
+          23.66, 
+          24.22, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc238"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc246": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm53", 
+    "next_match_key": "2022nhsea_qm59", 
+    "overall_status_str": "Team 246 is <b>Rank 40/40</b> with a record of <b>2-5-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 1, 
+        "matches_played": 8, 
+        "qual_average": null, 
+        "rank": 40, 
+        "record": {
+          "losses": 5, 
+          "ties": 0, 
+          "wins": 2
+        }, 
+        "sort_orders": [
+          0.87, 
+          37.62, 
+          9.62, 
+          11.75, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc246"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc2648": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm57", 
+    "next_match_key": "2022nhsea_qm63", 
+    "overall_status_str": "Team 2648 is <b>Rank 20/40</b> with a record of <b>5-4-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 20, 
+        "record": {
+          "losses": 4, 
+          "ties": 0, 
+          "wins": 5
+        }, 
+        "sort_orders": [
+          1.88, 
+          52.66, 
+          13.66, 
+          16.88, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc2648"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc2713": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm54", 
+    "next_match_key": "2022nhsea_qm63", 
+    "overall_status_str": "Team 2713 is <b>Rank 27/40</b> with a record of <b>3-6-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 27, 
+        "record": {
+          "losses": 6, 
+          "ties": 0, 
+          "wins": 3
+        }, 
+        "sort_orders": [
+          1.55, 
+          52.77, 
+          14.44, 
+          15.77, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc2713"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc319": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm52", 
+    "next_match_key": "2022nhsea_qm60", 
+    "overall_status_str": "Team 319 is <b>Rank 24/40</b> with a record of <b>4-4-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 8, 
+        "qual_average": null, 
+        "rank": 24, 
+        "record": {
+          "losses": 4, 
+          "ties": 0, 
+          "wins": 4
+        }, 
+        "sort_orders": [
+          1.75, 
+          66.5, 
+          17.62, 
+          19.5, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc319"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc3451": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm53", 
+    "next_match_key": "2022nhsea_qm58", 
+    "overall_status_str": "Team 3451 is <b>Rank 13/40</b> with a record of <b>4-4-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 8, 
+        "qual_average": null, 
+        "rank": 13, 
+        "record": {
+          "losses": 4, 
+          "ties": 0, 
+          "wins": 4
+        }, 
+        "sort_orders": [
+          2.12, 
+          60.87, 
+          17.75, 
+          18.5, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc3451"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc4473": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm50", 
+    "next_match_key": "2022nhsea_qm59", 
+    "overall_status_str": "Team 4473 is <b>Rank 22/40</b> with a record of <b>3-5-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 8, 
+        "qual_average": null, 
+        "rank": 22, 
+        "record": {
+          "losses": 5, 
+          "ties": 0, 
+          "wins": 3
+        }, 
+        "sort_orders": [
+          1.87, 
+          49.87, 
+          12.5, 
+          13.5, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc4473"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc4546": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm49", 
+    "next_match_key": "2022nhsea_qm60", 
+    "overall_status_str": "Team 4546 is <b>Rank 35/40</b> with a record of <b>1-7-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 8, 
+        "qual_average": null, 
+        "rank": 35, 
+        "record": {
+          "losses": 7, 
+          "ties": 0, 
+          "wins": 1
+        }, 
+        "sort_orders": [
+          1.0, 
+          44.0, 
+          10.25, 
+          15.0, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc4546"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc4564": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm55", 
+    "next_match_key": "2022nhsea_qm63", 
+    "overall_status_str": "Team 4564 is <b>Rank 2/40</b> with a record of <b>8-1-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 2, 
+        "record": {
+          "losses": 1, 
+          "ties": 0, 
+          "wins": 8
+        }, 
+        "sort_orders": [
+          3.55, 
+          74.55, 
+          24.44, 
+          21.11, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc4564"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc4761": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm54", 
+    "next_match_key": "2022nhsea_qm63", 
+    "overall_status_str": "Team 4761 is <b>Rank 7/40</b> with a record of <b>7-2-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 7, 
+        "record": {
+          "losses": 2, 
+          "ties": 0, 
+          "wins": 7
+        }, 
+        "sort_orders": [
+          2.55, 
+          56.66, 
+          19.55, 
+          15.55, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc4761"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc4906": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm56", 
+    "next_match_key": "2022nhsea_qm61", 
+    "overall_status_str": "Team 4906 is <b>Rank 16/40</b> with a record of <b>5-4-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 16, 
+        "record": {
+          "losses": 4, 
+          "ties": 0, 
+          "wins": 5
+        }, 
+        "sort_orders": [
+          2.11, 
+          58.0, 
+          11.88, 
+          19.11, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc4906"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc4925": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm55", 
+    "next_match_key": "2022nhsea_qm61", 
+    "overall_status_str": "Team 4925 is <b>Rank 30/40</b> with a record of <b>4-5-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 30, 
+        "record": {
+          "losses": 5, 
+          "ties": 0, 
+          "wins": 4
+        }, 
+        "sort_orders": [
+          1.55, 
+          42.77, 
+          13.88, 
+          14.44, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc4925"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc509": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm53", 
+    "next_match_key": "2022nhsea_qm58", 
+    "overall_status_str": "Team 509 is <b>Rank 17/40</b> with a record of <b>4-4-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 8, 
+        "qual_average": null, 
+        "rank": 17, 
+        "record": {
+          "losses": 4, 
+          "ties": 0, 
+          "wins": 4
+        }, 
+        "sort_orders": [
+          2.0, 
+          60.0, 
+          19.87, 
+          16.75, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc509"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc5265": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm56", 
+    "next_match_key": "2022nhsea_qm67", 
+    "overall_status_str": "Team 5265 is <b>Rank 38/40</b> with a record of <b>2-7-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 38, 
+        "record": {
+          "losses": 7, 
+          "ties": 0, 
+          "wins": 2
+        }, 
+        "sort_orders": [
+          0.88, 
+          38.33, 
+          10.88, 
+          12.0, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc5265"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc5459": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm55", 
+    "next_match_key": "2022nhsea_qm62", 
+    "overall_status_str": "Team 5459 is <b>Rank 19/40</b> with a record of <b>3-6-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 19, 
+        "record": {
+          "losses": 6, 
+          "ties": 0, 
+          "wins": 3
+        }, 
+        "sort_orders": [
+          1.88, 
+          59.44, 
+          17.77, 
+          15.77, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc5459"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc5494": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm57", 
+    "next_match_key": "2022nhsea_qm65", 
+    "overall_status_str": "Team 5494 is <b>Rank 14/40</b> with a record of <b>5-4-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 14, 
+        "record": {
+          "losses": 4, 
+          "ties": 0, 
+          "wins": 5
+        }, 
+        "sort_orders": [
+          2.11, 
+          62.44, 
+          17.0, 
+          18.22, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc5494"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc5687": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm48", 
+    "next_match_key": "2022nhsea_qm60", 
+    "overall_status_str": "Team 5687 is <b>Rank 10/40</b> with a record of <b>4-4-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 8, 
+        "qual_average": null, 
+        "rank": 10, 
+        "record": {
+          "losses": 4, 
+          "ties": 0, 
+          "wins": 4
+        }, 
+        "sort_orders": [
+          2.37, 
+          71.12, 
+          22.87, 
+          19.5, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc5687"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc58": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm56", 
+    "next_match_key": "2022nhsea_qm62", 
+    "overall_status_str": "Team 58 is <b>Rank 8/40</b> with a record of <b>5-4-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 8, 
+        "record": {
+          "losses": 4, 
+          "ties": 0, 
+          "wins": 5
+        }, 
+        "sort_orders": [
+          2.44, 
+          67.0, 
+          20.88, 
+          17.55, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc58"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc5902": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm52", 
+    "next_match_key": "2022nhsea_qm59", 
+    "overall_status_str": "Team 5902 is <b>Rank 33/40</b> with a record of <b>3-5-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 8, 
+        "qual_average": null, 
+        "rank": 33, 
+        "record": {
+          "losses": 5, 
+          "ties": 0, 
+          "wins": 3
+        }, 
+        "sort_orders": [
+          1.25, 
+          40.75, 
+          13.87, 
+          13.5, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc5902"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc6153": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm57", 
+    "next_match_key": "2022nhsea_qm62", 
+    "overall_status_str": "Team 6153 is <b>Rank 21/40</b> with a record of <b>5-4-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 21, 
+        "record": {
+          "losses": 4, 
+          "ties": 0, 
+          "wins": 5
+        }, 
+        "sort_orders": [
+          1.88, 
+          46.0, 
+          12.88, 
+          12.22, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc6153"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc6161": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm54", 
+    "next_match_key": "2022nhsea_qm63", 
+    "overall_status_str": "Team 6161 is <b>Rank 29/40</b> with a record of <b>5-4-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 29, 
+        "record": {
+          "losses": 4, 
+          "ties": 0, 
+          "wins": 5
+        }, 
+        "sort_orders": [
+          1.55, 
+          44.88, 
+          11.66, 
+          12.44, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc6161"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc6324": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm48", 
+    "next_match_key": "2022nhsea_qm59", 
+    "overall_status_str": "Team 6324 is <b>Rank 11/40</b> with a record of <b>5-3-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 8, 
+        "qual_average": null, 
+        "rank": 11, 
+        "record": {
+          "losses": 3, 
+          "ties": 0, 
+          "wins": 5
+        }, 
+        "sort_orders": [
+          2.37, 
+          54.5, 
+          19.75, 
+          15.0, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc6324"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc6329": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm52", 
+    "next_match_key": "2022nhsea_qm58", 
+    "overall_status_str": "Team 6329 is <b>Rank 6/40</b> with a record of <b>7-1-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 8, 
+        "qual_average": null, 
+        "rank": 6, 
+        "record": {
+          "losses": 1, 
+          "ties": 0, 
+          "wins": 7
+        }, 
+        "sort_orders": [
+          2.62, 
+          62.12, 
+          19.0, 
+          16.75, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc6329"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc663": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm56", 
+    "next_match_key": "2022nhsea_qm61", 
+    "overall_status_str": "Team 663 is <b>Rank 9/40</b> with a record of <b>6-3-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 9, 
+        "record": {
+          "losses": 3, 
+          "ties": 0, 
+          "wins": 6
+        }, 
+        "sort_orders": [
+          2.44, 
+          58.0, 
+          14.44, 
+          15.55, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc663"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc6690": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm54", 
+    "next_match_key": "2022nhsea_qm62", 
+    "overall_status_str": "Team 6690 is <b>Rank 28/40</b> with a record of <b>3-6-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 28, 
+        "record": {
+          "losses": 6, 
+          "ties": 0, 
+          "wins": 3
+        }, 
+        "sort_orders": [
+          1.55, 
+          52.44, 
+          13.88, 
+          18.0, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc6690"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc6762": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm55", 
+    "next_match_key": "2022nhsea_qm61", 
+    "overall_status_str": "Team 6762 is <b>Rank 37/40</b> with a record of <b>2-7-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 37, 
+        "record": {
+          "losses": 7, 
+          "ties": 0, 
+          "wins": 2
+        }, 
+        "sort_orders": [
+          1.0, 
+          41.33, 
+          15.22, 
+          12.0, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc6762"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc7314": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm56", 
+    "next_match_key": "2022nhsea_qm63", 
+    "overall_status_str": "Team 7314 is <b>Rank 36/40</b> with a record of <b>3-6-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 36, 
+        "record": {
+          "losses": 6, 
+          "ties": 0, 
+          "wins": 3
+        }, 
+        "sort_orders": [
+          1.0, 
+          42.77, 
+          12.88, 
+          12.44, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc7314"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc7674": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm55", 
+    "next_match_key": "2022nhsea_qm65", 
+    "overall_status_str": "Team 7674 is <b>Rank 23/40</b> with a record of <b>4-5-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 23, 
+        "record": {
+          "losses": 5, 
+          "ties": 0, 
+          "wins": 4
+        }, 
+        "sort_orders": [
+          1.77, 
+          51.88, 
+          24.33, 
+          12.44, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc7674"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc7913": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm57", 
+    "next_match_key": "2022nhsea_qm66", 
+    "overall_status_str": "Team 7913 is <b>Rank 34/40</b> with a record of <b>2-7-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 9, 
+        "qual_average": null, 
+        "rank": 34, 
+        "record": {
+          "losses": 7, 
+          "ties": 0, 
+          "wins": 2
+        }, 
+        "sort_orders": [
+          1.11, 
+          46.11, 
+          13.77, 
+          14.66, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc7913"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc8023": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm54", 
+    "next_match_key": "2022nhsea_qm60", 
+    "overall_status_str": "Team 8023 is <b>Rank 39/40</b> with a record of <b>2-6-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 8, 
+        "qual_average": null, 
+        "rank": 39, 
+        "record": {
+          "losses": 6, 
+          "ties": 0, 
+          "wins": 2
+        }, 
+        "sort_orders": [
+          0.87, 
+          44.0, 
+          16.25, 
+          12.75, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc8023"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc8046": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm53", 
+    "next_match_key": "2022nhsea_qm59", 
+    "overall_status_str": "Team 8046 is <b>Rank 5/40</b> with a record of <b>7-1-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 8, 
+        "qual_average": null, 
+        "rank": 5, 
+        "record": {
+          "losses": 1, 
+          "ties": 0, 
+          "wins": 7
+        }, 
+        "sort_orders": [
+          2.75, 
+          65.37, 
+          18.5, 
+          20.25, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc8046"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }, 
+  "frc8410": {
+    "alliance": null, 
+    "alliance_status_str": "--", 
+    "last_match_key": "2022nhsea_qm53", 
+    "next_match_key": "2022nhsea_qm60", 
+    "overall_status_str": "Team 8410 is <b>Rank 26/40</b> with a record of <b>3-5-0</b> in quals.", 
+    "playoff": null, 
+    "playoff_status_str": "--", 
+    "qual": {
+      "num_teams": 40, 
+      "ranking": {
+        "dq": 0, 
+        "matches_played": 8, 
+        "qual_average": null, 
+        "rank": 26, 
+        "record": {
+          "losses": 5, 
+          "ties": 0, 
+          "wins": 3
+        }, 
+        "sort_orders": [
+          1.62, 
+          50.25, 
+          21.37, 
+          11.75, 
+          0.0, 
+          0.0
+        ], 
+        "team_key": "frc8410"
+      }, 
+      "sort_order_info": [
+        {
+          "name": "Ranking Score", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Match", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Hangar", 
+          "precision": 2
+        }, 
+        {
+          "name": "Avg Taxi + Auto Cargo", 
+          "precision": 2
+        }
+      ], 
+      "status": "playing"
+    }
+  }
+}

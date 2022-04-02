@@ -1,0 +1,75 @@
+{
+  "playoff": null, 
+  "qual": {
+    "average_cargo_count": 16.973684210526315, 
+    "average_cargo_count_auto": 3.0701754385964914, 
+    "average_cargo_count_teleop": 13.903508771929825, 
+    "average_cargo_points": 32.728070175438596, 
+    "average_cargo_points_auto": 10.403508771929825, 
+    "average_cargo_points_teleop": 22.32456140350877, 
+    "average_endgame_points": 16.99122807017544, 
+    "average_foul_score": 1.543859649122807, 
+    "average_lower_cargo_count": 6.421052631578948, 
+    "average_lower_cargo_count_auto": 0.9385964912280702, 
+    "average_lower_cargo_count_teleop": 5.482456140350878, 
+    "average_points_auto": 15.929824561403509, 
+    "average_points_teleop": 39.31578947368421, 
+    "average_score": 56.78947368421053, 
+    "average_taxi_points": 5.526315789473684, 
+    "average_upper_cargo_count": 10.552631578947368, 
+    "average_upper_cargo_count_auto": 2.1315789473684212, 
+    "average_upper_cargo_count_teleop": 8.421052631578947, 
+    "average_win_margin": 24.07017543859649, 
+    "average_win_score": 68.82456140350877, 
+    "cargo_bonus_rp": [
+      47, 
+      114, 
+      41.228070175438596
+    ], 
+    "hangar_bonus_rp": [
+      61, 
+      114, 
+      53.50877192982456
+    ], 
+    "high_climb_count": [
+      28, 
+      342, 
+      8.187134502923977
+    ], 
+    "high_score": [
+      124, 
+      "2022nhsea_qm15", 
+      "Q15"
+    ], 
+    "low_climb_count": [
+      13, 
+      342, 
+      3.801169590643275
+    ], 
+    "mid_climb_count": [
+      85, 
+      342, 
+      24.853801169590643
+    ], 
+    "quintet_count": [
+      26, 
+      114, 
+      22.80701754385965
+    ], 
+    "taxi_count": [
+      315, 
+      342, 
+      92.10526315789474
+    ], 
+    "traversal_climb_count": [
+      73, 
+      342, 
+      21.34502923976608
+    ], 
+    "unicorn_matches": [
+      26, 
+      114, 
+      22.80701754385965
+    ]
+  }
+}

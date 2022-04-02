@@ -1,0 +1,606 @@
+{
+  "points": {
+    "frc1247": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 9, 
+      "total": 9
+    }, 
+    "frc1307": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 9, 
+      "total": 9
+    }, 
+    "frc131": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 16, 
+      "total": 16
+    }, 
+    "frc133": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 20, 
+      "total": 20
+    }, 
+    "frc1512": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 13, 
+      "total": 13
+    }, 
+    "frc166": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 14, 
+      "total": 14
+    }, 
+    "frc172": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 19, 
+      "total": 19
+    }, 
+    "frc1831": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 11, 
+      "total": 11
+    }, 
+    "frc238": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 22, 
+      "total": 22
+    }, 
+    "frc246": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 4, 
+      "total": 4
+    }, 
+    "frc2648": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 13, 
+      "total": 13
+    }, 
+    "frc2713": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 11, 
+      "total": 11
+    }, 
+    "frc319": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 12, 
+      "total": 12
+    }, 
+    "frc3451": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 15, 
+      "total": 15
+    }, 
+    "frc4473": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 12, 
+      "total": 12
+    }, 
+    "frc4546": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 7, 
+      "total": 7
+    }, 
+    "frc4564": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 21, 
+      "total": 21
+    }, 
+    "frc4761": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 18, 
+      "total": 18
+    }, 
+    "frc4906": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 14, 
+      "total": 14
+    }, 
+    "frc4925": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 9, 
+      "total": 9
+    }, 
+    "frc509": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 14, 
+      "total": 14
+    }, 
+    "frc5265": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 6, 
+      "total": 6
+    }, 
+    "frc5459": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 13, 
+      "total": 13
+    }, 
+    "frc5494": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 15, 
+      "total": 15
+    }, 
+    "frc5687": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 16, 
+      "total": 16
+    }, 
+    "frc58": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 17, 
+      "total": 17
+    }, 
+    "frc5902": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 8, 
+      "total": 8
+    }, 
+    "frc6153": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 12, 
+      "total": 12
+    }, 
+    "frc6161": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 10, 
+      "total": 10
+    }, 
+    "frc6324": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 16, 
+      "total": 16
+    }, 
+    "frc6329": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 18, 
+      "total": 18
+    }, 
+    "frc663": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 17, 
+      "total": 17
+    }, 
+    "frc6690": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 10, 
+      "total": 10
+    }, 
+    "frc6762": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 6, 
+      "total": 6
+    }, 
+    "frc7314": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 7, 
+      "total": 7
+    }, 
+    "frc7674": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 12, 
+      "total": 12
+    }, 
+    "frc7913": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 8, 
+      "total": 8
+    }, 
+    "frc8023": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 5, 
+      "total": 5
+    }, 
+    "frc8046": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 19, 
+      "total": 19
+    }, 
+    "frc8410": {
+      "alliance_points": 0, 
+      "award_points": 0, 
+      "elim_points": 0, 
+      "qual_points": 11, 
+      "total": 11
+    }
+  }, 
+  "tiebreakers": {
+    "frc1247": {
+      "highest_qual_scores": [
+        69, 
+        62, 
+        60
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc1307": {
+      "highest_qual_scores": [
+        81, 
+        74, 
+        45
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc131": {
+      "highest_qual_scores": [
+        97, 
+        86, 
+        81
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc133": {
+      "highest_qual_scores": [
+        124, 
+        117, 
+        98
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc1512": {
+      "highest_qual_scores": [
+        77, 
+        70, 
+        65
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc166": {
+      "highest_qual_scores": [
+        102, 
+        83, 
+        69
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc172": {
+      "highest_qual_scores": [
+        98, 
+        88, 
+        82
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc1831": {
+      "highest_qual_scores": [
+        77, 
+        75, 
+        58
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc238": {
+      "highest_qual_scores": [
+        124, 
+        102, 
+        96
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc246": {
+      "highest_qual_scores": [
+        60, 
+        60, 
+        54
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc2648": {
+      "highest_qual_scores": [
+        79, 
+        75, 
+        73
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc2713": {
+      "highest_qual_scores": [
+        87, 
+        69, 
+        62
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc319": {
+      "highest_qual_scores": [
+        117, 
+        97, 
+        65
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc3451": {
+      "highest_qual_scores": [
+        97, 
+        79, 
+        76
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc4473": {
+      "highest_qual_scores": [
+        65, 
+        61, 
+        57
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc4546": {
+      "highest_qual_scores": [
+        61, 
+        54, 
+        52
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc4564": {
+      "highest_qual_scores": [
+        124, 
+        88, 
+        85
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc4761": {
+      "highest_qual_scores": [
+        102, 
+        88, 
+        70
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc4906": {
+      "highest_qual_scores": [
+        96, 
+        73, 
+        70
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc4925": {
+      "highest_qual_scores": [
+        58, 
+        57, 
+        55
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc509": {
+      "highest_qual_scores": [
+        86, 
+        73, 
+        73
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc5265": {
+      "highest_qual_scores": [
+        77, 
+        73, 
+        57
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc5459": {
+      "highest_qual_scores": [
+        87, 
+        77, 
+        77
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc5494": {
+      "highest_qual_scores": [
+        98, 
+        75, 
+        73
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc5687": {
+      "highest_qual_scores": [
+        102, 
+        97, 
+        85
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc58": {
+      "highest_qual_scores": [
+        102, 
+        86, 
+        83
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc5902": {
+      "highest_qual_scores": [
+        85, 
+        51, 
+        45
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc6153": {
+      "highest_qual_scores": [
+        65, 
+        64, 
+        57
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc6161": {
+      "highest_qual_scores": [
+        69, 
+        65, 
+        57
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc6324": {
+      "highest_qual_scores": [
+        97, 
+        70, 
+        65
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc6329": {
+      "highest_qual_scores": [
+        87, 
+        73, 
+        72
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc663": {
+      "highest_qual_scores": [
+        102, 
+        74, 
+        70
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc6690": {
+      "highest_qual_scores": [
+        77, 
+        69, 
+        65
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc6762": {
+      "highest_qual_scores": [
+        62, 
+        61, 
+        59
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc7314": {
+      "highest_qual_scores": [
+        83, 
+        60, 
+        48
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc7674": {
+      "highest_qual_scores": [
+        69, 
+        62, 
+        62
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc7913": {
+      "highest_qual_scores": [
+        96, 
+        65, 
+        59
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc8023": {
+      "highest_qual_scores": [
+        72, 
+        56, 
+        56
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc8046": {
+      "highest_qual_scores": [
+        117, 
+        82, 
+        75
+      ], 
+      "qual_wins": 0
+    }, 
+    "frc8410": {
+      "highest_qual_scores": [
+        72, 
+        69, 
+        60
+      ], 
+      "qual_wins": 0
+    }
+  }
+}

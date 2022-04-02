@@ -1,0 +1,362 @@
+[
+  {
+    "city": "North Sutton", 
+    "country": "USA", 
+    "key": "frc1247", 
+    "name": "NDEP / Hypertherm & Kearsarge Regional High School", 
+    "nickname": "Blood, Sweat, and Gears", 
+    "state_prov": "New Hampshire", 
+    "team_number": 1247
+  }, 
+  {
+    "city": "Dover", 
+    "country": "USA", 
+    "key": "frc1307", 
+    "name": "St Thomas Aquinas High School", 
+    "nickname": "Robosaints", 
+    "state_prov": "New Hampshire", 
+    "team_number": 1307
+  }, 
+  {
+    "city": "Manchester", 
+    "country": "USA", 
+    "key": "frc131", 
+    "name": "BAE SYSTEMS/NHDOE/CHAOS Families & Alumni/Queen City Rotary Club/Granite State Airport Management Assossiation&4-H&Manchester Central High School", 
+    "nickname": "CHAOS", 
+    "state_prov": "New Hampshire", 
+    "team_number": 131
+  }, 
+  {
+    "city": "Standish", 
+    "country": "USA", 
+    "key": "frc133", 
+    "name": "ITS Inc. / Lockheed Martin / Robotics Institute of Maine / MSAD6 & Bonny Eagle High School", 
+    "nickname": "B.E.R.T.", 
+    "state_prov": "Maine", 
+    "team_number": 133
+  }, 
+  {
+    "city": "Concord", 
+    "country": "USA", 
+    "key": "frc1512", 
+    "name": "Criterium-Turner Engineers/Penn Engineering/Plano Molding Company & St Paul'S School", 
+    "nickname": "The Big Red", 
+    "state_prov": "New Hampshire", 
+    "team_number": 1512
+  }, 
+  {
+    "city": "Merrimack", 
+    "country": "USA", 
+    "key": "frc166", 
+    "name": "Merrimack School District/New Hampshire Department of Education/Elbit Systems of America/Workplace Modular Systems/BAE Systems/Saint-Gobain/Raytheon/B & K Industrial Finishing, Inc./FLIR Systems Inc/TechNH/Fully Promoted/Sal's Pizza&Merrimack High School", 
+    "nickname": "Chop Shop", 
+    "state_prov": "New Hampshire", 
+    "team_number": 166
+  }, 
+  {
+    "city": "Falmouth/Gorham", 
+    "country": "USA", 
+    "key": "frc172", 
+    "name": "Lanco Integrated / Chinburg Management / Falmouth High School / Adobe / Texas Instruments / Robotics Institute of Maine / IDEXX Laboratories / GoFar & Falmouth High School & Gorham High School", 
+    "nickname": "Northern Force", 
+    "state_prov": "Maine", 
+    "team_number": 172
+  }, 
+  {
+    "city": "Gilford", 
+    "country": "USA", 
+    "key": "frc1831", 
+    "name": "New Hampshire Ball Bearing/Gilford Rotary Club/BAE Systems&Gilford High School", 
+    "nickname": "Screaming Eagles", 
+    "state_prov": "New Hampshire", 
+    "team_number": 1831
+  }, 
+  {
+    "city": "Manchester", 
+    "country": "USA", 
+    "key": "frc238", 
+    "name": "Service Credit Union/Bosch&Manchester Memorial High Sch", 
+    "nickname": "Crusaders", 
+    "state_prov": "New Hampshire", 
+    "team_number": 238
+  }, 
+  {
+    "city": "Boston", 
+    "country": "USA", 
+    "key": "frc246", 
+    "name": "Boston University/Boston Scientific/The Boeing Company/IngenuityNE Inc./Akamai Technologies&Boston University Academy", 
+    "nickname": "Overclocked", 
+    "state_prov": "Massachusetts", 
+    "team_number": 246
+  }, 
+  {
+    "city": "Oakland", 
+    "country": "USA", 
+    "key": "frc2648", 
+    "name": "Wrabacon, Inc / The Robotics Institute of Maine / TRC / BAE Systems / Maine State Credit Union & Messalonskee High School", 
+    "nickname": "Infinite Loop", 
+    "state_prov": "Maine", 
+    "team_number": 2648
+  }, 
+  {
+    "city": "Melrose", 
+    "country": "USA", 
+    "key": "frc2713", 
+    "name": "Citizens of Melrose/Apple/Salesforce.com/Melrose Cooperative Bank Charitable Foundation/BAE Systems/Lockheed Martin/Churchill Corp/SAME/Raytheon&Melrose High School", 
+    "nickname": "iRaiders", 
+    "state_prov": "Massachusetts", 
+    "team_number": 2713
+  }, 
+  {
+    "city": "Alton", 
+    "country": "USA", 
+    "key": "frc319", 
+    "name": "SPS New England/Podmore Manufacturing/Schneider Electric/NDEP- DODSTEM/Alton Centennial Rotary Club/BAE Systems&Prospect Mountain High School", 
+    "nickname": "Big Bad Bob", 
+    "state_prov": "New Hampshire", 
+    "team_number": 319
+  }, 
+  {
+    "city": "Sanford", 
+    "country": "USA", 
+    "key": "frc3451", 
+    "name": "United Technologies/Robotics Institute of Maine/DOD STEM/Caron Engineering/Pratt & Whitney & Sanford Regional Technical Ctr", 
+    "nickname": "The ANOMALY", 
+    "state_prov": "Maine", 
+    "team_number": 3451
+  }, 
+  {
+    "city": "Farmingdale", 
+    "country": "USA", 
+    "key": "frc4473", 
+    "name": "NASA/REM&4-H&Richmond Middle High School&Hall-Dale Middle High School", 
+    "nickname": "Delta Prime Robotics", 
+    "state_prov": "Maine", 
+    "team_number": 4473
+  }, 
+  {
+    "city": "Dover", 
+    "country": "USA", 
+    "key": "frc4546", 
+    "name": "Comcast/Portsmouth Naval Shipyard/DoDSTEM/Duckworks Engineering/ArgenTech Solutions/NH DoE&Dover High School", 
+    "nickname": "Shockwave", 
+    "state_prov": "New Hampshire", 
+    "team_number": 4546
+  }, 
+  {
+    "city": "Brewer", 
+    "country": "USA", 
+    "key": "frc4564", 
+    "name": "Brewer High School/PTC/GE/Mid South Engineering&Brewer High School", 
+    "nickname": "Orange Chaos", 
+    "state_prov": "Maine", 
+    "team_number": 4564
+  }, 
+  {
+    "city": "Reading", 
+    "country": "USA", 
+    "key": "frc4761", 
+    "name": "Analog Devices/Amazon Robotics/Teradyne/Salem 5 Bank/Mathworks/Salem 5/BAE&Reading Memorial High School", 
+    "nickname": "The Robockets", 
+    "state_prov": "Massachusetts", 
+    "team_number": 4761
+  }, 
+  {
+    "city": "Waterville", 
+    "country": "USA", 
+    "key": "frc4906", 
+    "name": "Robotics Institute of Maine/Mid-Maine Technical Center&Mid-Maine Tech Center", 
+    "nickname": "The Collective", 
+    "state_prov": "Maine", 
+    "team_number": 4906
+  }, 
+  {
+    "city": "Wolfeboro", 
+    "country": "USA", 
+    "key": "frc4925", 
+    "name": "Governor Wentworth Regional School District/BAE Systems/Haas Foundation/Meredith Village Savings Bank/Harbor Freight Tools/Vanderheiden Foundation&Kingswood Regional High School", 
+    "nickname": "The Resistance", 
+    "state_prov": "New Hampshire", 
+    "team_number": 4925
+  }, 
+  {
+    "city": "Bedford", 
+    "country": "USA", 
+    "key": "frc509", 
+    "name": "Schneider Electric/SilverTech/NHDOE/BAE Systems/Bedford School District&Bedford High School", 
+    "nickname": "Red Storm", 
+    "state_prov": "New Hampshire", 
+    "team_number": 509
+  }, 
+  {
+    "city": "Portland", 
+    "country": "USA", 
+    "key": "frc5265", 
+    "name": "Saunders Electronics / Robotics Institute of Maine & Cheverus High School", 
+    "nickname": "Radical Impact", 
+    "state_prov": "Maine", 
+    "team_number": 5265
+  }, 
+  {
+    "city": "Ipswich", 
+    "country": "USA", 
+    "key": "frc5459", 
+    "name": "Ipswich Education Foundation / Analog Devices Inc. / New England Biolabs / AXIS, Inc. / Josephson Family / Harmonic Drive Inc. / Joset Corp. / Tedford's Hardware and Building Supplies / East Coast Metrology / Dawn Falardeau / James Kernan / Dassault Systems & Ipswich High School", 
+    "nickname": "Ipswich TIGERS", 
+    "state_prov": "Massachusetts", 
+    "team_number": 5459
+  }, 
+  {
+    "city": "Holbrook", 
+    "country": "USA", 
+    "key": "frc5494", 
+    "name": "Boston Mutual Life Insurance&Holbrook Middle High School", 
+    "nickname": "Bizarbots Robotics", 
+    "state_prov": "Massachusetts", 
+    "team_number": 5494
+  }, 
+  {
+    "city": "Portland", 
+    "country": "USA", 
+    "key": "frc5687", 
+    "name": "Baxter Academy Tech & Science", 
+    "nickname": "The Outliers", 
+    "state_prov": "Maine", 
+    "team_number": 5687
+  }, 
+  {
+    "city": "South Portland", 
+    "country": "USA", 
+    "key": "frc58", 
+    "name": "South Portland School Department/Building STEAM&South Portland High School", 
+    "nickname": "The Riot Crew", 
+    "state_prov": "Maine", 
+    "team_number": 58
+  }, 
+  {
+    "city": "Portsmouth", 
+    "country": "USA", 
+    "key": "frc5902", 
+    "name": "Analog Devices/Portsmouth Naval Shipyard/DoD STEM & Home School & Portsmouth High School", 
+    "nickname": "The Wire Clippers", 
+    "state_prov": "New Hampshire", 
+    "team_number": 5902
+  }, 
+  {
+    "city": "Farmington", 
+    "country": "USA", 
+    "key": "frc6153", 
+    "name": "Central Maine Power/Pratt & Whitney Division of Raytheon Technologies/Robotics Institute of Maine/Franklin Savings Bank/Richard Wilde/NASA/Rotary Club of Farmington/The Hammonds-The Holmes-The O'Briens & Foster Technology Center & Mt Blue High School & Spruce Mountain High School", 
+    "nickname": "Blue Crew", 
+    "state_prov": "Maine", 
+    "team_number": 6153
+  }, 
+  {
+    "city": "Gray", 
+    "country": "USA", 
+    "key": "frc6161", 
+    "name": "McCann Fabrication/Info For ME/PTC/Robotics Institute of Maine/Enercon Technologies&Gray-New Gloucester High Sch", 
+    "nickname": "Equilibrium", 
+    "state_prov": "Maine", 
+    "team_number": 6161
+  }, 
+  {
+    "city": "Salem", 
+    "country": "USA", 
+    "key": "frc6324", 
+    "name": "Salem Pride/Analog Devices&Salem High School", 
+    "nickname": "The Blue Devils", 
+    "state_prov": "New Hampshire", 
+    "team_number": 6324
+  }, 
+  {
+    "city": "Bucksport", 
+    "country": "USA", 
+    "key": "frc6329", 
+    "name": "RSU 25/The Silvernail Family/NASA&Bucksport High School", 
+    "nickname": "The Bucks' Wrath", 
+    "state_prov": "Maine", 
+    "team_number": 6329
+  }, 
+  {
+    "city": "Whitinsville", 
+    "country": "USA", 
+    "key": "frc663", 
+    "name": "WRT Management Corp./Bach Knives/Waters Corp. & Whitinsville Christian School", 
+    "nickname": "Robonauts", 
+    "state_prov": "Massachusetts", 
+    "team_number": 663
+  }, 
+  {
+    "city": "Concord", 
+    "country": "USA", 
+    "key": "frc6690", 
+    "name": "NASA/DOD STEM &Merrimack Valley High School", 
+    "nickname": "MV roboPride", 
+    "state_prov": "New Hampshire", 
+    "team_number": 6690
+  }, 
+  {
+    "city": "Hillsborough", 
+    "country": "USA", 
+    "key": "frc6762", 
+    "name": "Duncan-Jenkins Trust / Osram / Sons of the American Legion, Young and Richardson Squadron #59 / Marc Stieger / Ferguson Tool and Instrument / Utopia Machine Works / John Oberti / J. McCarthy Trust & Hillsboro-Deering High School", 
+    "nickname": "Oscats", 
+    "state_prov": "New Hampshire", 
+    "team_number": 6762
+  }, 
+  {
+    "city": "Franklin", 
+    "country": "USA", 
+    "key": "frc7314", 
+    "name": "Franklin High School", 
+    "nickname": "Tornadoes", 
+    "state_prov": "New Hampshire", 
+    "team_number": 7314
+  }, 
+  {
+    "city": "Rochester", 
+    "country": "USA", 
+    "key": "frc7674", 
+    "name": "State of New Hampshire Department of Education/GRB Tek/Fidelity Investments/Prospect Mountain Regional High School & Spaulding High School", 
+    "nickname": "RaiderBots", 
+    "state_prov": "New Hampshire", 
+    "team_number": 7674
+  }, 
+  {
+    "city": "Bristol", 
+    "country": "USA", 
+    "key": "frc7913", 
+    "name": "Freudenburg-NOK & Newfound Regional High School", 
+    "nickname": "\"Bear\"ly Functioning", 
+    "state_prov": "New Hampshire", 
+    "team_number": 7913
+  }, 
+  {
+    "city": "Lewiston", 
+    "country": "USA", 
+    "key": "frc8023", 
+    "name": "Lewiston Regional Technical Center/FIRST Robotics/Robotics Institute of Maine/Bates College/CS for LPS&Lewiston Reg Tech Center", 
+    "nickname": "LRTC 8023", 
+    "state_prov": "Maine", 
+    "team_number": 8023
+  }, 
+  {
+    "city": "Meredith", 
+    "country": "USA", 
+    "key": "frc8046", 
+    "name": "Meredith Village Savings Bank/NH DOE/Remcon - North&Inter-Lakes Jr Sr High School", 
+    "nickname": "LakerBots", 
+    "state_prov": "New Hampshire", 
+    "team_number": 8046
+  }, 
+  {
+    "city": "Durham", 
+    "country": "USA", 
+    "key": "frc8410", 
+    "name": "Family/Community", 
+    "nickname": "Oyster River Robotics", 
+    "state_prov": "New Hampshire", 
+    "team_number": 8410
+  }
+]

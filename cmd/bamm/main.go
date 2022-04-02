@@ -26,7 +26,7 @@ func main() {
 			// 2022nhsea - pease
 			&cli.StringFlag{
 				Name:  "event-key",
-				Value: "2022macma",
+				Value: "2022nhsea",
 			},
 			&cli.StringFlag{
 				Name:  "district-key",
@@ -34,7 +34,7 @@ func main() {
 			},
 			&cli.StringFlag{
 				Name:  "match-key",
-				Value: "2022macma_qm74",
+				Value: "2022nhsea_qm53",
 			},
 			&cli.IntFlag{
 				Name:  "team",
