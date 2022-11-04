@@ -1,4 +1,4 @@
-module github.com/mathyourlife/bamm
+module github.com/oysterriveroverdrive/hud
 
 go 1.17
 

@@ -1,5 +1,5 @@
 // Schema for objects defined at https://www.thebluealliance.com/apidocs/v3
-package bamm
+package hud
 
 import "fmt"
 

@@ -8,13 +8,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/mathyourlife/bamm"
+	"github.com/oysterriveroverdrive/hud"
 	"github.com/urfave/cli/v2"
 )
 
 func main() {
 	app := &cli.App{
-		Name:  "bamm",
+		Name:  "hud",
 		Usage: "A cli tool for the blue alliance api.",
 		Flags: []cli.Flag{
 			&cli.StringFlag{
@@ -53,7 +53,7 @@ func main() {
 			districtKey := c.String("district-key")
 			matchKey := c.String("match-key")
 			ctx := context.Background()
-			bc := bamm.NewBAClient(&http.Client{}, authKey)
+			bc := hud.NewBAClient(&http.Client{}, authKey)
 			// team, err := bc.TeamSimple(ctx, fmt.Sprintf("frc%d", teamNum))
 			// if err != nil {
 			// 	log.Fatal(err)
@@ -82,11 +82,11 @@ func main() {
 			if err != nil {
 				log.Fatal(err)
 			}
-			next, err := bamm.NextMatch(matches, 8410)
+			next, err := hud.NextMatch(matches, 8410)
 			if err != nil {
 				log.Fatal(err)
 			}
-			summary := bamm.PrintNextMatchSummary(next, 8410)
+			summary := hud.PrintNextMatchSummary(next, 8410)
 			fmt.Println(strings.Join(summary, "\n"))
 			return nil
 		},

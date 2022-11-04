@@ -1,20 +1,21 @@
-# BAMM
+# HUD
 
-B.A.M.M. - Blue Alliance Match Manager
+Heads-Up Display (HUD) is FRC team 8410's data management system
+that primarily integrates into the FRC Blue Alliance API
+https://www.thebluealliance.com/apidocs/v3.
 
-Starting an query lib for the FRC Blue Alliance API 
-https://www.thebluealliance.com/apidocs/v3.  Will evetually 
-help out with providing data to the team in the pits.
+Goals:
 
-Not offiliated .
+* Automate the collection and distribution of data.
+* Facilitate scouting operations.
 
 ## Setup
 
 Create a read API key at https://www.thebluealliance.com/account
 
 ```
-go get github.com/mathyourlife/bamm/cmd/bamm
+go get github.com/oysterriveroverdrive/hud/cmd/hud
 export BLUE_ALLIANCE_AUTH_KEY=[YOUR KEY]
-cd cmd/bamm
+cd cmd/hud
 go run . [TEAM NUMBER]
 ```
