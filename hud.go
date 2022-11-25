@@ -4,17 +4,23 @@ import (
 	"fmt"
 	"strings"
 	"time"
+
+	"github.com/oysterriveroverdrive/hud/model"
 )
 
 const (
 	DEFAULT_SERVER string = "https://www.thebluealliance.com/api/v3"
 )
 
+type Clock interface {
+	Now() time.Time
+}
+
 // NextMatch - Searches the list of matches provided for the next match that
 // hasn't occured yet.  If no more matches are found, the function returns
 // nil, nil.
-func NextMatch(matches []*MatchSimple, teamNumber int) (*MatchSimple, error) {
-	var nextMatch *MatchSimple
+func NextMatch(matches []*model.MatchSimple, teamNumber int) (*model.MatchSimple, error) {
+	var nextMatch *model.MatchSimple
 	matchTime := int64(99999999999) // default to a timestamp in the year 5138
 
 	teamKey := fmt.Sprintf("frc%d", teamNumber)
@@ -43,7 +49,14 @@ func NextMatch(matches []*MatchSimple, teamNumber int) (*MatchSimple, error) {
 	return nextMatch, nil
 }
 
-func PrintNextMatchSummary(next *MatchSimple, teamNumber int) []string {
+func PrintNextMatchSummary(clock Clock, next *model.MatchSimple, teamNumber int) []string {
+	var now time.Time
+	// Check if we've been supplied with a mocked clock.
+	if clock == nil {
+		now = time.Now()
+	} else {
+		now = clock.Now()
+	}
 	if next == nil {
 		return []string{
 			"No more matches found.",
@@ -51,7 +64,7 @@ func PrintNextMatchSummary(next *MatchSimple, teamNumber int) []string {
 	}
 	data := []string{}
 	data = append(data, fmt.Sprintf("Match Starts At: %s", time.Unix(next.PredictedTime, 0)))
-	data = append(data, fmt.Sprintf("Starts In: %s", time.Unix(next.PredictedTime, 0).Sub(time.Now()).Truncate(time.Second)))
+	data = append(data, fmt.Sprintf("Starts In: %s", time.Unix(next.PredictedTime, 0).Sub(now).Truncate(time.Second)))
 	teamKey := fmt.Sprintf("frc%d", teamNumber)
 	isRed := false
 	for _, key := range next.Alliances.Red.TeamKeys {
@@ -60,11 +73,11 @@ func PrintNextMatchSummary(next *MatchSimple, teamNumber int) []string {
 		}
 	}
 	if isRed {
-		data = append(data, fmt.Sprintf("Alliance: Red"))
+		data = append(data, "Alliance: Red")
 		data = append(data, fmt.Sprintf("Allies: %s", strings.Join(next.Alliances.Red.TeamKeys, " ")))
 		data = append(data, fmt.Sprintf("Opponents: %s", strings.Join(next.Alliances.Blue.TeamKeys, " ")))
 	} else {
-		data = append(data, fmt.Sprintf("Alliance: Blue"))
+		data = append(data, "Alliance: Blue")
 		data = append(data, fmt.Sprintf("Allies: %s", strings.Join(next.Alliances.Blue.TeamKeys, " ")))
 		data = append(data, fmt.Sprintf("Opponents: %s", strings.Join(next.Alliances.Red.TeamKeys, " ")))
 	}

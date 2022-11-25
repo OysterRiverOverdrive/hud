@@ -19,3 +19,15 @@ export BLUE_ALLIANCE_AUTH_KEY=[YOUR KEY]
 cd cmd/hud
 go run . [TEAM NUMBER]
 ```
+
+## Use Case
+
+```
+
+hub.CompetitionWatcher(8410)
+hub.WatchTeam(8410)
+```
+
+```
+hub.TeamSummary(8410)
+```

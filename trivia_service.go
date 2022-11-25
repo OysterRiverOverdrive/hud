@@ -10,37 +10,39 @@ import (
 	"net/http"
 	"os"
 	"strings"
+
+	"github.com/oysterriveroverdrive/hud/model"
 )
 
-type BAClient struct {
-	URL     string
-	Client  *http.Client
-	AuthKey string
+type TriviaService struct {
+	URL           string
+	TriviaService *http.Client
+	AuthKey       string
 }
 
-func NewBAClient(client *http.Client, AuthKey string) *BAClient {
-	return &BAClient{
-		URL:     DEFAULT_SERVER,
-		Client:  client,
-		AuthKey: AuthKey,
+func NewTriviaService(client *http.Client, AuthKey string) *TriviaService {
+	return &TriviaService{
+		URL:           DEFAULT_SERVER,
+		TriviaService: client,
+		AuthKey:       AuthKey,
 	}
 }
 
-func (ba *BAClient) setHeaders(req *http.Request) {
-	req.Header.Set("X-TBA-Auth-Key", ba.AuthKey)
+func (c *TriviaService) setHeaders(req *http.Request) {
+	req.Header.Set("X-TBA-Auth-Key", c.AuthKey)
 	req.Header.Set("accept", "application/json")
 }
 
-func (ba *BAClient) Get(url string, body io.Reader) (*http.Response, error) {
+func (c *TriviaService) Get(url string, body io.Reader) (*http.Response, error) {
 	req, err := http.NewRequest("GET", url, body)
 	if err != nil {
 		return nil, err
 	}
-	ba.setHeaders(req)
-	return ba.Client.Do(req)
+	c.setHeaders(req)
+	return c.TriviaService.Do(req)
 }
 
-func (c *BAClient) Dump(ctx context.Context, year, teamNum int, eventKey, districtKey, matchKey string) {
+func (c *TriviaService) Dump(ctx context.Context, year, teamNum int, eventKey, districtKey, matchKey string) {
 	teamKey := fmt.Sprintf("frc%d", teamNum)
 
 	endpoints := []string{
@@ -127,70 +129,67 @@ func (c *BAClient) Dump(ctx context.Context, year, teamNum int, eventKey, distri
 
 }
 
-func (c *BAClient) TeamSimple(ctx context.Context, teamKey string) (*TeamSimple, error) {
+func (c *TriviaService) Districts(ctx context.Context) ([]*model.District, error) {
+	resp, err := c.Get(c.URL+"/districts", nil)
+	if err != nil {
+		return nil, err
+	}
+
+	var r []*model.District
+	if err := json.NewDecoder(resp.Body).Decode(&r); err != nil {
+		return nil, fmt.Errorf("unable to parse districts response: %w", err)
+	}
+	return r, nil
+}
+
+func (c *TriviaService) TeamSimple(ctx context.Context, teamKey string) (*model.TeamSimple, error) {
 	resp, err := c.Get(c.URL+"/team/"+teamKey+"/simple", nil)
 	if err != nil {
 		return nil, err
 	}
 
-	r := &TeamSimple{}
-	data, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("unable to read response body: %w", err)
-	}
-	if err := json.Unmarshal(data, r); err != nil {
+	r := &model.TeamSimple{}
+	if err := json.NewDecoder(resp.Body).Decode(r); err != nil {
 		return nil, fmt.Errorf("unable to parse team response: %w", err)
 	}
 	return r, nil
 }
 
-func (c *BAClient) TeamSocialMedia(ctx context.Context, teamKey string) ([]*Media, error) {
+func (c *TriviaService) TeamSocialMedia(ctx context.Context, teamKey string) ([]*model.Media, error) {
 	resp, err := c.Get(c.URL+"/team/"+teamKey+"/social_media", nil)
 	if err != nil {
 		return nil, err
 	}
 
-	r := []*Media{}
-	data, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("unable to read response body: %w", err)
-	}
-	if err := json.Unmarshal(data, &r); err != nil {
-		return nil, fmt.Errorf("unable to parse team response: %w", err)
+	r := []*model.Media{}
+	if err := json.NewDecoder(resp.Body).Decode(&r); err != nil {
+		return nil, fmt.Errorf("unable to parse team media response: %w", err)
 	}
 	return r, nil
 }
 
-func (c *BAClient) EventTeams(ctx context.Context, eventKey string) ([]*Team, error) {
+func (c *TriviaService) EventTeams(ctx context.Context, eventKey string) ([]*model.Team, error) {
 	resp, err := c.Get(c.URL+"/event/"+eventKey+"/teams", nil)
 	if err != nil {
 		return nil, err
 	}
 
-	r := []*Team{}
-	data, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("unable to read response body: %w", err)
-	}
-	if err := json.Unmarshal(data, &r); err != nil {
-		return nil, fmt.Errorf("unable to parse team response: %w", err)
+	r := []*model.Team{}
+	if err := json.NewDecoder(resp.Body).Decode(&r); err != nil {
+		return nil, fmt.Errorf("unable to parse event teams response: %w", err)
 	}
 	return r, nil
 }
 
-func (c *BAClient) EventMatchesSimple(ctx context.Context, eventKey string) ([]*MatchSimple, error) {
+func (c *TriviaService) EventMatchesSimple(ctx context.Context, eventKey string) ([]*model.MatchSimple, error) {
 	resp, err := c.Get(c.URL+"/event/"+eventKey+"/matches/simple", nil)
 	if err != nil {
 		return nil, err
 	}
 
-	r := []*MatchSimple{}
-	data, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("unable to read response body: %w", err)
-	}
-	if err := json.Unmarshal(data, &r); err != nil {
-		return nil, fmt.Errorf("unable to parse team response: %w", err)
+	r := []*model.MatchSimple{}
+	if err := json.NewDecoder(resp.Body).Decode(&r); err != nil {
+		return nil, fmt.Errorf("unable to parse event matches simple response: %w", err)
 	}
 	return r, nil
 }
