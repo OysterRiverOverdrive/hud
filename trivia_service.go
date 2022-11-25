@@ -5,7 +5,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
@@ -28,21 +27,21 @@ func NewTriviaService(client *http.Client, AuthKey string) *TriviaService {
 	}
 }
 
-func (c *TriviaService) setHeaders(req *http.Request) {
-	req.Header.Set("X-TBA-Auth-Key", c.AuthKey)
+func (ts *TriviaService) setHeaders(req *http.Request) {
+	req.Header.Set("X-TBA-Auth-Key", ts.AuthKey)
 	req.Header.Set("accept", "application/json")
 }
 
-func (c *TriviaService) Get(url string, body io.Reader) (*http.Response, error) {
+func (ts *TriviaService) Get(url string, body io.Reader) (*http.Response, error) {
 	req, err := http.NewRequest("GET", url, body)
 	if err != nil {
 		return nil, err
 	}
-	c.setHeaders(req)
-	return c.TriviaService.Do(req)
+	ts.setHeaders(req)
+	return ts.TriviaService.Do(req)
 }
 
-func (c *TriviaService) Dump(ctx context.Context, year, teamNum int, eventKey, districtKey, matchKey string) {
+func (ts *TriviaService) Dump(ctx context.Context, year, teamNum int, eventKey, districtKey, matchKey string) {
 	teamKey := fmt.Sprintf("frc%d", teamNum)
 
 	endpoints := []string{
@@ -107,11 +106,11 @@ func (c *TriviaService) Dump(ctx context.Context, year, teamNum int, eventKey, d
 		endpointURL = strings.Replace(endpointURL, "{district_key}", districtKey, -1)
 		endpointURL = strings.Replace(endpointURL, "{match_key}", matchKey, -1)
 		endpointURL = strings.Replace(endpointURL, "{year}", fmt.Sprintf("%d", year), -1)
-		resp, err := c.Get(c.URL+endpointURL, nil)
+		resp, err := ts.Get(ts.URL+endpointURL, nil)
 		if err != nil {
 			log.Fatal(err)
 		}
-		data, err := ioutil.ReadAll(resp.Body)
+		data, err := io.ReadAll(resp.Body)
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -129,11 +128,12 @@ func (c *TriviaService) Dump(ctx context.Context, year, teamNum int, eventKey, d
 
 }
 
-func (c *TriviaService) Districts(ctx context.Context) ([]*model.District, error) {
-	resp, err := c.Get(c.URL+"/districts", nil)
+func (ts *TriviaService) Districts(ctx context.Context) ([]*model.District, error) {
+	resp, err := ts.Get(ts.URL+"/districts", nil)
 	if err != nil {
 		return nil, err
 	}
+	defer resp.Body.Close()
 
 	var r []*model.District
 	if err := json.NewDecoder(resp.Body).Decode(&r); err != nil {
@@ -142,11 +142,12 @@ func (c *TriviaService) Districts(ctx context.Context) ([]*model.District, error
 	return r, nil
 }
 
-func (c *TriviaService) TeamSimple(ctx context.Context, teamKey string) (*model.TeamSimple, error) {
-	resp, err := c.Get(c.URL+"/team/"+teamKey+"/simple", nil)
+func (ts *TriviaService) TeamSimple(ctx context.Context, teamKey string) (*model.TeamSimple, error) {
+	resp, err := ts.Get(ts.URL+"/team/"+teamKey+"/simple", nil)
 	if err != nil {
 		return nil, err
 	}
+	defer resp.Body.Close()
 
 	r := &model.TeamSimple{}
 	if err := json.NewDecoder(resp.Body).Decode(r); err != nil {
@@ -155,11 +156,12 @@ func (c *TriviaService) TeamSimple(ctx context.Context, teamKey string) (*model.
 	return r, nil
 }
 
-func (c *TriviaService) TeamSocialMedia(ctx context.Context, teamKey string) ([]*model.Media, error) {
-	resp, err := c.Get(c.URL+"/team/"+teamKey+"/social_media", nil)
+func (ts *TriviaService) TeamSocialMedia(ctx context.Context, teamKey string) ([]*model.Media, error) {
+	resp, err := ts.Get(ts.URL+"/team/"+teamKey+"/social_media", nil)
 	if err != nil {
 		return nil, err
 	}
+	defer resp.Body.Close()
 
 	r := []*model.Media{}
 	if err := json.NewDecoder(resp.Body).Decode(&r); err != nil {
@@ -168,11 +170,12 @@ func (c *TriviaService) TeamSocialMedia(ctx context.Context, teamKey string) ([]
 	return r, nil
 }
 
-func (c *TriviaService) EventTeams(ctx context.Context, eventKey string) ([]*model.Team, error) {
-	resp, err := c.Get(c.URL+"/event/"+eventKey+"/teams", nil)
+func (ts *TriviaService) EventTeams(ctx context.Context, eventKey string) ([]*model.Team, error) {
+	resp, err := ts.Get(ts.URL+"/event/"+eventKey+"/teams", nil)
 	if err != nil {
 		return nil, err
 	}
+	defer resp.Body.Close()
 
 	r := []*model.Team{}
 	if err := json.NewDecoder(resp.Body).Decode(&r); err != nil {
@@ -181,11 +184,12 @@ func (c *TriviaService) EventTeams(ctx context.Context, eventKey string) ([]*mod
 	return r, nil
 }
 
-func (c *TriviaService) EventMatchesSimple(ctx context.Context, eventKey string) ([]*model.MatchSimple, error) {
-	resp, err := c.Get(c.URL+"/event/"+eventKey+"/matches/simple", nil)
+func (ts *TriviaService) EventMatchesSimple(ctx context.Context, eventKey string) ([]*model.MatchSimple, error) {
+	resp, err := ts.Get(ts.URL+"/event/"+eventKey+"/matches/simple", nil)
 	if err != nil {
 		return nil, err
 	}
+	defer resp.Body.Close()
 
 	r := []*model.MatchSimple{}
 	if err := json.NewDecoder(resp.Body).Decode(&r); err != nil {
