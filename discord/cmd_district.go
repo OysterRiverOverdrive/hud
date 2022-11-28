@@ -9,6 +9,7 @@ import (
 
 	"github.com/bwmarrin/discordgo"
 	"github.com/oysterriveroverdrive/hud"
+	"github.com/sirupsen/logrus"
 )
 
 // DistrictCmd handles @hud district ... commands
@@ -22,6 +23,7 @@ func (c *DistrictCmd) Stub() string {
 
 func (c *DistrictCmd) Match(msg string) bool {
 	// TODO: match on "@hud district" but not "@hud districtsometing"
+	logrus.Debugf("DistrictCmd.Match %q", msg)
 	return strings.HasPrefix(msg, "district")
 }
 
@@ -30,6 +32,7 @@ func (c *DistrictCmd) Help() string {
 }
 
 func (c *DistrictCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, *discordgo.MessageSend, error) {
+	logrus.Debugf("DistrictCmd.Handle %v %q", md, msg)
 	suffix := strings.TrimSpace(strings.TrimPrefix(msg, "district"))
 
 	if suffix == "help" || suffix == "" {
@@ -42,7 +45,7 @@ func (c *DistrictCmd) Handle(md map[string]string, ts *hud.TriviaService, s *dis
 		}, nil
 	}
 	for _, subCmd := range c.SubCmds {
-		if subCmd.Match(msg) {
+		if subCmd.Match(suffix) {
 			md["path"] += " " + c.Stub()
 			return subCmd.Handle(md, ts, s, m, suffix)
 		}
@@ -60,6 +63,7 @@ func (c *DistrictIDCmd) Stub() string {
 }
 
 func (c *DistrictIDCmd) Match(msg string) bool {
+	logrus.Debugf("DistrictIDCmd.Match %q", msg)
 	return regexp.MustCompile(`\s*[a-z\d]+\s*`).MatchString(msg)
 }
 
@@ -68,6 +72,7 @@ func (c *DistrictIDCmd) Help() string {
 }
 
 func (c *DistrictIDCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, *discordgo.MessageSend, error) {
+	logrus.Debugf("DistrictIDCmd.Handle %v %q", md, msg)
 	match := regexp.MustCompile(`\s*([a-z\d]+)\s*(.*)`).FindStringSubmatch(msg)
 	var suffix string
 	if len(match) > 1 {
@@ -101,6 +106,7 @@ func (c *DistrictIDTeamsCmd) Stub() string {
 }
 
 func (c *DistrictIDTeamsCmd) Match(msg string) bool {
+	logrus.Debugf("DistrictIDTeamsCmd.Match %q", msg)
 	return msg == "teams"
 }
 
@@ -109,6 +115,7 @@ func (c *DistrictIDTeamsCmd) Help() string {
 }
 
 func (c *DistrictIDTeamsCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, *discordgo.MessageSend, error) {
+	logrus.Debugf("DistrictIDTeamsCmd.Handle %v %q", md, msg)
 	teams, err := hud.TeamsInDistrict(ts, md["district_id"])
 	if err != nil {
 		log.Printf("[ERROR] %s", err)

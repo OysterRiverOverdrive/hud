@@ -12,6 +12,7 @@ import (
 
 	"github.com/bwmarrin/discordgo"
 	"github.com/oysterriveroverdrive/hud"
+	"github.com/sirupsen/logrus"
 )
 
 var (
@@ -27,6 +28,8 @@ func parseFlags() {
 
 func main() {
 	fmt.Println("starting hud bot")
+
+	logrus.SetLevel(logrus.DebugLevel)
 
 	parseFlags()
 

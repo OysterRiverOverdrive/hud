@@ -58,7 +58,15 @@ func TestTeam_HandleHelp(t *testing.T) {
 func TestTeamID_Match(t *testing.T) {
 	c := &TeamIDCmd{}
 	assert.Equal(t, true, c.Match("8410"))
+	assert.Equal(t, true, c.Match("8410,8411"))
 	assert.Equal(t, false, c.Match("notanumber"))
+}
+
+func TestTeamID_ParseTeamNumbers(t *testing.T) {
+	c := &TeamIDCmd{}
+	assert.Equal(t, []int{8410}, c.parseTeamNumbers("8410"))
+	assert.Equal(t, []int{8410, 8411}, c.parseTeamNumbers("8410,8411"))
+	assert.Equal(t, []int{8410, 8411, 8412}, c.parseTeamNumbers("8410,8411,8412"))
 }
 
 func TestTeamID_Handle(t *testing.T) {
