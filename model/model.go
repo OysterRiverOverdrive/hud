@@ -3,8 +3,13 @@ package model
 
 import "fmt"
 
+type ErrorResponse struct {
+	Error string `json:"Error"`
+}
+
 // Media - contains a reference for most any media associated with a team or event on TBA.
 type Media struct {
+	ErrorResponse
 	// String type of the media element.
 	Type string `json:"type"`
 	// The key used to identify this media on the media site.
@@ -23,6 +28,7 @@ func (t Media) String() string {
 }
 
 type MatchSimple struct {
+	ErrorResponse
 	// TBA match key with the format yyyy[EVENT_CODE]_[COMP_LEVEL]m[MATCH_NUMBER], where yyyy is the year, and EVENT_CODE is the event code of the event, COMP_LEVEL is (qm, ef, qf, sf, f), and MATCH_NUMBER is the match number in the competition level. A set number may append the competition level if more than one match in required per set.
 	Key string `json:"key"`
 	// 	The competition level the match was played at.
@@ -53,6 +59,7 @@ type MatchSimple struct {
 }
 
 type MatchAlliance struct {
+	ErrorResponse
 	// Score for this alliance. Will be null or -1 for an unplayed match.
 	Score int `json:"score"`
 	// TBA Team keys (eg frc254) for teams on this alliance.
@@ -66,6 +73,7 @@ type MatchAlliance struct {
 // District represents a FRC district denoted by an unique key
 // which is a concatenation of year and abbreviation.
 type District struct {
+	ErrorResponse
 	// The short identifier for the district.
 	Abbreviation string `json:"abbreviation"`
 	// The long name for the district.
@@ -78,6 +86,7 @@ type District struct {
 
 // TeamSimple represents a FRC team denoted by an unique team number.
 type TeamSimple struct {
+	ErrorResponse
 	// TBA team key with the format frcXXXX with XXXX representing
 	// the team number.
 	Key string `json:"key"`
@@ -104,6 +113,7 @@ func (t TeamSimple) String() string {
 
 // Team represents a FRC team denoted by an unique team number.
 type Team struct {
+	ErrorResponse
 	// TBA team key with the format frcXXXX with XXXX representing
 	// the team number.
 	Key string `json:"key"`
@@ -149,10 +159,12 @@ type Team struct {
 }
 
 type Recipient struct {
+	ErrorResponse
 	TeamKey string `json:"team_key"`
 }
 
 type Award struct {
+	ErrorResponse
 	AwardType     int         `json:"award_type"`
 	EventKey      string      `json:"event_key"`
 	Name          string      `json:"name"`

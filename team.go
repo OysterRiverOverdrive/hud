@@ -27,6 +27,9 @@ func TeamByNumber(ts *TriviaService, teamNum int) (*Team, error) {
 	if err := json.NewDecoder(resp.Body).Decode(r); err != nil {
 		return nil, fmt.Errorf("unable to parse team response: %w", err)
 	}
+	if r.ErrorResponse.Error != "" {
+		return nil, fmt.Errorf(r.ErrorResponse.Error)
+	}
 	return &Team{Data: r}, nil
 }
 
