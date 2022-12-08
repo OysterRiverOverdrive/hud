@@ -88,7 +88,7 @@ func TestTeamID_Handle(t *testing.T) {
 	assert.NoError(t, err)
 	assert.Equal(t, "abcd", dChan)
 	assert.Equal(t, &discordgo.MessageSend{
-		Content: "Oyster River Robotics from Durham, New Hampshire",
+		Content: "0: Oyster River Robotics from Durham, New Hampshire",
 	}, m)
 	assert.Equal(t, "/team/frc8410", th.baRequest.URL.Path)
 }
