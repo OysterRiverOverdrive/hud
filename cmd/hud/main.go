@@ -66,7 +66,7 @@ func main() {
 			// districtKey := c.String("district-key")
 			// matchKey := c.String("match-key")
 			ctx := context.Background()
-			client := hud.NewClient(&http.Client{}, authKey)
+			client := hud.NewTriviaService(&http.Client{}, authKey)
 			// team, err := bc.TeamSimple(ctx, fmt.Sprintf("frc%d", teamNum))
 			// if err != nil {
 			// 	log.Fatal(err)
@@ -311,7 +311,7 @@ func main() {
 			if err != nil {
 				log.Fatal(err)
 			}
-			summary := hud.PrintNextMatchSummary(next, 8410)
+			summary := hud.PrintNextMatchSummary(nil, next, 8410)
 			fmt.Println(strings.Join(summary, "\n"))
 			return nil
 		},

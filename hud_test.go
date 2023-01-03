@@ -13,7 +13,8 @@ type testClock struct {
 }
 
 func (c *testClock) Now() time.Time {
-	return c.now
+	newYork, _ := time.LoadLocation("America/New_York")
+	return c.now.In(newYork)
 }
 
 func genMatches() []*model.MatchSimple {
