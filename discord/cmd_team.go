@@ -11,10 +11,6 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
-func init() {
-	logrus.SetLevel(logrus.DebugLevel)
-}
-
 // TeamCmd handles @hud team ... commands
 type TeamCmd struct {
 	SubCmds []Cmd

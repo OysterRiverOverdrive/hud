@@ -55,7 +55,7 @@ func TestPrintNextMatchSummary(t *testing.T) {
 	}
 	got := PrintNextMatchSummary(clock, next, 8410)
 	want := []string{
-		"Match Starts At: 2022-11-06 19:10:00 -0500 EST",
+		"Match Starts At: 2022-11-07 00:10:00 +0000 UTC",
 		"Starts In: 10m0s",
 		"Alliance: Red",
 		"Allies: frc8410 frc222 frc333",

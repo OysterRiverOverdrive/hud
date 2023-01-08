@@ -20,6 +20,10 @@ var (
 	BAToken string
 )
 
+func init() {
+	logrus.SetLevel(logrus.DebugLevel)
+}
+
 func parseFlags() {
 	flag.StringVar(&Token, "discord-token", "", "Discord Bot Token")
 	flag.StringVar(&BAToken, "blue-alliance-token", "", "Blue Alliance Token")
@@ -60,6 +64,13 @@ func main() {
 							&DistrictIDTeamsCmd{},
 						},
 					},
+				},
+			},
+			&RulesCmd{
+				SubCmds: []Cmd{
+					&RulesListCmd{},
+					&RulesNumberCmd{},
+					&RulesSearchCmd{},
 				},
 			},
 		},
