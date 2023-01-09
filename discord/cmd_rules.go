@@ -137,12 +137,16 @@ func (c *RulesSearchCmd) Handle(md map[string]string, ts *hud.TriviaService, s *
 
 	for _, rule := range ChargedUpRules {
 		rule := rule
+		// See if the keyword is in the rule title or description, or if the
+		// keyword is a rule number.
 		if strings.Contains(strings.ToLower(rule.Title), keyword) ||
-			strings.Contains(strings.ToLower(rule.Details), keyword) {
+			strings.Contains(strings.ToLower(rule.Details), keyword) ||
+			strings.ToLower(rule.Number) == keyword {
 			ruleMatches = append(ruleMatches, rule)
 		}
 	}
 
+	// No matches, exit here with a sorry, not found.
 	if len(ruleMatches) == 0 {
 		return m.ChannelID, &discordgo.MessageSend{
 			Content: fmt.Sprintf("search term %q not found", keyword),
@@ -166,7 +170,7 @@ func (c *RulesSearchCmd) Handle(md map[string]string, ts *hud.TriviaService, s *
 	for _, rule := range ruleMatches {
 		msgDetails = append(msgDetails, fmt.Sprintf("Rule Number: %s\nTitle: %s", rule.Number, rule.Title))
 	}
-	titleMsg := "Too many hits. Rule details removed. Use @hud rule [RuleNumber] for more information.\n" +
+	titleMsg := "Too many hits. Rule details removed. Use @hud rules [RuleNumber] for more information.\n" +
 		strings.Join(msgDetails, "\n------------------\n")
 	if len(titleMsg) < 2000 {
 		return m.ChannelID, &discordgo.MessageSend{
@@ -179,7 +183,7 @@ func (c *RulesSearchCmd) Handle(md map[string]string, ts *hud.TriviaService, s *
 	for _, rule := range ruleMatches {
 		msgDetails = append(msgDetails, rule.Number)
 	}
-	numberMsg := "Too many hits. Rule details removed. Use @hud rule [RuleNumber] for more information.\n" +
+	numberMsg := "Too many hits. Rule details removed. Use @hud rules [RuleNumber] for more information.\n" +
 		strings.Join(msgDetails, "\n")
 	if len(numberMsg) < 2000 {
 		return m.ChannelID, &discordgo.MessageSend{
@@ -187,17 +191,27 @@ func (c *RulesSearchCmd) Handle(md map[string]string, ts *hud.TriviaService, s *
 		}, nil
 	}
 
+	// We tried, but the search term is just too generic to return data
+	// via discord. Let them know the'll need to just RTM.
 	return m.ChannelID, &discordgo.MessageSend{
 		Content: "Too many results to display in discord. Consult the manual https://firstfrc.blob.core.windows.net/frc2023/Manual/2023FRCGameManual.pdf",
 	}, nil
 }
 
+// FRCRule contains the main text data for a rule.
 type FRCRule struct {
-	Number  string
-	Title   string
+	// Number contains the formatted rule number such as R101.
+	Number string
+	// Title contains a summary of the rule.
+	Title string
+	// Detils contains the full (or a significant portion) of the rule description.
 	Details string
 }
 
+// ChargedUpRules lists all the rules in the 2023 FRC "Charged Up" competition.
+// Authoritative source for the rules is:
+//
+//	https://firstfrc.blob.core.windows.net/frc2023/Manual/2023FRCGameManual.pdf
 var ChargedUpRules = []FRCRule{{
 	Number:  "G106",
 	Title:   "Tall ROBOTS not allowed.",
