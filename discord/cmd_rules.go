@@ -133,15 +133,62 @@ func (c *RulesSearchCmd) Handle(md map[string]string, ts *hud.TriviaService, s *
 
 	keyword := strings.ToLower(strings.TrimPrefix(strings.TrimSpace(msg), "search "))
 
-	var ruleMatches []string
+	var ruleMatches []FRCRule
+
 	for _, rule := range ChargedUpRules {
+		rule := rule
 		if strings.Contains(strings.ToLower(rule.Title), keyword) ||
 			strings.Contains(strings.ToLower(rule.Details), keyword) {
-			ruleMatches = append(ruleMatches, fmt.Sprintf("Rule Number: %s\nTitle: %s\nDetails: %s", rule.Number, rule.Title, rule.Details))
+			ruleMatches = append(ruleMatches, rule)
 		}
 	}
+
+	if len(ruleMatches) == 0 {
+		return m.ChannelID, &discordgo.MessageSend{
+			Content: fmt.Sprintf("search term %q not found", keyword),
+		}, nil
+	}
+
+	// Attempt to format a return message with all the details.
+	var msgDetails []string
+	for _, rule := range ruleMatches {
+		msgDetails = append(msgDetails, fmt.Sprintf("Rule Number: %s\nTitle: %s\nDetails: %s", rule.Number, rule.Title, rule.Details))
+	}
+	detailedMsg := strings.Join(msgDetails, "\n------------------\n")
+	if len(detailedMsg) < 2000 {
+		return m.ChannelID, &discordgo.MessageSend{
+			Content: detailedMsg,
+		}, nil
+	}
+
+	// The search keyword resulted in too many hits, try a smaller summarization.
+	msgDetails = []string{}
+	for _, rule := range ruleMatches {
+		msgDetails = append(msgDetails, fmt.Sprintf("Rule Number: %s\nTitle: %s", rule.Number, rule.Title))
+	}
+	titleMsg := "Too many hits. Rule details removed. Use @hud rule [RuleNumber] for more information.\n" +
+		strings.Join(msgDetails, "\n------------------\n")
+	if len(titleMsg) < 2000 {
+		return m.ChannelID, &discordgo.MessageSend{
+			Content: titleMsg,
+		}, nil
+	}
+
+	// Even without the details, the message is still too long. Return just the rule numbers.
+	msgDetails = []string{}
+	for _, rule := range ruleMatches {
+		msgDetails = append(msgDetails, rule.Number)
+	}
+	numberMsg := "Too many hits. Rule details removed. Use @hud rule [RuleNumber] for more information.\n" +
+		strings.Join(msgDetails, "\n")
+	if len(numberMsg) < 2000 {
+		return m.ChannelID, &discordgo.MessageSend{
+			Content: numberMsg,
+		}, nil
+	}
+
 	return m.ChannelID, &discordgo.MessageSend{
-		Content: strings.Join(ruleMatches, "\n------------------\n"),
+		Content: "Too many results to display in discord. Consult the manual https://firstfrc.blob.core.windows.net/frc2023/Manual/2023FRCGameManual.pdf",
 	}, nil
 }
 
