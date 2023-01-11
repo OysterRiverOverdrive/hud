@@ -88,7 +88,7 @@ func TestRulesSearch_Handle(t *testing.T) {
 	assert.NoError(t, err)
 	assert.Equal(t, "abcd", dChan)
 	assert.Equal(t, &discordgo.MessageSend{
-		Content: "Too many hits. Rule details removed. Use @hud rule [RuleNumber] for more information.\nRule Number: G108\nTitle: Opponent's zone, no extension.\n------------------\nRule Number: G109\nTitle: Don't extend in multiple directions.\n------------------\nRule Number: G207\nTitle: Right of way.\n------------------\nRule Number: G208\nTitle: Don't climb on each other unless in the COMMUNITY.\n------------------\nRule Number: G403\nTitle: 1 GAME PIECE at a time (except in LOADING ZONE and COMMUNITY).\n------------------\nRule Number: G404\nTitle: Launching GAME PIECES is only okay in the COMMUNITY.\n------------------\nRule Number: H309\nTitle: Know your ROBOT setup.",
+		Content: "Too many hits. Rule details removed. Use @hud rules [RuleNumber] for more information.\nRule Number: G108\nTitle: Opponent's zone, no extension.\n------------------\nRule Number: G109\nTitle: Don't extend in multiple directions.\n------------------\nRule Number: G207\nTitle: Right of way.\n------------------\nRule Number: G208\nTitle: Don't climb on each other unless in the COMMUNITY.\n------------------\nRule Number: G403\nTitle: 1 GAME PIECE at a time (except in LOADING ZONE and COMMUNITY).\n------------------\nRule Number: G404\nTitle: Launching GAME PIECES is only okay in the COMMUNITY.\n------------------\nRule Number: H309\nTitle: Know your ROBOT setup.",
 	}, m)
 
 }
