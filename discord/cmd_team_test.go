@@ -28,9 +28,9 @@ func TestTeam_HandleSubCmd(t *testing.T) {
 		"team 8410")
 	assert.NoError(t, err)
 	assert.Equal(t, "abcd", dChan)
-	assert.Equal(t, &discordgo.MessageSend{
+	assert.Equal(t, []*discordgo.MessageSend{{
 		Content: "catch all",
-	}, m)
+	}}, m)
 }
 
 func TestTeam_HandleHelp(t *testing.T) {
@@ -50,9 +50,9 @@ func TestTeam_HandleHelp(t *testing.T) {
 		"team help")
 	assert.NoError(t, err)
 	assert.Equal(t, "abcd", dChan)
-	assert.Equal(t, &discordgo.MessageSend{
+	assert.Equal(t, []*discordgo.MessageSend{{
 		Content: "team help:\n@hud team [anything] - catch all",
-	}, m)
+	}}, m)
 }
 
 func TestTeamID_Match(t *testing.T) {
@@ -87,8 +87,8 @@ func TestTeamID_Handle(t *testing.T) {
 		"8410")
 	assert.NoError(t, err)
 	assert.Equal(t, "abcd", dChan)
-	assert.Equal(t, &discordgo.MessageSend{
+	assert.Equal(t, []*discordgo.MessageSend{{
 		Content: "0: Oyster River Robotics from Durham, New Hampshire",
-	}, m)
+	}}, m)
 	assert.Equal(t, "/team/frc8410", th.baRequest.URL.Path)
 }

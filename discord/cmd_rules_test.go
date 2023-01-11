@@ -28,9 +28,9 @@ func TestRules_HandleSubCmd(t *testing.T) {
 		"rules search something")
 	assert.NoError(t, err)
 	assert.Equal(t, "abcd", dChan)
-	assert.Equal(t, &discordgo.MessageSend{
+	assert.Equal(t, []*discordgo.MessageSend{{
 		Content: "catch all",
-	}, m)
+	}}, m)
 }
 
 func TestRules_HandleHelp(t *testing.T) {
@@ -50,9 +50,9 @@ func TestRules_HandleHelp(t *testing.T) {
 		"rules help")
 	assert.NoError(t, err)
 	assert.Equal(t, "abcd", dChan)
-	assert.Equal(t, &discordgo.MessageSend{
+	assert.Equal(t, []*discordgo.MessageSend{{
 		Content: "rules help:\n@hud rules [anything] - catch all",
-	}, m)
+	}}, m)
 }
 
 func TestRulesSearch_Match(t *testing.T) {
@@ -75,9 +75,9 @@ func TestRulesSearch_Handle(t *testing.T) {
 		"search height")
 	assert.NoError(t, err)
 	assert.Equal(t, "abcd", dChan)
-	assert.Equal(t, &discordgo.MessageSend{
+	assert.Equal(t, []*discordgo.MessageSend{{
 		Content: "Rule Number: G106\nTitle: Tall ROBOTS not allowed.\nDetails: ROBOT height, as measured when it's resting normally on a flat floor, may not exceed 6 ft. 6 in. (~198 cm)) above the carpet during the MATCH.",
-	}, m)
+	}}, m)
 
 	dChan, m, err = c.Handle(md, th.ts, nil, &discordgo.MessageCreate{
 		Message: &discordgo.Message{
@@ -87,8 +87,8 @@ func TestRulesSearch_Handle(t *testing.T) {
 		"search community")
 	assert.NoError(t, err)
 	assert.Equal(t, "abcd", dChan)
-	assert.Equal(t, &discordgo.MessageSend{
+	assert.Equal(t, []*discordgo.MessageSend{{
 		Content: "Too many hits. Rule details removed. Use @hud rules [RuleNumber] for more information.\nRule Number: G108\nTitle: Opponent's zone, no extension.\n------------------\nRule Number: G109\nTitle: Don't extend in multiple directions.\n------------------\nRule Number: G207\nTitle: Right of way.\n------------------\nRule Number: G208\nTitle: Don't climb on each other unless in the COMMUNITY.\n------------------\nRule Number: G403\nTitle: 1 GAME PIECE at a time (except in LOADING ZONE and COMMUNITY).\n------------------\nRule Number: G404\nTitle: Launching GAME PIECES is only okay in the COMMUNITY.\n------------------\nRule Number: H309\nTitle: Know your ROBOT setup.",
-	}, m)
+	}}, m)
 
 }

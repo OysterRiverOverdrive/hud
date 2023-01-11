@@ -15,5 +15,5 @@ type Cmd interface {
 	// Help returns directions on what the subcommand is used for.
 	Help() string
 	// Handle processes the message.
-	Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, *discordgo.MessageSend, error)
+	Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error)
 }
