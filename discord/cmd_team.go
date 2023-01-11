@@ -29,7 +29,7 @@ func (c *TeamCmd) Help() string {
 	return c.Stub() + " - working with frc teams"
 }
 
-func (c *TeamCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, *discordgo.MessageSend, error) {
+func (c *TeamCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
 	logrus.Debugf("TeamCmd.Handle %v %q", md, msg)
 	suffix := strings.TrimSpace(strings.TrimPrefix(msg, "team"))
 	if suffix == "help" || suffix == "" {
@@ -37,9 +37,9 @@ func (c *TeamCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discord
 		for _, subCmd := range c.SubCmds {
 			help = append(help, md["path"]+" "+c.Stub()+" "+subCmd.Help())
 		}
-		return m.ChannelID, &discordgo.MessageSend{
+		return m.ChannelID, []*discordgo.MessageSend{{
 			Content: "team help:\n" + strings.Join(help, "\n"),
-		}, nil
+		}}, nil
 	}
 	for _, subCmd := range c.SubCmds {
 		if subCmd.Match(suffix) {
@@ -66,7 +66,7 @@ func (c *TeamIDCmd) Help() string {
 	return c.Stub() + " - request frc team data (request multiple teams with team numbers separated by commas 1234,5678)"
 }
 
-func (c *TeamIDCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, *discordgo.MessageSend, error) {
+func (c *TeamIDCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
 	logrus.Debugf("TeamIDCmd.Handle %v %q", md, msg)
 	teamNums := c.parseTeamNumbers(msg)
 
@@ -81,9 +81,9 @@ func (c *TeamIDCmd) Handle(md map[string]string, ts *hud.TriviaService, s *disco
 		}
 		summaries = append(summaries, fmt.Sprintf("%d: %s from %s, %s", team.Data.Number, team.Data.Nickname, team.Data.City, team.Data.StateProv))
 	}
-	return m.ChannelID, &discordgo.MessageSend{
+	return m.ChannelID, []*discordgo.MessageSend{{
 		Content: strings.Join(summaries, "\n"),
-	}, nil
+	}}, nil
 }
 
 func (c *TeamIDCmd) parseTeamNumbers(msg string) []int {

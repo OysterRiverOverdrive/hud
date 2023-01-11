@@ -45,14 +45,16 @@ func (hb *HudBot) Handle(s *discordgo.Session, m *discordgo.MessageCreate) {
 			md := map[string]string{
 				"path": "@hud",
 			}
-			ch, m, err := subCmd.Handle(md, hb.ts, s, m, suffix)
+			ch, msgs, err := subCmd.Handle(md, hb.ts, s, m, suffix)
 			if err != nil {
 				log.Printf("[ERROR] %s", err)
 			}
-			if m == nil {
+			if msgs == nil {
 				continue
 			}
-			s.ChannelMessageSend(ch, m.Content)
+			for _, msg := range msgs {
+				s.ChannelMessageSend(ch, msg.Content)
+			}
 		}
 	}
 }

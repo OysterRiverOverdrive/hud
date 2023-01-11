@@ -49,8 +49,8 @@ func (c *CatchAllCmd) Help() string {
 	return c.Stub() + " - catch all"
 }
 
-func (c *CatchAllCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, *discordgo.MessageSend, error) {
-	return m.ChannelID, &discordgo.MessageSend{
+func (c *CatchAllCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
+	return m.ChannelID, []*discordgo.MessageSend{{
 		Content: "catch all",
-	}, nil
+	}}, nil
 }
