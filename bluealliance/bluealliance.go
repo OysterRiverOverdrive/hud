@@ -1,4 +1,4 @@
-package hud
+package bluealliance
 
 import (
 	"context"
@@ -10,38 +10,42 @@ import (
 	"os"
 	"strings"
 
-	"github.com/oysterriveroverdrive/hud/model"
+	"github.com/oysterriveroverdrive/hud/bluealliance/model"
 )
 
-type TriviaService struct {
-	URL           string
-	TriviaService *http.Client
-	AuthKey       string
+const (
+	DEFAULT_SERVER string = "https://www.thebluealliance.com/api/v3"
+)
+
+type Service struct {
+	URL     string
+	Service *http.Client
+	AuthKey string
 }
 
-func NewTriviaService(client *http.Client, AuthKey string) *TriviaService {
-	return &TriviaService{
-		URL:           DEFAULT_SERVER,
-		TriviaService: client,
-		AuthKey:       AuthKey,
+func NewService(client *http.Client, AuthKey string) *Service {
+	return &Service{
+		URL:     DEFAULT_SERVER,
+		Service: client,
+		AuthKey: AuthKey,
 	}
 }
 
-func (ts *TriviaService) setHeaders(req *http.Request) {
+func (ts *Service) setHeaders(req *http.Request) {
 	req.Header.Set("X-TBA-Auth-Key", ts.AuthKey)
 	req.Header.Set("accept", "application/json")
 }
 
-func (ts *TriviaService) Get(url string, body io.Reader) (*http.Response, error) {
+func (ts *Service) Get(url string, body io.Reader) (*http.Response, error) {
 	req, err := http.NewRequest("GET", url, body)
 	if err != nil {
 		return nil, err
 	}
 	ts.setHeaders(req)
-	return ts.TriviaService.Do(req)
+	return ts.Service.Do(req)
 }
 
-func (ts *TriviaService) Dump(ctx context.Context, year, teamNum int, eventKey, districtKey, matchKey string) {
+func (ts *Service) Dump(ctx context.Context, year, teamNum int, eventKey, districtKey, matchKey string) {
 	teamKey := fmt.Sprintf("frc%d", teamNum)
 
 	endpoints := []string{
@@ -128,7 +132,7 @@ func (ts *TriviaService) Dump(ctx context.Context, year, teamNum int, eventKey, 
 
 }
 
-func (ts *TriviaService) Districts(ctx context.Context) ([]*model.District, error) {
+func (ts *Service) Districts(ctx context.Context) ([]*model.District, error) {
 	resp, err := ts.Get(ts.URL+"/districts", nil)
 	if err != nil {
 		return nil, err
@@ -142,7 +146,7 @@ func (ts *TriviaService) Districts(ctx context.Context) ([]*model.District, erro
 	return r, nil
 }
 
-func (ts *TriviaService) TeamSimple(ctx context.Context, teamKey string) (*model.TeamSimple, error) {
+func (ts *Service) TeamSimple(ctx context.Context, teamKey string) (*model.TeamSimple, error) {
 	resp, err := ts.Get(ts.URL+"/team/"+teamKey+"/simple", nil)
 	if err != nil {
 		return nil, err
@@ -156,7 +160,7 @@ func (ts *TriviaService) TeamSimple(ctx context.Context, teamKey string) (*model
 	return r, nil
 }
 
-func (ts *TriviaService) TeamSocialMedia(ctx context.Context, teamKey string) ([]*model.Media, error) {
+func (ts *Service) TeamSocialMedia(ctx context.Context, teamKey string) ([]*model.Media, error) {
 	resp, err := ts.Get(ts.URL+"/team/"+teamKey+"/social_media", nil)
 	if err != nil {
 		return nil, err
@@ -170,7 +174,7 @@ func (ts *TriviaService) TeamSocialMedia(ctx context.Context, teamKey string) ([
 	return r, nil
 }
 
-func (ts *TriviaService) EventTeams(ctx context.Context, eventKey string) ([]*model.Team, error) {
+func (ts *Service) EventTeams(ctx context.Context, eventKey string) ([]*model.Team, error) {
 	resp, err := ts.Get(ts.URL+"/event/"+eventKey+"/teams", nil)
 	if err != nil {
 		return nil, err
@@ -184,7 +188,7 @@ func (ts *TriviaService) EventTeams(ctx context.Context, eventKey string) ([]*mo
 	return r, nil
 }
 
-func (ts *TriviaService) EventMatchesSimple(ctx context.Context, eventKey string) ([]*model.MatchSimple, error) {
+func (ts *Service) EventMatchesSimple(ctx context.Context, eventKey string) ([]*model.MatchSimple, error) {
 	resp, err := ts.Get(ts.URL+"/event/"+eventKey+"/matches/simple", nil)
 	if err != nil {
 		return nil, err

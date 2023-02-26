@@ -5,7 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/oysterriveroverdrive/hud/model"
+	"github.com/oysterriveroverdrive/hud/bluealliance"
+	"github.com/oysterriveroverdrive/hud/bluealliance/model"
 )
 
 type Team struct {
@@ -16,8 +17,8 @@ type Teams struct {
 	Data []*model.Team
 }
 
-func TeamByNumber(ts *TriviaService, teamNum int) (*Team, error) {
-	resp, err := ts.Get(ts.URL+fmt.Sprintf("/team/frc%d", teamNum), nil)
+func TeamByNumber(ba *bluealliance.Service, teamNum int) (*Team, error) {
+	resp, err := ba.Get(ba.URL+fmt.Sprintf("/team/frc%d", teamNum), nil)
 	if err != nil {
 		return nil, err
 	}
@@ -33,8 +34,8 @@ func TeamByNumber(ts *TriviaService, teamNum int) (*Team, error) {
 	return &Team{Data: r}, nil
 }
 
-func TeamsInDistrict(ts *TriviaService, district string) (*Teams, error) {
-	resp, err := ts.Get(ts.URL+fmt.Sprintf("/district/%s/teams", district), nil)
+func TeamsInDistrict(ba *bluealliance.Service, district string) (*Teams, error) {
+	resp, err := ba.Get(ba.URL+fmt.Sprintf("/district/%s/teams", district), nil)
 	if err != nil {
 		log.Println("error", err)
 		return nil, err

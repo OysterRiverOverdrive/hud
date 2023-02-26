@@ -9,6 +9,7 @@ import (
 
 	"github.com/bwmarrin/discordgo"
 	"github.com/oysterriveroverdrive/hud"
+	"github.com/oysterriveroverdrive/hud/bluealliance"
 	"github.com/sirupsen/logrus"
 )
 
@@ -31,7 +32,7 @@ func (c *DistrictCmd) Help() string {
 	return c.Stub() + " - working with frc districts"
 }
 
-func (c *DistrictCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
+func (c *DistrictCmd) Handle(md map[string]string, ts *bluealliance.Service, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
 	logrus.Debugf("DistrictCmd.Handle %v %q", md, msg)
 	suffix := strings.TrimSpace(strings.TrimPrefix(msg, "district"))
 
@@ -71,7 +72,7 @@ func (c *DistrictIDCmd) Help() string {
 	return c.Stub() + " - working with a frc district"
 }
 
-func (c *DistrictIDCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
+func (c *DistrictIDCmd) Handle(md map[string]string, ts *bluealliance.Service, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
 	logrus.Debugf("DistrictIDCmd.Handle %v %q", md, msg)
 	match := regexp.MustCompile(`\s*([a-z\d]+)\s*(.*)`).FindStringSubmatch(msg)
 	var suffix string
@@ -114,7 +115,7 @@ func (c *DistrictIDTeamsCmd) Help() string {
 	return c.Stub() + " - list district teams"
 }
 
-func (c *DistrictIDTeamsCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
+func (c *DistrictIDTeamsCmd) Handle(md map[string]string, ts *bluealliance.Service, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
 	logrus.Debugf("DistrictIDTeamsCmd.Handle %v %q", md, msg)
 	teams, err := hud.TeamsInDistrict(ts, md["district_id"])
 	if err != nil {

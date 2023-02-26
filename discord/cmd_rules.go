@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/bwmarrin/discordgo"
-	"github.com/oysterriveroverdrive/hud"
+	"github.com/oysterriveroverdrive/hud/bluealliance"
 	"github.com/sirupsen/logrus"
 )
 
@@ -28,7 +28,7 @@ func (c *RulesCmd) Help() string {
 	return c.Stub() + " - working with game rules"
 }
 
-func (c *RulesCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
+func (c *RulesCmd) Handle(md map[string]string, ts *bluealliance.Service, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
 	logrus.Debugf("RulesCmd.Handle %v %q", md, msg)
 	suffix := strings.TrimSpace(strings.TrimPrefix(msg, "rules"))
 	if suffix == "help" || suffix == "" {
@@ -65,7 +65,7 @@ func (c *RulesListCmd) Help() string {
 	return c.Stub() + " - list the summary of all the new rules for this year"
 }
 
-func (c *RulesListCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
+func (c *RulesListCmd) Handle(md map[string]string, ts *bluealliance.Service, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
 	logrus.Debugf("RulesListCmd.Handle %v %q", md, msg)
 
 	var msgs []*discordgo.MessageSend
@@ -104,7 +104,7 @@ func (c *RulesNumberCmd) Help() string {
 	return c.Stub() + " - show the details for a specific rule id."
 }
 
-func (c *RulesNumberCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
+func (c *RulesNumberCmd) Handle(md map[string]string, ts *bluealliance.Service, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
 	logrus.Debugf("RulesNumberCmd.Handle %v %q", md, msg)
 	match := regexp.MustCompile(`\s*([a-zA-Z]\d{3})\s*`).FindStringSubmatch(msg)
 	ruleID := strings.ToUpper(match[1])
@@ -138,7 +138,7 @@ func (c *RulesSearchCmd) Help() string {
 	return c.Stub() + " - search for a keyword in the rules."
 }
 
-func (c *RulesSearchCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
+func (c *RulesSearchCmd) Handle(md map[string]string, ts *bluealliance.Service, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
 	logrus.Debugf("RulesSearchCmd.Handle %v %q", md, msg)
 
 	keyword := strings.ToLower(strings.TrimPrefix(strings.TrimSpace(msg), "search "))
