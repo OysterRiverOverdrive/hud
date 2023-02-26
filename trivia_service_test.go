@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/oysterriveroverdrive/hud/batest"
+	"github.com/oysterriveroverdrive/hud/hudtest"
 	"github.com/oysterriveroverdrive/hud/model"
 	"github.com/stretchr/testify/assert"
 )
 
 func TestIt(t *testing.T) {
-	blueAlliance, _ := batest.NewBlueAlliance()
+	blueAlliance, _ := hudtest.NewBlueAlliance()
 	defer blueAlliance.Close()
 
 	blueAlliance.Districts = []*model.District{

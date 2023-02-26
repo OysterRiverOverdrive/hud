@@ -1,4 +1,4 @@
-package batest
+package hudtest
 
 import (
 	"encoding/json"
@@ -28,7 +28,7 @@ func NewBlueAlliance() (*BlueAlliance, error) {
 	return blueAlliance, nil
 }
 
-// Close cleans up the batest server resources.
+// Close cleans up the hudtest server resources.
 func (s *BlueAlliance) Close() {
 	s.Server.Close()
 }
