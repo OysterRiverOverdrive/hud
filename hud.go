@@ -5,11 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/oysterriveroverdrive/hud/model"
-)
-
-const (
-	DEFAULT_SERVER string = "https://www.thebluealliance.com/api/v3"
+	"github.com/oysterriveroverdrive/hud/bluealliance/model"
 )
 
 type Clock interface {

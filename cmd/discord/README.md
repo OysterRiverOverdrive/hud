@@ -5,7 +5,7 @@ This is a discord bot wrapper around the hud data package.
 Run via:
 
 ```
-go run github.com/oysterriveroverdrive/hud/discord \
+go run github.com/oysterriveroverdrive/hud/cmd/discord \
   -discord-token [DISCORD_TOKEN] \
   -blue-alliance-token [BLUE_ALLIANCE_TOKEN]
 ```

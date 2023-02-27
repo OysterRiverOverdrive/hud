@@ -8,6 +8,7 @@ import (
 
 	"github.com/bwmarrin/discordgo"
 	"github.com/oysterriveroverdrive/hud"
+	"github.com/oysterriveroverdrive/hud/bluealliance"
 	"github.com/sirupsen/logrus"
 )
 
@@ -29,7 +30,7 @@ func (c *TeamCmd) Help() string {
 	return c.Stub() + " - working with frc teams"
 }
 
-func (c *TeamCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
+func (c *TeamCmd) Handle(md map[string]string, ts *bluealliance.Service, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
 	logrus.Debugf("TeamCmd.Handle %v %q", md, msg)
 	suffix := strings.TrimSpace(strings.TrimPrefix(msg, "team"))
 	if suffix == "help" || suffix == "" {
@@ -66,7 +67,7 @@ func (c *TeamIDCmd) Help() string {
 	return c.Stub() + " - request frc team data (request multiple teams with team numbers separated by commas 1234,5678)"
 }
 
-func (c *TeamIDCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
+func (c *TeamIDCmd) Handle(md map[string]string, ts *bluealliance.Service, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
 	logrus.Debugf("TeamIDCmd.Handle %v %q", md, msg)
 	teamNums := c.parseTeamNumbers(msg)
 

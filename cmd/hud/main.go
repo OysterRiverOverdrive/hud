@@ -10,6 +10,7 @@ import (
 	"strings"
 
 	"github.com/oysterriveroverdrive/hud"
+	"github.com/oysterriveroverdrive/hud/bluealliance"
 	"github.com/urfave/cli/v2"
 )
 
@@ -66,7 +67,7 @@ func main() {
 			// districtKey := c.String("district-key")
 			// matchKey := c.String("match-key")
 			ctx := context.Background()
-			client := hud.NewTriviaService(&http.Client{}, authKey)
+			client := bluealliance.NewService(&http.Client{}, authKey)
 			// team, err := bc.TeamSimple(ctx, fmt.Sprintf("frc%d", teamNum))
 			// if err != nil {
 			// 	log.Fatal(err)

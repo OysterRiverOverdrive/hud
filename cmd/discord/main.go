@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/bwmarrin/discordgo"
-	"github.com/oysterriveroverdrive/hud"
+	"github.com/oysterriveroverdrive/hud/bluealliance"
 	"github.com/sirupsen/logrus"
 )
 
@@ -37,7 +37,7 @@ func main() {
 
 	parseFlags()
 
-	ts := hud.NewTriviaService(&http.Client{}, BAToken)
+	ts := bluealliance.NewService(&http.Client{}, BAToken)
 
 	disc, err := discordgo.New("Bot " + Token)
 	if err != nil {

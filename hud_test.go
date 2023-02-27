@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/oysterriveroverdrive/hud/model"
+	"github.com/oysterriveroverdrive/hud/bluealliance/model"
 	"github.com/stretchr/testify/assert"
 )
 

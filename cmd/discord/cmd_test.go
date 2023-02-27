@@ -7,13 +7,13 @@ import (
 	"net/http/httptest"
 
 	"github.com/bwmarrin/discordgo"
-	"github.com/oysterriveroverdrive/hud"
+	"github.com/oysterriveroverdrive/hud/bluealliance"
 )
 
 type testHarness struct {
 	ba         *httptest.Server
 	baRequest  *http.Request
-	ts         *hud.TriviaService
+	ts         *bluealliance.Service
 	baResponse string
 }
 
@@ -25,7 +25,7 @@ func newTestHarness() *testHarness {
 		log.Println("test server handling")
 	}))
 
-	th.ts = hud.NewTriviaService(th.ba.Client(), "test-token")
+	th.ts = bluealliance.NewService(th.ba.Client(), "test-token")
 	th.ts.URL = th.ba.URL
 
 	return th
@@ -49,7 +49,7 @@ func (c *CatchAllCmd) Help() string {
 	return c.Stub() + " - catch all"
 }
 
-func (c *CatchAllCmd) Handle(md map[string]string, ts *hud.TriviaService, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
+func (c *CatchAllCmd) Handle(md map[string]string, ts *bluealliance.Service, s *discordgo.Session, m *discordgo.MessageCreate, msg string) (string, []*discordgo.MessageSend, error) {
 	return m.ChannelID, []*discordgo.MessageSend{{
 		Content: "catch all",
 	}}, nil

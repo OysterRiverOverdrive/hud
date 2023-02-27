@@ -4,14 +4,14 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/oysterriveroverdrive/hud/hudtest"
-	"github.com/oysterriveroverdrive/hud/model"
+	"github.com/oysterriveroverdrive/hud/bluealliance/batest"
+	"github.com/oysterriveroverdrive/hud/bluealliance/model"
 	"github.com/stretchr/testify/assert"
 )
 
 func TestDistricts(t *testing.T) {
-	blueAlliance, _ := hudtest.NewBlueAlliance()
-	defer blueAlliance.Close()
+	s, _ := batest.NewService()
+	defer s.Close()
 
 	want := []*model.District{
 		{
@@ -21,11 +21,11 @@ func TestDistricts(t *testing.T) {
 			Year:         2020,
 		},
 	}
-	blueAlliance.Districts = want
+	s.Districts = want
 
-	t.Log(blueAlliance.Server.URL)
-	client := blueAlliance.Server.Client()
-	resp, err := client.Get(blueAlliance.Server.URL + "/districts")
+	t.Log(s.Server.URL)
+	client := s.Server.Client()
+	resp, err := client.Get(s.Server.URL + "/districts")
 	if err != nil {
 		assert.NoError(t, err)
 	}

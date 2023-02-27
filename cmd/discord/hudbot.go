@@ -6,12 +6,12 @@ import (
 	"strings"
 
 	"github.com/bwmarrin/discordgo"
-	"github.com/oysterriveroverdrive/hud"
+	"github.com/oysterriveroverdrive/hud/bluealliance"
 )
 
 // HudBot contains the subcommand structure for handling message processing.
 type HudBot struct {
-	ts      *hud.TriviaService
+	ts      *bluealliance.Service
 	SubCmds []Cmd
 }
 
