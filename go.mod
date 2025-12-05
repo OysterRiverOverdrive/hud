@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/bwmarrin/discordgo v0.26.1
-	github.com/sirupsen/logrus v1.9.0
+	github.com/sirupsen/logrus v1.9.1
 	github.com/stretchr/testify v1.8.1
 	github.com/urfave/cli/v2 v2.23.7
 )
